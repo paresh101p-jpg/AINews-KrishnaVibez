@@ -11226,5 +11226,73 @@
     ],
     "used_in_articles": [],
     "last_used_date": null
+  },
+  {
+    "id": "quantum_cryogenic_dilution_rig_open",
+    "url": "https://files.catbox.moe/w9ji3t.jpg",
+    "category": "QUANTUM & SCIENCE",
+    "badge": "QUANTUM BREAKTHROUGH",
+    "subtopic": "quantum_computing",
+    "hook_title": "SUPERCONDUCTING QUANTUM MATRIX",
+    "hook_sub": "DILUTION CRYOGENIC PROCESSORS & COHERENCE",
+    "keywords": [
+      "quantum",
+      "cryogenic",
+      "superconductor",
+      "qubit",
+      "dilution refrigerator",
+      "quantum computing",
+      "physics",
+      "quantum supremacy"
+    ],
+    "used_in_articles": [],
+    "last_used_date": null
+  },
+  {
+    "id": "dexterous_bipedal_robot_warehouse_logistics",
+    "url": "https://files.catbox.moe/8phkf2.jpg",
+    "category": "ROBOTICS",
+    "badge": "ROBOTICS REPORT",
+    "subtopic": "humanoid_robotics",
+    "hook_title": "AUTONOMOUS BIPEDAL LOGISTICS SYSTEMS",
+    "hook_sub": "MULTI-TERRAIN NAVIGATION & WAREHOUSE FLEET",
+    "keywords": [
+      "robotics",
+      "bipedal",
+      "humanoid",
+      "boston dynamics",
+      "atlas",
+      "digit",
+      "logistics",
+      "warehouse",
+      "pallet",
+      "autonomous mobility"
+    ],
+    "used_in_articles": [],
+    "last_used_date": null
+  },
+  {
+    "id": "blackwell_gpu_interposer_chip_macro",
+    "url": "https://files.catbox.moe/p6j2g8.jpg",
+    "category": "SILICON & GPUS",
+    "badge": "SILICON ARCHITECTURE",
+    "subtopic": "semiconductor_silicon",
+    "hook_title": "EXASCALE ACCELERATOR ARCHITECTURE",
+    "hook_sub": "MULTI-CHIP MODULE & HIGH-BANDWIDTH MEMORY",
+    "keywords": [
+      "silicon",
+      "gpu",
+      "nvidia",
+      "blackwell",
+      "b200",
+      "chiplet",
+      "interposer",
+      "hbm3e",
+      "transistor",
+      "semiconductor",
+      "hardware"
+    ],
+    "used_in_articles": [],
+    "last_used_date": null
   }
 ]
