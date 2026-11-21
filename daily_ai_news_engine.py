@@ -705,12 +705,12 @@ def assemble_full_article_page(topic_meta, body_html):
 
   <script src="/js/search.js"></script>
   <script>
-    window.addEventListener('scroll', function() {
+    window.addEventListener('scroll', function() {{
       var h = document.documentElement.scrollHeight - document.documentElement.clientHeight;
       var pct = h > 0 ? (window.scrollY / h) * 100 : 0;
       var bar = document.getElementById('readingProgress');
       if (bar) bar.style.width = pct + '%';
-    });
+    }});
   </script>
 </body>
 </html>"""
