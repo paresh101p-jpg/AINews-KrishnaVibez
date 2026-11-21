@@ -9,6 +9,12 @@
   <meta name="author" content="Paresh Padsala (AINews)">
   <link rel="canonical" href="https://ainews.krishnavibez.in/">
 
+  <!-- Preconnect & Resource Hints for Ultra-Fast Core Web Vitals -->
+  <link rel="preconnect" href="https://files.catbox.moe" crossorigin>
+  <link rel="dns-prefetch" href="https://files.catbox.moe">
+  <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin>
+  <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+
   <!-- Open Graph -->
   <meta property="og:site_name" content="AINews">
   <meta property="og:type" content="website">
@@ -18,12 +24,16 @@
   <meta property="og:image" content="https://files.catbox.moe/4v7mse.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="675">
+  <meta property="og:image:alt" content="AINews — Global Frontier Artificial Intelligence and Tech Journal">
+  <meta property="og:image:type" content="image/jpeg">
 
   <!-- Twitter Cards -->
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@ainews_intel">
   <meta name="twitter:title" content="AINews — Global Frontier AI Journal">
   <meta name="twitter:description" content="Independent breaking artificial intelligence news and technical breakdowns.">
   <meta name="twitter:image" content="https://files.catbox.moe/4v7mse.jpg">
+  <meta name="twitter:image:alt" content="AINews — Global Frontier Artificial Intelligence and Tech Journal">
 
   <!-- Google Discover & Robots Directives -->
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
@@ -56,23 +66,74 @@
     gtag('config', 'G-M7W6128K1Z');
   </script>
 
-  <!-- Schema.org NewsMediaOrganization -->
+  <!-- Schema.org Comprehensive News Media & WebSite Graph (Google SERP SearchBox & Discover) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "NewsMediaOrganization",
-    "name": "AINews",
-    "url": "https://ainews.krishnavibez.in/",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://ainews.krishnavibez.in/assets/logo.png",
-      "width": 640,
-      "height": 160
-    },
-    "sameAs": [
-      "https://krishnavibez.in/"
-    ],
-    "description": "Independent daily news organization covering frontier machine intelligence, compute, and autonomous systems."
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://ainews.krishnavibez.in/#website",
+        "url": "https://ainews.krishnavibez.in/",
+        "name": "AINews",
+        "alternateName": "AINews US Bureau",
+        "description": "Global Frontier Artificial Intelligence, Computing, and Autonomous Systems Journal.",
+        "publisher": {
+          "@id": "https://ainews.krishnavibez.in/#organization"
+        },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://ainews.krishnavibez.in/?s={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        },
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "NewsMediaOrganization",
+        "@id": "https://ainews.krishnavibez.in/#organization",
+        "name": "AINews",
+        "url": "https://ainews.krishnavibez.in/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://ainews.krishnavibez.in/assets/logo.png",
+          "width": 640,
+          "height": 160
+        },
+        "sameAs": [
+          "https://krishnavibez.in/",
+          "https://twitter.com/ainews_intel"
+        ],
+        "description": "Independent daily news organization covering frontier machine intelligence, compute, and autonomous systems.",
+        "foundingDate": "2026-01-01",
+        "diversityPolicy": "https://ainews.krishnavibez.in/ethics.html",
+        "ethicsPolicy": "https://ainews.krishnavibez.in/ethics.html",
+        "correctionsPolicy": "https://ainews.krishnavibez.in/ethics.html",
+        "publishingPrinciples": "https://ainews.krishnavibez.in/ethics.html",
+        "masthead": "https://ainews.krishnavibez.in/about.html"
+      },
+      {
+        "@type": "SiteNavigationElement",
+        "name": [
+          "Top Stories",
+          "Frontier LLMs",
+          "Agents & Coding",
+          "Silicon & GPUs",
+          "Robotics",
+          "RSS Feed"
+        ],
+        "url": [
+          "https://ainews.krishnavibez.in/",
+          "https://ainews.krishnavibez.in/#models",
+          "https://ainews.krishnavibez.in/#agents",
+          "https://ainews.krishnavibez.in/#silicon",
+          "https://ainews.krishnavibez.in/#robotics",
+          "https://ainews.krishnavibez.in/rss.xml"
+        ]
+      }
+    ]
   }
   </script>
 

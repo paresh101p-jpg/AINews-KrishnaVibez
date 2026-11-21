@@ -240,8 +240,20 @@ def assemble_full_article_page(topic_meta, body_html):
                 "url": "https://ainews.krishnavibez.in/",
                 "logo": {
                     "@type": "ImageObject",
-                    "url": "https://files.catbox.moe/r4c345.jpg"
-                }
+                    "url": "https://ainews.krishnavibez.in/assets/logo.png",
+                    "width": 640,
+                    "height": 160
+                },
+                "sameAs": [
+                    "https://krishnavibez.in/",
+                    "https://twitter.com/ainews_intel"
+                ],
+                "publishingPrinciples": "https://ainews.krishnavibez.in/ethics.html",
+                "correctionsPolicy": "https://ainews.krishnavibez.in/ethics.html"
+            },
+            "speakable": {
+                "@type": "SpeakableSpecification",
+                "cssSelector": [".article-headline", ".article-deck", ".lead-paragraph"]
             }
         },
         {
@@ -300,6 +312,12 @@ def assemble_full_article_page(topic_meta, body_html):
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="675">
   <meta property="og:locale" content="en_US">
+  <meta property="article:published_time" content="{pub_iso}">
+  <meta property="article:modified_time" content="{pub_iso}">
+  <meta property="article:section" content="{category}">
+  <meta property="article:author" content="Paresh Padsala">
+  <link rel="preconnect" href="https://files.catbox.moe" crossorigin>
+  <link rel="dns-prefetch" href="https://files.catbox.moe">
 
   <!-- Twitter Cards -->
   <meta name="twitter:card" content="summary_large_image">

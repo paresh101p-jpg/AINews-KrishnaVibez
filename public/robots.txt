@@ -1,6 +1,26 @@
 User-agent: *
 Allow: /
 
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-News
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# Disallow internal API data endpoints from being indexed as raw pages
+Disallow: /api/
+
 Sitemap: https://ainews.krishnavibez.in/sitemap.xml
 Sitemap: https://ainews.krishnavibez.in/rss.xml
-
