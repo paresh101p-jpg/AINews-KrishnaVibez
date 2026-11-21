@@ -181,5 +181,71 @@
       "test"
     ],
     "last_used_date": "2026-11-21T09:55:59.722592"
+  },
+  {
+    "id": "gpu_silicon_die_architecture",
+    "url": "https://files.catbox.moe/iqpvf9.jpg",
+    "category": "SILICON & GPUS",
+    "subtopic": "gpu_microarchitecture_silicon_die",
+    "keywords": [
+      "gpu die",
+      "microarchitecture",
+      "blackwell",
+      "hopper",
+      "cuda",
+      "tensor core",
+      "silicon die",
+      "transistor",
+      "semiconductor packaging",
+      "heat spreader",
+      "interconnect",
+      "b200",
+      "h200",
+      "hbm3e",
+      "memory bandwidth"
+    ],
+    "used_in_articles": []
+  },
+  {
+    "id": "industrial_quadruped_substation",
+    "url": "https://files.catbox.moe/wms9l3.jpg",
+    "category": "ROBOTICS",
+    "subtopic": "industrial_quadruped_patrol",
+    "keywords": [
+      "quadruped",
+      "robot dog",
+      "boston dynamics",
+      "spot",
+      "patrol",
+      "substation",
+      "utility",
+      "thermal camera",
+      "inspection robot",
+      "autonomous inspection",
+      "infrastructure",
+      "field robotics"
+    ],
+    "used_in_articles": []
+  },
+  {
+    "id": "neuralink_bci_microthread_chip",
+    "url": "https://files.catbox.moe/gh1ea1.jpg",
+    "category": "FRONTIER LLMS",
+    "subtopic": "brain_computer_interfaces_neurotech",
+    "keywords": [
+      "bci",
+      "neuralink",
+      "brain computer interface",
+      "neural implant",
+      "micro-thread",
+      "neurotechnology",
+      "brain chip",
+      "paralysis",
+      "motor cortex",
+      "biocompatible",
+      "synapse",
+      "neuroscience"
+    ],
+    "used_in_articles": []
   }
 ]
