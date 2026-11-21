@@ -300,20 +300,36 @@
 </head>
 <body>
 
-  <!-- Navigation -->
-  <header class="site-header">
-    <div class="header-container">
-      <a href="/" class="brand-logo">
-        <span>⚡ AINews</span>
-        <span class="brand-badge">Frontier AI</span>
-      </a>
-      <nav class="nav-links">
-        <a href="/">Latest</a>
-        <a href="/#models">LLMs</a>
+  <!-- 1. Top News Wire Ticker -->
+  <div class="top-ticker-bar">
+    <div class="container ticker-inner">
+      <div class="ticker-live">
+        <span class="live-badge"><span class="live-pulse"></span> THE WIRE</span>
+        <span class="ticker-text">OpenAI unveils o3 multi-day reasoning model • System-2 cognitive deliberation architecture detailed</span>
+      </div>
+      <div class="ticker-date">Saturday, November 21, 2026 | Global Tech Edition</div>
+    </div>
+  </div>
+
+  <!-- 2. Main Editorial Header -->
+  <header class="main-header">
+    <div class="container header-row">
+      <div class="header-brand">
+        <a href="/">
+          <img src="../assets/logo.png" alt="AINews — Frontier Intelligence" class="header-logo" height="48">
+        </a>
+      </div>
+      <nav class="main-nav">
+        <a href="/">Top Stories</a>
+        <a href="/#models" class="active">Frontier LLMs</a>
+        <a href="/#agents">Agents &amp; Coding</a>
+        <a href="/#silicon">Silicon &amp; GPUs</a>
         <a href="/#robotics">Robotics</a>
-        <a href="/#hardware">Chips</a>
-        <a href="/rss.xml">RSS</a>
+        <a href="/rss.xml">RSS Feed</a>
       </nav>
+      <div class="header-actions">
+        <a href="/#subscribe" class="subscribe-btn">Get Dispatch</a>
+      </div>
     </div>
   </header>
 
@@ -438,8 +454,47 @@
     </div>
   </div>
 
+  <!-- Editorial Footer -->
   <footer class="site-footer">
-    <p>© 2026 <strong>AINews</strong> (Part of <a href="https://krishnavibez.in" target="_blank">Krishna Vibez Network</a>). All rights reserved.</p>
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="../assets/logo.png" alt="AINews" height="42">
+          <p>
+            AINews is an independent digital news organization delivering uncompromising, data-driven technical journalism on frontier machine intelligence, compute hardware, and autonomous systems.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>Coverage</h4>
+          <ul>
+            <li><a href="/#models">Frontier LLMs</a></li>
+            <li><a href="/#agents">Autonomous Agents</a></li>
+            <li><a href="/#silicon">Silicon &amp; GPUs</a></li>
+            <li><a href="/#robotics">Humanoid Robotics</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Feeds &amp; Index</h4>
+          <ul>
+            <li><a href="/rss.xml">RSS Feed</a></li>
+            <li><a href="/sitemap.xml">XML Sitemap</a></li>
+            <li><a href="https://krishnavibez.in" target="_blank">Krishna Vibez Network</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Editorial</h4>
+          <ul>
+            <li><a href="/about.html">About the Publication</a></li>
+            <li><a href="/ethics.html">Editorial Standards</a></li>
+            <li><a href="/contact.html">Press Inquiries</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© 2026 <strong>AINews</strong>. All rights reserved. Published by Krishna Vibez Network.</div>
+        <div>Engineered for Google Discover &amp; Real-Time Frontier Intelligence.</div>
+      </div>
+    </div>
   </footer>
 
 </body>
