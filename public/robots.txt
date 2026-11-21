@@ -1,6 +1,7 @@
 User-agent: *
 Allow: /
 
+# Google Search & News Crawlers
 User-agent: Googlebot
 Allow: /
 
@@ -10,9 +11,41 @@ Allow: /
 User-agent: Googlebot-Image
 Allow: /
 
+User-agent: Mediapartners-Google
+Allow: /
+
+# AI Crawlers & Generative Engines (OpenAI, ChatGPT, Perplexity, Claude, Gemini)
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
 User-agent: Google-Extended
 Allow: /
 
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+# Other Search Engines
 User-agent: Bingbot
 Allow: /
 
@@ -22,5 +55,6 @@ Allow: /
 # Disallow internal API data endpoints from being indexed as raw pages
 Disallow: /api/
 
+# Sitemaps & LLMs Discovery
 Sitemap: https://ainews.krishnavibez.in/sitemap.xml
 Sitemap: https://ainews.krishnavibez.in/rss.xml

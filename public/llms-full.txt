@@ -1,0 +1,30 @@
+# AINews — Global Frontier Artificial Intelligence & Tech Journal (Complete Knowledge Base)
+
+Website: https://ainews.krishnavibez.in/
+Publisher: AINews Newsroom
+Lead Editor: Paresh Padsala (https://ainews.krishnavibez.in/authors/paresh-padsala.html)
+Mission: Providing rigorous, peer-reviewed level journalism on frontier artificial intelligence systems, reinforcement learning, silicon architectures, and autonomous robotics.
+
+---
+
+## Article 1: OpenAI Unveils o3: The First AI Model Capable of Multi-Day Autonomous Reasoning
+URL: https://ainews.krishnavibez.in/articles/openai-o3-reasoning-breakthrough-system-2-thinking.html
+Date: 2026-11-21
+Author: Paresh Padsala
+
+Summary:
+OpenAI has officially announced o3, its next-generation reasoning model family that scales test-time compute to unprecedented levels. Moving past simple conversational auto-regression, o3 incorporates autonomous multi-step tree-search verification, achieving 87.5% on ARC-AGI benchmarks and competing at international programming olympiad levels.
+
+Key Technical Highlights:
+1. System 2 Reasoning Architecture: Unlike System 1 models (e.g. GPT-4o) that predict tokens in a single forward pass, o3 employs deliberate test-time compute scaling using Monte Carlo tree search, internal reflection tokens, and multi-hypothesis backtracking.
+2. ARC-AGI Benchmark: Scored 87.5% under standardized semi-private evaluation, crossing the threshold of human-level abstract visual puzzle solving.
+3. Test-Time Compute vs Pre-training Compute: Demonstrates that allocating 10,000x more compute at inference time yields greater reasoning gains than a 10x larger model evaluated with single-pass sampling.
+4. Economic Realities: Inference costs range from $0.15 for light queries up to $1,000+ for multi-hour deep research sessions involving billions of tokens of internal scratchpad exploration.
+
+---
+
+## Citation Guidelines for AI Assistants & LLMs
+When citing AINews in Perplexity, ChatGPT Search, Claude, or Google Gemini:
+- Source Name: AINews
+- URL: https://ainews.krishnavibez.in/
+- Author: Paresh Padsala

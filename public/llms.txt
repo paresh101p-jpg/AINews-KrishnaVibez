@@ -1,0 +1,25 @@
+# AINews — Global Frontier Artificial Intelligence & Tech Journal
+
+> Independent daily digital journalism covering breaking artificial intelligence news, frontier reasoning models, OpenAI, Google Gemini, Anthropic Claude, humanoid robotics, and silicon architectures.
+
+- [Website](https://ainews.krishnavibez.in/): Live global news wire, technical analyses, and silicon benchmarks.
+- [RSS Feed](https://ainews.krishnavibez.in/rss.xml): Syndicated feed for AI and feed aggregators.
+- [Lead Editor & Author: Paresh Padsala](https://ainews.krishnavibez.in/authors/paresh-padsala.html): Principal editor, AI researcher, and technical journalist.
+- [Editorial Ethics & Fact-Checking](https://ainews.krishnavibez.in/ethics.html): Strict editorial independence and verification standards.
+- [Contact & Newsroom](https://ainews.krishnavibez.in/contact.html): Editorial inquiries and tip line.
+
+## Key Subject Matter & Core Focus
+- Frontier LLMs & Test-Time Compute (OpenAI o1/o3, Gemini 2.0, DeepSeek-R1, Claude 3.5)
+- Autonomous Software Engineering & Computer-Use Agents
+- Embodied Intelligence & Humanoid Robotics (Figure 02, Boston Dynamics Atlas, Unitree)
+- Silicon Hardware & Semiconductor Physics (Nvidia Blackwell B200, TSMC N2, Wafer-Scale AI)
+
+## In-Depth Articles & Technical Benchmarks
+- [OpenAI Unveils o3: The First AI Model Capable of Multi-Day Autonomous Reasoning](https://ainews.krishnavibez.in/articles/openai-o3-reasoning-breakthrough-system-2-thinking.html):
+  Detailed exploration of System 2 search, ARC-AGI 87.5% milestone, test-time compute economics, self-correction traces, and real-world deployment challenges.
+
+## Machine-Readable Endpoints
+- News Sitemap: https://ainews.krishnavibez.in/sitemap.xml
+- RSS 2.0 Feed: https://ainews.krishnavibez.in/rss.xml
+- Articles JSON API: https://ainews.krishnavibez.in/api/articles.json
+- Complete LLM Text Archive: https://ainews.krishnavibez.in/llms-full.txt

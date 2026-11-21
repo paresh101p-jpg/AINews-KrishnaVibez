@@ -337,6 +337,7 @@ def assemble_full_article_page(topic_meta, body_html):
   <meta name="author" content="Paresh Padsala (AINews)">
   <link rel="canonical" href="{canonical_url}">
   <link rel="alternate" type="application/rss+xml" title="AINews — Frontier AI Intelligence RSS Feed" href="https://ainews.krishnavibez.in/rss.xml">
+  <link rel="help" type="text/markdown" title="LLMs Context Manifest" href="https://ainews.krishnavibez.in/llms.txt">
 
   <!-- Open Graph / Social Rich Preview -->
   <meta property="og:site_name" content="AINews">
