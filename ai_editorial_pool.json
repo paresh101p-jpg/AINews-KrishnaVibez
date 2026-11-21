@@ -1918,8 +1918,10 @@
       "assembly",
       "manipulation"
     ],
-    "used_in_articles": [],
-    "last_used_date": null
+    "used_in_articles": [
+      "test-figure-02"
+    ],
+    "last_used_date": "2026-11-21T12:41:26.253766"
   },
   {
     "id": "Humanoid_robots_assembling_autom\u2026_7a668dd9",
