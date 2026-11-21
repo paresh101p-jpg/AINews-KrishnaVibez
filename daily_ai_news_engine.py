@@ -194,6 +194,9 @@ Use proper HTML tags:
     body_html = call_gemini(prompt)
     body_html = re.sub(r"^```html\s*", "", body_html.strip(), flags=re.MULTILINE)
     body_html = re.sub(r"\s*```$", "", body_html.strip(), flags=re.MULTILINE)
+    # Strip any conflicting inline backgrounds (like white/f4f4f4) so dark theme looks 100% premium
+    body_html = re.sub(r'<div class="tldr-box"[^>]*>', '<div class="tldr-box">', body_html)
+    body_html = re.sub(r'style="[^"]*(?:background|#f4f4f4|#fff)[^"]*"', '', body_html)
     return body_html
 
 def assemble_full_article_page(topic_meta, body_html):
@@ -426,15 +429,32 @@ def assemble_full_article_page(topic_meta, body_html):
       margin-bottom: 22px;
     }}
     .tech-callout, .tldr-box {{
-      background: rgba(15, 23, 42, 0.85);
-      border-left: 4px solid var(--cyan);
-      padding: 20px 24px;
-      border-radius: 0 12px 12px 0;
-      margin: 30px 0;
-      color: #f1f5f9;
+      background: rgba(15, 23, 42, 0.95) !important;
+      border: 1px solid rgba(0, 240, 255, 0.25) !important;
+      border-left: 4px solid var(--cyan) !important;
+      padding: 24px 28px !important;
+      border-radius: 0 12px 12px 0 !important;
+      margin: 30px 0 !important;
+      color: #f1f5f9 !important;
+    }}
+    .tldr-box h3 {{
+      color: var(--cyan) !important;
+      margin-bottom: 14px !important;
+      font-size: 1.25rem !important;
+      letter-spacing: 0.5px !important;
+    }}
+    .tldr-box ul {{
+      margin: 0 !important;
+      padding-left: 20px !important;
+      color: #cbd5e1 !important;
+    }}
+    .tldr-box li {{
+      margin-bottom: 12px !important;
+      line-height: 1.75 !important;
+      font-size: 1.02rem !important;
     }}
     .tech-callout strong, .tldr-box strong {{
-      color: var(--cyan);
+      color: #38bdf8 !important;
     }}
     .tech-table {{
       width: 100%;
