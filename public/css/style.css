@@ -37,6 +37,11 @@
   --shadow-dropdown: 0 16px 36px rgba(0, 0, 0, 0.8);
   --shadow-glow: 0 0 16px rgba(6, 182, 212, 0.35);
 
+  /* Social Brand Tokens */
+  --social-tw: #1da1f2;
+  --social-li: #0a66c2;
+  --social-rd: #ff4500;
+
   /* Font Families */
   --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --font-serif: Georgia, "Times New Roman", Times, serif;
@@ -45,7 +50,9 @@
 
 /* Floor 34: overflow-x clip on both html and body */
 html, body {
-  overflow-x: clip;
+  overflow-x: clip !important;
+  max-width: 100vw;
+  width: 100%;
 }
 
 * {
@@ -95,6 +102,13 @@ a:hover {
   max-width: 1280px;
   margin: 0 auto;
   padding: 0 20px;
+  width: 100%;
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding: 0 14px;
+  }
 }
 
 /* 1. TOP NEWS WIRE TICKER */
@@ -112,6 +126,31 @@ a:hover {
   align-items: center;
   gap: 16px;
   flex-wrap: wrap;
+}
+
+@media (max-width: 640px) {
+  .top-ticker-bar {
+    padding: 5px 0;
+    font-size: 0.74rem;
+  }
+  .ticker-inner {
+    flex-wrap: nowrap;
+    gap: 8px;
+    overflow: hidden;
+  }
+  .ticker-date {
+    display: none;
+  }
+  .ticker-live {
+    width: 100%;
+    overflow: hidden;
+  }
+  .ticker-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+  }
 }
 
 .ticker-live {
@@ -164,7 +203,7 @@ a:hover {
   position: sticky;
   top: 0;
   z-index: 100;
-  padding: 12px 0;
+  padding: 10px 0;
 }
 
 .header-row {
@@ -177,10 +216,11 @@ a:hover {
 .header-brand {
   display: flex;
   align-items: center;
+  flex-shrink: 0;
 }
 
 .header-logo {
-  height: 48px;
+  height: 44px;
   width: auto;
   display: block;
 }
@@ -202,6 +242,7 @@ a:hover {
   display: flex;
   align-items: center;
   gap: 12px;
+  flex-shrink: 0;
 }
 
 .subscribe-btn {
@@ -211,12 +252,64 @@ a:hover {
   font-size: 0.82rem;
   padding: 8px 16px;
   border-radius: 6px;
+  white-space: nowrap;
   transition: opacity 0.15s ease, background-color 0.15s ease;
 }
 
 .subscribe-btn:hover {
   opacity: 0.9;
   color: var(--text-dark);
+}
+
+@media (max-width: 900px) {
+  .main-header {
+    padding: 8px 0;
+  }
+  .header-row {
+    flex-wrap: wrap;
+    gap: 8px 12px;
+  }
+  .header-logo {
+    height: 34px;
+  }
+  .header-actions {
+    margin-left: auto;
+    gap: 8px;
+  }
+  .subscribe-btn {
+    padding: 6px 12px;
+    font-size: 0.75rem;
+  }
+  .main-nav {
+    width: 100%;
+    order: 4;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding: 6px 0 2px;
+    border-top: 1px solid var(--border-subtle);
+  }
+  .main-nav::-webkit-scrollbar {
+    display: none;
+  }
+  .main-nav a {
+    flex-shrink: 0;
+    font-size: 0.78rem;
+    padding: 5px 12px;
+    border-radius: 14px;
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    color: var(--text-secondary);
+  }
+  .main-nav a.active, .main-nav a:hover {
+    background: var(--accent-cyan-subtle);
+    color: var(--accent-cyan);
+    border-color: var(--accent-cyan);
+  }
 }
 
 /* 3. SUB-NAV / TRENDING TOPICS CHIPS */
@@ -230,9 +323,15 @@ a:hover {
 .trending-inner {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
   overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
+}
+
+.trending-inner::-webkit-scrollbar {
+  display: none;
 }
 
 .trending-label {
@@ -240,6 +339,7 @@ a:hover {
   color: var(--accent-cyan);
   font-size: 0.75rem;
   white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .trending-pill {
@@ -250,6 +350,7 @@ a:hover {
   border-radius: 14px;
   white-space: nowrap;
   font-size: 0.8rem;
+  flex-shrink: 0;
   transition: border-color 0.15s ease, color 0.15s ease;
 }
 
@@ -270,8 +371,33 @@ a:hover {
 }
 
 @media (max-width: 960px) {
+  .editorial-layout {
+    padding: 16px 0 32px;
+  }
   .editorial-grid {
     grid-template-columns: minmax(0, 1fr);
+    gap: 20px;
+  }
+  .lead-content {
+    padding: 18px 16px;
+  }
+  .lead-title {
+    font-size: clamp(1.35rem, 5.5vw, 1.85rem);
+    line-height: 1.3;
+    margin-bottom: 12px;
+  }
+  .lead-excerpt {
+    font-size: 0.95rem;
+    line-height: 1.55;
+    margin-bottom: 18px;
+  }
+  .lead-footer {
+    font-size: 0.8rem;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .news-wire-panel {
+    padding: 18px 16px;
   }
 }
 
@@ -506,11 +632,11 @@ a:hover {
 
 .articles-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(0, 1fr));
-  gap: 24px;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 20px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 640px) {
   .articles-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -519,6 +645,30 @@ a:hover {
 @media (min-width: 1024px) {
   .articles-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 639px) {
+  .article-card .card-inner {
+    padding: 16px;
+  }
+  .card-heading {
+    font-size: 1.05rem;
+    line-height: 1.35;
+  }
+  .card-desc {
+    font-size: 0.88rem;
+    line-height: 1.5;
+    margin-bottom: 12px;
+  }
+  .card-bottom-row {
+    font-size: 0.78rem;
+  }
+  .section-header {
+    margin: 32px 0 16px;
+  }
+  .section-heading {
+    font-size: 1.25rem;
   }
 }
 
@@ -614,8 +764,19 @@ a:hover {
 }
 
 @media (max-width: 800px) {
+  .site-footer {
+    margin-top: 48px;
+    padding: 36px 0 24px;
+  }
   .footer-top {
     grid-template-columns: minmax(0, 1fr);
+    gap: 28px;
+    margin-bottom: 28px;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    gap: 12px;
   }
 }
 
@@ -918,6 +1079,114 @@ a:hover {
 }
 .author-bio-card .author-card-links a:hover {
   text-decoration: underline;
+}
+
+/* 11. ARTICLE PAGE RESPONSIVENESS & TOUCH OPTIMIZATION */
+.article-wrap {
+  width: 100%;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 32px 20px 60px;
+  overflow-x: clip;
+}
+
+.table-responsive,
+.tech-table,
+table {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  overflow-x: auto !important;
+  -webkit-overflow-scrolling: touch !important;
+  margin: 20px 0 !important;
+  border-collapse: collapse !important;
+}
+
+.tech-table th, .tech-table td,
+table th, table td {
+  white-space: nowrap;
+}
+
+pre, code {
+  max-width: 100% !important;
+  overflow-x: auto !important;
+  -webkit-overflow-scrolling: touch !important;
+}
+
+@media (max-width: 768px) {
+  .article-wrap {
+    padding: 18px 14px 40px !important;
+  }
+  h1.article-title {
+    font-size: clamp(1.4rem, 6vw, 2.1rem) !important;
+    line-height: 1.25 !important;
+    margin-bottom: 12px !important;
+  }
+  .meta-bar {
+    gap: 8px 12px !important;
+    font-size: 0.8rem !important;
+    padding-bottom: 12px !important;
+  }
+  .hero-img-box {
+    border-radius: 10px !important;
+    margin: 18px 0 22px !important;
+  }
+  .article-content h2 {
+    font-size: 1.3rem !important;
+    margin: 28px 0 12px !important;
+  }
+  .article-content h3 {
+    font-size: 1.1rem !important;
+    margin: 20px 0 8px !important;
+  }
+  .article-content p {
+    font-size: 0.98rem !important;
+    line-height: 1.7 !important;
+    margin-bottom: 16px !important;
+  }
+  .tech-callout, .tldr-box {
+    padding: 14px 16px !important;
+    margin: 20px 0 !important;
+    border-radius: 0 8px 8px 0 !important;
+  }
+  .article-toc {
+    padding: 16px 14px !important;
+    margin: 20px 0 !important;
+  }
+  .article-toc ul {
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 8px !important;
+  }
+  .faq-item {
+    padding: 14px 16px !important;
+    margin-bottom: 12px !important;
+  }
+  .faq-item h3 {
+    font-size: 1rem !important;
+  }
+  .share-bar {
+    padding: 12px !important;
+    gap: 8px !important;
+    margin: 28px 0 20px !important;
+  }
+  .share-btn {
+    flex: 1 1 calc(50% - 6px);
+    text-align: center;
+    justify-content: center;
+    font-size: 0.8rem !important;
+    padding: 8px 10px !important;
+  }
+  .author-bio-card {
+    flex-direction: column !important;
+    text-align: center !important;
+    align-items: center !important;
+    padding: 18px 14px !important;
+    gap: 14px !important;
+    margin: 28px 0 20px !important;
+  }
+  .author-bio-card .author-card-links {
+    justify-content: center !important;
+  }
 }
 
 /* Floor 27: Prefers-reduced-motion fallback */
