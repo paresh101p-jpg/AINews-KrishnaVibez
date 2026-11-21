@@ -47,15 +47,15 @@ if not GEMINI_API_KEY:
         except Exception:
             pass
 
-# 100% Copyright-Free Pure AI-Generated Futuristic Tech Visuals Pool (NO UNSPLASH)
-AI_TECH_HERO_IMAGES = [
-    "https://files.catbox.moe/r4c345.jpg",
-    "https://files.catbox.moe/8x1d4g.jpg",
-    "https://files.catbox.moe/5v7q2p.jpg",
-    "https://files.catbox.moe/2m9k3w.jpg",
-    "https://files.catbox.moe/7n4t8z.jpg",
-    "https://files.catbox.moe/1c6b5y.jpg"
-]
+# 100% Copyright-Free Local High-Def 1200x675 AI Tech Images (Zero Unsplash, Zero External Dependency)
+CATEGORY_IMAGES_MAP = {
+    "FRONTIER LLMS": "/images/frontier_llm.jpg",
+    "AGENTS & CODING": "/images/autonomous_agents.jpg",
+    "SILICON & GPUS": "/images/silicon_chips.jpg",
+    "ROBOTICS": "/images/humanoid_robotics.jpg",
+    "OPEN SOURCE": "/images/open_source_ai.jpg"
+}
+DEFAULT_TECH_HERO_IMAGE = "/images/ai_breakthrough.jpg"
 
 def call_gemini(prompt):
     client = genai.Client(api_key=GEMINI_API_KEY)
@@ -163,7 +163,8 @@ def assemble_full_article_page(topic_meta, body_html):
     date_iso = now_ist.isoformat()
     display_date = now_ist.strftime("%B %d, %Y")
 
-    hero_img = random.choice(AI_TECH_HERO_IMAGES)
+    hero_img_rel = CATEGORY_IMAGES_MAP.get(category.upper(), DEFAULT_TECH_HERO_IMAGE)
+    hero_img = f"https://ainews.krishnavibez.in{hero_img_rel}"
 
     # Extract FAQs for FAQPage Schema
     faq_matches = re.findall(r"<h3>(.*?)</h3>\s*<p>(.*?)</p>", body_html)
@@ -646,3 +647,4 @@ def run_pipeline():
 if __name__ == "__main__":
     success = run_pipeline()
     sys.exit(0 if success else 1)
+
