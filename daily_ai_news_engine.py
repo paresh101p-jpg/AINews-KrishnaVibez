@@ -553,6 +553,18 @@ def assemble_full_article_page(topic_meta, body_html):
     .share-li {{ background: #0a66c2; }}
     .share-rd {{ background: #ff4500; }}
   </style>
+  <!-- Google Reader Revenue Manager (Subscribe with Google) -->
+  <script async type="application/javascript" src="https://news.google.com/swg/js/v1/swg-basic.js"></script>
+  <script>
+    (self.SWG_BASIC = self.SWG_BASIC || []).push( basicSubscriptions => {{
+      basicSubscriptions.init({{
+        type: "NewsArticle",
+        isPartOfType: ["Product"],
+        isPartOfProductId: "CAow1u2bCw:openaccess",
+        clientOptions: {{ theme: "light", lang: "en" }},
+      }});
+    }});
+  </script>
 </head>
 <body>
 
