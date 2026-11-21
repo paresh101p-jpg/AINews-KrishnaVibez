@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "krishna-vibez"
+  },
+  "targets": {
+    "krishna-vibez": {
+      "hosting": {
+        "ainews-krishnavibez": [
+          "ainews-krishnavibez"
+        ]
+      }
+    }
+  }
+}
