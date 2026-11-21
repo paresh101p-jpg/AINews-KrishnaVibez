@@ -35,6 +35,14 @@
     </image:image>
   </url>
 
+  <!-- Author Profile Page (Google Discover E-E-A-T) -->
+  <url>
+    <loc>https://ainews.krishnavibez.in/authors/paresh-padsala.html</loc>
+    <lastmod>2026-11-21T15:48:00+05:30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- Core Editorial Trust Pages (Google News E-E-A-T) -->
   <url>
     <loc>https://ainews.krishnavibez.in/about.html</loc>

@@ -211,6 +211,26 @@ def assemble_full_article_page(topic_meta, body_html):
                 }
             })
 
+    # Build Entity schema for Google Discover Knowledge Graph
+    entity_about = [
+        {"@type": "Thing", "name": "Artificial Intelligence", "sameAs": "https://en.wikipedia.org/wiki/Artificial_intelligence"}
+    ]
+    t_lower = (title + " " + keywords + " " + category).lower()
+    if "openai" in t_lower:
+        entity_about.append({"@type": "Thing", "name": "OpenAI", "sameAs": "https://en.wikipedia.org/wiki/OpenAI"})
+    if "nvidia" in t_lower:
+        entity_about.append({"@type": "Thing", "name": "Nvidia", "sameAs": "https://en.wikipedia.org/wiki/Nvidia"})
+    if "google" in t_lower or "gemini" in t_lower:
+        entity_about.append({"@type": "Thing", "name": "Google DeepMind", "sameAs": "https://en.wikipedia.org/wiki/Google_DeepMind"})
+    if "anthropic" in t_lower or "claude" in t_lower:
+        entity_about.append({"@type": "Thing", "name": "Anthropic", "sameAs": "https://en.wikipedia.org/wiki/Anthropic"})
+    if "robot" in t_lower or "humanoid" in t_lower or "figure" in t_lower:
+        entity_about.append({"@type": "Thing", "name": "Humanoid Robot", "sameAs": "https://en.wikipedia.org/wiki/Humanoid_robot"})
+    if "chip" in t_lower or "semiconductor" in t_lower or "tsmc" in t_lower or "gpu" in t_lower:
+        entity_about.append({"@type": "Thing", "name": "Semiconductor", "sameAs": "https://en.wikipedia.org/wiki/Semiconductor"})
+    if "quantum" in t_lower:
+        entity_about.append({"@type": "Thing", "name": "Quantum Computing", "sameAs": "https://en.wikipedia.org/wiki/Quantum_computing"})
+
     schema_graph = [
         {
             "@type": "NewsArticle",
@@ -232,8 +252,10 @@ def assemble_full_article_page(topic_meta, body_html):
             "author": {
                 "@type": "Person",
                 "name": "Paresh Padsala",
-                "url": "https://krishnavibez.in/about.html"
+                "jobTitle": "Senior Technology Correspondent",
+                "url": "https://ainews.krishnavibez.in/authors/paresh-padsala.html"
             },
+            "about": entity_about,
             "publisher": {
                 "@type": "NewsMediaOrganization",
                 "name": "AINews",
@@ -566,14 +588,14 @@ def assemble_full_article_page(topic_meta, body_html):
       <div class="article-badge">⚡ {category}</div>
       <h1 class="article-title">{title}</h1>
       <div class="meta-bar">
-        <span>✍️ Paresh Padsala (US Bureau, San Francisco)</span>
+        <span>✍️ By <a href="/authors/paresh-padsala.html" style="color:var(--cyan); text-decoration:none; font-weight:600;">Paresh Padsala</a> (US Bureau, San Francisco)</span>
         <span>📅 {display_date}</span>
         <span>⏱️ {read_time}</span>
       </div>
     </div>
 
     <div class="hero-img-box">
-      <img src="{hero_img}" alt="{title}" loading="eager" width="1200" height="675">
+      <img src="{hero_img}" alt="{title}" fetchpriority="high" loading="eager" width="1200" height="675">
     </div>
 
     <article class="article-content">
@@ -664,7 +686,7 @@ def update_index_page(topic_meta, hero_img):
         </h2>
         <p class="card-excerpt">{meta_desc[:145]}...</p>
         <div class="card-footer">
-          <span style="color:var(--text-muted); font-size:0.8rem;">By Paresh Padsala</span>
+          <span style="color:var(--text-muted); font-size:0.8rem;">By <a href="/authors/paresh-padsala.html" style="color:inherit; text-decoration:none;">Paresh Padsala</a></span>
           <a href="articles/{slug}.html" class="read-btn">Read Deep Dive →</a>
         </div>
       </div>
@@ -679,15 +701,30 @@ def update_index_page(topic_meta, hero_img):
             f.write(new_html)
         print("✅ Injected article card into index.html.")
 
-def update_sitemap(slug):
+def update_sitemap(topic_meta, hero_img=""):
     if not os.path.exists(SITEMAP_FILE):
         return
-    today_str = datetime.now(_IST).strftime("%Y-%m-%d")
+    slug = topic_meta["slug"]
+    title = topic_meta["title"]
+    now_ist = datetime.now(_IST)
+    iso_date = now_ist.strftime("%Y-%m-%dT%H:%M:%S+05:30")
     new_entry = f"""  <url>
     <loc>https://ainews.krishnavibez.in/articles/{slug}.html</loc>
-    <lastmod>{today_str}</lastmod>
+    <lastmod>{iso_date}</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
+    <news:news>
+      <news:publication>
+        <news:name>AINews</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>{iso_date}</news:publication_date>
+      <news:title>{title}</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>{hero_img}</image:loc>
+      <image:title>{title}</image:title>
+    </image:image>
   </url>
 """
     with open(SITEMAP_FILE, "r", encoding="utf-8") as f:
@@ -696,7 +733,7 @@ def update_sitemap(slug):
         xml = xml.replace('</urlset>', new_entry + '</urlset>')
         with open(SITEMAP_FILE, "w", encoding="utf-8") as f:
             f.write(xml)
-        print("✅ Updated sitemap.xml.")
+        print("✅ Updated sitemap.xml with Google News & Discover tags.")
 
 def update_rss(topic_meta, hero_img):
     if not os.path.exists(RSS_FILE):
@@ -761,7 +798,7 @@ def run_pipeline():
 
     print("\n📡 Step 4: Updating index.html, sitemap.xml & rss.xml...")
     update_index_page(topic_meta, hero_img)
-    update_sitemap(topic_meta["slug"])
+    update_sitemap(topic_meta, hero_img)
     update_rss(topic_meta, hero_img)
 
     # Update Global Search JSON index
