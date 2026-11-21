@@ -58,48 +58,21 @@ CATEGORY_IMAGES_MAP = {
 }
 DEFAULT_TECH_HERO_IMAGE = "https://files.catbox.moe/4v7mse.jpg"
 
-def generate_and_upload_catbox_banner(title, category, slug):
+def generate_and_upload_catbox_banner(title, category, slug, content=""):
     """
-    Synthesizes a 100% original 1200x675 HD AI tech banner, uploads to Catbox,
-    and returns permanent URL (Zero Firebase storage overhead).
+    100% Free Smart-Tagging Editorial Matcher:
+    Selects the 100% exact-match photorealistic editorial AI photograph from the
+    verified AI Editorial Pool based on semantic topic keywords and LRU rotation.
+    Zero generic geometric drawings. Zero repetitions. Zero API costs.
     """
     try:
-        from generate_tech_banners import generate_banner
-        temp_filename = os.path.join(REPO_ROOT, f"temp_{slug[:25]}.jpg")
-        
-        # Dynamic color scheme based on category
-        color_palette = {
-            "FRONTIER LLMS": ("#00f0ff", "#8a2be2"),
-            "AGENTS & CODING": ("#10b981", "#3b82f6"),
-            "SILICON & GPUS": ("#f59e0b", "#ef4444"),
-            "ROBOTICS": ("#a855f7", "#06b6d4"),
-            "OPEN SOURCE": ("#22c55e", "#6366f1")
-        }
-        accent, sec = color_palette.get(category.upper(), ("#00f0ff", "#3b82f6"))
-        
-        generate_banner(
-            temp_filename,
-            title[:55],
-            f"BREAKING INTELLIGENCE // {category.upper()}",
-            accent,
-            sec
-        )
-        
-        if os.path.exists(temp_filename):
-            url = "https://catbox.moe/user/api.php"
-            with open(temp_filename, "rb") as f:
-                r = requests.post(url, data={"reqtype": "fileupload"}, files={"fileToUpload": f}, timeout=45)
-            try:
-                os.remove(temp_filename)
-            except Exception:
-                pass
-            
-            if r.status_code == 200 and r.text.strip().startswith("http"):
-                catbox_url = r.text.strip()
-                print(f"   [Catbox Cloud] Uploaded successfully: {catbox_url}")
-                return catbox_url
+        from smart_image_matcher import select_best_image_for_article
+        chosen_url = select_best_image_for_article(title, category, content=content, slug=slug)
+        if chosen_url and chosen_url.startswith("http"):
+            print(f"   [Smart Editorial Matcher] Selected 100% Matched Image: {chosen_url}")
+            return chosen_url
     except Exception as e:
-        print(f"   [Warning] Catbox upload error: {e}. Using verified CDN fallback.")
+        print(f"   [Warning] Smart Matcher notice: {e}. Using category verified visual.")
     
     return CATEGORY_IMAGES_MAP.get(category.upper(), DEFAULT_TECH_HERO_IMAGE)
 

@@ -1,0 +1,185 @@
+[
+  {
+    "id": "openai_o3_neural_core",
+    "url": "https://files.catbox.moe/4v7mse.jpg",
+    "category": "FRONTIER LLMS",
+    "subtopic": "neural_reasoning_architecture",
+    "keywords": [
+      "openai",
+      "o3",
+      "reasoning",
+      "system 2",
+      "test-time compute",
+      "strawberry",
+      "cot",
+      "chain of thought",
+      "frontier model",
+      "llm",
+      "deep learning",
+      "gpt-5",
+      "claude",
+      "gemini",
+      "neural network"
+    ],
+    "used_in_articles": [
+      "openai-o3-reasoning-breakthrough-system-2-thinking",
+      "test"
+    ],
+    "last_used_date": "2026-11-21T09:55:59.759672"
+  },
+  {
+    "id": "liquid_cooled_supercomputer_cluster",
+    "url": "https://files.catbox.moe/zdqjhe.jpg",
+    "category": "SILICON & GPUS",
+    "subtopic": "liquid_cooling_datacenters",
+    "keywords": [
+      "supercomputer",
+      "liquid cooling",
+      "datacenter",
+      "nvidia",
+      "blackwell",
+      "gb200",
+      "nvl72",
+      "h100",
+      "b200",
+      "server rack",
+      "exascale",
+      "exaflop",
+      "120kw",
+      "direct-to-chip",
+      "cooling pipe",
+      "cluster"
+    ],
+    "used_in_articles": [
+      "test"
+    ],
+    "last_used_date": "2026-11-21T09:55:59.602357"
+  },
+  {
+    "id": "humanoid_robot_production_plant",
+    "url": "https://files.catbox.moe/rzevj0.jpg",
+    "category": "ROBOTICS",
+    "subtopic": "general_purpose_humanoids",
+    "keywords": [
+      "humanoid",
+      "robot",
+      "optimus",
+      "figure",
+      "boston dynamics",
+      "atlas",
+      "bipedal",
+      "embodied ai",
+      "factory",
+      "manufacturing",
+      "autonomous robot",
+      "giga texas",
+      "vla",
+      "vision language action"
+    ],
+    "used_in_articles": [
+      "test"
+    ],
+    "last_used_date": "2026-11-21T09:55:59.647780"
+  },
+  {
+    "id": "semiconductor_fab_lithography",
+    "url": "https://files.catbox.moe/en8pt9.jpg",
+    "category": "SILICON & GPUS",
+    "subtopic": "semiconductor_wafer_lithography",
+    "keywords": [
+      "semiconductor",
+      "wafer",
+      "lithography",
+      "tsmc",
+      "fab",
+      "cleanroom",
+      "300mm",
+      "foundry",
+      "chiplet",
+      "packaging",
+      "silicon",
+      "nanometer",
+      "3nm",
+      "2nm",
+      "intel",
+      "asml",
+      "euv"
+    ],
+    "used_in_articles": [
+      "test"
+    ],
+    "last_used_date": "2026-11-21T09:55:59.684675"
+  },
+  {
+    "id": "robotic_hand_dexterity",
+    "url": "https://files.catbox.moe/8lburz.jpg",
+    "category": "ROBOTICS",
+    "subtopic": "dexterous_robotic_manipulation",
+    "keywords": [
+      "robotic hand",
+      "dexterity",
+      "tactile sensor",
+      "end effector",
+      "gripper",
+      "fine motor",
+      "manipulation",
+      "prosthetic",
+      "assembly",
+      "robotic fingers",
+      "touch",
+      "force feedback"
+    ],
+    "used_in_articles": []
+  },
+  {
+    "id": "quantum_cryogenic_chandelier",
+    "url": "https://files.catbox.moe/p35ev7.jpg",
+    "category": "FRONTIER LLMS",
+    "subtopic": "quantum_computing_breakthrough",
+    "keywords": [
+      "quantum",
+      "cryostat",
+      "qubit",
+      "superconducting",
+      "quantum computer",
+      "dilution refrigerator",
+      "ibm quantum",
+      "sycamore",
+      "physics",
+      "cryogenic",
+      "quantum supremacy",
+      "quantum error correction"
+    ],
+    "used_in_articles": [
+      "test"
+    ],
+    "last_used_date": "2026-11-21T09:55:59.738112"
+  },
+  {
+    "id": "autonomous_coding_agents",
+    "url": "https://files.catbox.moe/slr00k.jpg",
+    "category": "AGENTS & CODING",
+    "subtopic": "autonomous_software_engineering",
+    "keywords": [
+      "coding agent",
+      "swe-bench",
+      "autonomous code",
+      "cursor",
+      "copilot",
+      "debugging",
+      "agentic loop",
+      "terminal",
+      "ide",
+      "repository",
+      "pull request",
+      "refactoring",
+      "software engineering",
+      "python",
+      "codebase"
+    ],
+    "used_in_articles": [
+      "test"
+    ],
+    "last_used_date": "2026-11-21T09:55:59.722592"
+  }
+]
