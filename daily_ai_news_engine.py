@@ -14,6 +14,7 @@ import sys
 import re
 import json
 import random
+import requests
 import subprocess
 from datetime import datetime, timezone, timedelta
 from google import genai
@@ -47,15 +48,60 @@ if not GEMINI_API_KEY:
         except Exception:
             pass
 
-# 100% Copyright-Free Local High-Def 1200x675 AI Tech Images (Zero Unsplash, Zero External Dependency)
+# 100% Copyright-Free Cloud-Hosted High-Def 1200x675 AI Tech Images (Catbox CDN - Zero Storage Overhead on Firebase)
 CATEGORY_IMAGES_MAP = {
-    "FRONTIER LLMS": "/images/frontier_llm.jpg",
-    "AGENTS & CODING": "/images/autonomous_agents.jpg",
-    "SILICON & GPUS": "/images/silicon_chips.jpg",
-    "ROBOTICS": "/images/humanoid_robotics.jpg",
-    "OPEN SOURCE": "/images/open_source_ai.jpg"
+    "FRONTIER LLMS": "https://files.catbox.moe/if0d7q.jpg",
+    "AGENTS & CODING": "https://files.catbox.moe/q00f8o.jpg",
+    "SILICON & GPUS": "https://files.catbox.moe/jej48b.jpg",
+    "ROBOTICS": "https://files.catbox.moe/jv0uht.jpg",
+    "OPEN SOURCE": "https://files.catbox.moe/y5sgma.jpg"
 }
-DEFAULT_TECH_HERO_IMAGE = "/images/ai_breakthrough.jpg"
+DEFAULT_TECH_HERO_IMAGE = "https://files.catbox.moe/7azw6q.jpg"
+
+def generate_and_upload_catbox_banner(title, category, slug):
+    """
+    Synthesizes a 100% original 1200x675 HD AI tech banner, uploads to Catbox,
+    and returns permanent URL (Zero Firebase storage overhead).
+    """
+    try:
+        from generate_tech_banners import generate_banner
+        temp_filename = os.path.join(REPO_ROOT, f"temp_{slug[:25]}.jpg")
+        
+        # Dynamic color scheme based on category
+        color_palette = {
+            "FRONTIER LLMS": ("#00f0ff", "#8a2be2"),
+            "AGENTS & CODING": ("#10b981", "#3b82f6"),
+            "SILICON & GPUS": ("#f59e0b", "#ef4444"),
+            "ROBOTICS": ("#a855f7", "#06b6d4"),
+            "OPEN SOURCE": ("#22c55e", "#6366f1")
+        }
+        accent, sec = color_palette.get(category.upper(), ("#00f0ff", "#3b82f6"))
+        
+        generate_banner(
+            temp_filename,
+            title[:55],
+            f"BREAKING INTELLIGENCE // {category.upper()}",
+            accent,
+            sec
+        )
+        
+        if os.path.exists(temp_filename):
+            url = "https://catbox.moe/user/api.php"
+            with open(temp_filename, "rb") as f:
+                r = requests.post(url, data={"reqtype": "fileupload"}, files={"fileToUpload": f}, timeout=45)
+            try:
+                os.remove(temp_filename)
+            except Exception:
+                pass
+            
+            if r.status_code == 200 and r.text.strip().startswith("http"):
+                catbox_url = r.text.strip()
+                print(f"   [Catbox Cloud] Uploaded successfully: {catbox_url}")
+                return catbox_url
+    except Exception as e:
+        print(f"   [Warning] Catbox upload error: {e}. Using verified CDN fallback.")
+    
+    return CATEGORY_IMAGES_MAP.get(category.upper(), DEFAULT_TECH_HERO_IMAGE)
 
 def call_gemini(prompt):
     client = genai.Client(api_key=GEMINI_API_KEY)
@@ -163,8 +209,9 @@ def assemble_full_article_page(topic_meta, body_html):
     date_iso = now_ist.isoformat()
     display_date = now_ist.strftime("%B %d, %Y")
 
-    hero_img_rel = CATEGORY_IMAGES_MAP.get(category.upper(), DEFAULT_TECH_HERO_IMAGE)
-    hero_img = f"https://ainews.krishnavibez.in{hero_img_rel}"
+    hero_img = topic_meta.get("hero_image") or CATEGORY_IMAGES_MAP.get(category.upper(), DEFAULT_TECH_HERO_IMAGE)
+    if not hero_img.startswith("http"):
+        hero_img = f"https://ainews.krishnavibez.in{hero_img}"
 
     # Extract FAQs for FAQPage Schema
     faq_matches = re.findall(r"<h3>(.*?)</h3>\s*<p>(.*?)</p>", body_html)
@@ -659,6 +706,11 @@ def run_pipeline():
     print(f"   Headline: {topic_meta['title']}")
     print(f"   Category: {topic_meta['category']}")
     print(f"   Slug: {topic_meta['slug']}")
+
+    print("\n🖼️ Step 1.5: Synthesizing HD AI Tech Banner & uploading to Catbox (Zero Firebase Overhead)...")
+    catbox_img = generate_and_upload_catbox_banner(topic_meta["title"], topic_meta["category"], topic_meta["slug"])
+    topic_meta["hero_image"] = catbox_img
+    print(f"   Catbox Cloud URL: {catbox_img}")
 
     print("\n✍️ Step 2: Writing 1500-2000+ words technical journalism report...")
     body_html = write_ai_news_article_body(topic_meta)
