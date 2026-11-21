@@ -11366,5 +11366,29 @@
     ],
     "used_in_articles": [],
     "last_used_date": null
+  },
+  {
+    "id": "cybersecurity_neural_shield_defense",
+    "url": "https://files.catbox.moe/fzw8fj.jpg",
+    "category": "AGENTS & CODING",
+    "badge": "CYBERSECURITY BRIEF",
+    "subtopic": "ai_cybersecurity",
+    "hook_title": "AUTONOMOUS AI CYBER DEFENSE & ZERO-DAY MITIGATION",
+    "hook_sub": "NEURAL FIREWALLS & REAL-TIME MALWARE DETECTION",
+    "keywords": [
+      "cybersecurity",
+      "security",
+      "defense",
+      "zero day",
+      "firewall",
+      "encryption",
+      "malware",
+      "ai security",
+      "infosec",
+      "threat intelligence",
+      "agentic defense"
+    ],
+    "used_in_articles": [],
+    "last_used_date": null
   }
 ]
