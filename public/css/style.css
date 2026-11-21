@@ -750,3 +750,134 @@ a:hover {
     left: 0;
   }
 }
+
+/* ==========================================================================
+   READING PROGRESS BAR (Top-Tier Editorial Signal)
+   ========================================================================== */
+#readingProgress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #06b6d4, #3b82f6);
+  width: 0%;
+  z-index: 99999;
+  transition: width 0.08s ease-out;
+  box-shadow: 0 0 10px rgba(6, 182, 212, 0.7);
+}
+
+/* ==========================================================================
+   TABLE OF CONTENTS (Jump-to-Section SEO & CTR Booster)
+   ========================================================================== */
+.article-toc {
+  background: rgba(13, 17, 26, 0.85);
+  border: 1px solid var(--border-subtle);
+  border-left: 3px solid var(--accent-cyan);
+  border-radius: 8px;
+  padding: 20px 24px;
+  margin: 28px 0 34px;
+}
+.article-toc .toc-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.article-toc ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 10px 20px;
+}
+.article-toc li a {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: color 0.15s ease, transform 0.15s ease;
+}
+.article-toc li a:hover {
+  color: var(--accent-cyan);
+  transform: translateX(3px);
+}
+.article-toc li a::before {
+  content: "→";
+  color: var(--accent-cyan);
+  font-weight: bold;
+}
+
+/* ==========================================================================
+   AUTHOR BIO CARD (Google E-E-A-T In-Article Sign-off)
+   ========================================================================== */
+.author-bio-card {
+  background: rgba(13, 17, 26, 0.95);
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+  padding: 26px 30px;
+  margin: 44px 0 28px;
+  display: flex;
+  gap: 22px;
+  align-items: flex-start;
+}
+.author-bio-card .author-avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #06b6d4, #3b82f6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #07090e;
+  flex-shrink: 0;
+  box-shadow: 0 0 16px rgba(6, 182, 212, 0.35);
+}
+.author-bio-card .author-info {
+  flex: 1;
+}
+.author-bio-card .author-name {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+.author-bio-card .author-name a {
+  color: #fff;
+}
+.author-bio-card .author-name a:hover {
+  color: var(--accent-cyan);
+}
+.author-bio-card .author-title {
+  font-size: 0.84rem;
+  color: var(--accent-cyan);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.author-bio-card .author-bio-text {
+  font-size: 0.92rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 14px;
+}
+.author-bio-card .author-card-links {
+  display: flex;
+  gap: 16px;
+  font-size: 0.85rem;
+  flex-wrap: wrap;
+}
+.author-bio-card .author-card-links a {
+  color: var(--accent-cyan);
+  font-weight: 600;
+}
+.author-bio-card .author-card-links a:hover {
+  text-decoration: underline;
+}

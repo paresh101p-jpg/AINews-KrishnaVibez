@@ -173,9 +173,22 @@ Use proper HTML tags:
     body_html = re.sub(r"^```html\s*", "", body_html.strip(), flags=re.MULTILINE)
     body_html = re.sub(r"\s*```$", "", body_html.strip(), flags=re.MULTILINE)
     # Strip any conflicting inline backgrounds (like white/f4f4f4/e7f3fe) so dark theme looks 100% premium
-    body_html = re.sub(r'<div class="tldr-box"[^>]*>', '<div class="tldr-box">', body_html)
+    body_html = re.sub(r'<div class="tldr-box"[^>]*>', '<div class="tldr-box" id="executive-brief">', body_html)
     body_html = re.sub(r'<div class="tech-callout"[^>]*>', '<div class="tech-callout">', body_html)
     body_html = re.sub(r'style="[^"]*(?:background|#f4f4f4|#fff|#e7f3fe|#b3d7ff)[^"]*"', '', body_html)
+
+    # Ensure section IDs exist for Table of Contents & Google Jump-to-Section SEO
+    sec_id_map = {
+        r"Section 1": "breakthrough",
+        r"Section 2": "architecture",
+        r"Section 3": "benchmarks",
+        r"Section 4": "industry-impact",
+        r"Section 5": "limitations",
+        r"Section 6": "faq",
+        r"Section 7": "outlook"
+    }
+    for pattern, s_id in sec_id_map.items():
+        body_html = re.sub(rf'<h2>({pattern}[^<]*)</h2>', rf'<h2 id="{s_id}">\1</h2>', body_html, flags=re.IGNORECASE)
     return body_html
 
 def assemble_full_article_page(topic_meta, body_html):
@@ -323,6 +336,7 @@ def assemble_full_article_page(topic_meta, body_html):
   <meta name="keywords" content="{keywords}">
   <meta name="author" content="Paresh Padsala (AINews)">
   <link rel="canonical" href="{canonical_url}">
+  <link rel="alternate" type="application/rss+xml" title="AINews — Frontier AI Intelligence RSS Feed" href="https://ainews.krishnavibez.in/rss.xml">
 
   <!-- Open Graph / Social Rich Preview -->
   <meta property="og:site_name" content="AINews">
@@ -582,6 +596,7 @@ def assemble_full_article_page(topic_meta, body_html):
       </div>
     </div>
   </header>
+  <div id="readingProgress"></div>
 
   <div class="article-wrap">
     <div class="article-header">
@@ -598,9 +613,40 @@ def assemble_full_article_page(topic_meta, body_html):
       <img src="{hero_img}" alt="{title}" fetchpriority="high" loading="eager" width="1200" height="675">
     </div>
 
+    <nav class="article-toc" aria-label="Table of Contents">
+      <div class="toc-title">📑 In This Investigation (Table of Contents)</div>
+      <ul>
+        <li><a href="#executive-brief">Executive Brief &amp; Core Takeaways</a></li>
+        <li><a href="#breakthrough">Section 1: The Breakthrough &amp; Why It Matters</a></li>
+        <li><a href="#architecture">Section 2: Technical Architecture &amp; System 2</a></li>
+        <li><a href="#benchmarks">Section 3: Benchmark Performance Matrix</a></li>
+        <li><a href="#industry-impact">Section 4: Enterprise &amp; Developer Implications</a></li>
+        <li><a href="#limitations">Section 5: Bottlenecks &amp; Safety Safeguards</a></li>
+        <li><a href="#faq">Section 6: Technical FAQs</a></li>
+        <li><a href="#outlook">Section 7: Final Verdict &amp; Future Outlook</a></li>
+      </ul>
+    </nav>
+
     <article class="article-content">
       {body_html}
     </article>
+
+    <!-- Author Bio Card (Google E-E-A-T) -->
+    <div class="author-bio-card">
+      <div class="author-avatar">PP</div>
+      <div class="author-info">
+        <div class="author-name"><a href="/authors/paresh-padsala.html">Paresh Padsala</a></div>
+        <div class="author-title">Founder &amp; Senior Technology Correspondent · US Bureau (San Francisco)</div>
+        <div class="author-bio-text">
+          Investigating frontier machine intelligence, reasoning architectures (System-2 deliberation), high-density datacenter silicon, and autonomous humanoid robotics. Verified technical analyst and founder of AINews.
+        </div>
+        <div class="author-card-links">
+          <a href="/authors/paresh-padsala.html">View Full Profile &amp; Dispatches →</a>
+          <a href="mailto:editorial@ainews.krishnavibez.in">editorial@ainews.krishnavibez.in</a>
+          <a href="https://twitter.com/ainews_intel" target="_blank">@ainews_intel</a>
+        </div>
+      </div>
+    </div>
 
     <div class="share-bar">
       <span style="font-weight:700; color:#fff;">Share this report:</span>
@@ -658,6 +704,14 @@ def assemble_full_article_page(topic_meta, body_html):
   </footer>
 
   <script src="/js/search.js"></script>
+  <script>
+    window.addEventListener('scroll', function() {
+      var h = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var pct = h > 0 ? (window.scrollY / h) * 100 : 0;
+      var bar = document.getElementById('readingProgress');
+      if (bar) bar.style.width = pct + '%';
+    });
+  </script>
 </body>
 </html>"""
     return page_html, hero_img
@@ -769,6 +823,49 @@ def update_rss(topic_meta, hero_img):
             f.write(xml)
         print("✅ Updated rss.xml.")
 
+def ping_search_engines_and_hubs(article_url):
+    """
+    Submits new article to IndexNow (Bing, Yandex, Naver) and WebSub (PubSubHubbub)
+    for instant global indexing and syndication.
+    """
+    print("\n🌐 Step 5: Submitting article to IndexNow & WebSub Instant Indexing...")
+    # 1. IndexNow Submission
+    try:
+        indexnow_payload = {
+            "host": "ainews.krishnavibez.in",
+            "key": "e4c8b21a97d54930ba81f182c6de3421",
+            "keyLocation": "https://ainews.krishnavibez.in/e4c8b21a97d54930ba81f182c6de3421.txt",
+            "urlList": [
+                "https://ainews.krishnavibez.in/",
+                article_url
+            ]
+        }
+        req = urllib.request.Request(
+            "https://api.indexnow.org/indexnow",
+            data=json.dumps(indexnow_payload).encode("utf-8"),
+            headers={"Content-Type": "application/json; charset=utf-8", "User-Agent": "AINews-Publisher/1.0"}
+        )
+        with urllib.request.urlopen(req, timeout=10) as r:
+            print(f"   ✅ IndexNow ping successful: HTTP {r.status}")
+    except Exception as e:
+        print(f"   [Notice] IndexNow ping: {e}")
+
+    # 2. WebSub (PubSubHubbub) Submission
+    try:
+        websub_data = urllib.parse.urlencode({
+            "hub.mode": "publish",
+            "hub.url": "https://ainews.krishnavibez.in/rss.xml"
+        }).encode("utf-8")
+        req = urllib.request.Request(
+            "https://pubsubhubbub.appspot.com/publish",
+            data=websub_data,
+            headers={"Content-Type": "application/x-www-form-urlencoded", "User-Agent": "AINews-Publisher/1.0"}
+        )
+        with urllib.request.urlopen(req, timeout=10) as r:
+            print(f"   ✅ WebSub (PubSubHubbub) ping successful: HTTP {r.status}")
+    except Exception as e:
+        print(f"   [Notice] WebSub ping: {e}")
+
 def run_pipeline():
     print("=" * 70)
     print("⚡ STARTING AUTONOMOUS AI NEWS PIPELINE (ainews.krishnavibez.in)")
@@ -800,6 +897,7 @@ def run_pipeline():
     update_index_page(topic_meta, hero_img)
     update_sitemap(topic_meta, hero_img)
     update_rss(topic_meta, hero_img)
+    ping_search_engines_and_hubs(f"https://ainews.krishnavibez.in/articles/{topic_meta['slug']}.html")
 
     # Update Global Search JSON index
     try:

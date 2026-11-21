@@ -7,6 +7,7 @@
     <language>en-US</language>
     <lastBuildDate>Sat, 21 Nov 2026 12:00:00 +0530</lastBuildDate>
     <atom:link href="https://ainews.krishnavibez.in/rss.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <item>
       <title>OpenAI Unveils o3: The First AI Model Capable of Multi-Day Autonomous Reasoning</title>
       <link>https://ainews.krishnavibez.in/articles/openai-o3-reasoning-breakthrough-system-2-thinking.html</link>
