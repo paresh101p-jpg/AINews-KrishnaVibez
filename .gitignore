@@ -3,3 +3,9 @@ __pycache__/
 *.pyc
 .env
 
+
+# Local heavy images
+raw_editorial_images/
+processed_editorial_images/
+*.zip
+test_img/
