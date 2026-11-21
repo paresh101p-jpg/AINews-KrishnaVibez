@@ -11294,5 +11294,77 @@
     ],
     "used_in_articles": [],
     "last_used_date": null
+  },
+  {
+    "id": "autonomous_vehicle_sensor_fleet_robotaxi",
+    "url": "https://files.catbox.moe/w6tbxv.jpg",
+    "category": "ROBOTICS",
+    "badge": "MOBILITY REPORT",
+    "subtopic": "autonomous_mobility",
+    "hook_title": "FULL AUTONOMOUS VEHICLE FLEET EXPANSION",
+    "hook_sub": "END-TO-END NEURAL DRIVING & URBAN MAPPING",
+    "keywords": [
+      "autonomous vehicle",
+      "robotaxi",
+      "waymo",
+      "tesla fsd",
+      "lidar",
+      "sensors",
+      "camera vision",
+      "self driving",
+      "neural network",
+      "fleet",
+      "urban navigation"
+    ],
+    "used_in_articles": [],
+    "last_used_date": null
+  },
+  {
+    "id": "humanoid_robotic_hand_dexterity_tactile",
+    "url": "https://files.catbox.moe/m3cpj0.jpg",
+    "category": "ROBOTICS",
+    "badge": "ROBOTICS REPORT",
+    "subtopic": "dexterous_manipulation",
+    "hook_title": "TACTILE SENSING & ULTRA-FINE MOTOR AGILITY",
+    "hook_sub": "SUB-MILLIMETER ELECTRONIC COMPONENT PLACEMENT",
+    "keywords": [
+      "robotic hand",
+      "dexterity",
+      "tactile sensor",
+      "end effector",
+      "gripper",
+      "fine motor",
+      "manipulation",
+      "prosthetic",
+      "assembly",
+      "robotic fingers",
+      "touch"
+    ],
+    "used_in_articles": [],
+    "last_used_date": null
+  },
+  {
+    "id": "sora_generative_video_holodeck_virtual",
+    "url": "https://files.catbox.moe/irsuub.jpg",
+    "category": "FRONTIER LLMS",
+    "badge": "CREATIVE AI BREAKTHROUGH",
+    "subtopic": "generative_video_multimodal",
+    "hook_title": "NEXT-GEN GENERATIVE VIDEO & WORLD SIMULATION",
+    "hook_sub": "DIFFUSION TRANSFORMER PHYSICS & REAL-TIME RENDERING",
+    "keywords": [
+      "sora",
+      "video generation",
+      "diffusion transformer",
+      "world model",
+      "veo",
+      "runway",
+      "gen-3",
+      "kling",
+      "text to video",
+      "cinematic",
+      "multimodal"
+    ],
+    "used_in_articles": [],
+    "last_used_date": null
   }
 ]
