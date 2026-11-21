@@ -202,6 +202,7 @@ def assemble_full_article_page(topic_meta, body_html):
 
     now_ist = datetime.now(_IST)
     date_iso = now_ist.isoformat()
+    pub_iso = date_iso
     display_date = now_ist.strftime("%B %d, %Y")
 
     hero_img = topic_meta.get("hero_image") or CATEGORY_IMAGES_MAP.get(category.upper(), DEFAULT_TECH_HERO_IMAGE)
