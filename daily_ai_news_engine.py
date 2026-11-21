@@ -857,7 +857,10 @@ def ping_search_engines_and_hubs(article_url):
         req = urllib.request.Request(
             "https://api.indexnow.org/indexnow",
             data=json.dumps(indexnow_payload).encode("utf-8"),
-            headers={"Content-Type": "application/json; charset=utf-8", "User-Agent": "AINews-Publisher/1.0"}
+            headers={
+                "Content-Type": "application/json; charset=utf-8",
+                "User-Agent": "Mozilla/5.0 (compatible; IndexNowClient/1.0; +https://www.indexnow.org)"
+            }
         )
         with urllib.request.urlopen(req, timeout=10) as r:
             print(f"   ✅ IndexNow ping successful: HTTP {r.status}")
