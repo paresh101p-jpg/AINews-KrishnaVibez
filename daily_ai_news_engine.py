@@ -194,9 +194,10 @@ Use proper HTML tags:
     body_html = call_gemini(prompt)
     body_html = re.sub(r"^```html\s*", "", body_html.strip(), flags=re.MULTILINE)
     body_html = re.sub(r"\s*```$", "", body_html.strip(), flags=re.MULTILINE)
-    # Strip any conflicting inline backgrounds (like white/f4f4f4) so dark theme looks 100% premium
+    # Strip any conflicting inline backgrounds (like white/f4f4f4/e7f3fe) so dark theme looks 100% premium
     body_html = re.sub(r'<div class="tldr-box"[^>]*>', '<div class="tldr-box">', body_html)
-    body_html = re.sub(r'style="[^"]*(?:background|#f4f4f4|#fff)[^"]*"', '', body_html)
+    body_html = re.sub(r'<div class="tech-callout"[^>]*>', '<div class="tech-callout">', body_html)
+    body_html = re.sub(r'style="[^"]*(?:background|#f4f4f4|#fff|#e7f3fe|#b3d7ff)[^"]*"', '', body_html)
     return body_html
 
 def assemble_full_article_page(topic_meta, body_html):

@@ -389,7 +389,7 @@
 
 <p>At the core of this architecture is the "Reasoning State Buffer." Unlike standard context windows that store only the current conversation history, this buffer maintains a directed acyclic graph (DAG) of the model's reasoning steps. The model can backtrack, discard failed branches of logic, and instantiate sub-agents to verify computational outputs against known scientific principles.</p>
 
-<div class="tech-callout" style="background: #e7f3fe; padding: 15px; border: 1px solid #b3d7ff; margin: 20px 0;">
+<div class="tech-callout">
     <strong>Deep Dive: Test-Time Compute.</strong> o3 is the first model designed to scale not just by parameter count, but by the "computational depth" allowed during the inference phase. By allocating more FLOPS to the reasoning process, o3 achieves results that are qualitatively different—not just faster or more articulate—than its predecessors.
 </div>
 
