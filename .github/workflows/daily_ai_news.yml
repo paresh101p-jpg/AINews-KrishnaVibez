@@ -18,17 +18,17 @@ jobs:
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
       - name: Install Python Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests google-genai
+          pip install requests google-genai pillow
 
       - name: Generate Trending AI News Article
         env:
@@ -41,19 +41,21 @@ jobs:
           git config --local user.name "AINews Autonomous Reporter"
           git add public/articles/*.html public/index.html public/sitemap.xml public/rss.xml ai_news_history.json
           git commit -m "feat(ai-news): publish breaking AI news report & update sitemaps [skip ci]" || true
-          git pull --rebase origin main || git pull --rebase origin master || true
+          git pull --rebase origin main || true
           git push origin HEAD || true
 
       - name: Set up Node.js for Firebase
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: '18'
 
       - name: Deploy to Firebase Hosting (Site: ainews-krishnavibez)
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
-        if: env.FIREBASE_TOKEN != ''
         run: |
-          npm install -g firebase-tools
-          firebase deploy --only hosting:ainews-krishnavibez --token "$FIREBASE_TOKEN"
-
+          if [ -n "$FIREBASE_TOKEN" ]; then
+            npm install -g firebase-tools
+            firebase deploy --only hosting:ainews-krishnavibez --token "$FIREBASE_TOKEN"
+          else
+            echo "FIREBASE_TOKEN not set, skipping hosting deploy."
+          fi
