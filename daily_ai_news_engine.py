@@ -50,13 +50,13 @@ if not GEMINI_API_KEY:
 
 # 100% Copyright-Free Cloud-Hosted High-Def 1200x675 AI Tech Images (Catbox CDN - Zero Storage Overhead on Firebase)
 CATEGORY_IMAGES_MAP = {
-    "FRONTIER LLMS": "https://files.catbox.moe/if0d7q.jpg",
+    "FRONTIER LLMS": "https://files.catbox.moe/4v7mse.jpg",
     "AGENTS & CODING": "https://files.catbox.moe/q00f8o.jpg",
-    "SILICON & GPUS": "https://files.catbox.moe/jej48b.jpg",
-    "ROBOTICS": "https://files.catbox.moe/jv0uht.jpg",
+    "SILICON & GPUS": "https://files.catbox.moe/zdqjhe.jpg",
+    "ROBOTICS": "https://files.catbox.moe/rzevj0.jpg",
     "OPEN SOURCE": "https://files.catbox.moe/y5sgma.jpg"
 }
-DEFAULT_TECH_HERO_IMAGE = "https://files.catbox.moe/7azw6q.jpg"
+DEFAULT_TECH_HERO_IMAGE = "https://files.catbox.moe/4v7mse.jpg"
 
 def generate_and_upload_catbox_banner(title, category, slug):
     """
