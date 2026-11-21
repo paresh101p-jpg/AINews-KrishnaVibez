@@ -129,15 +129,18 @@ def determine_today_ai_news_topic():
     now_ist = datetime.now(_IST)
     date_str = now_ist.strftime("%d %B %Y")
 
-    prompt = f"""You are the Editor-in-Chief of AINews (ainews.krishnavibez.in), a leading frontier artificial intelligence publication.
+    prompt = f"""You are the US Bureau Chief & Editor-in-Chief of AINews (ainews.krishnavibez.in) based in Silicon Valley, San Francisco, CA.
 Today's Date: {date_str}.
 
-Identify the SINGLE MOST IMPACTFUL, trending, high-traffic AI breaking news topic right now.
-Topics of high interest:
-- Frontier LLM releases & architectures (Anthropic Claude 3.7 hybrid reasoning, OpenAI o3 / GPT-5, Google Gemini 2.0 / 3.0 Flash breakthroughs, DeepSeek V3 / R1 reasoning revolution, Meta Llama 4).
-- Autonomous AI Agents & Coding Tools (Cursor, Devin, Windsurf, LangGraph, AutoGPT 2.0).
-- Silicon & Compute (Nvidia Blackwell B200 / GB200 clusters, AMD MI325X, Cerebras Wafer-Scale Engine, TPU v6).
-- Humanoid Robotics & Embodied AI (Tesla Optimus Gen 3, Figure 02, Boston Dynamics Atlas, Unitree G1).
+PRIMARY TARGET AUDIENCE: United States Tech Sector, Silicon Valley Engineers, Enterprise AI CTOs, Wall Street Tech Investors, and US AI Developers (High US CPM/CPC).
+
+Identify the SINGLE MOST IMPACTFUL, trending, high-traffic US & Global AI breaking news topic right now.
+Topics of primary US interest:
+- US Frontier LLM releases (OpenAI o3/GPT-5, Anthropic Claude 3.7 Sonnet, Google Gemini 2.0/3.0, Meta Llama 4).
+- US Autonomous AI Agents & Silicon Valley startups (Cursor, Devin, Windsurf, Cognition AI, Perplexity).
+- Silicon & US Infrastructure (Nvidia Blackwell B200 / GB200 clusters, AMD, Cerebras, US Datacenter gigawatt buildouts).
+- Humanoid Robotics in US industry (Tesla Optimus Gen 3, Figure 02, Boston Dynamics).
+- US Regulatory, Copyright & Enterprise ROI impacts (FTC, White House AI safety guidelines, Fortune 500 enterprise adoption).
 
 STRICT RULE: Do NOT repeat any of these recently published topics:
 {json.dumps(existing[-15:], ensure_ascii=False)}
@@ -162,15 +165,17 @@ Output ONLY a valid JSON object with this exact structure:
     return data
 
 def write_ai_news_article_body(topic_meta):
-    prompt = f"""You are an elite technical journalist writing for AINews.
-Write a comprehensive, highly authoritative, 1500 to 2000+ word technical news breakdown on:
+    prompt = f"""You are an elite Silicon Valley technical journalist writing for AINews (US Bureau, San Francisco).
+Write a comprehensive, highly authoritative, 1500 to 2000+ word technical news breakdown tailored for the US Tech market on:
 TITLE: {topic_meta['title']}
 CATEGORY: {topic_meta['category']}
 BRIEF: {topic_meta['topic_summary']}
 
-EDITORIAL GUIDELINES:
-1. Tone: Highly articulate, objective, data-driven, and forward-looking (similar to Ars Technica, SemiAnalysis, TechCrunch).
-2. Structure:
+EDITORIAL GUIDELINES (US TARGETED):
+1. Tone: Deep, articulate, objective, data-driven, and forward-looking (similar to SemiAnalysis, The Verge, Stratechery, Ars Technica).
+2. Economic Framing: Frame all economics in US Dollars ($), US enterprise software ROI, Silicon Valley venture backing, and Big Tech compute cluster CAPEX.
+3. Language: Clear, authoritative American English (en-US).
+4. Structure:
    - Executive Brief (TL;DR): 3 bullet points highlighting core facts.
    - Section 1: The Breakthrough & Why It Matters (Context, background, market positioning).
    - Section 2: Technical Architecture & Core Innovations (How it works under the hood).
@@ -332,6 +337,16 @@ def assemble_full_article_page(topic_meta, body_html):
   <!-- Google Discover Directives -->
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
   <meta name="googlebot" content="index, follow, max-image-preview:large">
+
+  <!-- USA Market Targeting & Geo Meta Tags -->
+  <meta name="geo.region" content="US-CA">
+  <meta name="geo.placename" content="San Francisco, California">
+  <meta name="geo.position" content="37.7749;-122.4194">
+  <meta name="ICBM" content="37.7749, -122.4194">
+  <meta property="og:locale" content="en_US">
+  <meta name="target" content="all">
+  <meta name="coverage" content="Worldwide">
+  <meta name="distribution" content="Global">
 
   <!-- Favicon -->
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
@@ -521,7 +536,7 @@ def assemble_full_article_page(topic_meta, body_html):
         <span class="live-badge"><span class="live-pulse"></span> THE WIRE</span>
         <span class="ticker-text">{title} • Special Frontier Intelligence Report</span>
       </div>
-      <div class="ticker-date">{display_date} | Global Tech Edition</div>
+      <div class="ticker-date">{display_date} | US &amp; Silicon Valley Edition</div>
     </div>
   </div>
 
@@ -542,6 +557,14 @@ def assemble_full_article_page(topic_meta, body_html):
         <a href="/rss.xml">RSS Feed</a>
       </nav>
       <div class="header-actions">
+        <div class="header-search-wrap">
+          <div class="search-box">
+            <svg class="search-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+            <input type="text" id="globalSearchInput" placeholder="Search AI news, models..." autocomplete="off">
+            <span class="search-kbd">/</span>
+          </div>
+          <div id="searchResultsDropdown" class="search-dropdown"></div>
+        </div>
         <a href="/#subscribe" class="subscribe-btn">Get Dispatch</a>
       </div>
     </div>
@@ -552,7 +575,7 @@ def assemble_full_article_page(topic_meta, body_html):
       <div class="article-badge">⚡ {category}</div>
       <h1 class="article-title">{title}</h1>
       <div class="meta-bar">
-        <span>✍️ Paresh Padsala (AINews)</span>
+        <span>✍️ Paresh Padsala (US Bureau, San Francisco)</span>
         <span>📅 {display_date}</span>
         <span>⏱️ {read_time}</span>
       </div>
@@ -621,6 +644,7 @@ def assemble_full_article_page(topic_meta, body_html):
     </div>
   </footer>
 
+  <script src="/js/search.js"></script>
 </body>
 </html>"""
     return page_html, hero_img
@@ -748,6 +772,31 @@ def run_pipeline():
     update_index_page(topic_meta, hero_img)
     update_sitemap(topic_meta["slug"])
     update_rss(topic_meta, hero_img)
+
+    # Update Global Search JSON index
+    try:
+        api_dir = os.path.join(PUBLIC_DIR, "api")
+        os.makedirs(api_dir, exist_ok=True)
+        api_file = os.path.join(api_dir, "articles.json")
+        search_items = []
+        if os.path.exists(api_file):
+            with open(api_file, "r", encoding="utf-8") as af:
+                search_items = json.load(af)
+        new_entry = {
+            "title": topic_meta["title"],
+            "category": topic_meta["category"],
+            "date": datetime.now(_IST).strftime("%B %d, %Y"),
+            "url": f"/articles/{topic_meta['slug']}.html",
+            "excerpt": topic_meta["meta_desc"],
+            "badge": "LATEST"
+        }
+        if not any(a.get("url") == new_entry["url"] for a in search_items):
+            search_items.insert(0, new_entry)
+            with open(api_file, "w", encoding="utf-8") as af:
+                json.dump(search_items, af, indent=2)
+            print("✅ Updated /api/articles.json for Global Instant Search.")
+    except Exception as e:
+        print(f"   [Notice] Search index error: {e}")
 
     # Save to history
     hist = []
