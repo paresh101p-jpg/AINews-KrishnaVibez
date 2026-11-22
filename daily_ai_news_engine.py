@@ -201,9 +201,9 @@ def assemble_full_article_page(topic_meta, body_html):
     canonical_url = f"https://ainews.krishnavibez.in/articles/{slug}.html"
 
     now_ist = datetime.now(_IST)
-    date_iso = now_ist.isoformat()
-    pub_iso = date_iso
-    display_date = now_ist.strftime("%B %d, %Y")
+    pub_iso = topic_meta.get("pub_time_iso") or now_ist.isoformat()
+    date_iso = pub_iso
+    display_date = topic_meta.get("pub_date_display") or now_ist.strftime("%B %d, %Y")
 
     hero_img = topic_meta.get("hero_image") or CATEGORY_IMAGES_MAP.get(category.upper(), DEFAULT_TECH_HERO_IMAGE)
     if not hero_img.startswith("http"):
@@ -400,54 +400,52 @@ def assemble_full_article_page(topic_meta, body_html):
 
   <link rel="stylesheet" href="../css/style.css">
   <style>
-    /* Hallmark · genre: editorial · theme: editorial-paper-ink · redesign: full */
     .article-wrap {{
       max-width: 860px;
       margin: 0 auto;
-      padding: 32px 20px 60px;
-      overflow-x: clip;
+      padding: 40px 20px 80px;
     }}
     .article-header {{
-      margin-bottom: 24px;
+      margin-bottom: 28px;
     }}
     .article-badge {{
       display: inline-block;
-      background: var(--accent-cyan-subtle);
-      color: var(--accent-cyan);
-      border: 1px solid var(--accent-cyan-glow);
-      padding: 4px 12px;
-      border-radius: 16px;
+      background: rgba(6, 182, 212, 0.15);
+      color: var(--cyan);
+      border: 1px solid rgba(6, 182, 212, 0.35);
+      padding: 4px 14px;
+      border-radius: 20px;
       font-size: 0.8rem;
       font-weight: 700;
       margin-bottom: 16px;
+      text-transform: uppercase;
       letter-spacing: 0.5px;
     }}
     h1.article-title {{
-      font-size: clamp(1.8rem, 3.6vw, 2.7rem);
+      font-size: clamp(2rem, 3.8vw, 2.9rem);
       line-height: 1.28;
       font-weight: 800;
-      color: var(--text-bright);
+      color: #fff;
       margin-bottom: 16px;
       letter-spacing: -0.5px;
-      text-wrap: balance;
     }}
     .meta-bar {{
       display: flex;
       align-items: center;
       gap: 16px;
       color: var(--text-muted);
-      font-size: 0.88rem;
-      padding-bottom: 16px;
-      border-bottom: 1px solid var(--border-subtle);
+      font-size: 0.9rem;
+      padding-bottom: 18px;
+      border-bottom: 1px solid var(--border-color);
       flex-wrap: wrap;
     }}
     .hero-img-box {{
       width: 100%;
-      border-radius: 12px;
+      border-radius: 16px;
       overflow: hidden;
-      margin: 24px 0 32px;
-      border: 1px solid var(--border-subtle);
-      box-shadow: var(--shadow-dropdown);
+      margin: 30px 0 36px;
+      border: 1px solid var(--border-color);
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.6);
     }}
     .hero-img-box img {{
       width: 100%;
@@ -457,122 +455,105 @@ def assemble_full_article_page(topic_meta, body_html):
       display: block;
     }}
     .article-content h2 {{
-      color: var(--text-bright);
-      font-size: 1.55rem;
+      color: #fff;
+      font-size: 1.65rem;
       font-weight: 700;
-      margin: 40px 0 16px;
-      padding-bottom: 8px;
-      border-bottom: 1px solid var(--border-subtle);
-      text-wrap: balance;
+      margin: 44px 0 16px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--border-color);
     }}
     .article-content h3 {{
-      color: var(--accent-cyan);
-      font-size: 1.2rem;
-      margin: 24px 0 12px;
+      color: var(--cyan);
+      font-size: 1.25rem;
+      margin: 26px 0 12px;
     }}
     .article-content p {{
-      color: var(--text-primary);
-      font-size: 1.05rem;
-      line-height: 1.8;
-      margin-bottom: 20px;
+      color: #cbd5e1;
+      font-size: 1.1rem;
+      line-height: 1.85;
+      margin-bottom: 22px;
     }}
     .tech-callout, .tldr-box {{
-      background: var(--bg-card) !important;
-      border: 1px solid var(--accent-cyan-glow) !important;
-      border-left: 4px solid var(--accent-cyan) !important;
-      padding: 20px 24px !important;
-      border-radius: 0 10px 10px 0 !important;
-      margin: 24px 0 !important;
-      color: var(--text-bright) !important;
+      background: rgba(15, 23, 42, 0.95) !important;
+      border: 1px solid rgba(0, 240, 255, 0.25) !important;
+      border-left: 4px solid var(--cyan) !important;
+      padding: 24px 28px !important;
+      border-radius: 0 12px 12px 0 !important;
+      margin: 30px 0 !important;
+      color: #f1f5f9 !important;
     }}
     .tldr-box h3 {{
-      color: var(--accent-cyan) !important;
-      margin-bottom: 12px !important;
-      font-size: 1.2rem !important;
+      color: var(--cyan) !important;
+      margin-bottom: 14px !important;
+      font-size: 1.25rem !important;
+      letter-spacing: 0.5px !important;
     }}
     .tldr-box ul {{
       margin: 0 !important;
       padding-left: 20px !important;
-      color: var(--text-primary) !important;
+      color: #cbd5e1 !important;
     }}
     .tldr-box li {{
-      margin-bottom: 10px !important;
-      line-height: 1.7 !important;
-      font-size: 1rem !important;
+      margin-bottom: 12px !important;
+      line-height: 1.75 !important;
+      font-size: 1.02rem !important;
     }}
     .tech-callout strong, .tldr-box strong {{
-      color: var(--accent-cyan) !important;
+      color: #38bdf8 !important;
     }}
     .tech-table {{
-      display: block;
       width: 100%;
-      max-width: 100%;
-      overflow-x: auto;
-      -webkit-overflow-scrolling: touch;
       border-collapse: collapse;
-      margin: 24px 0;
-      font-size: 0.92rem;
+      margin: 28px 0;
+      font-size: 0.95rem;
       background: var(--bg-card);
-      border-radius: 8px;
-      border: 1px solid var(--border-subtle);
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid var(--border-color);
     }}
     .tech-table th, .tech-table td {{
-      padding: 12px 16px;
+      padding: 12px 18px;
       text-align: left;
-      border-bottom: 1px solid var(--border-subtle);
-      white-space: nowrap;
+      border-bottom: 1px solid var(--border-color);
     }}
     .tech-table th {{
-      background: var(--accent-cyan-subtle);
-      color: var(--accent-cyan);
+      background: rgba(6, 182, 212, 0.1);
+      color: var(--cyan);
       font-weight: 700;
     }}
     .faq-item {{
       background: var(--bg-card);
-      border: 1px solid var(--border-subtle);
-      border-radius: 8px;
-      padding: 16px 20px;
-      margin-bottom: 14px;
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 18px 22px;
+      margin-bottom: 16px;
     }}
     .faq-item h3 {{
       margin: 0 0 8px;
-      color: var(--accent-cyan);
-      font-size: 1.05rem;
+      color: var(--cyan);
+      font-size: 1.1rem;
     }}
     .share-bar {{
-      margin: 40px 0 24px;
-      padding: 16px;
+      margin: 50px 0 30px;
+      padding: 20px;
       background: var(--bg-card);
-      border: 1px solid var(--border-subtle);
-      border-radius: 10px;
+      border: 1px solid var(--border-color);
+      border-radius: 14px;
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 12px;
       flex-wrap: wrap;
     }}
     .share-btn {{
-      padding: 8px 14px;
-      border-radius: 6px;
-      font-size: 0.85rem;
+      padding: 8px 16px;
+      border-radius: 8px;
+      font-size: 0.9rem;
       font-weight: 600;
-      color: var(--text-bright);
+      color: #fff;
     }}
-    .share-tw {{ background: var(--social-tw); }}
-    .share-li {{ background: var(--social-li); }}
-    .share-rd {{ background: var(--social-rd); }}
-    @media (max-width: 768px) {{
-      .article-wrap {{
-        padding: 18px 14px 40px !important;
-      }}
-      h1.article-title {{
-        font-size: clamp(1.4rem, 6vw, 2rem) !important;
-      }}
-      .share-btn {{
-        flex: 1 1 calc(50% - 6px);
-        text-align: center;
-        justify-content: center;
-      }}
-    }}
+    .share-tw {{ background: #1da1f2; }}
+    .share-li {{ background: #0a66c2; }}
+    .share-rd {{ background: #ff4500; }}
   </style>
   <!-- Google Reader Revenue Manager (Subscribe with Google) -->
   <script async type="application/javascript" src="https://news.google.com/swg/js/v1/swg-basic.js"></script>
@@ -792,7 +773,8 @@ def update_sitemap(topic_meta, hero_img=""):
     if not os.path.exists(SITEMAP_FILE):
         return
     slug = topic_meta["slug"]
-    title = topic_meta["title"]
+    title = html.escape(topic_meta["title"], quote=True)
+    hero_img_esc = html.escape(hero_img, quote=True)
     now_ist = datetime.now(_IST)
     iso_date = now_ist.strftime("%Y-%m-%dT%H:%M:%S+05:30")
     new_entry = f"""  <url>
@@ -809,7 +791,7 @@ def update_sitemap(topic_meta, hero_img=""):
       <news:title>{title}</news:title>
     </news:news>
     <image:image>
-      <image:loc>{hero_img}</image:loc>
+      <image:loc>{hero_img_esc}</image:loc>
       <image:title>{title}</image:title>
     </image:image>
   </url>
@@ -821,14 +803,19 @@ def update_sitemap(topic_meta, hero_img=""):
         with open(SITEMAP_FILE, "w", encoding="utf-8") as f:
             f.write(xml)
         print("✅ Updated sitemap.xml with Google News & Discover tags.")
+        # Also sync news-sitemap.xml
+        news_sitemap_file = os.path.join(PUBLIC_DIR, "news-sitemap.xml")
+        if os.path.exists(news_sitemap_file):
+            with open(news_sitemap_file, "w", encoding="utf-8") as nf:
+                nf.write(xml)
 
 def update_rss(topic_meta, hero_img):
     if not os.path.exists(RSS_FILE):
         return
     slug = topic_meta["slug"]
-    title = topic_meta["title"]
+    title = html.escape(topic_meta["title"], quote=True)
     meta_desc = topic_meta["meta_desc"]
-    category = topic_meta["category"]
+    category = html.escape(topic_meta.get("category", "Artificial Intelligence"), quote=True)
     now_rfc = datetime.now(_IST).strftime("%a, %d %b %Y %H:%M:%S +0530")
     article_url = f"https://ainews.krishnavibez.in/articles/{slug}.html"
 
@@ -840,8 +827,8 @@ def update_rss(topic_meta, hero_img):
       <dc:creator>Paresh Padsala (AINews)</dc:creator>
       <category>{category}</category>
       <description><![CDATA[{meta_desc}]]></description>
-      <enclosure url="{hero_img}" type="image/jpeg" length="153600" />
-      <media:content url="{hero_img}" medium="image" width="1200" height="675" />
+      <enclosure url="{html.escape(hero_img, quote=True)}" type="image/jpeg" length="153600" />
+      <media:content url="{html.escape(hero_img, quote=True)}" medium="image" width="1200" height="675" />
     </item>
 """
     with open(RSS_FILE, "r", encoding="utf-8") as f:
@@ -876,10 +863,7 @@ def ping_search_engines_and_hubs(article_url):
         req = urllib.request.Request(
             "https://api.indexnow.org/indexnow",
             data=json.dumps(indexnow_payload).encode("utf-8"),
-            headers={
-                "Content-Type": "application/json; charset=utf-8",
-                "User-Agent": "Mozilla/5.0 (compatible; IndexNowClient/1.0; +https://www.indexnow.org)"
-            }
+            headers={"Content-Type": "application/json; charset=utf-8", "User-Agent": "AINews-Publisher/1.0"}
         )
         with urllib.request.urlopen(req, timeout=10) as r:
             print(f"   ✅ IndexNow ping successful: HTTP {r.status}")

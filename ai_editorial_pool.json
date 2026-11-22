@@ -51,9 +51,10 @@
       "cluster"
     ],
     "used_in_articles": [
-      "test"
+      "test",
+      "nvidia-blackwell-b200-scale-deployment-us-data-centers"
     ],
-    "last_used_date": "2026-11-21T09:55:59.602357"
+    "last_used_date": "2026-11-22T05:21:13.856251"
   },
   {
     "id": "humanoid_robot_production_plant",
@@ -106,9 +107,10 @@
       "euv"
     ],
     "used_in_articles": [
-      "test"
+      "test",
+      "neuromorphic-event-silicon-microwatt-edge-intelligence"
     ],
-    "last_used_date": "2026-11-21T09:55:59.684675"
+    "last_used_date": "2026-11-22T05:28:47.692753"
   },
   {
     "id": "robotic_hand_dexterity",
@@ -129,7 +131,10 @@
       "touch",
       "force feedback"
     ],
-    "used_in_articles": []
+    "used_in_articles": [
+      "meta-llama-4-multimodal-moe-400b-architecture-preview"
+    ],
+    "last_used_date": "2026-11-22T05:26:41.260433"
   },
   {
     "id": "quantum_cryogenic_chandelier",
@@ -272,8 +277,10 @@
       "hardware",
       "microchip"
     ],
-    "used_in_articles": [],
-    "last_used_date": null
+    "used_in_articles": [
+      "nvidia-blackwell-b200-scale-deployment-us-data-centers"
+    ],
+    "last_used_date": "2026-11-22T05:22:39.936994"
   },
   {
     "id": "Silicon_neural_processing_core_g\u2026_5bd0c8a0",
@@ -299,8 +306,10 @@
       "hardware",
       "microchip"
     ],
-    "used_in_articles": [],
-    "last_used_date": null
+    "used_in_articles": [
+      "cerebras-cs-3-wafer-scale-clusters-100x-gpu-training"
+    ],
+    "last_used_date": "2026-11-22T05:25:08.653603"
   },
   {
     "id": "Silicon_neural_processing_core_g\u2026_35a69f32",
@@ -326,8 +335,10 @@
       "hardware",
       "microchip"
     ],
-    "used_in_articles": [],
-    "last_used_date": null
+    "used_in_articles": [
+      "ai-datacenter-gigawatt-energy-crisis-smr-nuclear-reactors"
+    ],
+    "last_used_date": "2026-11-22T05:27:10.812187"
   },
   {
     "id": "Silicon_neural_processing_core_g\u2026_f1cbf6eb",
@@ -353,8 +364,10 @@
       "hardware",
       "microchip"
     ],
-    "used_in_articles": [],
-    "last_used_date": null
+    "used_in_articles": [
+      "photonic-optical-computing-light-speed-neural-accelerators"
+    ],
+    "last_used_date": "2026-11-22T05:28:16.141401"
   },
   {
     "id": "Silicon_neural_processing_core_g\u2026_e60439b9",
@@ -839,8 +852,10 @@
       "o3",
       "cot"
     ],
-    "used_in_articles": [],
-    "last_used_date": null
+    "used_in_articles": [
+      "anthropic-claude-3-7-sonnet-hybrid-reasoning-architecture"
+    ],
+    "last_used_date": "2026-11-22T05:23:09.661897"
   },
   {
     "id": "Holographic_thought_graph_branching_fd1d9169",
@@ -866,8 +881,10 @@
       "o3",
       "cot"
     ],
-    "used_in_articles": [],
-    "last_used_date": null
+    "used_in_articles": [
+      "deepseek-r1-open-weights-reasoning-moe-breakthrough"
+    ],
+    "last_used_date": "2026-11-22T05:24:09.523541"
   },
   {
     "id": "Holographic_cognitive_thought_gr\u2026_17f48c9a",
@@ -893,8 +910,10 @@
       "o3",
       "cot"
     ],
-    "used_in_articles": [],
-    "last_used_date": null
+    "used_in_articles": [
+      "google-gemini-2-flash-thinking-realtime-multimodal-reasoning"
+    ],
+    "last_used_date": "2026-11-22T05:25:39.914389"
   },
   {
     "id": "Holographic_thought_graph_branching_45d106d5",
@@ -920,8 +939,10 @@
       "o3",
       "cot"
     ],
-    "used_in_articles": [],
-    "last_used_date": null
+    "used_in_articles": [
+      "enterprise-small-language-models-fortune-500-local-7b"
+    ],
+    "last_used_date": "2026-11-22T05:30:03.928360"
   },
   {
     "id": "Holographic_thought_graph_branching_0a01e04f",
@@ -947,8 +968,10 @@
       "o3",
       "cot"
     ],
-    "used_in_articles": [],
-    "last_used_date": null
+    "used_in_articles": [
+      "mechanistic-interpretability-frontier-ai-safety-alignment"
+    ],
+    "last_used_date": "2026-11-22T05:30:34.200161"
   },
   {
     "id": "Thought_graph_branching_in_space_d4515e91",
@@ -1946,8 +1969,10 @@
       "assembly",
       "manipulation"
     ],
-    "used_in_articles": [],
-    "last_used_date": null
+    "used_in_articles": [
+      "tesla-optimus-gen-3-industrial-trials-automotive-assembly"
+    ],
+    "last_used_date": "2026-11-22T05:24:38.602743"
   },
   {
     "id": "Robots_assembling_components_in_\u2026_2265aa93",
@@ -1972,8 +1997,10 @@
       "assembly",
       "manipulation"
     ],
-    "used_in_articles": [],
-    "last_used_date": null
+    "used_in_articles": [
+      "figure-02-humanoid-100k-hours-bmw-manufacturing-analysis"
+    ],
+    "last_used_date": "2026-11-22T05:26:10.117205"
   },
   {
     "id": "Humanoid_robots_assembling_autom\u2026_e201d54b",
@@ -1998,8 +2025,10 @@
       "assembly",
       "manipulation"
     ],
-    "used_in_articles": [],
-    "last_used_date": null
+    "used_in_articles": [
+      "boston-dynamics-electric-atlas-commercial-warehouse-swivel"
+    ],
+    "last_used_date": "2026-11-22T05:29:32.343374"
   },
   {
     "id": "Robots_assembling_components_in_\u2026_6f611ad3",
@@ -4755,8 +4784,10 @@
       "computer use",
       "ai coding"
     ],
-    "used_in_articles": [],
-    "last_used_date": null
+    "used_in_articles": [
+      "cursor-vs-windsurf-vs-devin-autonomous-coding-agents-2026"
+    ],
+    "last_used_date": "2026-11-22T05:23:39.755371"
   },
   {
     "id": "Engineer_inspecting_optical_fibe\u2026_918c0c55",
@@ -4778,8 +4809,10 @@
       "computer use",
       "ai coding"
     ],
-    "used_in_articles": [],
-    "last_used_date": null
+    "used_in_articles": [
+      "cognition-ai-devin-2-swe-bench-verified-engineering"
+    ],
+    "last_used_date": "2026-11-22T05:27:42.718980"
   },
   {
     "id": "Engineer_inspecting_optical_fibe\u2026_7bb7b4fe",
@@ -11096,299 +11129,249 @@
     "last_used_date": null
   },
   {
-    "id": "humanoid_robot_gigafactory_assembly",
-    "url": "https://files.catbox.moe/w88gx7.jpg",
+    "url": "https://files.catbox.moe/8yfpve.jpg",
+    "local_file": "E:\\Paresh\\Auto Post\\AINews-KrishnaVibez\\public\\images\\ai_swarm_intelligence_mesh.jpg",
+    "category": "AGENTS & CODING",
+    "keywords": [
+      "swarm",
+      "multi-agent",
+      "autonomous agents",
+      "mesh",
+      "workflow",
+      "intelligence",
+      "reasoning",
+      "orchestration",
+      "devin",
+      "claude",
+      "coding"
+    ],
+    "description": "Cybernetic command lab visualizing multi-agent AI swarm topologies and real-time code synthesis workflows.",
+    "usage_count": 0,
+    "added_at": "2026-11-22 11:17:13"
+  },
+  {
+    "url": "https://files.catbox.moe/qvt52c.jpg",
+    "local_file": "E:\\Paresh\\Auto Post\\AINews-KrishnaVibez\\public\\images\\humanoid_semiconductor_cleanroom.jpg",
     "category": "ROBOTICS",
-    "badge": "ROBOTICS REPORT",
-    "subtopic": "humanoid_robotics",
-    "hook_title": "HUMANOID FLEET DEPLOYMENT & EMBODIED AI",
-    "hook_sub": "NEXT-GEN INDUSTRIAL REVOLUTION & PHYSICAL AGILITY",
     "keywords": [
       "humanoid",
       "robot",
-      "optimus",
-      "figure",
-      "boston dynamics",
-      "atlas",
+      "robotics",
+      "cleanroom",
+      "semiconductor",
+      "silicon wafer",
+      "precision",
       "bipedal",
-      "embodied ai",
-      "factory",
-      "automation",
       "manufacturing",
-      "assembly"
+      "tesla optimus",
+      "figure"
     ],
-    "used_in_articles": [],
-    "last_used_date": null
+    "description": "Advanced bipedal humanoid robot inspecting silicon semiconductor wafer in ISO cleanroom facility.",
+    "usage_count": 0,
+    "added_at": "2026-11-22 11:17:21"
   },
   {
-    "id": "semiconductor_euv_wafer_cleanroom",
-    "url": "https://files.catbox.moe/l9dj5n.jpg",
+    "url": "https://files.catbox.moe/za5fbt.jpg",
+    "local_file": "E:\\Paresh\\Auto Post\\AINews-KrishnaVibez\\public\\images\\cpo_silicon_photonics_chip_v2.jpg",
     "category": "SILICON & GPUS",
-    "badge": "SILICON ARCHITECTURE",
-    "subtopic": "semiconductor_silicon",
-    "hook_title": "NEXT-GEN NEURAL PROCESSING SILICON",
-    "hook_sub": "2NM EUV LITHO & ULTRA-BANDWIDTH SCALING",
+    "keywords": [
+      "silicon photonics",
+      "cpo",
+      "co-packaged optics",
+      "laser interconnect",
+      "chip",
+      "gpu",
+      "accelerator",
+      "tsmc",
+      "nvidia",
+      "packaging",
+      "optical computing"
+    ],
+    "description": "Co-Packaged Optics AI accelerator chip with cyan and violet silicon photonic waveguides and micro-circuitry.",
+    "usage_count": 0,
+    "added_at": "2026-11-22 11:17:30"
+  },
+  {
+    "url": "https://files.catbox.moe/jhh80s.jpg",
+    "local_file": "E:\\Paresh\\Auto Post\\AINews-KrishnaVibez\\public\\images\\cpo_silicon_photonics_chip_bench.jpg",
+    "category": "SILICON & GPUS",
     "keywords": [
       "silicon",
       "chip",
-      "gpu",
-      "nvidia",
-      "blackwell",
-      "tsmc",
-      "semiconductor",
-      "lithography",
-      "wafer",
-      "interposer",
-      "transistor",
-      "hbm",
+      "photonics",
+      "packaging",
       "hardware",
+      "semiconductor",
+      "die",
       "microchip",
-      "euv",
-      "2nm"
+      "optics"
     ],
-    "used_in_articles": [],
-    "last_used_date": null
+    "description": "Silicon photonics multi-die accelerator package with fiber interconnect laser beams on laboratory bench.",
+    "usage_count": 0,
+    "added_at": "2026-11-22 11:17:42"
   },
   {
-    "id": "autonomous_ai_coding_swarm_ide",
-    "url": "https://files.catbox.moe/k1esyc.jpg",
-    "category": "AGENTS & CODING",
-    "badge": "AUTONOMOUS AGENTS",
-    "subtopic": "software_agents",
-    "hook_title": "AUTONOMOUS SOFTWARE ENGINEERING SWARMS",
-    "hook_sub": "MULTI-AGENT ORCHESTRATION & COMPUTER USE",
+    "url": "https://files.catbox.moe/a1b095.jpg",
+    "local_file": "E:\\Paresh\\Auto Post\\AINews-KrishnaVibez\\public\\images\\frontier_ai_reasoning_architecture.jpg",
+    "category": "FRONTIER LLMS",
     "keywords": [
-      "coding",
-      "agent",
-      "autonomous agents",
-      "software engineering",
-      "developer",
-      "devops",
-      "terminal",
-      "swarm",
-      "computer use",
-      "ai coding",
-      "swe-bench",
-      "cursor",
-      "copilot"
+      "frontier llms",
+      "reasoning",
+      "inference",
+      "o3",
+      "o1",
+      "claude",
+      "tree of thought",
+      "deep thinking",
+      "mathematical logic",
+      "gpt-5",
+      "deepseek"
     ],
-    "used_in_articles": [],
-    "last_used_date": null
+    "description": "AI researcher analyzing tree-of-thought branching logic networks and mathematical inference paths on transparent curved glass.",
+    "usage_count": 0,
+    "added_at": "2026-11-22 11:17:53"
   },
   {
-    "id": "datacenter_liquid_cooling_cluster",
-    "url": "https://files.catbox.moe/480fxh.jpg",
+    "url": "https://files.catbox.moe/nxqc2u.jpg",
+    "local_file": "E:\\Paresh\\Auto Post\\AINews-KrishnaVibez\\public\\images\\gigawatt_ai_datacenter_liquid_cooling.jpg",
     "category": "AI INFRASTRUCTURE",
-    "badge": "AI HYPERSCALE CLUSTERS",
-    "subtopic": "datacenter_infrastructure",
-    "hook_title": "ENTERPRISE AI TRAINING CLUSTERS",
-    "hook_sub": "TWO-PHASE LIQUID COOLING & GIGA-WATT INFRASTRUCTURE",
     "keywords": [
       "datacenter",
-      "server",
-      "supercomputer",
       "liquid cooling",
-      "hyperscale",
-      "infrastructure",
-      "power",
+      "supercomputer",
+      "gigawatt",
       "cluster",
-      "networking",
-      "cooling",
-      "nvidia",
-      "gb200"
+      "gpu racks",
+      "energy",
+      "power",
+      "infrastructure",
+      "hyperscale"
     ],
-    "used_in_articles": [],
-    "last_used_date": null
+    "description": "Enterprise AI supercomputing facility with direct-to-chip liquid cooling manifolds carrying vibrant blue coolant.",
+    "usage_count": 0,
+    "added_at": "2026-11-22 11:18:06"
   },
   {
-    "id": "frontier_llm_reasoning_thought_graph",
-    "url": "https://files.catbox.moe/wkm2ci.jpg",
-    "category": "FRONTIER LLMS",
-    "badge": "REASONING FRONTIER",
-    "subtopic": "frontier_llm_reasoning",
-    "hook_title": "SYSTEM 2 DEEP REASONING MILESTONE",
-    "hook_sub": "TEST-TIME COMPUTE & AUTONOMOUS PROBLEM SOLVING",
+    "url": "https://files.catbox.moe/8yfpve.jpg",
+    "local_file": "E:\\Paresh\\Auto Post\\AINews-KrishnaVibez\\public\\images\\ai_swarm_intelligence_mesh.jpg",
+    "category": "AGENTS & CODING",
     "keywords": [
-      "llm",
+      "swarm",
+      "multi-agent",
+      "autonomous agents",
+      "mesh",
+      "workflow",
+      "intelligence",
       "reasoning",
-      "system 2",
-      "openai",
-      "gemini",
+      "orchestration",
+      "devin",
       "claude",
-      "deepseek",
-      "frontier model",
-      "transformer",
-      "neural network",
-      "test-time compute",
-      "artificial intelligence",
-      "o3",
-      "cot"
+      "coding"
     ],
-    "used_in_articles": [],
-    "last_used_date": null
+    "description": "Cybernetic command lab visualizing multi-agent AI swarm topologies and real-time code synthesis workflows.",
+    "usage_count": 0,
+    "added_at": "2026-11-22 11:21:08"
   },
   {
-    "id": "quantum_cryogenic_dilution_rig_open",
-    "url": "https://files.catbox.moe/w9ji3t.jpg",
-    "category": "QUANTUM & SCIENCE",
-    "badge": "QUANTUM BREAKTHROUGH",
-    "subtopic": "quantum_computing",
-    "hook_title": "SUPERCONDUCTING QUANTUM MATRIX",
-    "hook_sub": "DILUTION CRYOGENIC PROCESSORS & COHERENCE",
-    "keywords": [
-      "quantum",
-      "cryogenic",
-      "superconductor",
-      "qubit",
-      "dilution refrigerator",
-      "quantum computing",
-      "physics",
-      "quantum supremacy"
-    ],
-    "used_in_articles": [],
-    "last_used_date": null
-  },
-  {
-    "id": "dexterous_bipedal_robot_warehouse_logistics",
-    "url": "https://files.catbox.moe/8phkf2.jpg",
+    "url": "https://files.catbox.moe/qvt52c.jpg",
+    "local_file": "E:\\Paresh\\Auto Post\\AINews-KrishnaVibez\\public\\images\\humanoid_semiconductor_cleanroom.jpg",
     "category": "ROBOTICS",
-    "badge": "ROBOTICS REPORT",
-    "subtopic": "humanoid_robotics",
-    "hook_title": "AUTONOMOUS BIPEDAL LOGISTICS SYSTEMS",
-    "hook_sub": "MULTI-TERRAIN NAVIGATION & WAREHOUSE FLEET",
     "keywords": [
-      "robotics",
-      "bipedal",
       "humanoid",
-      "boston dynamics",
-      "atlas",
-      "digit",
-      "logistics",
-      "warehouse",
-      "pallet",
-      "autonomous mobility"
+      "robot",
+      "robotics",
+      "cleanroom",
+      "semiconductor",
+      "silicon wafer",
+      "precision",
+      "bipedal",
+      "manufacturing",
+      "tesla optimus",
+      "figure"
     ],
-    "used_in_articles": [],
-    "last_used_date": null
+    "description": "Advanced bipedal humanoid robot inspecting silicon semiconductor wafer in ISO cleanroom facility.",
+    "usage_count": 0,
+    "added_at": "2026-11-22 11:21:15"
   },
   {
-    "id": "blackwell_gpu_interposer_chip_macro",
-    "url": "https://files.catbox.moe/p6j2g8.jpg",
+    "url": "https://files.catbox.moe/za5fbt.jpg",
+    "local_file": "E:\\Paresh\\Auto Post\\AINews-KrishnaVibez\\public\\images\\cpo_silicon_photonics_chip_v2.jpg",
     "category": "SILICON & GPUS",
-    "badge": "SILICON ARCHITECTURE",
-    "subtopic": "semiconductor_silicon",
-    "hook_title": "EXASCALE ACCELERATOR ARCHITECTURE",
-    "hook_sub": "MULTI-CHIP MODULE & HIGH-BANDWIDTH MEMORY",
+    "keywords": [
+      "silicon photonics",
+      "cpo",
+      "co-packaged optics",
+      "laser interconnect",
+      "chip",
+      "gpu",
+      "accelerator",
+      "tsmc",
+      "nvidia",
+      "packaging",
+      "optical computing"
+    ],
+    "description": "Co-Packaged Optics AI accelerator chip with cyan and violet silicon photonic waveguides and micro-circuitry.",
+    "usage_count": 0,
+    "added_at": "2026-11-22 11:21:20"
+  },
+  {
+    "url": "https://files.catbox.moe/jhh80s.jpg",
+    "local_file": "E:\\Paresh\\Auto Post\\AINews-KrishnaVibez\\public\\images\\cpo_silicon_photonics_chip_bench.jpg",
+    "category": "SILICON & GPUS",
     "keywords": [
       "silicon",
-      "gpu",
-      "nvidia",
-      "blackwell",
-      "b200",
-      "chiplet",
-      "interposer",
-      "hbm3e",
-      "transistor",
+      "chip",
+      "photonics",
+      "packaging",
+      "hardware",
       "semiconductor",
-      "hardware"
+      "die",
+      "microchip",
+      "optics"
     ],
-    "used_in_articles": [],
-    "last_used_date": null
+    "description": "Silicon photonics multi-die accelerator package with fiber interconnect laser beams on laboratory bench.",
+    "usage_count": 0,
+    "added_at": "2026-11-22 11:21:27"
   },
   {
-    "id": "autonomous_vehicle_sensor_fleet_robotaxi",
-    "url": "https://files.catbox.moe/w6tbxv.jpg",
-    "category": "ROBOTICS",
-    "badge": "MOBILITY REPORT",
-    "subtopic": "autonomous_mobility",
-    "hook_title": "FULL AUTONOMOUS VEHICLE FLEET EXPANSION",
-    "hook_sub": "END-TO-END NEURAL DRIVING & URBAN MAPPING",
-    "keywords": [
-      "autonomous vehicle",
-      "robotaxi",
-      "waymo",
-      "tesla fsd",
-      "lidar",
-      "sensors",
-      "camera vision",
-      "self driving",
-      "neural network",
-      "fleet",
-      "urban navigation"
-    ],
-    "used_in_articles": [],
-    "last_used_date": null
-  },
-  {
-    "id": "humanoid_robotic_hand_dexterity_tactile",
-    "url": "https://files.catbox.moe/m3cpj0.jpg",
-    "category": "ROBOTICS",
-    "badge": "ROBOTICS REPORT",
-    "subtopic": "dexterous_manipulation",
-    "hook_title": "TACTILE SENSING & ULTRA-FINE MOTOR AGILITY",
-    "hook_sub": "SUB-MILLIMETER ELECTRONIC COMPONENT PLACEMENT",
-    "keywords": [
-      "robotic hand",
-      "dexterity",
-      "tactile sensor",
-      "end effector",
-      "gripper",
-      "fine motor",
-      "manipulation",
-      "prosthetic",
-      "assembly",
-      "robotic fingers",
-      "touch"
-    ],
-    "used_in_articles": [],
-    "last_used_date": null
-  },
-  {
-    "id": "sora_generative_video_holodeck_virtual",
-    "url": "https://files.catbox.moe/irsuub.jpg",
+    "url": "https://files.catbox.moe/a1b095.jpg",
+    "local_file": "E:\\Paresh\\Auto Post\\AINews-KrishnaVibez\\public\\images\\frontier_ai_reasoning_architecture.jpg",
     "category": "FRONTIER LLMS",
-    "badge": "CREATIVE AI BREAKTHROUGH",
-    "subtopic": "generative_video_multimodal",
-    "hook_title": "NEXT-GEN GENERATIVE VIDEO & WORLD SIMULATION",
-    "hook_sub": "DIFFUSION TRANSFORMER PHYSICS & REAL-TIME RENDERING",
     "keywords": [
-      "sora",
-      "video generation",
-      "diffusion transformer",
-      "world model",
-      "veo",
-      "runway",
-      "gen-3",
-      "kling",
-      "text to video",
-      "cinematic",
-      "multimodal"
+      "frontier llms",
+      "reasoning",
+      "inference",
+      "o3",
+      "o1",
+      "claude",
+      "tree of thought",
+      "deep thinking",
+      "mathematical logic",
+      "gpt-5",
+      "deepseek"
     ],
-    "used_in_articles": [],
-    "last_used_date": null
+    "description": "AI researcher analyzing tree-of-thought branching logic networks and mathematical inference paths on transparent curved glass.",
+    "usage_count": 0,
+    "added_at": "2026-11-22 11:21:35"
   },
   {
-    "id": "cybersecurity_neural_shield_defense",
-    "url": "https://files.catbox.moe/fzw8fj.jpg",
-    "category": "AGENTS & CODING",
-    "badge": "CYBERSECURITY BRIEF",
-    "subtopic": "ai_cybersecurity",
-    "hook_title": "AUTONOMOUS AI CYBER DEFENSE & ZERO-DAY MITIGATION",
-    "hook_sub": "NEURAL FIREWALLS & REAL-TIME MALWARE DETECTION",
+    "url": "https://files.catbox.moe/nxqc2u.jpg",
+    "local_file": "E:\\Paresh\\Auto Post\\AINews-KrishnaVibez\\public\\images\\gigawatt_ai_datacenter_liquid_cooling.jpg",
+    "category": "AI INFRASTRUCTURE",
     "keywords": [
-      "cybersecurity",
-      "security",
-      "defense",
-      "zero day",
-      "firewall",
-      "encryption",
-      "malware",
-      "ai security",
-      "infosec",
-      "threat intelligence",
-      "agentic defense"
+      "datacenter",
+      "liquid cooling",
+      "supercomputer",
+      "gigawatt",
+      "cluster",
+      "gpu racks",
+      "energy",
+      "power",
+      "infrastructure",
+      "hyperscale"
     ],
-    "used_in_articles": [],
-    "last_used_date": null
+    "description": "Enterprise AI supercomputing facility with direct-to-chip liquid cooling manifolds carrying vibrant blue coolant.",
+    "usage_count": 0,
+    "added_at": "2026-11-22 11:21:45"
   }
 ]

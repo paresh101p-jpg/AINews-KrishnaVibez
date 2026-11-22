@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://ainews.krishnavibez.in/</loc>
+    <lastmod>2026-11-21T15:35:00+05:30</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://files.catbox.moe/sqqcuk.jpg</image:loc>
+      <image:title>AINews — Global Frontier Artificial Intelligence and Tech Journal</image:title>
+    </image:image>
+  </url>
+
+  <!-- Lead Article: OpenAI o3 -->
+  <url>
+    <loc>https://ainews.krishnavibez.in/articles/openai-o3-reasoning-breakthrough-system-2-thinking.html</loc>
+    <lastmod>2026-11-21T13:01:26+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication>
+        <news:name>AINews</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-21T13:01:26+05:30</news:publication_date>
+      <news:title>OpenAI Unveils o3: The First AI Model Capable of Multi-Day Autonomous Reasoning</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://files.catbox.moe/sqqcuk.jpg</image:loc>
+      <image:title>OpenAI o3 Neural Core Architecture on Silicon Wafer</image:title>
+    </image:image>
+  </url>
+
+  <!-- Author Profile Page (Google Discover E-E-A-T) -->
+  <url>
+    <loc>https://ainews.krishnavibez.in/authors/paresh-padsala.html</loc>
+    <lastmod>2026-11-21T15:48:00+05:30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Core Editorial Trust Pages (Google News E-E-A-T) -->
+  <url>
+    <loc>https://ainews.krishnavibez.in/about.html</loc>
+    <lastmod>2026-11-21T15:40:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ainews.krishnavibez.in/ethics.html</loc>
+    <lastmod>2026-11-21T15:40:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ainews.krishnavibez.in/contact.html</loc>
+    <lastmod>2026-11-21T15:40:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://ainews.krishnavibez.in/articles/nvidia-blackwell-b200-scale-deployment-us-data-centers.html</loc>
+    <lastmod>2026-11-22T10:52:54+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication>
+        <news:name>AINews</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-22T10:52:54+05:30</news:publication_date>
+      <news:title>Nvidia Blackwell B200 Systems Hit Full Scale: The Gigawatt Era Begins</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://files.catbox.moe/x1ykn5.jpg</image:loc>
+      <image:title>Nvidia Blackwell B200 Systems Hit Full Scale: The Gigawatt Era Begins</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ainews.krishnavibez.in/articles/anthropic-claude-3-7-sonnet-hybrid-reasoning-architecture.html</loc>
+    <lastmod>2026-11-22T10:53:24+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication>
+        <news:name>AINews</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-22T10:53:24+05:30</news:publication_date>
+      <news:title>Anthropic Claude 3.7 Sonnet Unveiled: The Hybrid Reasoning Paradigm</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://files.catbox.moe/f50ziz.jpg</image:loc>
+      <image:title>Anthropic Claude 3.7 Sonnet Unveiled: The Hybrid Reasoning Paradigm</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ainews.krishnavibez.in/articles/cursor-vs-windsurf-vs-devin-autonomous-coding-agents-2026.html</loc>
+    <lastmod>2026-11-22T10:53:54+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication>
+        <news:name>AINews</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-22T10:53:54+05:30</news:publication_date>
+      <news:title>Cursor vs Windsurf vs Devin: The State of Autonomous Coding Agents in 2026</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://files.catbox.moe/fqdo1x.jpg</image:loc>
+      <image:title>Cursor vs Windsurf vs Devin: The State of Autonomous Coding Agents in 2026</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ainews.krishnavibez.in/articles/deepseek-r1-open-weights-reasoning-moe-breakthrough.html</loc>
+    <lastmod>2026-11-22T10:54:23+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication>
+        <news:name>AINews</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-22T10:54:23+05:30</news:publication_date>
+      <news:title>DeepSeek R1 and the Rise of Open-Weights Reasoning Architectures</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://files.catbox.moe/4h7zdo.jpg</image:loc>
+      <image:title>DeepSeek R1 and the Rise of Open-Weights Reasoning Architectures</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ainews.krishnavibez.in/articles/tesla-optimus-gen-3-industrial-trials-automotive-assembly.html</loc>
+    <lastmod>2026-11-22T10:54:53+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication>
+        <news:name>AINews</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-22T10:54:53+05:30</news:publication_date>
+      <news:title>Tesla Optimus Gen 3 Enters Industrial Trials: Factory Robotics Breakthrough</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://files.catbox.moe/ex69fq.jpg</image:loc>
+      <image:title>Tesla Optimus Gen 3 Enters Industrial Trials: Factory Robotics Breakthrough</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ainews.krishnavibez.in/articles/cerebras-cs-3-wafer-scale-clusters-100x-gpu-training.html</loc>
+    <lastmod>2026-11-22T10:55:24+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication>
+        <news:name>AINews</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-22T10:55:24+05:30</news:publication_date>
+      <news:title>Cerebras CS-3 Clusters: Wafer-Scale Engines Challenge Traditional GPU Clusters</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://files.catbox.moe/d756y4.jpg</image:loc>
+      <image:title>Cerebras CS-3 Clusters: Wafer-Scale Engines Challenge Traditional GPU Clusters</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ainews.krishnavibez.in/articles/google-gemini-2-flash-thinking-realtime-multimodal-reasoning.html</loc>
+    <lastmod>2026-11-22T10:55:55+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication>
+        <news:name>AINews</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-22T10:55:55+05:30</news:publication_date>
+      <news:title>Google Gemini 2.0 Flash Thinking: Real-Time Multimodal Reasoning at Scale</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://files.catbox.moe/97bw2l.jpg</image:loc>
+      <image:title>Google Gemini 2.0 Flash Thinking: Real-Time Multimodal Reasoning at Scale</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ainews.krishnavibez.in/articles/figure-02-humanoid-100k-hours-bmw-manufacturing-analysis.html</loc>
+    <lastmod>2026-11-22T10:56:26+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication>
+        <news:name>AINews</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-22T10:56:26+05:30</news:publication_date>
+      <news:title>Figure 02 Humanoids Complete 100,000 Hours in BMW Production Plants</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://files.catbox.moe/3c31d3.jpg</image:loc>
+      <image:title>Figure 02 Humanoids Complete 100,000 Hours in BMW Production Plants</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ainews.krishnavibez.in/articles/meta-llama-4-multimodal-moe-400b-architecture-preview.html</loc>
+    <lastmod>2026-11-22T10:56:55+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication>
+        <news:name>AINews</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-22T10:56:55+05:30</news:publication_date>
+      <news:title>Meta Llama 4 Architecture Preview: Native Multimodal MoE at 400B Scale</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://files.catbox.moe/s70b1m.jpg</image:loc>
+      <image:title>Meta Llama 4 Architecture Preview: Native Multimodal MoE at 400B Scale</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ainews.krishnavibez.in/articles/ai-datacenter-gigawatt-energy-crisis-smr-nuclear-reactors.html</loc>
+    <lastmod>2026-11-22T10:57:27+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication>
+        <news:name>AINews</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-22T10:57:27+05:30</news:publication_date>
+      <news:title>The $100 Billion AI Datacenter Power Crisis: SMR Nuclear Reactors &amp; Energy Gridlock</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://files.catbox.moe/yj13qd.jpg</image:loc>
+      <image:title>The $100 Billion AI Datacenter Power Crisis: SMR Nuclear Reactors &amp; Energy Gridlock</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ainews.krishnavibez.in/articles/cognition-ai-devin-2-swe-bench-verified-engineering.html</loc>
+    <lastmod>2026-11-22T10:58:01+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication>
+        <news:name>AINews</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-22T10:58:01+05:30</news:publication_date>
+      <news:title>Cognition AI Devin 2.0 Benchmarks: Solving 67% of Real-World GitHub Issues</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://files.catbox.moe/vyhrb3.jpg</image:loc>
+      <image:title>Cognition AI Devin 2.0 Benchmarks: Solving 67% of Real-World GitHub Issues</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ainews.krishnavibez.in/articles/photonic-optical-computing-light-speed-neural-accelerators.html</loc>
+    <lastmod>2026-11-22T10:58:32+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication>
+        <news:name>AINews</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-22T10:58:32+05:30</news:publication_date>
+      <news:title>Photonic Optical Computing: Light-Based Neural Network Accelerators Reach 100x Efficiency</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://files.catbox.moe/2bptpk.jpg</image:loc>
+      <image:title>Photonic Optical Computing: Light-Based Neural Network Accelerators Reach 100x Efficiency</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ainews.krishnavibez.in/articles/neuromorphic-event-silicon-microwatt-edge-intelligence.html</loc>
+    <lastmod>2026-11-22T10:59:17+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication>
+        <news:name>AINews</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-22T10:59:17+05:30</news:publication_date>
+      <news:title>Neuromorphic Edge AI: Event-Based Silicon Delivering Micro-Watt Intelligence</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://files.catbox.moe/m1e917.jpg</image:loc>
+      <image:title>Neuromorphic Edge AI: Event-Based Silicon Delivering Micro-Watt Intelligence</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ainews.krishnavibez.in/articles/boston-dynamics-electric-atlas-commercial-warehouse-swivel.html</loc>
+    <lastmod>2026-11-22T10:59:48+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication>
+        <news:name>AINews</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-22T10:59:48+05:30</news:publication_date>
+      <news:title>Boston Dynamics Electric Atlas: High-Torque Swivel Actuators in Commercial Warehousing</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://files.catbox.moe/l8fzai.jpg</image:loc>
+      <image:title>Boston Dynamics Electric Atlas: High-Torque Swivel Actuators in Commercial Warehousing</image:title>
+    </image:image>
+  </url>
+</urlset>

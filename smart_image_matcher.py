@@ -17,31 +17,8 @@ from datetime import datetime
 from PIL import Image, ImageDraw, ImageFont
 
 POOL_FILE = os.path.join(os.path.dirname(__file__), "ai_editorial_pool.json")
-
-def _resolve_font(size: int, bold: bool = False):
-    candidate_paths = [
-        # Linux / Ubuntu (GitHub Actions runner)
-        "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf" if bold else "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
-        "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf" if bold else "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf",
-        "/usr/share/fonts/truetype/freefont/FreeSansBold.ttf" if bold else "/usr/share/fonts/truetype/freefont/FreeSans.ttf",
-        # Android / Termux
-        "/system/fonts/Roboto-Bold.ttf" if bold else "/system/fonts/Roboto-Regular.ttf",
-        "/system/fonts/NotoSans-Bold.ttf" if bold else "/system/fonts/NotoSans-Regular.ttf",
-        # Windows
-        r"C:\Windows\Fonts\arialbd.ttf" if bold else r"C:\Windows\Fonts\arial.ttf",
-        r"C:\Windows\Fonts\segoeuib.ttf" if bold else r"C:\Windows\Fonts\segoeui.ttf",
-    ]
-    for path in candidate_paths:
-        if os.path.exists(path):
-            try:
-                return ImageFont.truetype(path, size)
-            except Exception:
-                continue
-    try:
-        return ImageFont.truetype("DejaVuSans-Bold.ttf" if bold else "DejaVuSans.ttf", size)
-    except Exception:
-        pass
-    return ImageFont.load_default()
+FONT_BOLD = r"C:\Windows\Fonts\arialbd.ttf"
+FONT_SEMI = r"C:\Windows\Fonts\segoeuib.ttf"
 
 def load_editorial_pool():
     if not os.path.exists(POOL_FILE):
@@ -102,9 +79,9 @@ def create_headline_hook_banner(base_url: str, title: str, category: str) -> str
             alpha = int(220 * ((y - (target_h - 175)) / 175.0)**1.25)
             draw.line([(0, y), (target_w, y)], fill=(10, 15, 26, alpha))
             
-        font_badge = _resolve_font(18, bold=True)
-        font_hook = _resolve_font(36, bold=True)
-        font_sub = _resolve_font(20, bold=False)
+        font_badge = ImageFont.truetype(FONT_BOLD, 18)
+        font_hook = ImageFont.truetype(FONT_BOLD, 36)
+        font_sub = ImageFont.truetype(FONT_SEMI, 20)
         
         badge_text, badge_color, hook1, hook2 = derive_hooks_from_title(title, category)
         

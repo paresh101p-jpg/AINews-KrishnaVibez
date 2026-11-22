@@ -1,5 +1,133 @@
 [
   {
+    "title": "Mechanistic Interpretability: Peering Inside the Black Box of Frontier AI Models",
+    "category": "FRONTIER LLMS",
+    "date": "November 22, 2026",
+    "url": "/articles/mechanistic-interpretability-frontier-ai-safety-alignment.html",
+    "excerpt": "Researchers map millions of neural features in frontier LLMs using Sparse Autoencoders (SAEs), pinpointing deceptive alignment and sycophancy circuits in real time.",
+    "badge": "LATEST"
+  },
+  {
+    "title": "Enterprise Small Language Models: Why Fortune 500s Are Moving to 7B Specialized Models",
+    "category": "FRONTIER LLMS",
+    "date": "November 22, 2026",
+    "url": "/articles/enterprise-small-language-models-fortune-500-local-7b.html",
+    "excerpt": "Enterprises increasingly abandon $20/million-token frontier APIs in favor of distilled 3B-8B local parameter models running privately on internal hardware.",
+    "badge": "LATEST"
+  },
+  {
+    "title": "Boston Dynamics Electric Atlas: High-Torque Swivel Actuators in Commercial Warehousing",
+    "category": "ROBOTICS",
+    "date": "November 22, 2026",
+    "url": "/articles/boston-dynamics-electric-atlas-commercial-warehouse-swivel.html",
+    "excerpt": "Boston Dynamics transitions its fully electric Atlas humanoid into live automotive logistics, demonstrating continuous 360-degree joint rotation and non-human kinematics.",
+    "badge": "LATEST"
+  },
+  {
+    "title": "Neuromorphic Edge AI: Event-Based Silicon Delivering Micro-Watt Intelligence",
+    "category": "SILICON & GPUS",
+    "date": "November 22, 2026",
+    "url": "/articles/neuromorphic-event-silicon-microwatt-edge-intelligence.html",
+    "excerpt": "Brain-inspired spiking neural network (SNN) chips enter commercial production, enabling continuous sensory keyword and vision intelligence on micro-watt batteries.",
+    "badge": "LATEST"
+  },
+  {
+    "title": "Photonic Optical Computing: Light-Based Neural Network Accelerators Reach 100x Efficiency",
+    "category": "SILICON & GPUS",
+    "date": "November 22, 2026",
+    "url": "/articles/photonic-optical-computing-light-speed-neural-accelerators.html",
+    "excerpt": "Silicon photonics startups achieve commercial matrix multiplication using optical waveguides and phase change modulators, bypassing electronic copper heat limits.",
+    "badge": "LATEST"
+  },
+  {
+    "title": "Cognition AI Devin 2.0 Benchmarks: Solving 67% of Real-World GitHub Issues",
+    "category": "AGENTS & CODING",
+    "date": "November 22, 2026",
+    "url": "/articles/cognition-ai-devin-2-swe-bench-verified-engineering.html",
+    "excerpt": "Cognition AI releases Devin 2.0 with a verified 67% resolution rate on SWE-bench Verified, integrating sandboxed browser debugging and enterprise repo indexing.",
+    "badge": "LATEST"
+  },
+  {
+    "title": "The $100 Billion AI Datacenter Power Crisis: SMR Nuclear Reactors & Energy Gridlock",
+    "category": "SILICON & GPUS",
+    "date": "November 22, 2026",
+    "url": "/articles/ai-datacenter-gigawatt-energy-crisis-smr-nuclear-reactors.html",
+    "excerpt": "Big tech firms commit over $100 billion to small modular nuclear reactors (SMRs) and geothermal contracts as US electric grid capacity bottlenecks AI training clusters.",
+    "badge": "LATEST"
+  },
+  {
+    "title": "Meta Llama 4 Architecture Preview: Native Multimodal MoE at 400B Scale",
+    "category": "OPEN SOURCE",
+    "date": "November 22, 2026",
+    "url": "/articles/meta-llama-4-multimodal-moe-400b-architecture-preview.html",
+    "excerpt": "Meta AI leaks architecture details for Llama 4, unveiling a native multi-token prediction Mixture-of-Experts design trained across 100,000 Nvidia H100 clusters.",
+    "badge": "LATEST"
+  },
+  {
+    "title": "Figure 02 Humanoids Complete 100,000 Hours in BMW Production Plants",
+    "category": "ROBOTICS",
+    "date": "November 22, 2026",
+    "url": "/articles/figure-02-humanoid-100k-hours-bmw-manufacturing-analysis.html",
+    "excerpt": "Figure AI announces landmark milestone as Figure 02 humanoid robots surpass 100,000 commercial operational hours handling precision sheet metal and sub-assemblies at BMW.",
+    "badge": "LATEST"
+  },
+  {
+    "title": "Google Gemini 2.0 Flash Thinking: Real-Time Multimodal Reasoning at Scale",
+    "category": "FRONTIER LLMS",
+    "date": "November 22, 2026",
+    "url": "/articles/google-gemini-2-flash-thinking-realtime-multimodal-reasoning.html",
+    "excerpt": "Google DeepMind launches Gemini 2.0 Flash Thinking, merging sub-second conversational latency with internal scratchpad reasoning across video, audio, and code.",
+    "badge": "LATEST"
+  },
+  {
+    "title": "Cerebras CS-3 Clusters: Wafer-Scale Engines Challenge Traditional GPU Clusters",
+    "category": "SILICON & GPUS",
+    "date": "November 22, 2026",
+    "url": "/articles/cerebras-cs-3-wafer-scale-clusters-100x-gpu-training.html",
+    "excerpt": "Cerebras Systems scales its CS-3 Wafer-Scale Engine clusters, achieving unprecedented 2,000+ tokens-per-second inference and unified 4-Trillion transistor throughput.",
+    "badge": "LATEST"
+  },
+  {
+    "title": "Tesla Optimus Gen 3 Enters Industrial Trials: Factory Robotics Breakthrough",
+    "category": "ROBOTICS",
+    "date": "November 22, 2026",
+    "url": "/articles/tesla-optimus-gen-3-industrial-trials-automotive-assembly.html",
+    "excerpt": "Tesla deploys Optimus Gen 3 humanoids into live Fremont assembly lines, demonstrating autonomous end-to-end neural battery cell sorting and dexterous manipulation.",
+    "badge": "LATEST"
+  },
+  {
+    "title": "DeepSeek R1 and the Rise of Open-Weights Reasoning Architectures",
+    "category": "OPEN SOURCE",
+    "date": "November 22, 2026",
+    "url": "/articles/deepseek-r1-open-weights-reasoning-moe-breakthrough.html",
+    "excerpt": "DeepSeek R1 proves pure reinforcement learning can unlock frontier-grade reasoning without supervised fine-tuning, shaking the closed-source AI monopoly.",
+    "badge": "LATEST"
+  },
+  {
+    "title": "Cursor vs Windsurf vs Devin: The State of Autonomous Coding Agents in 2026",
+    "category": "AGENTS & CODING",
+    "date": "November 22, 2026",
+    "url": "/articles/cursor-vs-windsurf-vs-devin-autonomous-coding-agents-2026.html",
+    "excerpt": "An in-depth benchmark analysis of Cursor, Codeium Windsurf, and Cognition Devin 2.0 as autonomous software engineering transforms global development teams.",
+    "badge": "LATEST"
+  },
+  {
+    "title": "Anthropic Claude 3.7 Sonnet Unveiled: The Hybrid Reasoning Paradigm",
+    "category": "FRONTIER LLMS",
+    "date": "November 22, 2026",
+    "url": "/articles/anthropic-claude-3-7-sonnet-hybrid-reasoning-architecture.html",
+    "excerpt": "Anthropic reveals Claude 3.7 Sonnet, introducing dynamic token-budget reasoning that bridges lightning fast reflex responses with multi-step math and coding logic.",
+    "badge": "LATEST"
+  },
+  {
+    "title": "Nvidia Blackwell B200 Systems Hit Full Scale: The Gigawatt Era Begins",
+    "category": "SILICON & GPUS",
+    "date": "November 22, 2026",
+    "url": "/articles/nvidia-blackwell-b200-scale-deployment-us-data-centers.html",
+    "excerpt": "Nvidia\u2019s Blackwell B200 clusters are officially hitting US data centers, triggering a gigawatt-scale surge in enterprise AI compute and training efficiency.",
+    "badge": "LATEST"
+  },
+  {
     "title": "OpenAI Unveils o3: The First AI Model Capable of Multi-Day Autonomous Reasoning",
     "category": "FRONTIER LLMS",
     "date": "November 21, 2026",

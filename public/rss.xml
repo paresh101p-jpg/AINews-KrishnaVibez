@@ -8,15 +8,195 @@
     <lastBuildDate>Sat, 21 Nov 2026 12:00:00 +0530</lastBuildDate>
     <atom:link href="https://ainews.krishnavibez.in/rss.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>NVIDIA Unveils Blackwell B300: Powering the First Zettascale AI Data Centers</title>
-      <link>https://ainews.krishnavibez.in/articles/nvidia-blackwell-b300-massive-scale-deployment.html</link>
-      <guid isPermaLink="true">https://ainews.krishnavibez.in/articles/nvidia-blackwell-b300-massive-scale-deployment.html</guid>
-      <pubDate>Sat, 21 Nov 2026 23:04:54 +0530</pubDate>
+      <title>Mechanistic Interpretability: Peering Inside the Black Box of Frontier AI Models</title>
+      <link>https://ainews.krishnavibez.in/articles/mechanistic-interpretability-frontier-ai-safety-alignment.html</link>
+      <guid isPermaLink="true">https://ainews.krishnavibez.in/articles/mechanistic-interpretability-frontier-ai-safety-alignment.html</guid>
+      <pubDate>Sun, 22 Nov 2026 11:00:48 +0530</pubDate>
       <dc:creator>Paresh Padsala (AINews)</dc:creator>
-      <category>SILICON & GPUS</category>
-      <description><![CDATA[NVIDIA launches the Blackwell B300, delivering a 4x performance jump for massive frontier model training. Silicon Valley's race to Zettascale officially begins.]]></description>
-      <enclosure url="https://files.catbox.moe/em4v56.jpg" type="image/jpeg" length="153600" />
-      <media:content url="https://files.catbox.moe/em4v56.jpg" medium="image" width="1200" height="675" />
+      <category>FRONTIER LLMS</category>
+      <description><![CDATA[Researchers map millions of neural features in frontier LLMs using Sparse Autoencoders (SAEs), pinpointing deceptive alignment and sycophancy circuits in real time.]]></description>
+      <enclosure url="https://files.catbox.moe/ghadnv.jpg" type="image/jpeg" length="153600" />
+      <media:content url="https://files.catbox.moe/ghadnv.jpg" medium="image" width="1200" height="675" />
+    </item>
+
+    <item>
+      <title>Enterprise Small Language Models: Why Fortune 500s Are Moving to 7B Specialized Models</title>
+      <link>https://ainews.krishnavibez.in/articles/enterprise-small-language-models-fortune-500-local-7b.html</link>
+      <guid isPermaLink="true">https://ainews.krishnavibez.in/articles/enterprise-small-language-models-fortune-500-local-7b.html</guid>
+      <pubDate>Sun, 22 Nov 2026 11:00:19 +0530</pubDate>
+      <dc:creator>Paresh Padsala (AINews)</dc:creator>
+      <category>FRONTIER LLMS</category>
+      <description><![CDATA[Enterprises increasingly abandon $20/million-token frontier APIs in favor of distilled 3B-8B local parameter models running privately on internal hardware.]]></description>
+      <enclosure url="https://files.catbox.moe/071cu2.jpg" type="image/jpeg" length="153600" />
+      <media:content url="https://files.catbox.moe/071cu2.jpg" medium="image" width="1200" height="675" />
+    </item>
+
+    <item>
+      <title>Boston Dynamics Electric Atlas: High-Torque Swivel Actuators in Commercial Warehousing</title>
+      <link>https://ainews.krishnavibez.in/articles/boston-dynamics-electric-atlas-commercial-warehouse-swivel.html</link>
+      <guid isPermaLink="true">https://ainews.krishnavibez.in/articles/boston-dynamics-electric-atlas-commercial-warehouse-swivel.html</guid>
+      <pubDate>Sun, 22 Nov 2026 10:59:48 +0530</pubDate>
+      <dc:creator>Paresh Padsala (AINews)</dc:creator>
+      <category>ROBOTICS</category>
+      <description><![CDATA[Boston Dynamics transitions its fully electric Atlas humanoid into live automotive logistics, demonstrating continuous 360-degree joint rotation and non-human kinematics.]]></description>
+      <enclosure url="https://files.catbox.moe/l8fzai.jpg" type="image/jpeg" length="153600" />
+      <media:content url="https://files.catbox.moe/l8fzai.jpg" medium="image" width="1200" height="675" />
+    </item>
+
+    <item>
+      <title>Neuromorphic Edge AI: Event-Based Silicon Delivering Micro-Watt Intelligence</title>
+      <link>https://ainews.krishnavibez.in/articles/neuromorphic-event-silicon-microwatt-edge-intelligence.html</link>
+      <guid isPermaLink="true">https://ainews.krishnavibez.in/articles/neuromorphic-event-silicon-microwatt-edge-intelligence.html</guid>
+      <pubDate>Sun, 22 Nov 2026 10:59:17 +0530</pubDate>
+      <dc:creator>Paresh Padsala (AINews)</dc:creator>
+      <category>SILICON &amp; GPUS</category>
+      <description><![CDATA[Brain-inspired spiking neural network (SNN) chips enter commercial production, enabling continuous sensory keyword and vision intelligence on micro-watt batteries.]]></description>
+      <enclosure url="https://files.catbox.moe/m1e917.jpg" type="image/jpeg" length="153600" />
+      <media:content url="https://files.catbox.moe/m1e917.jpg" medium="image" width="1200" height="675" />
+    </item>
+
+    <item>
+      <title>Photonic Optical Computing: Light-Based Neural Network Accelerators Reach 100x Efficiency</title>
+      <link>https://ainews.krishnavibez.in/articles/photonic-optical-computing-light-speed-neural-accelerators.html</link>
+      <guid isPermaLink="true">https://ainews.krishnavibez.in/articles/photonic-optical-computing-light-speed-neural-accelerators.html</guid>
+      <pubDate>Sun, 22 Nov 2026 10:58:32 +0530</pubDate>
+      <dc:creator>Paresh Padsala (AINews)</dc:creator>
+      <category>SILICON &amp; GPUS</category>
+      <description><![CDATA[Silicon photonics startups achieve commercial matrix multiplication using optical waveguides and phase change modulators, bypassing electronic copper heat limits.]]></description>
+      <enclosure url="https://files.catbox.moe/2bptpk.jpg" type="image/jpeg" length="153600" />
+      <media:content url="https://files.catbox.moe/2bptpk.jpg" medium="image" width="1200" height="675" />
+    </item>
+
+    <item>
+      <title>Cognition AI Devin 2.0 Benchmarks: Solving 67% of Real-World GitHub Issues</title>
+      <link>https://ainews.krishnavibez.in/articles/cognition-ai-devin-2-swe-bench-verified-engineering.html</link>
+      <guid isPermaLink="true">https://ainews.krishnavibez.in/articles/cognition-ai-devin-2-swe-bench-verified-engineering.html</guid>
+      <pubDate>Sun, 22 Nov 2026 10:58:01 +0530</pubDate>
+      <dc:creator>Paresh Padsala (AINews)</dc:creator>
+      <category>AGENTS &amp; CODING</category>
+      <description><![CDATA[Cognition AI releases Devin 2.0 with a verified 67% resolution rate on SWE-bench Verified, integrating sandboxed browser debugging and enterprise repo indexing.]]></description>
+      <enclosure url="https://files.catbox.moe/vyhrb3.jpg" type="image/jpeg" length="153600" />
+      <media:content url="https://files.catbox.moe/vyhrb3.jpg" medium="image" width="1200" height="675" />
+    </item>
+
+    <item>
+      <title>The $100 Billion AI Datacenter Power Crisis: SMR Nuclear Reactors &amp; Energy Gridlock</title>
+      <link>https://ainews.krishnavibez.in/articles/ai-datacenter-gigawatt-energy-crisis-smr-nuclear-reactors.html</link>
+      <guid isPermaLink="true">https://ainews.krishnavibez.in/articles/ai-datacenter-gigawatt-energy-crisis-smr-nuclear-reactors.html</guid>
+      <pubDate>Sun, 22 Nov 2026 10:57:27 +0530</pubDate>
+      <dc:creator>Paresh Padsala (AINews)</dc:creator>
+      <category>SILICON &amp; GPUS</category>
+      <description><![CDATA[Big tech firms commit over $100 billion to small modular nuclear reactors (SMRs) and geothermal contracts as US electric grid capacity bottlenecks AI training clusters.]]></description>
+      <enclosure url="https://files.catbox.moe/yj13qd.jpg" type="image/jpeg" length="153600" />
+      <media:content url="https://files.catbox.moe/yj13qd.jpg" medium="image" width="1200" height="675" />
+    </item>
+
+    <item>
+      <title>Meta Llama 4 Architecture Preview: Native Multimodal MoE at 400B Scale</title>
+      <link>https://ainews.krishnavibez.in/articles/meta-llama-4-multimodal-moe-400b-architecture-preview.html</link>
+      <guid isPermaLink="true">https://ainews.krishnavibez.in/articles/meta-llama-4-multimodal-moe-400b-architecture-preview.html</guid>
+      <pubDate>Sun, 22 Nov 2026 10:56:55 +0530</pubDate>
+      <dc:creator>Paresh Padsala (AINews)</dc:creator>
+      <category>OPEN SOURCE</category>
+      <description><![CDATA[Meta AI leaks architecture details for Llama 4, unveiling a native multi-token prediction Mixture-of-Experts design trained across 100,000 Nvidia H100 clusters.]]></description>
+      <enclosure url="https://files.catbox.moe/s70b1m.jpg" type="image/jpeg" length="153600" />
+      <media:content url="https://files.catbox.moe/s70b1m.jpg" medium="image" width="1200" height="675" />
+    </item>
+
+    <item>
+      <title>Figure 02 Humanoids Complete 100,000 Hours in BMW Production Plants</title>
+      <link>https://ainews.krishnavibez.in/articles/figure-02-humanoid-100k-hours-bmw-manufacturing-analysis.html</link>
+      <guid isPermaLink="true">https://ainews.krishnavibez.in/articles/figure-02-humanoid-100k-hours-bmw-manufacturing-analysis.html</guid>
+      <pubDate>Sun, 22 Nov 2026 10:56:26 +0530</pubDate>
+      <dc:creator>Paresh Padsala (AINews)</dc:creator>
+      <category>ROBOTICS</category>
+      <description><![CDATA[Figure AI announces landmark milestone as Figure 02 humanoid robots surpass 100,000 commercial operational hours handling precision sheet metal and sub-assemblies at BMW.]]></description>
+      <enclosure url="https://files.catbox.moe/3c31d3.jpg" type="image/jpeg" length="153600" />
+      <media:content url="https://files.catbox.moe/3c31d3.jpg" medium="image" width="1200" height="675" />
+    </item>
+
+    <item>
+      <title>Google Gemini 2.0 Flash Thinking: Real-Time Multimodal Reasoning at Scale</title>
+      <link>https://ainews.krishnavibez.in/articles/google-gemini-2-flash-thinking-realtime-multimodal-reasoning.html</link>
+      <guid isPermaLink="true">https://ainews.krishnavibez.in/articles/google-gemini-2-flash-thinking-realtime-multimodal-reasoning.html</guid>
+      <pubDate>Sun, 22 Nov 2026 10:55:55 +0530</pubDate>
+      <dc:creator>Paresh Padsala (AINews)</dc:creator>
+      <category>FRONTIER LLMS</category>
+      <description><![CDATA[Google DeepMind launches Gemini 2.0 Flash Thinking, merging sub-second conversational latency with internal scratchpad reasoning across video, audio, and code.]]></description>
+      <enclosure url="https://files.catbox.moe/97bw2l.jpg" type="image/jpeg" length="153600" />
+      <media:content url="https://files.catbox.moe/97bw2l.jpg" medium="image" width="1200" height="675" />
+    </item>
+
+    <item>
+      <title>Cerebras CS-3 Clusters: Wafer-Scale Engines Challenge Traditional GPU Clusters</title>
+      <link>https://ainews.krishnavibez.in/articles/cerebras-cs-3-wafer-scale-clusters-100x-gpu-training.html</link>
+      <guid isPermaLink="true">https://ainews.krishnavibez.in/articles/cerebras-cs-3-wafer-scale-clusters-100x-gpu-training.html</guid>
+      <pubDate>Sun, 22 Nov 2026 10:55:24 +0530</pubDate>
+      <dc:creator>Paresh Padsala (AINews)</dc:creator>
+      <category>SILICON &amp; GPUS</category>
+      <description><![CDATA[Cerebras Systems scales its CS-3 Wafer-Scale Engine clusters, achieving unprecedented 2,000+ tokens-per-second inference and unified 4-Trillion transistor throughput.]]></description>
+      <enclosure url="https://files.catbox.moe/d756y4.jpg" type="image/jpeg" length="153600" />
+      <media:content url="https://files.catbox.moe/d756y4.jpg" medium="image" width="1200" height="675" />
+    </item>
+
+    <item>
+      <title>Tesla Optimus Gen 3 Enters Industrial Trials: Factory Robotics Breakthrough</title>
+      <link>https://ainews.krishnavibez.in/articles/tesla-optimus-gen-3-industrial-trials-automotive-assembly.html</link>
+      <guid isPermaLink="true">https://ainews.krishnavibez.in/articles/tesla-optimus-gen-3-industrial-trials-automotive-assembly.html</guid>
+      <pubDate>Sun, 22 Nov 2026 10:54:53 +0530</pubDate>
+      <dc:creator>Paresh Padsala (AINews)</dc:creator>
+      <category>ROBOTICS</category>
+      <description><![CDATA[Tesla deploys Optimus Gen 3 humanoids into live Fremont assembly lines, demonstrating autonomous end-to-end neural battery cell sorting and dexterous manipulation.]]></description>
+      <enclosure url="https://files.catbox.moe/ex69fq.jpg" type="image/jpeg" length="153600" />
+      <media:content url="https://files.catbox.moe/ex69fq.jpg" medium="image" width="1200" height="675" />
+    </item>
+
+    <item>
+      <title>DeepSeek R1 and the Rise of Open-Weights Reasoning Architectures</title>
+      <link>https://ainews.krishnavibez.in/articles/deepseek-r1-open-weights-reasoning-moe-breakthrough.html</link>
+      <guid isPermaLink="true">https://ainews.krishnavibez.in/articles/deepseek-r1-open-weights-reasoning-moe-breakthrough.html</guid>
+      <pubDate>Sun, 22 Nov 2026 10:54:23 +0530</pubDate>
+      <dc:creator>Paresh Padsala (AINews)</dc:creator>
+      <category>OPEN SOURCE</category>
+      <description><![CDATA[DeepSeek R1 proves pure reinforcement learning can unlock frontier-grade reasoning without supervised fine-tuning, shaking the closed-source AI monopoly.]]></description>
+      <enclosure url="https://files.catbox.moe/4h7zdo.jpg" type="image/jpeg" length="153600" />
+      <media:content url="https://files.catbox.moe/4h7zdo.jpg" medium="image" width="1200" height="675" />
+    </item>
+
+    <item>
+      <title>Cursor vs Windsurf vs Devin: The State of Autonomous Coding Agents in 2026</title>
+      <link>https://ainews.krishnavibez.in/articles/cursor-vs-windsurf-vs-devin-autonomous-coding-agents-2026.html</link>
+      <guid isPermaLink="true">https://ainews.krishnavibez.in/articles/cursor-vs-windsurf-vs-devin-autonomous-coding-agents-2026.html</guid>
+      <pubDate>Sun, 22 Nov 2026 10:53:54 +0530</pubDate>
+      <dc:creator>Paresh Padsala (AINews)</dc:creator>
+      <category>AGENTS &amp; CODING</category>
+      <description><![CDATA[An in-depth benchmark analysis of Cursor, Codeium Windsurf, and Cognition Devin 2.0 as autonomous software engineering transforms global development teams.]]></description>
+      <enclosure url="https://files.catbox.moe/fqdo1x.jpg" type="image/jpeg" length="153600" />
+      <media:content url="https://files.catbox.moe/fqdo1x.jpg" medium="image" width="1200" height="675" />
+    </item>
+
+    <item>
+      <title>Anthropic Claude 3.7 Sonnet Unveiled: The Hybrid Reasoning Paradigm</title>
+      <link>https://ainews.krishnavibez.in/articles/anthropic-claude-3-7-sonnet-hybrid-reasoning-architecture.html</link>
+      <guid isPermaLink="true">https://ainews.krishnavibez.in/articles/anthropic-claude-3-7-sonnet-hybrid-reasoning-architecture.html</guid>
+      <pubDate>Sun, 22 Nov 2026 10:53:24 +0530</pubDate>
+      <dc:creator>Paresh Padsala (AINews)</dc:creator>
+      <category>FRONTIER LLMS</category>
+      <description><![CDATA[Anthropic reveals Claude 3.7 Sonnet, introducing dynamic token-budget reasoning that bridges lightning fast reflex responses with multi-step math and coding logic.]]></description>
+      <enclosure url="https://files.catbox.moe/f50ziz.jpg" type="image/jpeg" length="153600" />
+      <media:content url="https://files.catbox.moe/f50ziz.jpg" medium="image" width="1200" height="675" />
+    </item>
+
+    <item>
+      <title>Nvidia Blackwell B200 Systems Hit Full Scale: The Gigawatt Era Begins</title>
+      <link>https://ainews.krishnavibez.in/articles/nvidia-blackwell-b200-scale-deployment-us-data-centers.html</link>
+      <guid isPermaLink="true">https://ainews.krishnavibez.in/articles/nvidia-blackwell-b200-scale-deployment-us-data-centers.html</guid>
+      <pubDate>Sun, 22 Nov 2026 10:52:54 +0530</pubDate>
+      <dc:creator>Paresh Padsala (AINews)</dc:creator>
+      <category>SILICON &amp; GPUS</category>
+      <description><![CDATA[Nvidia’s Blackwell B200 clusters are officially hitting US data centers, triggering a gigawatt-scale surge in enterprise AI compute and training efficiency.]]></description>
+      <enclosure url="https://files.catbox.moe/x1ykn5.jpg" type="image/jpeg" length="153600" />
+      <media:content url="https://files.catbox.moe/x1ykn5.jpg" medium="image" width="1200" height="675" />
     </item>
 
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />

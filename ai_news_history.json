@@ -6,9 +6,99 @@
     "created_at": "2026-11-21T13:01:26.122170+05:30"
   },
   {
-    "slug": "nvidia-blackwell-b300-massive-scale-deployment",
-    "title": "NVIDIA Unveils Blackwell B300: Powering the First Zettascale AI Data Centers",
+    "slug": "nvidia-blackwell-b200-scale-deployment-us-data-centers",
+    "title": "Nvidia Blackwell B200 Systems Hit Full Scale: The Gigawatt Era Begins",
     "category": "SILICON & GPUS",
-    "created_at": "2026-11-21T23:04:54.574165+05:30"
+    "created_at": "2026-11-22T09:22:39.901479+05:30"
+  },
+  {
+    "slug": "anthropic-claude-3-7-sonnet-hybrid-reasoning-architecture",
+    "title": "Anthropic Claude 3.7 Sonnet Unveiled: The Hybrid Reasoning Paradigm",
+    "category": "FRONTIER LLMS",
+    "created_at": "2026-11-22T09:28:39.901479+05:30"
+  },
+  {
+    "slug": "cursor-vs-windsurf-vs-devin-autonomous-coding-agents-2026",
+    "title": "Cursor vs Windsurf vs Devin: The State of Autonomous Coding Agents in 2026",
+    "category": "AGENTS & CODING",
+    "created_at": "2026-11-22T09:34:39.901479+05:30"
+  },
+  {
+    "slug": "deepseek-r1-open-weights-reasoning-moe-breakthrough",
+    "title": "DeepSeek R1 and the Rise of Open-Weights Reasoning Architectures",
+    "category": "OPEN SOURCE",
+    "created_at": "2026-11-22T09:40:39.901479+05:30"
+  },
+  {
+    "slug": "tesla-optimus-gen-3-industrial-trials-automotive-assembly",
+    "title": "Tesla Optimus Gen 3 Enters Industrial Trials: Factory Robotics Breakthrough",
+    "category": "ROBOTICS",
+    "created_at": "2026-11-22T09:46:39.901479+05:30"
+  },
+  {
+    "slug": "cerebras-cs-3-wafer-scale-clusters-100x-gpu-training",
+    "title": "Cerebras CS-3 Clusters: Wafer-Scale Engines Challenge Traditional GPU Clusters",
+    "category": "SILICON & GPUS",
+    "created_at": "2026-11-22T09:52:39.901479+05:30"
+  },
+  {
+    "slug": "google-gemini-2-flash-thinking-realtime-multimodal-reasoning",
+    "title": "Google Gemini 2.0 Flash Thinking: Real-Time Multimodal Reasoning at Scale",
+    "category": "FRONTIER LLMS",
+    "created_at": "2026-11-22T09:58:39.901479+05:30"
+  },
+  {
+    "slug": "figure-02-humanoid-100k-hours-bmw-manufacturing-analysis",
+    "title": "Figure 02 Humanoids Complete 100,000 Hours in BMW Production Plants",
+    "category": "ROBOTICS",
+    "created_at": "2026-11-22T10:04:39.901479+05:30"
+  },
+  {
+    "slug": "meta-llama-4-multimodal-moe-400b-architecture-preview",
+    "title": "Meta Llama 4 Architecture Preview: Native Multimodal MoE at 400B Scale",
+    "category": "OPEN SOURCE",
+    "created_at": "2026-11-22T10:10:39.901479+05:30"
+  },
+  {
+    "slug": "ai-datacenter-gigawatt-energy-crisis-smr-nuclear-reactors",
+    "title": "The $100 Billion AI Datacenter Power Crisis: SMR Nuclear Reactors & Energy Gridlock",
+    "category": "SILICON & GPUS",
+    "created_at": "2026-11-22T10:16:39.901479+05:30"
+  },
+  {
+    "slug": "cognition-ai-devin-2-swe-bench-verified-engineering",
+    "title": "Cognition AI Devin 2.0 Benchmarks: Solving 67% of Real-World GitHub Issues",
+    "category": "AGENTS & CODING",
+    "created_at": "2026-11-22T10:22:39.901479+05:30"
+  },
+  {
+    "slug": "photonic-optical-computing-light-speed-neural-accelerators",
+    "title": "Photonic Optical Computing: Light-Based Neural Network Accelerators Reach 100x Efficiency",
+    "category": "SILICON & GPUS",
+    "created_at": "2026-11-22T10:28:39.901479+05:30"
+  },
+  {
+    "slug": "neuromorphic-event-silicon-microwatt-edge-intelligence",
+    "title": "Neuromorphic Edge AI: Event-Based Silicon Delivering Micro-Watt Intelligence",
+    "category": "SILICON & GPUS",
+    "created_at": "2026-11-22T10:34:39.901479+05:30"
+  },
+  {
+    "slug": "boston-dynamics-electric-atlas-commercial-warehouse-swivel",
+    "title": "Boston Dynamics Electric Atlas: High-Torque Swivel Actuators in Commercial Warehousing",
+    "category": "ROBOTICS",
+    "created_at": "2026-11-22T10:40:39.901479+05:30"
+  },
+  {
+    "slug": "enterprise-small-language-models-fortune-500-local-7b",
+    "title": "Enterprise Small Language Models: Why Fortune 500s Are Moving to 7B Specialized Models",
+    "category": "FRONTIER LLMS",
+    "created_at": "2026-11-22T10:46:39.901479+05:30"
+  },
+  {
+    "slug": "mechanistic-interpretability-frontier-ai-safety-alignment",
+    "title": "Mechanistic Interpretability: Peering Inside the Black Box of Frontier AI Models",
+    "category": "FRONTIER LLMS",
+    "created_at": "2026-11-22T10:52:39.901479+05:30"
   }
 ]

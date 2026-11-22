@@ -80,6 +80,10 @@
       {
         "source": "/sitemap",
         "destination": "/sitemap.xml"
+      },
+      {
+        "source": "/news-sitemap.xml",
+        "destination": "/sitemap.xml"
       }
     ]
   }
