@@ -205,7 +205,7 @@ def assemble_full_article_page(topic_meta, body_html):
     date_iso = pub_iso
     display_date = topic_meta.get("pub_date_display") or now_ist.strftime("%B %d, %Y")
 
-    hero_img = topic_meta.get("hero_image") or CATEGORY_IMAGES_MAP.get(category.upper(), DEFAULT_TECH_HERO_IMAGE)
+    hero_img = topic_meta.get("hero_image") or topic_meta.get("hero_img") or CATEGORY_IMAGES_MAP.get(category.upper(), DEFAULT_TECH_HERO_IMAGE)
     if not hero_img.startswith("http"):
         hero_img = f"https://ainews.krishnavibez.in{hero_img}"
 
