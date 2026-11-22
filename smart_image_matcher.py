@@ -52,14 +52,16 @@ def derive_hooks_from_title(title: str, category: str):
     if len(hook2) > 50: hook2 = hook2[:47] + "..."
 
     badge_map = {
-        "FRONTIER LLMS": ("⚡ REASONING FRONTIER", (244, 63, 94)),
-        "ROBOTICS": ("🤖 ROBOTICS REPORT", (168, 85, 247)),
-        "SILICON & GPUS": ("🔬 SILICON ARCHITECTURE", (6, 182, 212)),
-        "AGENTS & CODING": ("💻 AUTONOMOUS AGENTS", (16, 185, 129)),
-        "AI INFRASTRUCTURE": ("⚡ HYPERSCALE CLUSTERS", (59, 130, 246)),
-        "QUANTUM & SCIENCE": ("⚛️ QUANTUM MILESTONE", (234, 179, 8))
+        "FRONTIER LLMS": ("REASONING FRONTIER", (244, 63, 94)),
+        "ROBOTICS": ("ROBOTICS REPORT", (168, 85, 247)),
+        "SILICON & GPUS": ("SILICON ARCHITECTURE", (6, 182, 212)),
+        "AGENTS & CODING": ("AUTONOMOUS AGENTS", (16, 185, 129)),
+        "AI INFRASTRUCTURE": ("HYPERSCALE CLUSTERS", (59, 130, 246)),
+        "QUANTUM & SCIENCE": ("QUANTUM MILESTONE", (234, 179, 8)),
+        "NEURAL GRAPHICS & AI": ("GAMING & SIMULATION AI", (244, 63, 94)),
+        "OPEN SOURCE": ("OPEN WEIGHTS REPORT", (16, 185, 129)),
     }
-    badge_info = badge_map.get(category.upper(), ("🔴 BREAKING REPORT", (239, 68, 68)))
+    badge_info = badge_map.get(category.upper(), ("BREAKING REPORT", (239, 68, 68)))
     return badge_info[0], badge_info[1], hook1, hook2
 
 def create_headline_hook_banner(base_url: str, title: str, category: str) -> str:
@@ -169,9 +171,9 @@ def select_best_image_for_article(title, category, content="", slug=""):
 
         scored_candidates.append({
             "index": idx,
-            "id": item["id"],
-            "url": item["url"],
-            "category": item["category"],
+            "id": item.get("id", f"img_{idx}"),
+            "url": item.get("url", ""),
+            "category": item.get("category", ""),
             "subtopic": item.get("subtopic", ""),
             "score": final_score,
             "matched_keywords": matched_keywords,

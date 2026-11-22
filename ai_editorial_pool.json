@@ -54,7 +54,7 @@
       "test",
       "nvidia-blackwell-b200-scale-deployment-us-data-centers"
     ],
-    "last_used_date": "2026-11-22T05:21:13.856251"
+    "last_used_date": "2026-11-22T07:04:48.773106"
   },
   {
     "id": "humanoid_robot_production_plant",
@@ -110,7 +110,7 @@
       "test",
       "neuromorphic-event-silicon-microwatt-edge-intelligence"
     ],
-    "last_used_date": "2026-11-22T05:28:47.692753"
+    "last_used_date": "2026-11-22T07:03:32.728789"
   },
   {
     "id": "robotic_hand_dexterity",
@@ -393,8 +393,10 @@
       "hardware",
       "microchip"
     ],
-    "used_in_articles": [],
-    "last_used_date": null
+    "used_in_articles": [
+      "cerebras-cs-3-wafer-scale-clusters-100x-gpu-training"
+    ],
+    "last_used_date": "2026-11-22T07:04:16.020737"
   },
   {
     "id": "Silicon_neural_processing_core_g\u2026_570db4e6",
@@ -420,8 +422,10 @@
       "hardware",
       "microchip"
     ],
-    "used_in_articles": [],
-    "last_used_date": null
+    "used_in_articles": [
+      "nvidia-blackwell-b300-massive-scale-deployment"
+    ],
+    "last_used_date": "2026-11-22T07:04:56.042611"
   },
   {
     "id": "Silicon_neural_processing_core_g\u2026_bc33f340",
@@ -997,8 +1001,10 @@
       "o3",
       "cot"
     ],
-    "used_in_articles": [],
-    "last_used_date": null
+    "used_in_articles": [
+      "mechanistic-interpretability-frontier-ai-safety-alignment"
+    ],
+    "last_used_date": "2026-11-22T07:03:14.254819"
   },
   {
     "id": "Holographic_thought_graph_branching_b5d83a17",
@@ -1024,8 +1030,10 @@
       "o3",
       "cot"
     ],
-    "used_in_articles": [],
-    "last_used_date": null
+    "used_in_articles": [
+      "enterprise-small-language-models-fortune-500-local-7b"
+    ],
+    "last_used_date": "2026-11-22T07:03:19.871721"
   },
   {
     "id": "Holographic_thought_graph_branching_c41c40e7",
@@ -1051,8 +1059,10 @@
       "o3",
       "cot"
     ],
-    "used_in_articles": [],
-    "last_used_date": null
+    "used_in_articles": [
+      "meta-llama-4-multimodal-moe-400b-architecture-preview"
+    ],
+    "last_used_date": "2026-11-22T07:03:57.944327"
   },
   {
     "id": "Holographic_thought_graph_branching_c2f8cbdf",
@@ -1078,8 +1088,10 @@
       "o3",
       "cot"
     ],
-    "used_in_articles": [],
-    "last_used_date": null
+    "used_in_articles": [
+      "google-gemini-2-flash-thinking-realtime-multimodal-reasoning"
+    ],
+    "last_used_date": "2026-11-22T07:04:10.920712"
   },
   {
     "id": "Holographic_cognitive_thought_gr\u2026_b116ac45",
@@ -1105,8 +1117,10 @@
       "o3",
       "cot"
     ],
-    "used_in_articles": [],
-    "last_used_date": null
+    "used_in_articles": [
+      "deepseek-r1-open-weights-reasoning-moe-breakthrough"
+    ],
+    "last_used_date": "2026-11-22T07:04:28.244704"
   },
   {
     "id": "Holographic_thought_graph_branching_97187985",
@@ -1132,8 +1146,10 @@
       "o3",
       "cot"
     ],
-    "used_in_articles": [],
-    "last_used_date": null
+    "used_in_articles": [
+      "anthropic-claude-3-7-sonnet-hybrid-reasoning-architecture"
+    ],
+    "last_used_date": "2026-11-22T07:04:43.293252"
   },
   {
     "id": "Holographic_thought_graph_branching_a105b43c",
@@ -2053,8 +2069,10 @@
       "assembly",
       "manipulation"
     ],
-    "used_in_articles": [],
-    "last_used_date": null
+    "used_in_articles": [
+      "boston-dynamics-electric-atlas-commercial-warehouse-swivel"
+    ],
+    "last_used_date": "2026-11-22T07:03:26.784557"
   },
   {
     "id": "Humanoid_robots_assembling_autom\u2026_eb93cbf3",
@@ -2079,8 +2097,10 @@
       "assembly",
       "manipulation"
     ],
-    "used_in_articles": [],
-    "last_used_date": null
+    "used_in_articles": [
+      "tesla-optimus-gen-3-industrial-trials-automotive-assembly"
+    ],
+    "last_used_date": "2026-11-22T07:04:21.462889"
   },
   {
     "id": "Robots_assembling_components_in_\u2026_203054e0",
@@ -11147,7 +11167,11 @@
     ],
     "description": "Cybernetic command lab visualizing multi-agent AI swarm topologies and real-time code synthesis workflows.",
     "usage_count": 0,
-    "added_at": "2026-11-22 11:17:13"
+    "added_at": "2026-11-22 11:17:13",
+    "used_in_articles": [
+      "cognition-ai-devin-2-swe-bench-verified-engineering"
+    ],
+    "last_used_date": "2026-11-22T07:03:44.591022"
   },
   {
     "url": "https://files.catbox.moe/qvt52c.jpg",
@@ -11168,7 +11192,11 @@
     ],
     "description": "Advanced bipedal humanoid robot inspecting silicon semiconductor wafer in ISO cleanroom facility.",
     "usage_count": 0,
-    "added_at": "2026-11-22 11:17:21"
+    "added_at": "2026-11-22 11:17:21",
+    "used_in_articles": [
+      "figure-02-humanoid-100k-hours-bmw-manufacturing-analysis"
+    ],
+    "last_used_date": "2026-11-22T07:04:04.493436"
   },
   {
     "url": "https://files.catbox.moe/za5fbt.jpg",
@@ -11189,7 +11217,11 @@
     ],
     "description": "Co-Packaged Optics AI accelerator chip with cyan and violet silicon photonic waveguides and micro-circuitry.",
     "usage_count": 0,
-    "added_at": "2026-11-22 11:17:30"
+    "added_at": "2026-11-22 11:17:30",
+    "used_in_articles": [
+      "photonic-optical-computing-light-speed-neural-accelerators"
+    ],
+    "last_used_date": "2026-11-22T07:03:38.208562"
   },
   {
     "url": "https://files.catbox.moe/jhh80s.jpg",
@@ -11249,7 +11281,11 @@
     ],
     "description": "Enterprise AI supercomputing facility with direct-to-chip liquid cooling manifolds carrying vibrant blue coolant.",
     "usage_count": 0,
-    "added_at": "2026-11-22 11:18:06"
+    "added_at": "2026-11-22 11:18:06",
+    "used_in_articles": [
+      "ai-datacenter-gigawatt-energy-crisis-smr-nuclear-reactors"
+    ],
+    "last_used_date": "2026-11-22T07:03:50.495973"
   },
   {
     "url": "https://files.catbox.moe/8yfpve.jpg",
@@ -11270,7 +11306,11 @@
     ],
     "description": "Cybernetic command lab visualizing multi-agent AI swarm topologies and real-time code synthesis workflows.",
     "usage_count": 0,
-    "added_at": "2026-11-22 11:21:08"
+    "added_at": "2026-11-22 11:21:08",
+    "used_in_articles": [
+      "cursor-vs-windsurf-vs-devin-autonomous-coding-agents-2026"
+    ],
+    "last_used_date": "2026-11-22T07:04:37.796580"
   },
   {
     "url": "https://files.catbox.moe/qvt52c.jpg",
