@@ -316,6 +316,42 @@
     </image:image>
   </url>
   <url>
+    <loc>https://ainews.krishnavibez.in/articles/enterprise-small-language-models-fortune-500-local-7b.html</loc>
+    <lastmod>2026-11-22T11:00:19+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication>
+        <news:name>AINews</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-22T11:00:19+05:30</news:publication_date>
+      <news:title>Enterprise Small Language Models: Why Fortune 500s Are Moving to 7B Specialized Models</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://files.catbox.moe/071cu2.jpg</image:loc>
+      <image:title>Enterprise Small Language Models: Why Fortune 500s Are Moving to 7B Specialized Models</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ainews.krishnavibez.in/articles/mechanistic-interpretability-frontier-ai-safety-alignment.html</loc>
+    <lastmod>2026-11-22T11:00:48+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication>
+        <news:name>AINews</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-22T11:00:48+05:30</news:publication_date>
+      <news:title>Mechanistic Interpretability: Peering Inside the Black Box of Frontier AI Models</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://files.catbox.moe/ghadnv.jpg</image:loc>
+      <image:title>Mechanistic Interpretability: Peering Inside the Black Box of Frontier AI Models</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://ainews.krishnavibez.in/articles/gta-6-ai-revolution-rockstar-rage-9-neural-patents-npc-simulation.html</loc>
     <lastmod>2026-11-22T11:39:34.364843+05:30</lastmod>
     <changefreq>daily</changefreq>
@@ -349,6 +385,24 @@
     <image:image>
       <image:loc>https://ainews.krishnavibez.in/images/blackwell_gpu_interposer_chip_macro.jpg</image:loc>
       <image:title>Nvidia Blackwell B300 GPU Architecture</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ainews.krishnavibez.in/articles/anthropic-claude-4-haiku-instant-reasoning-api-breakthrough.html</loc>
+    <lastmod>2026-11-23T17:35:17+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication>
+        <news:name>AINews</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-23T17:35:17+05:30</news:publication_date>
+      <news:title>Anthropic Drops Claude 4 Haiku: The World’s Fastest Reasoning Model at Scale</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://files.catbox.moe/cwh9u3.jpg</image:loc>
+      <image:title>Anthropic Drops Claude 4 Haiku: The World’s Fastest Reasoning Model at Scale</image:title>
     </image:image>
   </url>
 </urlset>
