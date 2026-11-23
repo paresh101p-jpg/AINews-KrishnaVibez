@@ -11453,5 +11453,243 @@
     "description": "GTA 6 Next-Gen Gaming AI, RAGE 9 Neural Patents, and ray-traced Vice City simulation.",
     "usage_count": 1,
     "added_at": "2026-11-22 11:39:21"
+  },
+  {
+    "id": "warehouse_logistics_swarm_robots",
+    "url": "https://files.catbox.moe/1wu0ko.jpg",
+    "category": "ROBOTICS",
+    "badge": "LOGISTICS ROBOTICS",
+    "subtopic": "autonomous_warehouse_logistics",
+    "hook_title": "AUTONOMOUS WAREHOUSE SWARM ROBOTICS",
+    "hook_sub": "FLEET INTELLIGENCE & NEXT-GEN FULFILLMENT",
+    "keywords": [
+      "amr",
+      "warehouse robot",
+      "kiva",
+      "logistics",
+      "fulfillment center",
+      "autonomous mobile robot",
+      "sorting",
+      "fleet",
+      "supply chain",
+      "automated warehouse"
+    ],
+    "used_in_articles": [],
+    "last_used_date": null
+  },
+  {
+    "id": "surgical_robotics_precision",
+    "url": "https://files.catbox.moe/gko4qc.jpg",
+    "category": "ROBOTICS",
+    "badge": "SURGICAL AI",
+    "subtopic": "precision_surgical_robotics",
+    "hook_title": "AUTONOMOUS SURGICAL ROBOTICS PRECISION",
+    "hook_sub": "MICROSURGICAL SUB-MILLIMETER DEXTERITY & CLINICAL AI",
+    "keywords": [
+      "surgical robot",
+      "da vinci",
+      "laparoscopy",
+      "medical robotics",
+      "microsurgery",
+      "operating room",
+      "precision robotics",
+      "healthcare ai",
+      "robotic surgery"
+    ],
+    "used_in_articles": [],
+    "last_used_date": null
+  },
+  {
+    "id": "optical_photonic_chip",
+    "url": "https://files.catbox.moe/0pvjek.jpg",
+    "category": "SILICON & GPUS",
+    "badge": "OPTICAL COMPUTE",
+    "subtopic": "optical_photonic_computing",
+    "hook_title": "OPTICAL PHOTONIC COMPUTING SILICON",
+    "hook_sub": "LIGHT-SPEED INTERCONNECTS & LOW-POWER TERAHERTZ COMPUTE",
+    "keywords": [
+      "photonic chip",
+      "silicon photonics",
+      "optical computing",
+      "laser waveguide",
+      "light speed compute",
+      "optical interconnect",
+      "energy efficient compute",
+      "micro-ring resonator"
+    ],
+    "used_in_articles": [],
+    "last_used_date": null
+  },
+  {
+    "id": "ai_research_supercomputing_lab",
+    "url": "https://files.catbox.moe/jfuedu.jpg",
+    "category": "FRONTIER LLMS",
+    "badge": "SUPERCOMPUTING LAB",
+    "subtopic": "frontier_training_facility",
+    "hook_title": "AI RESEARCH SUPERCOMPUTING COMMAND OPERATIONS",
+    "hook_sub": "FRONTIER TRAINING CLUSTERS & REAL-TIME TELEMETRY",
+    "keywords": [
+      "training run",
+      "loss landscape",
+      "supercomputing cluster",
+      "ai researchers",
+      "command center",
+      "model convergence",
+      "megawatt cluster",
+      "frontier lab"
+    ],
+    "used_in_articles": [],
+    "last_used_date": null
+  },
+  {
+    "id": "cybersecurity_neural_firewall",
+    "url": "https://files.catbox.moe/ixk2b2.jpg",
+    "category": "AGENTS & CODING",
+    "badge": "CYBER DEFENSE",
+    "subtopic": "neural_cybersecurity_defense",
+    "hook_title": "NEURAL FIREWALL & AUTONOMOUS INTRUSION INTERCEPTION",
+    "hook_sub": "REAL-TIME THREAT DEFENSE & ZERO-DAY SHIELDING",
+    "keywords": [
+      "cybersecurity",
+      "firewall",
+      "zero day",
+      "threat detection",
+      "ai defense",
+      "network security",
+      "autonomous defense",
+      "intrusion detection",
+      "malware"
+    ],
+    "used_in_articles": [],
+    "last_used_date": null
+  },
+  {
+    "id": "ai_protein_folding_molecular",
+    "url": "https://files.catbox.moe/d8rvtw.jpg",
+    "category": "FRONTIER LLMS",
+    "badge": "BIOLOGY AI",
+    "subtopic": "ai_biology_protein_folding",
+    "hook_title": "AI PROTEIN FOLDING & MACROMOLECULAR DESIGN",
+    "hook_sub": "ALPHAFOLD BREAKTHROUGHS & COMPUTATIONAL BIOTECH",
+    "keywords": [
+      "alphafold",
+      "protein structure",
+      "molecular biology",
+      "drug discovery",
+      "biomolecule",
+      "amino acid",
+      "structural biology",
+      "biotech ai",
+      "crispr"
+    ],
+    "used_in_articles": [],
+    "last_used_date": null
+  },
+  {
+    "id": "nuclear_smr_ai_power_plant",
+    "url": "https://files.catbox.moe/iggmaq.jpg",
+    "category": "SILICON & GPUS",
+    "badge": "NUCLEAR COMPUTE",
+    "subtopic": "clean_nuclear_energy_datacenters",
+    "hook_title": "CLEAN NUCLEAR SMR FOR HYPERSCALE AI POWER",
+    "hook_sub": "DEDICATED GIGA-WATT BASELOAD ENERGY & NET-ZERO DATA CENTERS",
+    "keywords": [
+      "nuclear energy",
+      "smr",
+      "small modular reactor",
+      "power grid",
+      "gigawatt",
+      "clean energy",
+      "cooling tower",
+      "datacenter power",
+      "baseload electricity"
+    ],
+    "used_in_articles": [],
+    "last_used_date": null
+  },
+  {
+    "id": "subsea_underwater_datacenter",
+    "url": "https://files.catbox.moe/nlwuor.jpg",
+    "category": "SILICON & GPUS",
+    "badge": "SUBSEA COMPUTE",
+    "subtopic": "subsea_underwater_datacenters",
+    "hook_title": "UNDERWATER SUBSEA AI DATACENTERS",
+    "hook_sub": "NATURAL OCEAN COOLING & GREEN ZERO-CARBON COMPUTE PODS",
+    "keywords": [
+      "underwater datacenter",
+      "subsea server",
+      "ocean cooling",
+      "project natick",
+      "marine datacenter",
+      "green compute",
+      "hyperscale pod"
+    ],
+    "used_in_articles": [],
+    "last_used_date": null
+  },
+  {
+    "id": "autonomous_vehicle_lidar_pointcloud",
+    "url": "https://files.catbox.moe/ybrdya.jpg",
+    "category": "ROBOTICS",
+    "badge": "SPATIAL INTELLIGENCE",
+    "subtopic": "autonomous_driving_spatial_ai",
+    "hook_title": "3D LIDAR SPATIAL AI & AUTONOMOUS DRIVING",
+    "hook_sub": "REAL-TIME POINT CLOUD PERCEPTION IN ADVERSE WEATHER",
+    "keywords": [
+      "lidar",
+      "autonomous vehicle",
+      "self-driving",
+      "point cloud",
+      "robotaxi",
+      "waymo",
+      "tesla fsd",
+      "computer vision",
+      "spatial intelligence"
+    ],
+    "used_in_articles": [],
+    "last_used_date": null
+  },
+  {
+    "id": "neuromorphic_spiking_chip",
+    "url": "https://files.catbox.moe/wc8cac.jpg",
+    "category": "SILICON & GPUS",
+    "badge": "NEUROMORPHIC CHIP",
+    "subtopic": "neuromorphic_brain_inspired_chips",
+    "hook_title": "NEUROMORPHIC SPIKING NEURAL SILICON",
+    "hook_sub": "BRAIN-INSPIRED SYNAPTIC ARRAYS & ULTRA-LOW WATTAGE EDGE COMPUTE",
+    "keywords": [
+      "neuromorphic",
+      "spiking neural network",
+      "loihi",
+      "analog ai",
+      "synaptic chip",
+      "brain-inspired",
+      "ultra low power",
+      "edge ai"
+    ],
+    "used_in_articles": [],
+    "last_used_date": null
+  },
+  {
+    "id": "wafer_scale_engine_processor",
+    "url": "https://files.catbox.moe/krn9ah.jpg",
+    "category": "SILICON & GPUS",
+    "badge": "WAFER-SCALE SILICON",
+    "subtopic": "wafer_scale_engine_silicon",
+    "hook_title": "WAFER-SCALE ENGINE GIGAWATT CHIP INTEGRATION",
+    "hook_sub": "TRILLION TRANSISTORS ON A SINGLE MONOLITHIC SILICON DIE",
+    "keywords": [
+      "cerebras",
+      "wafer scale engine",
+      "wse-3",
+      "monolithic chip",
+      "trillion transistors",
+      "silicon interconnect",
+      "supercomputing die",
+      "semiconductor cleanroom",
+      "packaging"
+    ],
+    "used_in_articles": [],
+    "last_used_date": null
   }
 ]
