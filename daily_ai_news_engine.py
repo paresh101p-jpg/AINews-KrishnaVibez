@@ -13,6 +13,7 @@ import os
 import sys
 import re
 import json
+import html
 import random
 import requests
 import subprocess
