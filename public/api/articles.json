@@ -3,7 +3,7 @@
     "title": "Nvidia Unveils Blackwell B300: The 1.2 Terawatt-Class AI Inference Powerhouse",
     "category": "SILICON & GPUS",
     "date": "November 24, 2026",
-    "url": "/articles/nvidia-blackwell-b300-superchip-architecture-unveiled.html",
+    "url": "/articles/nvidia-blackwell-b300-superchip-architecture-unveiled",
     "excerpt": "Nvidia\u2019s B300 Superchip arrives with 4x memory bandwidth and liquid-cooled density, set to define the infrastructure standard for 2027 enterprise AI scaling.",
     "badge": "LATEST"
   },
@@ -11,7 +11,7 @@
     "title": "Anthropic Drops Claude 4 Haiku: The World\u2019s Fastest Reasoning Model at Scale",
     "category": "FRONTIER LLMS",
     "date": "November 23, 2026",
-    "url": "/articles/anthropic-claude-4-haiku-instant-reasoning-api-breakthrough.html",
+    "url": "/articles/anthropic-claude-4-haiku-instant-reasoning-api-breakthrough",
     "excerpt": "Anthropic\u2019s Claude 4 Haiku arrives, delivering sub-second reasoning and agentic accuracy, setting a new industry benchmark for enterprise-grade low-latency AI.",
     "badge": "LATEST"
   },
@@ -23,7 +23,7 @@
     "image": "https://files.catbox.moe/8mlkp0.jpg",
     "pub_iso": "2026-11-22T11:39:34.364843+05:30",
     "read_time": "9 min read",
-    "url": "/articles/gta-6-ai-revolution-rockstar-rage-9-neural-patents-npc-simulation.html"
+    "url": "/articles/gta-6-ai-revolution-rockstar-rage-9-neural-patents-npc-simulation"
   },
   {
     "slug": "mechanistic-interpretability-frontier-ai-safety-alignment",
@@ -33,7 +33,7 @@
     "image": "https://files.catbox.moe/h6sxoy.jpg",
     "pub_iso": "2026-11-22T10:52:39.901479+05:30",
     "read_time": "7 min read",
-    "url": "/articles/mechanistic-interpretability-frontier-ai-safety-alignment.html"
+    "url": "/articles/mechanistic-interpretability-frontier-ai-safety-alignment"
   },
   {
     "slug": "enterprise-small-language-models-fortune-500-local-7b",
@@ -43,7 +43,7 @@
     "image": "https://files.catbox.moe/pf5al6.jpg",
     "pub_iso": "2026-11-22T10:46:39.901479+05:30",
     "read_time": "7 min read",
-    "url": "/articles/enterprise-small-language-models-fortune-500-local-7b.html"
+    "url": "/articles/enterprise-small-language-models-fortune-500-local-7b"
   },
   {
     "slug": "boston-dynamics-electric-atlas-commercial-warehouse-swivel",
@@ -53,7 +53,7 @@
     "image": "https://files.catbox.moe/kh5mc9.jpg",
     "pub_iso": "2026-11-22T10:40:39.901479+05:30",
     "read_time": "7 min read",
-    "url": "/articles/boston-dynamics-electric-atlas-commercial-warehouse-swivel.html"
+    "url": "/articles/boston-dynamics-electric-atlas-commercial-warehouse-swivel"
   },
   {
     "slug": "neuromorphic-event-silicon-microwatt-edge-intelligence",
@@ -63,7 +63,7 @@
     "image": "https://files.catbox.moe/w01ost.jpg",
     "pub_iso": "2026-11-22T10:34:39.901479+05:30",
     "read_time": "7 min read",
-    "url": "/articles/neuromorphic-event-silicon-microwatt-edge-intelligence.html"
+    "url": "/articles/neuromorphic-event-silicon-microwatt-edge-intelligence"
   },
   {
     "slug": "photonic-optical-computing-light-speed-neural-accelerators",
@@ -73,7 +73,7 @@
     "image": "https://files.catbox.moe/xb59t5.jpg",
     "pub_iso": "2026-11-22T10:28:39.901479+05:30",
     "read_time": "7 min read",
-    "url": "/articles/photonic-optical-computing-light-speed-neural-accelerators.html"
+    "url": "/articles/photonic-optical-computing-light-speed-neural-accelerators"
   },
   {
     "slug": "cognition-ai-devin-2-swe-bench-verified-engineering",
@@ -83,7 +83,7 @@
     "image": "https://files.catbox.moe/9r53ne.jpg",
     "pub_iso": "2026-11-22T10:22:39.901479+05:30",
     "read_time": "7 min read",
-    "url": "/articles/cognition-ai-devin-2-swe-bench-verified-engineering.html"
+    "url": "/articles/cognition-ai-devin-2-swe-bench-verified-engineering"
   },
   {
     "slug": "ai-datacenter-gigawatt-energy-crisis-smr-nuclear-reactors",
@@ -93,7 +93,7 @@
     "image": "https://files.catbox.moe/rrcjj3.jpg",
     "pub_iso": "2026-11-22T10:16:39.901479+05:30",
     "read_time": "7 min read",
-    "url": "/articles/ai-datacenter-gigawatt-energy-crisis-smr-nuclear-reactors.html"
+    "url": "/articles/ai-datacenter-gigawatt-energy-crisis-smr-nuclear-reactors"
   },
   {
     "slug": "meta-llama-4-multimodal-moe-400b-architecture-preview",
@@ -103,7 +103,7 @@
     "image": "https://files.catbox.moe/sx3l2u.jpg",
     "pub_iso": "2026-11-22T10:10:39.901479+05:30",
     "read_time": "7 min read",
-    "url": "/articles/meta-llama-4-multimodal-moe-400b-architecture-preview.html"
+    "url": "/articles/meta-llama-4-multimodal-moe-400b-architecture-preview"
   },
   {
     "slug": "figure-02-humanoid-100k-hours-bmw-manufacturing-analysis",
@@ -113,7 +113,7 @@
     "image": "https://files.catbox.moe/y3fsj2.jpg",
     "pub_iso": "2026-11-22T10:04:39.901479+05:30",
     "read_time": "7 min read",
-    "url": "/articles/figure-02-humanoid-100k-hours-bmw-manufacturing-analysis.html"
+    "url": "/articles/figure-02-humanoid-100k-hours-bmw-manufacturing-analysis"
   },
   {
     "slug": "google-gemini-2-flash-thinking-realtime-multimodal-reasoning",
@@ -123,7 +123,7 @@
     "image": "https://files.catbox.moe/vomhsm.jpg",
     "pub_iso": "2026-11-22T09:58:39.901479+05:30",
     "read_time": "7 min read",
-    "url": "/articles/google-gemini-2-flash-thinking-realtime-multimodal-reasoning.html"
+    "url": "/articles/google-gemini-2-flash-thinking-realtime-multimodal-reasoning"
   },
   {
     "slug": "cerebras-cs-3-wafer-scale-clusters-100x-gpu-training",
@@ -133,7 +133,7 @@
     "image": "https://files.catbox.moe/2xgtf6.jpg",
     "pub_iso": "2026-11-22T09:52:39.901479+05:30",
     "read_time": "7 min read",
-    "url": "/articles/cerebras-cs-3-wafer-scale-clusters-100x-gpu-training.html"
+    "url": "/articles/cerebras-cs-3-wafer-scale-clusters-100x-gpu-training"
   },
   {
     "slug": "tesla-optimus-gen-3-industrial-trials-automotive-assembly",
@@ -143,7 +143,7 @@
     "image": "https://files.catbox.moe/olxzjg.jpg",
     "pub_iso": "2026-11-22T09:46:39.901479+05:30",
     "read_time": "7 min read",
-    "url": "/articles/tesla-optimus-gen-3-industrial-trials-automotive-assembly.html"
+    "url": "/articles/tesla-optimus-gen-3-industrial-trials-automotive-assembly"
   },
   {
     "slug": "deepseek-r1-open-weights-reasoning-moe-breakthrough",
@@ -153,7 +153,7 @@
     "image": "https://files.catbox.moe/xlefmu.jpg",
     "pub_iso": "2026-11-22T09:40:39.901479+05:30",
     "read_time": "7 min read",
-    "url": "/articles/deepseek-r1-open-weights-reasoning-moe-breakthrough.html"
+    "url": "/articles/deepseek-r1-open-weights-reasoning-moe-breakthrough"
   },
   {
     "slug": "cursor-vs-windsurf-vs-devin-autonomous-coding-agents-2026",
@@ -163,7 +163,7 @@
     "image": "https://files.catbox.moe/xknf0g.jpg",
     "pub_iso": "2026-11-22T09:34:39.901479+05:30",
     "read_time": "7 min read",
-    "url": "/articles/cursor-vs-windsurf-vs-devin-autonomous-coding-agents-2026.html"
+    "url": "/articles/cursor-vs-windsurf-vs-devin-autonomous-coding-agents-2026"
   },
   {
     "slug": "anthropic-claude-3-7-sonnet-hybrid-reasoning-architecture",
@@ -173,7 +173,7 @@
     "image": "https://files.catbox.moe/z19i1t.jpg",
     "pub_iso": "2026-11-22T09:28:39.901479+05:30",
     "read_time": "7 min read",
-    "url": "/articles/anthropic-claude-3-7-sonnet-hybrid-reasoning-architecture.html"
+    "url": "/articles/anthropic-claude-3-7-sonnet-hybrid-reasoning-architecture"
   },
   {
     "slug": "nvidia-blackwell-b200-scale-deployment-us-data-centers",
@@ -183,7 +183,7 @@
     "image": "https://files.catbox.moe/3pef57.jpg",
     "pub_iso": "2026-11-22T09:22:39.901479+05:30",
     "read_time": "7 min read",
-    "url": "/articles/nvidia-blackwell-b200-scale-deployment-us-data-centers.html"
+    "url": "/articles/nvidia-blackwell-b200-scale-deployment-us-data-centers"
   },
   {
     "slug": "nvidia-blackwell-b300-massive-scale-deployment",
@@ -193,7 +193,7 @@
     "image": "https://files.catbox.moe/zrpxkr.jpg",
     "pub_iso": "2026-11-21T23:04:54.572251+05:30",
     "read_time": "7 min read",
-    "url": "/articles/nvidia-blackwell-b300-massive-scale-deployment.html"
+    "url": "/articles/nvidia-blackwell-b300-massive-scale-deployment"
   },
   {
     "slug": "openai-o3-reasoning-breakthrough-system-2-thinking",
@@ -203,6 +203,6 @@
     "image": "https://files.catbox.moe/sqqcuk.jpg",
     "pub_iso": "2026-11-21T13:01:26+05:30",
     "read_time": "7 min read",
-    "url": "/articles/openai-o3-reasoning-breakthrough-system-2-thinking.html"
+    "url": "/articles/openai-o3-reasoning-breakthrough-system-2-thinking"
   }
 ]

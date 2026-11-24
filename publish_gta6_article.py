@@ -206,7 +206,7 @@ key_stats = "Patent US11684855B2 | Hierarchical NPC Graphs | Neural Motion Match
 
 pub_time_iso = datetime.now(_IST).isoformat()
 pub_date_display = datetime.now(_IST).strftime("%B %d, %Y")
-canonical_url = f"https://ainews.krishnavibez.in/articles/{slug}.html"
+canonical_url = f"https://ainews.krishnavibez.in/articles/{slug}"
 
 # Extract FAQs for schema
 faq_matches = re.findall(r"<h3>(.*?)</h3>\s*<p>(.*?)</p>", article_html_content, re.DOTALL)
@@ -246,7 +246,7 @@ schema_graph = [
             "@type": "Person",
             "name": "Paresh Padsala",
             "jobTitle": "Senior Technology Correspondent",
-            "url": "https://ainews.krishnavibez.in/authors/paresh-padsala.html"
+            "url": "https://ainews.krishnavibez.in/authors/paresh-padsala"
         },
         "publisher": {
             "@type": "NewsMediaOrganization",
@@ -546,7 +546,7 @@ if os.path.exists(ARTICLES_JSON_FILE):
             "description": meta_desc,
             "image": hero_img,
             "published_at": pub_time_iso,
-            "url": f"/articles/{slug}.html",
+            "url": f"/articles/{slug}",
             "author": "Paresh Padsala"
         })
         with open(ARTICLES_JSON_FILE, "w", encoding="utf-8") as f:
@@ -560,7 +560,7 @@ title_esc = title.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;"
 hero_img_esc = hero_img.replace("&", "&amp;")
 
 sitemap_entry = f"""  <url>
-    <loc>https://ainews.krishnavibez.in/articles/{slug}.html</loc>
+    <loc>https://ainews.krishnavibez.in/articles/{slug}</loc>
     <lastmod>{pub_time_iso}</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -592,8 +592,8 @@ for sm_path in [SITEMAP_FILE, NEWS_SITEMAP_FILE]:
 # 9. Update rss.xml
 rss_item = f"""    <item>
       <title>{title_esc}</title>
-      <link>https://ainews.krishnavibez.in/articles/{slug}.html</link>
-      <guid isPermaLink="true">https://ainews.krishnavibez.in/articles/{slug}.html</guid>
+      <link>https://ainews.krishnavibez.in/articles/{slug}</link>
+      <guid isPermaLink="true">https://ainews.krishnavibez.in/articles/{slug}</guid>
       <pubDate>{datetime.now(_IST).strftime("%a, %d %b %Y %H:%M:%S +0530")}</pubDate>
       <dc:creator>Paresh Padsala (AINews)</dc:creator>
       <category>{category}</category>

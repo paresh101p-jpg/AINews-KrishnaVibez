@@ -199,7 +199,7 @@ def assemble_full_article_page(topic_meta, body_html):
     meta_desc = topic_meta["meta_desc"]
     keywords = topic_meta["keywords"]
     read_time = topic_meta.get("read_time", "6 min read")
-    canonical_url = f"https://ainews.krishnavibez.in/articles/{slug}.html"
+    canonical_url = f"https://ainews.krishnavibez.in/articles/{slug}"
 
     now_ist = datetime.now(_IST)
     pub_iso = topic_meta.get("pub_time_iso") or now_ist.isoformat()
@@ -618,7 +618,7 @@ def assemble_full_article_page(topic_meta, body_html):
       <div class="article-badge">⚡ {category}</div>
       <h1 class="article-title">{title}</h1>
       <div class="meta-bar">
-        <span>✍️ By <a href="/authors/paresh-padsala.html" style="color:var(--cyan); text-decoration:none; font-weight:600;">Paresh Padsala</a> (US Bureau, San Francisco)</span>
+        <span>✍️ By <a href="/authors/paresh-padsala" style="color:var(--cyan); text-decoration:none; font-weight:600;">Paresh Padsala</a> (US Bureau, San Francisco)</span>
         <span>📅 {display_date}</span>
         <span>⏱️ {read_time}</span>
       </div>
@@ -751,12 +751,12 @@ def update_index_page(topic_meta, hero_img):
       <div class="card-body">
         <div class="card-date">{display_date} • {read_time}</div>
         <h2 class="card-title">
-          <a href="articles/{slug}.html">{title}</a>
+          <a href="/articles/{slug}">{title}</a>
         </h2>
         <p class="card-excerpt">{meta_desc[:145]}...</p>
         <div class="card-footer">
-          <span style="color:var(--text-muted); font-size:0.8rem;">By <a href="/authors/paresh-padsala.html" style="color:inherit; text-decoration:none;">Paresh Padsala</a></span>
-          <a href="articles/{slug}.html" class="read-btn">Read Deep Dive →</a>
+          <span style="color:var(--text-muted); font-size:0.8rem;">By <a href="/authors/paresh-padsala" style="color:inherit; text-decoration:none;">Paresh Padsala</a></span>
+          <a href="/articles/{slug}" class="read-btn">Read Deep Dive →</a>
         </div>
       </div>
     </article>
@@ -779,7 +779,7 @@ def update_sitemap(topic_meta, hero_img=""):
     now_ist = datetime.now(_IST)
     iso_date = now_ist.strftime("%Y-%m-%dT%H:%M:%S+05:30")
     new_entry = f"""  <url>
-    <loc>https://ainews.krishnavibez.in/articles/{slug}.html</loc>
+    <loc>https://ainews.krishnavibez.in/articles/{slug}</loc>
     <lastmod>{iso_date}</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -799,7 +799,7 @@ def update_sitemap(topic_meta, hero_img=""):
 """
     with open(SITEMAP_FILE, "r", encoding="utf-8") as f:
         xml = f.read()
-    if f"/articles/{slug}.html" not in xml:
+    if f"/articles/{slug}" not in xml:
         xml = xml.replace('</urlset>', new_entry + '</urlset>')
         with open(SITEMAP_FILE, "w", encoding="utf-8") as f:
             f.write(xml)
@@ -818,7 +818,7 @@ def update_rss(topic_meta, hero_img):
     meta_desc = topic_meta["meta_desc"]
     category = html.escape(topic_meta.get("category", "Artificial Intelligence"), quote=True)
     now_rfc = datetime.now(_IST).strftime("%a, %d %b %Y %H:%M:%S +0530")
-    article_url = f"https://ainews.krishnavibez.in/articles/{slug}.html"
+    article_url = f"https://ainews.krishnavibez.in/articles/{slug}"
 
     item_xml = f"""    <item>
       <title>{title}</title>

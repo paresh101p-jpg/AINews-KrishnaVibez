@@ -309,7 +309,7 @@ def run_batch():
                 "title": topic["title"],
                 "category": topic["category"],
                 "date": topic["pub_date_display"],
-                "url": f"/articles/{slug}.html",
+                "url": f"/articles/{slug}",
                 "excerpt": topic["meta_desc"],
                 "badge": "LATEST"
             }

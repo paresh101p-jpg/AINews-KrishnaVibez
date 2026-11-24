@@ -57,4 +57,5 @@ Disallow: /api/
 
 # Sitemaps & LLMs Discovery
 Sitemap: https://ainews.krishnavibez.in/sitemap.xml
+Sitemap: https://ainews.krishnavibez.in/news-sitemap.xml
 Sitemap: https://ainews.krishnavibez.in/rss.xml
