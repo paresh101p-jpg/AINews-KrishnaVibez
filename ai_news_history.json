@@ -112,5 +112,11 @@
     "title": "Nvidia Unveils Blackwell B300: The 1.2 Terawatt-Class AI Inference Powerhouse",
     "category": "SILICON & GPUS",
     "created_at": "2026-11-24T06:36:42.716416+05:30"
+  },
+  {
+    "slug": "openai-o3-reasoning-model-enterprise-deployment",
+    "title": "OpenAI Launches o3: The First Reasoning Model Optimized for Enterprise Workflows",
+    "category": "FRONTIER LLMS",
+    "created_at": "2026-11-25T04:41:12.688266+05:30"
   }
 ]

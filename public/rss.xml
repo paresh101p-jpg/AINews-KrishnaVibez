@@ -8,6 +8,18 @@
     <lastBuildDate>Sat, 21 Nov 2026 12:00:00 +0530</lastBuildDate>
     <atom:link href="https://ainews.krishnavibez.in/rss.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>OpenAI Launches o3: The First Reasoning Model Optimized for Enterprise Workflows</title>
+      <link>https://ainews.krishnavibez.in/articles/openai-o3-reasoning-model-enterprise-deployment</link>
+      <guid isPermaLink="true">https://ainews.krishnavibez.in/articles/openai-o3-reasoning-model-enterprise-deployment</guid>
+      <pubDate>Wed, 25 Nov 2026 04:41:12 +0530</pubDate>
+      <dc:creator>Paresh Padsala (AINews)</dc:creator>
+      <category>FRONTIER LLMS</category>
+      <description><![CDATA[OpenAI officially releases o3, a breakthrough reasoning model engineered for high-stakes enterprise decision-making and complex technical system architecture.]]></description>
+      <enclosure url="https://files.catbox.moe/cwh9u3.jpg" type="image/jpeg" length="153600" />
+      <media:content url="https://files.catbox.moe/cwh9u3.jpg" medium="image" width="1200" height="675" />
+    </item>
+
+    <item>
       <title>Nvidia Unveils Blackwell B300: The 1.2 Terawatt-Class AI Inference Powerhouse</title>
       <link>https://ainews.krishnavibez.in/articles/nvidia-blackwell-b300-superchip-architecture-unveiled</link>
       <guid isPermaLink="true">https://ainews.krishnavibez.in/articles/nvidia-blackwell-b300-superchip-architecture-unveiled</guid>
