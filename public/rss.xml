@@ -8,6 +8,18 @@
     <lastBuildDate>Sat, 21 Nov 2026 12:00:00 +0530</lastBuildDate>
     <atom:link href="https://ainews.krishnavibez.in/rss.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Nvidia Unveils Blackwell B300: The 1.2 Terawatt-Class AI Inference Powerhouse</title>
+      <link>https://ainews.krishnavibez.in/articles/nvidia-blackwell-b300-superchip-architecture-unveiled.html</link>
+      <guid isPermaLink="true">https://ainews.krishnavibez.in/articles/nvidia-blackwell-b300-superchip-architecture-unveiled.html</guid>
+      <pubDate>Tue, 24 Nov 2026 06:36:42 +0530</pubDate>
+      <dc:creator>Paresh Padsala (AINews)</dc:creator>
+      <category>SILICON &amp; GPUS</category>
+      <description><![CDATA[Nvidia’s B300 Superchip arrives with 4x memory bandwidth and liquid-cooled density, set to define the infrastructure standard for 2027 enterprise AI scaling.]]></description>
+      <enclosure url="https://files.catbox.moe/mbp71l.jpg" type="image/jpeg" length="153600" />
+      <media:content url="https://files.catbox.moe/mbp71l.jpg" medium="image" width="1200" height="675" />
+    </item>
+
+    <item>
       <title>Anthropic Drops Claude 4 Haiku: The World’s Fastest Reasoning Model at Scale</title>
       <link>https://ainews.krishnavibez.in/articles/anthropic-claude-4-haiku-instant-reasoning-api-breakthrough.html</link>
       <guid isPermaLink="true">https://ainews.krishnavibez.in/articles/anthropic-claude-4-haiku-instant-reasoning-api-breakthrough.html</guid>

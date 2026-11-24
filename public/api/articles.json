@@ -1,5 +1,13 @@
 [
   {
+    "title": "Nvidia Unveils Blackwell B300: The 1.2 Terawatt-Class AI Inference Powerhouse",
+    "category": "SILICON & GPUS",
+    "date": "November 24, 2026",
+    "url": "/articles/nvidia-blackwell-b300-superchip-architecture-unveiled.html",
+    "excerpt": "Nvidia\u2019s B300 Superchip arrives with 4x memory bandwidth and liquid-cooled density, set to define the infrastructure standard for 2027 enterprise AI scaling.",
+    "badge": "LATEST"
+  },
+  {
     "title": "Anthropic Drops Claude 4 Haiku: The World\u2019s Fastest Reasoning Model at Scale",
     "category": "FRONTIER LLMS",
     "date": "November 23, 2026",
