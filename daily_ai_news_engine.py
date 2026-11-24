@@ -736,39 +736,127 @@ def update_index_page(topic_meta, hero_img):
         return
     slug = topic_meta["slug"]
     title = topic_meta["title"]
-    category = topic_meta["category"]
+    category = topic_meta.get("category", "FRONTIER LLMS").upper()
     meta_desc = topic_meta["meta_desc"]
     read_time = topic_meta.get("read_time", "6 min read")
-    display_date = datetime.now(_IST).strftime("%B %d, %Y")
+    now_ist = datetime.now(_IST)
+    display_date = now_ist.strftime("%B %d, %Y")
+    display_date_short = now_ist.strftime("%b %d, %Y")
+    weekday = now_ist.strftime("%A")
 
-    card_html = f"""
-    <!-- Article Card: {slug} -->
-    <article class="news-card">
-      <div class="card-img-wrap">
-        <span class="card-badge">{category}</span>
-        <img src="{hero_img}" alt="{title}" loading="lazy" width="600" height="338">
-      </div>
-      <div class="card-body">
-        <div class="card-date">{display_date} • {read_time}</div>
-        <h2 class="card-title">
-          <a href="/articles/{slug}">{title}</a>
-        </h2>
-        <p class="card-excerpt">{meta_desc[:145]}...</p>
-        <div class="card-footer">
-          <span style="color:var(--text-muted); font-size:0.8rem;">By <a href="/authors/paresh-padsala" style="color:inherit; text-decoration:none;">Paresh Padsala</a></span>
-          <a href="/articles/{slug}" class="read-btn">Read Deep Dive →</a>
-        </div>
-      </div>
-    </article>
-"""
     with open(INDEX_FILE, "r", encoding="utf-8") as f:
         html = f.read()
 
-    if '<main class="news-grid">' in html:
-        new_html = html.replace('<main class="news-grid">', '<main class="news-grid">\n' + card_html, 1)
-        with open(INDEX_FILE, "w", encoding="utf-8") as f:
-            f.write(new_html)
-        print("✅ Injected article card into index.html.")
+    # 1. Extract and demote previous lead story so it moves seamlessly into the articles grid
+    old_lead_match = re.search(r'<section class="lead-story">([\s\S]*?)</section>', html)
+    old_article_card = ""
+    if old_lead_match:
+        old_lead_content = old_lead_match.group(1)
+        t_match = re.search(r'<h1 class="lead-title">\s*<a href="([^"]+)">\s*([\s\S]*?)\s*</a>', old_lead_content)
+        img_match = re.search(r'<img src="([^"]+)" alt="([^"]*)"', old_lead_content)
+        cat_match = re.search(r'<span class="category-tag">([^<]+)</span>', old_lead_content)
+        desc_match = re.search(r'<p class="lead-excerpt">\s*([\s\S]*?)\s*</p>', old_lead_content)
+        date_match = re.search(r'<span>([A-Za-z]+ \d{1,2}, \d{4})</span>', old_lead_content)
+
+        if t_match:
+            old_url = t_match.group(1).strip()
+            old_title = t_match.group(2).strip()
+            old_img = img_match.group(1) if img_match else ""
+            raw_cat = cat_match.group(1) if cat_match else "FRONTIER LLMS"
+            old_cat = raw_cat.replace("SPECIAL INVESTIGATION //", "").replace("//", "").strip()
+            old_desc = desc_match.group(1).strip() if desc_match else ""
+            old_date = date_match.group(1) if date_match else display_date_short
+
+            # Only demote if this isn't already the exact same article
+            if slug not in old_url:
+                old_article_card = f"""      <!-- Previous Lead Story: {old_title} -->
+      <article class="article-card" data-category="{old_cat.lower()}">
+        <div class="card-img-holder">
+          <span class="category-tag">{old_cat}</span>
+          <a href="{old_url}">
+            <img src="{old_img}" alt="{old_title}" width="600" height="338" loading="lazy">
+          </a>
+        </div>
+        <div class="card-inner">
+          <div class="card-meta">
+            <span class="article-date">{old_date}</span>
+            <span class="meta-dot">•</span>
+            <span class="read-time">6 min read</span>
+          </div>
+          <h3 class="card-title">
+            <a href="{old_url}">{old_title}</a>
+          </h3>
+          <p class="card-excerpt">{old_desc[:160]}...</p>
+          <div class="card-footer">
+            <span class="author">By Paresh Padsala</span>
+            <a href="{old_url}" class="read-more">Read Full Report →</a>
+          </div>
+        </div>
+      </article>
+"""
+
+    # 2. Build the NEW Lead Story Section (Always Shows Latest Article Daily)
+    new_lead_story = f"""<!-- LEFT: Lead Breaking Story (Updated Daily) -->
+      <section class="lead-story">
+        <div class="lead-img-wrap">
+          <span class="category-tag">SPECIAL INVESTIGATION // {category}</span>
+          <a href="/articles/{slug}">
+            <img src="{hero_img}" alt="{title}" width="1200" height="675" loading="eager">
+          </a>
+        </div>
+        <div class="lead-content">
+          <div class="byline-row">
+            <span class="byline-author"><a href="/authors/paresh-padsala" style="color:var(--text-light); text-decoration:none;">Paresh Padsala</a></span>
+            <span>•</span>
+            <span>{display_date}</span>
+            <span>•</span>
+            <span>{read_time}</span>
+            <span>•</span>
+            <span style="color:#22c55e;">● Verified Data</span>
+          </div>
+          <h1 class="lead-title">
+            <a href="/articles/{slug}">
+              {title}
+            </a>
+          </h1>
+          <p class="lead-excerpt">
+            {meta_desc}
+          </p>
+          <div class="lead-footer">
+            <span>Read full benchmark breakdown &amp; enterprise implications</span>
+            <a href="/articles/{slug}" class="read-link">
+              Continue Reading →
+            </a>
+          </div>
+        </div>
+      </section>"""
+
+    # Replace old lead story
+    if old_lead_match:
+        html = html[:old_lead_match.start()] + new_lead_story + html[old_lead_match.end():]
+
+    # 3. Update Top News Wire Ticker
+    html = re.sub(
+        r'<div class="ticker-date">[^<]+</div>',
+        f'<div class="ticker-date">{weekday}, {display_date} | US &amp; Silicon Valley Edition</div>',
+        html
+    )
+    ticker_text_match = re.search(r'<span class="ticker-text">([\s\S]*?)</span>', html)
+    if ticker_text_match:
+        existing_items = [x.strip() for x in ticker_text_match.group(1).split(" • ") if x.strip()]
+        new_ticker_items = [title] + [x for x in existing_items if x != title][:2]
+        new_ticker_str = " • ".join(new_ticker_items)
+        html = html[:ticker_text_match.start(1)] + new_ticker_str + html[ticker_text_match.end(1):]
+
+    # 4. Inject previous lead story into articles-grid
+    if old_article_card and '<div class="articles-grid">' in html:
+        grid_start = html.find('<div class="articles-grid">')
+        if old_url not in html[grid_start:]:
+            html = html.replace('<div class="articles-grid">', '<div class="articles-grid">\n' + old_article_card, 1)
+
+    with open(INDEX_FILE, "w", encoding="utf-8") as f:
+        f.write(html)
+    print("✅ Successfully updated index.html Hero Section, Ticker Date/Text, and Articles Grid.")
 
 def update_sitemap(topic_meta, hero_img=""):
     if not os.path.exists(SITEMAP_FILE):
