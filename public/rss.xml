@@ -9,6 +9,18 @@
     <atom:link href="https://ainews.krishnavibez.in/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Anthropic Claude 3.7 Sonnet Unveiled: The Hybrid Reasoning Paradigm</title>
+      <link>https://ainews.krishnavibez.in/articles/anthropic-claude-3-7-sonnet-hybrid-reasoning-architecture-202611251756</link>
+      <guid isPermaLink="true">https://ainews.krishnavibez.in/articles/anthropic-claude-3-7-sonnet-hybrid-reasoning-architecture-202611251756</guid>
+      <pubDate>Wed, 25 Nov 2026 17:56:17 +0530</pubDate>
+      <dc:creator>Paresh Padsala (AINews)</dc:creator>
+      <category>FRONTIER LLMS</category>
+      <description><![CDATA[Anthropic reveals Claude 3.7 Sonnet, introducing dynamic token-budget reasoning that bridges lightning fast reflex responses with multi-step math and coding logic.]]></description>
+      <enclosure url="https://files.catbox.moe/cwh9u3.jpg" type="image/jpeg" length="153600" />
+      <media:content url="https://files.catbox.moe/cwh9u3.jpg" medium="image" width="1200" height="675" />
+    </item>
+
+    <item>
+      <title>Anthropic Claude 3.7 Sonnet Unveiled: The Hybrid Reasoning Paradigm</title>
       <link>https://ainews.krishnavibez.in/articles/anthropic-claude-3-7-sonnet-hybrid-reasoning-architecture-202611250930</link>
       <guid isPermaLink="true">https://ainews.krishnavibez.in/articles/anthropic-claude-3-7-sonnet-hybrid-reasoning-architecture-202611250930</guid>
       <pubDate>Wed, 25 Nov 2026 09:30:52 +0530</pubDate>
