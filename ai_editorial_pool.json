@@ -11761,5 +11761,139 @@
       "copper heatspreader"
     ],
     "used_in_articles": []
+  },
+  {
+    "id": "xpeng_vla3",
+    "url": "https://files.catbox.moe/ayep29.jpg",
+    "category": "ROBOTICS",
+    "badge": "AI Auto",
+    "subtopic": "vehicle_ai_control",
+    "hook_title": "XPeng VLA 3.0 AI Adds Body-Control Layer for Cars and Robots but Omits Speed and Size",
+    "hook_sub": "XPeng VLA 3.0 body-control layer cars robots",
+    "keywords": [
+      "xpeng",
+      "vla",
+      "3.0",
+      "body-control",
+      "cars",
+      "robots",
+      "ai"
+    ],
+    "used_in_articles": [],
+    "last_used_date": null
+  },
+  {
+    "id": "xpeng_vla3_wide",
+    "url": "https://files.catbox.moe/ayep29.jpg",
+    "category": "ROBOTICS",
+    "badge": "AI Auto",
+    "subtopic": "vehicle_ai_control",
+    "hook_title": "XPeng VLA 3.0 AI Adds Body-Control Layer for Cars and Robots but Omits Speed and Size",
+    "hook_sub": "XPeng VLA 3.0 wide research facility deployment",
+    "keywords": [
+      "xpeng",
+      "vla",
+      "3.0",
+      "body-control",
+      "cars",
+      "robots",
+      "ai"
+    ],
+    "used_in_articles": [],
+    "last_used_date": null
+  },
+  {
+    "id": "healthcare_robots_wide",
+    "url": "https://files.catbox.moe/4a1ezv.jpg",
+    "category": "ROBOTICS",
+    "badge": "Med AI",
+    "subtopic": "healthcare_robotics",
+    "hook_title": "Foundation model-enabled healthcare robots: from cyber-physical risk to safe clinical implementation",
+    "hook_sub": "healthcare robots research facility deployment",
+    "keywords": [
+      "healthcare",
+      "robots",
+      "foundation model",
+      "cyber-physical",
+      "clinical",
+      "implementation"
+    ],
+    "used_in_articles": [],
+    "last_used_date": null
+  },
+  {
+    "id": "sk_intellix_wide",
+    "url": "https://files.catbox.moe/02dtuy.jpg",
+    "category": "ROBOTICS",
+    "badge": "Award",
+    "subtopic": "ai_standards_robotics",
+    "hook_title": "SK intellix wins award for applying AI standards to wellness robot",
+    "hook_sub": "SK intellix award wellness robot research facility",
+    "keywords": [
+      "sk",
+      "intellix",
+      "award",
+      "ai-standards",
+      "wellness",
+      "robot"
+    ],
+    "used_in_articles": [],
+    "last_used_date": null
+  },
+  {
+    "id": "jpn_phys_ai_wide",
+    "url": "https://files.catbox.moe/2ualh7.jpg",
+    "category": "SILICON & GPUS",
+    "badge": "Physical AI",
+    "subtopic": "physical_ai_infrastructure",
+    "hook_title": "Japan's Preferred Networks sows seeds of physical AI with robots, software and chips",
+    "hook_sub": "jpn physical AI wide research facility",
+    "keywords": [
+      "japan",
+      "preferred networks",
+      "physical ai",
+      "robots",
+      "software",
+      "chips"
+    ],
+    "used_in_articles": [],
+    "last_used_date": null
+  },
+  {
+    "id": "polylab_wide",
+    "url": "https://files.catbox.moe/5wyhca.jpg",
+    "category": "ROBOTICS",
+    "badge": "Startups",
+    "subtopic": "ai_startup_robotics",
+    "hook_title": "PolyAI's ex-machine learning chief raises $20m for new robotics startup",
+    "hook_sub": "polyai ex-ml chief 20m startup research facility",
+    "keywords": [
+      "polyai",
+      "ex-machine learning",
+      "20m",
+      "robotics",
+      "startup"
+    ],
+    "used_in_articles": [],
+    "last_used_date": null
+  },
+  {
+    "id": "sk_intellix",
+    "url": "https://files.catbox.moe/02dtuy.jpg",
+    "category": "ROBOTICS",
+    "badge": "Award",
+    "subtopic": "ai_standards_robotics",
+    "hook_title": "SK intellix wins award for applying AI standards to wellness robot",
+    "hook_sub": "SK intellix award AI standards wellness robot",
+    "keywords": [
+      "sk",
+      "intellix",
+      "award",
+      "ai-standards",
+      "wellness",
+      "robot"
+    ],
+    "used_in_articles": [],
+    "last_used_date": null
   }
 ]
