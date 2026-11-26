@@ -11709,5 +11709,57 @@
       "frontier model"
     ],
     "used_in_articles": []
+  },
+  {
+    "id": "claude_hybrid_metacognition_1",
+    "url": "https://files.catbox.moe/kkkpqt.jpg",
+    "category": "FRONTIER LLMS",
+    "subtopic": "constitutional_metacognitive_ai",
+    "keywords": [
+      "claude 3.7",
+      "anthropic",
+      "metacognition",
+      "alignment",
+      "constitutional ai",
+      "synthetic data",
+      "interpretability",
+      "neural circuits"
+    ],
+    "used_in_articles": []
+  },
+  {
+    "id": "gemini_multimodal_omni_tensor",
+    "url": "https://files.catbox.moe/hpcdl3.jpg",
+    "category": "FRONTIER LLMS",
+    "subtopic": "omni_multimodal_reasoning",
+    "keywords": [
+      "gemini",
+      "google deepmind",
+      "omni",
+      "multimodal",
+      "native audio video",
+      "context window",
+      "tpu v6",
+      "quantum core"
+    ],
+    "used_in_articles": []
+  },
+  {
+    "id": "nvidia_rubin_ultra_accelerator",
+    "url": "https://files.catbox.moe/q0st30.jpg",
+    "category": "SILICON & GPUS",
+    "subtopic": "next_gen_gpu_architecture",
+    "keywords": [
+      "nvidia",
+      "rubin",
+      "r100",
+      "blackwell",
+      "hbm4",
+      "tsmc 3nm",
+      "co-packaged optics",
+      "nvlink 6",
+      "copper heatspreader"
+    ],
+    "used_in_articles": []
   }
 ]
