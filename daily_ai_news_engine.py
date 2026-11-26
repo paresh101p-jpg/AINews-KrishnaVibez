@@ -605,6 +605,7 @@ def assemble_full_article_page(topic_meta, body_html):
   <meta property="og:title" content="{title}">
   <meta property="og:description" content="{meta_desc}">
   <meta property="og:image" content="{hero_img}">
+  <meta property="og:image:alt" content="{title} - Editorial Tech Analysis &amp; Investigation">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="675">
   <meta property="og:locale" content="en_US">
@@ -882,7 +883,7 @@ def assemble_full_article_page(topic_meta, body_html):
     </div>
 
     <div class="hero-img-box">
-      <img src="{hero_img}" alt="{title}" fetchpriority="high" loading="eager" width="1200" height="675">
+      <img src="{hero_img}" alt="{title} - 16:9 Editorial AI Tech Analysis &amp; Research ({category})" fetchpriority="high" loading="eager" width="1200" height="675">
     </div>
 
     <nav class="article-toc" aria-label="Table of Contents">
