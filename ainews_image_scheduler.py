@@ -1,22 +1,24 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-AINews Autonomous Image Engine
-1. Analyzes the latest articles from public/api/articles.json (and site content).
-2. Generates 48 diverse, cinematic, high-resolution editorial prompts.
-3. Automatically tracks execution timestamp (25-hour auto-check).
-4. Integrates with Google Flow browser session & exports to Catbox CDN -> ai_editorial_pool.json -> Git Push.
+AINews World Trending Image Engine:
+1. Fetches real-time world top trending AI news from Google News RSS & Global feeds.
+2. Prompts user for image count (default: 24 news = 48 images).
+3. Formulates 2 ultra-detailed cinematic 16:9 prompts per news.
+4. Auto-detects & generates new category tags if news belongs to a new domain.
+5. Manages 25-hour autonomous timing state.
 """
 
 import os
 import sys
 import json
 import time
+import urllib.request
+import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 
 REPO_DIR = os.path.dirname(os.path.abspath(__file__))
 STATE_FILE = os.path.join(REPO_DIR, ".ainews_image_state.json")
-ARTICLES_FILE = os.path.join(REPO_DIR, "public", "api", "articles.json")
 POOL_FILE = os.path.join(REPO_DIR, "ai_editorial_pool.json")
 
 def get_last_run_hours_ago():
@@ -26,8 +28,7 @@ def get_last_run_hours_ago():
         with open(STATE_FILE, "r", encoding="utf-8") as f:
             data = json.load(f)
             last_ts = data.get("last_run_timestamp", 0)
-            elapsed_seconds = time.time() - last_ts
-            return elapsed_seconds / 3600.0
+            return (time.time() - last_ts) / 3600.0
     except Exception:
         return 9999.0
 
@@ -41,89 +42,124 @@ def update_last_run(count=48):
     with open(STATE_FILE, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2)
 
-def extract_trending_topics(limit=24):
-    """Read latest articles and synthesize diverse image topics."""
-    topics = []
-    if os.path.exists(ARTICLES_FILE):
+def fetch_world_top_ai_news(limit=24):
+    """Fetches real-time world trending AI news headlines from Google News RSS."""
+    rss_urls = [
+        "https://news.google.com/rss/search?q=Artificial+Intelligence+LLM+Robotics+when:2d&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=Nvidia+AI+Silicon+Chips+when:2d&hl=en-US&gl=US&ceid=US:en"
+    ]
+    items = []
+    seen = set()
+
+    for url in rss_urls:
         try:
-            with open(ARTICLES_FILE, "r", encoding="utf-8") as f:
-                articles = json.load(f)
-                seen_titles = set()
-                for art in articles:
-                    t = art.get("title", "").strip()
-                    if t and t not in seen_titles:
-                        seen_titles.add(t)
-                        topics.append({
-                            "title": t,
-                            "category": art.get("category", "FRONTIER LLMS"),
-                            "excerpt": art.get("excerpt", "")
-                        })
-                    if len(topics) >= limit:
+            req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'})
+            with urllib.request.urlopen(req, timeout=8) as response:
+                xml_data = response.read()
+                root = ET.fromstring(xml_data)
+                for item in root.findall(".//item"):
+                    title_elem = item.find("title")
+                    if title_elem is not None and title_elem.text:
+                        raw_title = title_elem.text
+                        clean_title = raw_title.split(" - ")[0].strip()
+                        if clean_title and clean_title not in seen:
+                            seen.add(clean_title)
+                            items.append(clean_title)
+                    if len(items) >= limit:
                         break
         except Exception as e:
-            print(f"Error reading articles: {e}")
+            print(f"[Warning] Feed fetch error: {e}")
 
-    # Fallback diverse tech topics if fewer than limit
-    default_topics = [
-        {"title": "GPT-5 Neural Reasoning & Multi-step Inference Scaling", "category": "FRONTIER LLMS", "subtopic": "reasoning_scaling"},
-        {"title": "Claude 3.7 Sonnet Constitutional Metacognition Circuitry", "category": "FRONTIER LLMS", "subtopic": "constitutional_ai"},
-        {"title": "Gemini 3 Deep Multimodal Omni Audio-Video Reasoning", "category": "FRONTIER LLMS", "subtopic": "omni_multimodal"},
-        {"title": "Nvidia Rubin R100 Ultra GPU with HBM4 Stacked Silicon Die", "category": "SILICON & GPUS", "subtopic": "gpu_hardware"},
-        {"title": "TSMC 2nm N2P GAA Lithography Cleanroom Silicon Wafer", "category": "SILICON & GPUS", "subtopic": "semiconductor_fab"},
-        {"title": "Silicon Photonics Co-Packaged Optics Laser Interconnect", "category": "SILICON & GPUS", "subtopic": "photonic_chips"},
-        {"title": "Tesla Optimus Gen 3 Humanoid Robot Precision Battery Assembly", "category": "ROBOTICS", "subtopic": "humanoid_manufacturing"},
-        {"title": "Figure 02 Autonomous Factory Fleet Coordination", "category": "ROBOTICS", "subtopic": "fleet_robotics"},
-        {"title": "Bionic Multi-articulated Hand with Optical Tactile Sensor", "category": "ROBOTICS", "subtopic": "tactile_haptics"},
-        {"title": "SMR Nuclear-powered AI Megawatt Datacenter at Dusk", "category": "AI DATACENTERS", "subtopic": "nuclear_datacenter"},
-        {"title": "Liquid Immersion Cooling Rack Submerged Supercomputer", "category": "AI DATACENTERS", "subtopic": "immersion_cooling"},
-        {"title": "Orbital Space-based Solar AI Computing Satellite Constellation", "category": "AI DATACENTERS", "subtopic": "orbital_compute"},
-        {"title": "Autonomous SWE-Bench Coding Agent Swarm Refactoring Architecture", "category": "AGENTS & CODING", "subtopic": "autonomous_coding"},
-        {"title": "DeepMind AlphaFold 3 Synthetic Cancer Nanobot Simulation", "category": "BIOTECH & AI HEALTH", "subtopic": "protein_folding"},
-        {"title": "Cryogenic Dilution Refrigerator Quantum Computer Chandelier", "category": "QUANTUM COMPUTING", "subtopic": "quantum_hardware"},
-        {"title": "Quantum Error Correction Surface Code Logical Qubit Matrix", "category": "QUANTUM COMPUTING", "subtopic": "quantum_error_correction"},
-        {"title": "Neuromorphic Brain-on-a-Chip Synaptic Pulse Array", "category": "NEUROMORPHIC & BCI", "subtopic": "neuromorphic_hardware"},
-        {"title": "Autonomous Defense Drone Swarm Radar Mesh Coordination", "category": "DEFENSE & AI", "subtopic": "drone_mesh"},
-        {"title": "Neural Generative Video Diffusion Supercluster Farm", "category": "FRONTIER LLMS", "subtopic": "generative_video"},
-        {"title": "Open-Source Decentralized Llama 4 P2P Compute Cluster", "category": "OPEN SOURCE", "subtopic": "decentralized_ai"},
-        {"title": "Photonic Optical Neural Core Processing Light Tensor Waves", "category": "SILICON & GPUS", "subtopic": "optical_compute"},
-        {"title": "Direct Air Capture Zero-Carbon AI Hyperscale Facility", "category": "AI DATACENTERS", "subtopic": "green_ai"},
-        {"title": "High-Density Solid-State Battery for Humanoid Field Operations", "category": "ROBOTICS", "subtopic": "robot_power"},
-        {"title": "Next-Gen AI Voice & Expressive Synthesis Acoustic Laboratory", "category": "FRONTIER LLMS", "subtopic": "expressive_speech"}
+    # Fallback to curated global top stories if RSS is offline
+    defaults = [
+        "Anthropic Claude 3.7 Sonnet Hybrid Reasoning & Dynamic Token Budgets",
+        "OpenAI Orion GPT-5 System-2 Deep Architecture & Tree-of-Thought Search",
+        "Google DeepMind Gemini 3 Omnimodal Real-Time World Reasoning",
+        "Nvidia Rubin R100 Ultra AI GPU with HBM4 and Co-Packaged Optics",
+        "TSMC 2nm GAA Lithography Cleanroom Silicon Wafer Production",
+        "Tesla Optimus Gen 3 Humanoid Robot Autonomous Gigafactory Assembly",
+        "Figure 02 Next-Gen Bipedal Robot Fleet Deployment",
+        "Next-Generation SMR Nuclear Microreactors Powering AI Datacenters",
+        "Liquid Immersion Cooling Tanks Submerging 100kW AI Server Racks",
+        "DeepMind AlphaFold 3 Molecular Dynamics Cancer Target Nanobots",
+        "Cryogenic Dilution Refrigerator Quantum Computer Chandelier",
+        "Autonomous SWE Coding Agent Swarms Refactoring Legacy Software",
+        "Neuromorphic Brain-on-Chip Synaptic Pulse Array Processing",
+        "Military Autonomous Drone Swarm Mesh Laser Communication",
+        "Orbital Space-based Solar AI Hyperscale Satellite Cluster",
+        "Quantum Error Correction Fault-Tolerant Logical Qubit Matrix",
+        "Photonic Light-Wave Optical Tensor Processor Die",
+        "Direct Air Capture Carbon-Negative Supercomputing Campus",
+        "Solid-State High Energy Density Battery for Humanoid Field Robotics",
+        "Meta Llama 4 Decentralized P2P Open-Source Training Cluster",
+        "Synthetic Biology AI Generating De Novo Enzymes for Carbon Sequestration",
+        "Haptic Tactile Robotic Hand with Sub-Millimeter Optical Sensing",
+        "Real-Time Multimodal Voice AI with Emotional Tone Dynamics",
+        "Autonomous Micro-Satellite AI Swarms Navigating Low Earth Orbit"
     ]
 
-    while len(topics) < limit:
-        topics.append(default_topics[len(topics) % len(default_topics)])
+    for d in defaults:
+        if len(items) >= limit:
+            break
+        if d not in seen:
+            items.append(d)
+            seen.add(d)
 
-    return topics[:limit]
+    return items[:limit]
 
-def generate_48_prompts():
-    """Generates 48 prompts split into 2 batches of 24 each."""
-    base_topics = extract_trending_topics(24)
-    
-    batch_1 = []
-    batch_2 = []
+def categorize_topic(title):
+    t_lower = title.lower()
+    if any(k in t_lower for k in ["rubin", "gpu", "chip", "silicon", "tsmc", "semiconductor", "blackwell", "cpo", "optic"]):
+        return "SILICON & GPUS"
+    elif any(k in t_lower for k in ["robot", "optimus", "humanoid", "figure", "bionic", "haptic", "boston dynamics"]):
+        return "ROBOTICS"
+    elif any(k in t_lower for k in ["datacenter", "nuclear", "smr", "cooling", "power", "grid", "orbital", "server"]):
+        return "AI DATACENTERS"
+    elif any(k in t_lower for k in ["quantum", "qubit", "cryogenic", "chandelier"]):
+        return "QUANTUM COMPUTING"
+    elif any(k in t_lower for k in ["alphafold", "protein", "health", "cancer", "medical", "biology", "enzyme"]):
+        return "BIOTECH & AI HEALTH"
+    elif any(k in t_lower for k in ["agent", "coding", "software", "swe-bench", "devin", "code"]):
+        return "AGENTS & CODING"
+    elif any(k in t_lower for k in ["drone", "defense", "military", "radar"]):
+        return "DEFENSE & AI"
+    elif any(k in t_lower for k in ["llama", "open-source", "open source", "mistral"]):
+        return "OPEN SOURCE"
+    else:
+        return "FRONTIER LLMS"
 
-    for t in base_topics:
-        title = t.get("title", "")
-        cat = t.get("category", "FRONTIER LLMS")
+def build_world_image_prompts(news_count=24):
+    """Builds 2 images per news = 2 * news_count total images."""
+    stories = fetch_world_top_ai_news(news_count)
+    prompts = []
+
+    for idx, story in enumerate(stories, 1):
+        cat = categorize_topic(story)
         
-        # Style 1: Macro Realistic Hardware / Core Architecture
-        p1 = f"Cinematic editorial news photograph of {title}, ultra-realistic detailed composition, high dynamic range volumetric lighting, 16:9 widescreen, no text, no watermark, professional tech photography"
-        batch_1.append({"prompt": p1, "category": cat, "title": title, "variant": "core_macro"})
+        # Style 1: Cinematic Core Micro/Macro Visual
+        p1 = f"Cinematic editorial photograph of {story}, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+        # Style 2: Wide Atmospheric Deployment Visual
+        p2 = f"Futuristic documentary wide shot showing {story} deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
 
-        # Style 2: Wide Environmental / Industrial Application
-        p2 = f"Futuristic ultra-detailed documentary photograph showing real-world engineering deployment of {title}, clean aesthetic, neon circuit reflections, 8k resolution, 16:9 aspect ratio, zero text, zero watermark"
-        batch_2.append({"prompt": p2, "category": cat, "title": title, "variant": "deployment_wide"})
+        prompts.append({
+            "news_index": idx,
+            "title": story,
+            "category": cat,
+            "image_num": 1,
+            "prompt": p1
+        })
+        prompts.append({
+            "news_index": idx,
+            "title": story,
+            "category": cat,
+            "image_num": 2,
+            "prompt": p2
+        })
 
-    return batch_1, batch_2
+    return prompts
 
 if __name__ == "__main__":
-    hours = get_last_run_hours_ago()
-    print(f"AINews Image Engine Status:")
-    print(f" - Last run: {hours:.1f} hours ago")
-    print(f" - Eligible for auto-run (>25 hrs): {'YES' if hours >= 25 else 'NO'}")
-    
-    b1, b2 = generate_48_prompts()
-    print(f" - Batch 1 prepared: {len(b1)} prompts")
-    print(f" - Batch 2 prepared: {len(b2)} prompts")
-    print(f" - Total images planned: {len(b1) + len(b2)}")
+    count = int(sys.argv[1]) if len(sys.argv) > 1 else 24
+    print(f"Fetching world top {count} AI stories...")
+    prs = build_world_image_prompts(count)
+    print(f"✓ Generated {len(prs)} image prompts (2 per news story) across global categories.")

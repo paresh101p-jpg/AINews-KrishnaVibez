@@ -1115,6 +1115,52 @@ def update_index_page(topic_meta, hero_img):
         f.write(html)
     print("✅ Successfully updated index.html Hero Section, Ticker Date/Text, and Articles Grid.")
 
+def cleanup_old_articles(retention_days=180):
+    """Prunes articles older than retention_days (6 months) from public/articles and search index."""
+    api_file = os.path.join(PUBLIC_DIR, "api", "articles.json")
+    if not os.path.exists(api_file):
+        return
+    now = datetime.now(_IST)
+    cutoff = now - timedelta(days=retention_days)
+
+    try:
+        with open(api_file, "r", encoding="utf-8") as f:
+            articles = json.load(f)
+    except Exception:
+        return
+
+    kept = []
+    removed_count = 0
+    for art in articles:
+        date_str = art.get("date", "")
+        # e.g. "November 26, 2026"
+        art_date = None
+        for fmt in ("%B %d, %Y", "%Y-%m-%d"):
+            try:
+                art_date = datetime.strptime(date_str, fmt).replace(tzinfo=_IST)
+                break
+            except Exception:
+                pass
+        
+        if art_date and art_date < cutoff:
+            # Delete html file
+            slug = art.get("url", "").replace("/articles/", "").replace(".html", "")
+            if slug:
+                html_path = os.path.join(ARTICLES_DIR, f"{slug}.html")
+                if os.path.exists(html_path):
+                    try:
+                        os.remove(html_path)
+                    except Exception:
+                        pass
+            removed_count += 1
+        else:
+            kept.append(art)
+
+    if removed_count > 0:
+        with open(api_file, "w", encoding="utf-8") as f:
+            json.dump(kept, f, indent=2)
+        print(f"🧹 Pruned {removed_count} old articles (> {retention_days} days) to optimize Firebase & GitHub size.")
+
 def update_sitemap(topic_meta, hero_img=""):
     if not os.path.exists(SITEMAP_FILE):
         return
@@ -1306,6 +1352,12 @@ def run_pipeline():
     })
     with open(HISTORY_FILE, "w", encoding="utf-8") as f:
         json.dump(hist, f, indent=2)
+
+    # Clean up articles older than 180 days (6 months) to keep repo & Firebase ultra-fast
+    try:
+        cleanup_old_articles(retention_days=180)
+    except Exception as e:
+        print(f"   [Notice] Cleanup warning: {e}")
 
     print("\n" + "=" * 70)
     print("🎉 AI NEWS ARTICLE READY FOR DEPLOYMENT!")

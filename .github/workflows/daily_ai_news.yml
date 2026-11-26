@@ -2,10 +2,8 @@ name: "Daily Autonomous AI News Publisher (ainews.krishnavibez.in)"
 
 'on':
   schedule:
-    # 1. Morning Edition: 03:00 UTC = 08:30 AM IST Every Day
-    - cron: '0 3 * * *'
-    # 2. Evening / US Market Open Edition: 13:30 UTC = 07:00 PM IST Every Day
-    - cron: '30 13 * * *'
+    # Hourly Publishing: Runs every hour (24 times/day)
+    - cron: '0 * * * *'
   workflow_dispatch:
 
 concurrency:
