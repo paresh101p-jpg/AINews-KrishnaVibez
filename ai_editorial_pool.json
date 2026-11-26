@@ -11691,5 +11691,23 @@
     ],
     "used_in_articles": [],
     "last_used_date": null
+  },
+  {
+    "id": "gpt5_neural_reasoning_banner",
+    "url": "https://files.catbox.moe/zmwr2y.jpg",
+    "category": "FRONTIER LLMS",
+    "subtopic": "deep_reasoning_synthesis",
+    "keywords": [
+      "gpt-5",
+      "orion",
+      "system 2 reasoning",
+      "openai",
+      "tree of thought",
+      "neural architecture",
+      "inference scaling",
+      "branching logic",
+      "frontier model"
+    ],
+    "used_in_articles": []
   }
 ]
