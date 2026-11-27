@@ -9,7 +9,7 @@
       title: "OpenAI Unveils o3: The First AI Model Capable of Multi-Day Autonomous Reasoning",
       category: "FRONTIER LLMS",
       date: "November 21, 2026",
-      url: "/articles/openai-o3-reasoning-breakthrough-system-2-thinking.html",
+      url: "/articles/openai-o3-reasoning-breakthrough-system-2-thinking",
       excerpt: "OpenAI officially releases o3, introducing a paradigm shift toward System 2 persistent autonomous reasoning, test-time compute scaling, and iterative self-verification.",
       badge: "BREAKING"
     }
