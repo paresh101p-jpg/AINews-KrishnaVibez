@@ -17,6 +17,9 @@ import html
 import random
 import requests
 import subprocess
+import time
+import urllib.request
+import urllib.parse
 from datetime import datetime, timezone, timedelta
 from google import genai
 
@@ -80,16 +83,11 @@ def generate_and_upload_catbox_banner(title, category, slug, content=""):
 def call_gemini(prompt):
     client = genai.Client(api_key=GEMINI_API_KEY)
     models = [
-        "gemini-2.5-flash",
-        "gemini-2.5-flash-lite",
+        "gemini-3.8-flash",
         "gemini-2.0-flash",
         "gemini-2.0-flash-lite",
-        "gemini-3.5-flash",
-        "gemini-3.5-flash-lite",
-        "gemini-3.7-flash",
-        "gemini-3.8-flash",
         "gemini-1.5-flash",
-        "gemini-2.5-pro"
+        "gemini-1.5-pro"
     ]
     last_err = None
     for m in models:
@@ -260,13 +258,21 @@ Output ONLY a valid JSON object with this exact structure:
         return data
     except Exception as e:
         print(f"   [Fallback Triggered] determine_today_ai_news_topic notice: {e}. Selecting from emergency breaking topic pool...")
-        for item in EMERGENCY_AI_NEWS_TOPIC_POOL:
-            if item["slug"] not in existing:
-                print(f"   [Fallback Selected] Curated emergency topic: {item['title']}")
-                return dict(item)
-        chosen = dict(EMERGENCY_AI_NEWS_TOPIC_POOL[0])
+        # Filter out items whose slug or title already appears in recent history
+        available_emergency = [
+            item for item in EMERGENCY_AI_NEWS_TOPIC_POOL
+            if item["slug"] not in existing and not any(item["title"].lower() in s.lower() for s in existing[-20:])
+        ]
+        if available_emergency:
+            chosen = dict(random.choice(available_emergency))
+            print(f"   [Fallback Selected] Curated emergency topic: {chosen['title']}")
+            return chosen
+        
+        # If all emergency topics have been covered, rotate randomly among non-recent ones
+        least_recent = random.choice(EMERGENCY_AI_NEWS_TOPIC_POOL)
+        chosen = dict(least_recent)
         chosen["slug"] = f"{chosen['slug']}-{now_ist.strftime('%Y%m%d%H%M')}"
-        print(f"   [Fallback Selected] Fresh timestamped topic: {chosen['title']}")
+        print(f"   [Fallback Selected] Fresh rotating topic: {chosen['title']}")
         return chosen
 
 def generate_fallback_article_body(topic_meta):
