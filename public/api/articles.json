@@ -1,5 +1,14 @@
 [
   {
+    "title": "AMD's Instinct MI400 and SMR Integration: Solving the 1-Gigawatt Power Wall",
+    "category": "SILICON & GPUS",
+    "date": "November 27, 2026",
+    "url": "/articles/amd-instinct-mi400-nuclear-smr-integration-datacenter-revolution.html",
+    "excerpt": "AMD debuts the Instinct MI400 on TSMC's N2 node, pairing 3D V-Cache with SMR nuclear power to sustain massive 150kW/rack datacenter cooling demands.",
+    "image": "https://ainews.krishnavibez.in/images/blackwell_gpu_interposer_chip_macro.jpg",
+    "badge": "LATEST"
+  },
+  {
     "title": "Tesla Optimus Gen 3 Enters Mass Production: The Factory Workforce Revolution",
     "category": "ROBOTICS",
     "date": "November 27, 2026",

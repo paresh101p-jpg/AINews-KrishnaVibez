@@ -8,6 +8,18 @@
     <lastBuildDate>Sat, 21 Nov 2026 12:00:00 +0530</lastBuildDate>
     <atom:link href="https://ainews.krishnavibez.in/rss.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>AMD&#x27;s Instinct MI400 and SMR Integration: Solving the 1-Gigawatt Power Wall</title>
+      <link>https://ainews.krishnavibez.in/articles/amd-instinct-mi400-nuclear-smr-integration-datacenter-revolution</link>
+      <guid isPermaLink="true">https://ainews.krishnavibez.in/articles/amd-instinct-mi400-nuclear-smr-integration-datacenter-revolution</guid>
+      <pubDate>Fri, 27 Nov 2026 23:00:52 +0530</pubDate>
+      <dc:creator>Paresh Padsala (AINews)</dc:creator>
+      <category>SILICON &amp; GPUS</category>
+      <description><![CDATA[AMD debuts the Instinct MI400 on TSMC's N2 node, pairing 3D V-Cache with SMR nuclear power to sustain massive 150kW/rack datacenter cooling demands.]]></description>
+      <enclosure url="https://ainews.krishnavibez.in/images/blackwell_gpu_interposer_chip_macro.jpg" type="image/jpeg" length="153600" />
+      <media:content url="https://ainews.krishnavibez.in/images/blackwell_gpu_interposer_chip_macro.jpg" medium="image" width="1200" height="675" />
+    </item>
+
+    <item>
       <title>Tesla Optimus Gen 3 Enters Mass Production: The Factory Workforce Revolution</title>
       <link>https://ainews.krishnavibez.in/articles/tesla-optimus-gen-3-industrial-mass-production-robotics-shift</link>
       <guid isPermaLink="true">https://ainews.krishnavibez.in/articles/tesla-optimus-gen-3-industrial-mass-production-robotics-shift</guid>
