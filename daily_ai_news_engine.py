@@ -1027,10 +1027,10 @@ def assemble_full_article_page(topic_meta, body_html):
       </div>
       <nav class="main-nav">
         <a href="/">Top Stories</a>
-        <a href="/#models" class="active">{category}</a>
-        <a href="/#agents">Agents &amp; Coding</a>
-        <a href="/#silicon">Silicon &amp; GPUs</a>
-        <a href="/#robotics">Robotics</a>
+        <a href="/articles/anthropic-claude-4-haiku-instant-reasoning-api-breakthrough.html" class="active">{category}</a>
+        <a href="/articles/cursor-vs-windsurf-vs-devin-autonomous-coding-agents-2026.html">Agents &amp; Coding</a>
+        <a href="/articles/nvidia-blackwell-b300-superchip-architecture-unveiled.html">Silicon &amp; GPUs</a>
+        <a href="/articles/tesla-optimus-gen-3-industrial-trials-automotive-assembly.html">Robotics</a>
         <a href="/rss.xml">RSS Feed</a>
       </nav>
       <div class="header-actions">
@@ -1042,7 +1042,7 @@ def assemble_full_article_page(topic_meta, body_html):
           </div>
           <div id="searchResultsDropdown" class="search-dropdown"></div>
         </div>
-        <a href="/#subscribe" class="subscribe-btn">Get Dispatch</a>
+        <a href="/rss.xml" class="subscribe-btn">Get Dispatch</a>
       </div>
     </div>
   </header>
@@ -1123,10 +1123,10 @@ def assemble_full_article_page(topic_meta, body_html):
         <div class="footer-col">
           <h4>Coverage</h4>
           <ul>
-            <li><a href="/#models">Frontier LLMs</a></li>
-            <li><a href="/#agents">Autonomous Agents</a></li>
-            <li><a href="/#silicon">Silicon &amp; GPUs</a></li>
-            <li><a href="/#robotics">Humanoid Robotics</a></li>
+            <li><a href="/articles/anthropic-claude-4-haiku-instant-reasoning-api-breakthrough.html">Frontier LLMs</a></li>
+            <li><a href="/articles/cursor-vs-windsurf-vs-devin-autonomous-coding-agents-2026.html">Autonomous Agents</a></li>
+            <li><a href="/articles/nvidia-blackwell-b300-superchip-architecture-unveiled.html">Silicon &amp; GPUs</a></li>
+            <li><a href="/articles/tesla-optimus-gen-3-industrial-trials-automotive-assembly.html">Humanoid Robotics</a></li>
           </ul>
         </div>
         <div class="footer-col">
