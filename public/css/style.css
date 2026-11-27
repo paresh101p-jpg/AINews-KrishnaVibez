@@ -405,7 +405,8 @@ a:hover {
 
 .wire-item {
   display: flex;
-  gap: 14px;
+  align-items: flex-start;
+  gap: 12px;
   padding-bottom: 16px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
@@ -416,15 +417,42 @@ a:hover {
 }
 
 .wire-num {
-  font-size: 1.35rem;
+  font-size: 1.25rem;
   font-weight: 900;
   color: var(--border-subtle);
   line-height: 1;
-  min-width: 28px;
+  min-width: 24px;
+  padding-top: 2px;
 }
 
 .wire-item:hover .wire-num {
   color: var(--accent-cyan);
+}
+
+.wire-thumb-holder {
+  width: 76px;
+  height: 48px;
+  border-radius: 6px;
+  overflow: hidden;
+  flex-shrink: 0;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: var(--bg-card);
+}
+
+.wire-thumb-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.25s ease;
+}
+
+.wire-item:hover .wire-thumb-img {
+  transform: scale(1.08);
+}
+
+.wire-item:hover .wire-thumb-holder {
+  border-color: var(--accent-cyan);
 }
 
 .wire-item-body {
