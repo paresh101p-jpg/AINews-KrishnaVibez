@@ -2,8 +2,8 @@ name: "Daily Autonomous AI News Publisher (ainews.krishnavibez.in)"
 
 'on':
   schedule:
-    # Hourly Publishing: Runs every hour (24 times/day)
-    - cron: '0 * * * *'
+    # Hourly Publishing: Runs at minute 15 of every hour (avoids GitHub 00:00 queue delay)
+    - cron: '15 * * * *'
   workflow_dispatch:
 
 concurrency:

@@ -83,11 +83,10 @@ def generate_and_upload_catbox_banner(title, category, slug, content=""):
 def call_gemini(prompt):
     client = genai.Client(api_key=GEMINI_API_KEY)
     models = [
-        "gemini-3.8-flash",
-        "gemini-2.0-flash",
-        "gemini-2.0-flash-lite",
-        "gemini-1.5-flash",
-        "gemini-1.5-pro"
+        "gemini-3.1-flash-lite",
+        "gemini-3.5-flash-lite",
+        "gemini-3.5-flash",
+        "gemini-3.8-flash"
     ]
     last_err = None
     for m in models:
@@ -967,11 +966,14 @@ def assemble_full_article_page(topic_meta, body_html):
           </ul>
         </div>
         <div class="footer-col">
-          <h4>Editorial</h4>
+          <h4>Editorial &amp; Legal</h4>
           <ul>
-            <li><a href="/about">About the Publication</a></li>
+            <li><a href="/about">About Us</a></li>
             <li><a href="/ethics">Editorial Standards</a></li>
-            <li><a href="/contact">Press Inquiries</a></li>
+            <li><a href="/privacy">Privacy Policy</a></li>
+            <li><a href="/terms">Terms of Service</a></li>
+            <li><a href="/disclaimer">Disclaimer</a></li>
+            <li><a href="/contact">Contact Us</a></li>
           </ul>
         </div>
       </div>
@@ -982,7 +984,7 @@ def assemble_full_article_page(topic_meta, body_html):
     </div>
   </footer>
 
-  <script src="/js/search.js?v=4.0"></script>
+  <script src="/js/search.js?v=5.0"></script>
   <script>
     window.addEventListener('scroll', function() {{
       var h = document.documentElement.scrollHeight - document.documentElement.clientHeight;

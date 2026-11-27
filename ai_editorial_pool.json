@@ -1175,8 +1175,10 @@
       "o3",
       "cot"
     ],
-    "used_in_articles": [],
-    "last_used_date": null
+    "used_in_articles": [
+      "deepseek-r1-open-weights-reasoning-moe-breakthrough-202611271327"
+    ],
+    "last_used_date": "2026-11-27T07:57:48.516433"
   },
   {
     "id": "Thought_graph_branching_in_space_b76be312",
@@ -1202,8 +1204,10 @@
       "o3",
       "cot"
     ],
-    "used_in_articles": [],
-    "last_used_date": null
+    "used_in_articles": [
+      "anthropic-claude-3-7-opus-launch-asynchronous-reasoning-breakthrough"
+    ],
+    "last_used_date": "2026-11-27T08:28:13.925583"
   },
   {
     "id": "Holographic_thought_graph_branching_4dea6736",

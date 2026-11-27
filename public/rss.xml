@@ -8,6 +8,18 @@
     <lastBuildDate>Sat, 21 Nov 2026 12:00:00 +0530</lastBuildDate>
     <atom:link href="https://ainews.krishnavibez.in/rss.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Anthropic Debuts Claude 3.7 Opus: The First Asynchronous Reasoning Model</title>
+      <link>https://ainews.krishnavibez.in/articles/anthropic-claude-3-7-opus-launch-asynchronous-reasoning-breakthrough</link>
+      <guid isPermaLink="true">https://ainews.krishnavibez.in/articles/anthropic-claude-3-7-opus-launch-asynchronous-reasoning-breakthrough</guid>
+      <pubDate>Fri, 27 Nov 2026 13:58:35 +0530</pubDate>
+      <dc:creator>Paresh Padsala (AINews)</dc:creator>
+      <category>FRONTIER LLMS</category>
+      <description><![CDATA[Anthropic unveils Claude 3.7 Opus, featuring breakthrough asynchronous reasoning for complex enterprise workflows. Redefining logic in US-based AI agents.]]></description>
+      <enclosure url="https://files.catbox.moe/d9kn9v.jpg" type="image/jpeg" length="153600" />
+      <media:content url="https://files.catbox.moe/d9kn9v.jpg" medium="image" width="1200" height="675" />
+    </item>
+
+    <item>
       <title>Anthropic Claude 3.7 Sonnet Unveiled: The Hybrid Reasoning Paradigm</title>
       <link>https://ainews.krishnavibez.in/articles/anthropic-claude-3-7-sonnet-hybrid-reasoning-architecture-202611250930</link>
       <guid isPermaLink="true">https://ainews.krishnavibez.in/articles/anthropic-claude-3-7-sonnet-hybrid-reasoning-architecture-202611250930</guid>
