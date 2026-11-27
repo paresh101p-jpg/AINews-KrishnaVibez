@@ -982,7 +982,7 @@ def assemble_full_article_page(topic_meta, body_html):
     </div>
   </footer>
 
-  <script src="/js/search.js"></script>
+  <script src="/js/search.js?v=4.0"></script>
   <script>
     window.addEventListener('scroll', function() {{
       var h = document.documentElement.scrollHeight - document.documentElement.clientHeight;

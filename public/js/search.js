@@ -274,9 +274,14 @@
       const key = toKey(window.location.pathname);
       const metaBar = document.querySelector('.meta-bar');
       if (metaBar) {
-        const span = document.createElement('span');
-        span.innerHTML = '👁️ <strong class="real-view-count">...</strong> views';
-        metaBar.appendChild(span);
+        let span = metaBar.querySelector('.article-real-views');
+        if (!span) {
+          span = document.createElement('span');
+          span.className = 'article-real-views';
+          span.style.cssText = 'color:#a78bfa; font-weight:700;';
+          span.innerHTML = '👁️ <strong class="real-view-count">...</strong> views';
+          metaBar.appendChild(span);
+        }
         fetchViews(key, true).then(count => {
           const el = span.querySelector('.real-view-count');
           if (el) el.textContent = fmt(count);
@@ -284,37 +289,39 @@
       }
     }
 
+    function refreshHomepageCounts() {
+      cache.clear();
+      document.querySelectorAll('[data-view-key]').forEach(el => {
+        const key = el.getAttribute('data-view-key');
+        fetchViews(key, false).then(count => {
+          el.textContent = fmt(count);
+        });
+      });
+    }
+
     // 2. Homepage Lead Story (GET only, no artificial inflation)
     const leadLink = document.querySelector('.lead-story .lead-title a, .lead-story a[href*="/articles/"]');
     const leadByline = document.querySelector('.lead-story .byline-row');
-    if (leadLink && leadByline) {
+    if (leadLink && leadByline && !leadByline.querySelector('.real-view-count')) {
       const key = toKey(leadLink.getAttribute('href'));
       const dot = document.createElement('span');
       dot.textContent = '•';
       const vSpan = document.createElement('span');
       vSpan.style.cssText = 'color:#a78bfa; font-weight:600;';
-      vSpan.innerHTML = '👁️ <span class="real-view-count">0</span> views';
+      vSpan.innerHTML = `👁️ <span class="real-view-count" data-view-key="${key}">0</span> views`;
       leadByline.appendChild(dot);
       leadByline.appendChild(vSpan);
-      fetchViews(key, false).then(count => {
-        const el = vSpan.querySelector('.real-view-count');
-        if (el) el.textContent = fmt(count);
-      });
     }
 
     // 3. Homepage Wire Dispatches
     document.querySelectorAll('.wire-item').forEach(item => {
       const a = item.querySelector('a[href*="/articles/"]');
       const meta = item.querySelector('.wire-item-meta');
-      if (a && meta) {
+      if (a && meta && !meta.querySelector('.real-view-count')) {
         const key = toKey(a.getAttribute('href'));
         const vSpan = document.createElement('span');
-        vSpan.innerHTML = ' • 👁️ <span class="real-view-count">0</span> views';
+        vSpan.innerHTML = ` • 👁️ <span class="real-view-count" data-view-key="${key}">0</span> views`;
         meta.appendChild(vSpan);
-        fetchViews(key, false).then(count => {
-          const el = vSpan.querySelector('.real-view-count');
-          if (el) el.textContent = fmt(count);
-        });
       }
     });
 
@@ -322,7 +329,7 @@
     document.querySelectorAll('.articles-grid .article-card').forEach(card => {
       const a = card.querySelector('.card-title a, a[href*="/articles/"]');
       const meta = card.querySelector('.card-meta');
-      if (a && meta) {
+      if (a && meta && !meta.querySelector('.real-view-count')) {
         const key = toKey(a.getAttribute('href'));
         const dot = document.createElement('span');
         dot.className = 'meta-dot';
@@ -330,14 +337,15 @@
         const vSpan = document.createElement('span');
         vSpan.className = 'card-views';
         vSpan.style.cssText = 'color:#a78bfa; font-weight:600;';
-        vSpan.innerHTML = '👁️ <span class="real-view-count">0</span> views';
+        vSpan.innerHTML = `👁️ <span class="real-view-count" data-view-key="${key}">0</span> views`;
         meta.appendChild(dot);
         meta.appendChild(vSpan);
-        fetchViews(key, false).then(count => {
-          const el = vSpan.querySelector('.real-view-count');
-          if (el) el.textContent = fmt(count);
-        });
       }
+    });
+
+    refreshHomepageCounts();
+    window.addEventListener('pageshow', (e) => {
+      if (e.persisted) refreshHomepageCounts();
     });
   }
 })();
