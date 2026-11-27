@@ -3959,8 +3959,10 @@
       "networking",
       "cooling"
     ],
-    "used_in_articles": [],
-    "last_used_date": null
+    "used_in_articles": [
+      "ai-shadow-war-autonomous-defense-vs-deepfake-syndicates"
+    ],
+    "last_used_date": "2026-11-27T22:30:43.110970"
   },
   {
     "id": "Cooling_pipes_in_AI_rack_810c2005",
