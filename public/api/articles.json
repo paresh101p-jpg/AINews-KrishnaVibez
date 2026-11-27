@@ -5,7 +5,8 @@
     "date": "November 27, 2026",
     "url": "/articles/anthropic-claude-3-7-opus-launch-asynchronous-reasoning-breakthrough.html",
     "excerpt": "Anthropic unveils Claude 3.7 Opus, featuring breakthrough asynchronous reasoning for complex enterprise workflows. Redefining logic in US-based AI agents.",
-    "badge": "LATEST"
+    "badge": "LATEST",
+    "image": "https://files.catbox.moe/kkkpqt.jpg"
   },
   {
     "title": "Anthropic Claude 3.7 Sonnet Unveiled: The Hybrid Reasoning Paradigm",
@@ -13,7 +14,8 @@
     "date": "November 27, 2026",
     "url": "/articles/anthropic-claude-3-7-sonnet-hybrid-reasoning-architecture-202611270539",
     "excerpt": "Anthropic reveals Claude 3.7 Sonnet, introducing dynamic token-budget reasoning that bridges lightning fast reflex responses with multi-step math and coding logic.",
-    "badge": "LATEST"
+    "badge": "LATEST",
+    "image": "https://files.catbox.moe/kkkpqt.jpg"
   },
   {
     "title": "OpenAI Launches o3: The First Reasoning Model Optimized for Enterprise Workflows",
@@ -21,7 +23,8 @@
     "date": "November 25, 2026",
     "url": "/articles/openai-o3-reasoning-model-enterprise-deployment",
     "excerpt": "OpenAI officially releases o3, a breakthrough reasoning model engineered for high-stakes enterprise decision-making and complex technical system architecture.",
-    "badge": "LATEST"
+    "badge": "LATEST",
+    "image": "/images/openai_o3.jpg"
   },
   {
     "title": "Nvidia Unveils Blackwell B300: The 1.2 Terawatt-Class AI Inference Powerhouse",
@@ -29,7 +32,8 @@
     "date": "November 24, 2026",
     "url": "/articles/nvidia-blackwell-b300-superchip-architecture-unveiled",
     "excerpt": "Nvidia\u2019s B300 Superchip arrives with 4x memory bandwidth and liquid-cooled density, set to define the infrastructure standard for 2027 enterprise AI scaling.",
-    "badge": "LATEST"
+    "badge": "LATEST",
+    "image": "/images/gpu_silicon_die_architecture.jpg"
   },
   {
     "title": "Anthropic Drops Claude 4 Haiku: The World\u2019s Fastest Reasoning Model at Scale",
@@ -37,14 +41,15 @@
     "date": "November 23, 2026",
     "url": "/articles/anthropic-claude-4-haiku-instant-reasoning-api-breakthrough",
     "excerpt": "Anthropic\u2019s Claude 4 Haiku arrives, delivering sub-second reasoning and agentic accuracy, setting a new industry benchmark for enterprise-grade low-latency AI.",
-    "badge": "LATEST"
+    "badge": "LATEST",
+    "image": "https://files.catbox.moe/kkkpqt.jpg"
   },
   {
     "slug": "gta-6-ai-revolution-rockstar-rage-9-neural-patents-npc-simulation",
     "title": "GTA 6 & The AI Revolution: How Rockstar\u2019s RAGE 9 Neural Patents & Machine Learning NPCs Are Reinventing Open Worlds",
     "description": "An investigative breakdown of Rockstar",
     "category": "NEURAL GRAPHICS & AI",
-    "image": "https://files.catbox.moe/8mlkp0.jpg",
+    "image": "/images/sora_generative_video_holodeck_virtual.jpg",
     "pub_iso": "2026-11-22T11:39:34.364843+05:30",
     "read_time": "9 min read",
     "url": "/articles/gta-6-ai-revolution-rockstar-rage-9-neural-patents-npc-simulation"
@@ -54,7 +59,7 @@
     "title": "Mechanistic Interpretability Frontier Ai Safety Alignment",
     "description": "Researchers map millions of neural features in frontier LLMs using Sparse Autoencoders (SAEs), pinpointing deceptive alignment and sycophancy circuits in real time.",
     "category": "ARTIFICIAL INTELLIGENCE",
-    "image": "https://files.catbox.moe/h6sxoy.jpg",
+    "image": "/images/cybersecurity_neural_shield_defense.jpg",
     "pub_iso": "2026-11-22T10:52:39.901479+05:30",
     "read_time": "7 min read",
     "url": "/articles/mechanistic-interpretability-frontier-ai-safety-alignment"
@@ -64,7 +69,7 @@
     "title": "Enterprise Small Language Models Fortune 500 Local 7B",
     "description": "Enterprises increasingly abandon $20/million-token frontier APIs in favor of distilled 3B-8B local parameter models running privately on internal hardware.",
     "category": "ARTIFICIAL INTELLIGENCE",
-    "image": "https://files.catbox.moe/pf5al6.jpg",
+    "image": "/images/autonomous_coding_agents.jpg",
     "pub_iso": "2026-11-22T10:46:39.901479+05:30",
     "read_time": "7 min read",
     "url": "/articles/enterprise-small-language-models-fortune-500-local-7b"
@@ -74,7 +79,7 @@
     "title": "Boston Dynamics Electric Atlas Commercial Warehouse Swivel",
     "description": "Boston Dynamics transitions its fully electric Atlas humanoid into live automotive logistics, demonstrating continuous 360-degree joint rotation and non-human kinematics.",
     "category": "ARTIFICIAL INTELLIGENCE",
-    "image": "https://files.catbox.moe/kh5mc9.jpg",
+    "image": "https://files.catbox.moe/av74fd.jpg",
     "pub_iso": "2026-11-22T10:40:39.901479+05:30",
     "read_time": "7 min read",
     "url": "/articles/boston-dynamics-electric-atlas-commercial-warehouse-swivel"
@@ -84,7 +89,7 @@
     "title": "Neuromorphic Event Silicon Microwatt Edge Intelligence",
     "description": "Brain-inspired spiking neural network (SNN) chips enter commercial production, enabling continuous sensory keyword and vision intelligence on micro-watt batteries.",
     "category": "ARTIFICIAL INTELLIGENCE",
-    "image": "https://files.catbox.moe/w01ost.jpg",
+    "image": "/images/autonomous_vehicle_sensor_fleet_robotaxi.jpg",
     "pub_iso": "2026-11-22T10:34:39.901479+05:30",
     "read_time": "7 min read",
     "url": "/articles/neuromorphic-event-silicon-microwatt-edge-intelligence"
@@ -94,7 +99,7 @@
     "title": "Photonic Optical Computing Light Speed Neural Accelerators",
     "description": "Silicon photonics startups achieve commercial matrix multiplication using optical waveguides and phase change modulators, bypassing electronic copper heat limits.",
     "category": "ARTIFICIAL INTELLIGENCE",
-    "image": "https://files.catbox.moe/xb59t5.jpg",
+    "image": "/images/cpo_silicon_photonics_chip_bench.jpg",
     "pub_iso": "2026-11-22T10:28:39.901479+05:30",
     "read_time": "7 min read",
     "url": "/articles/photonic-optical-computing-light-speed-neural-accelerators"
@@ -104,7 +109,7 @@
     "title": "Cognition Ai Devin 2 Swe Bench Verified Engineering",
     "description": "Cognition AI releases Devin 2.0 with a verified 67% resolution rate on SWE-bench Verified, integrating sandboxed browser debugging and enterprise repo indexing.",
     "category": "ARTIFICIAL INTELLIGENCE",
-    "image": "https://files.catbox.moe/9r53ne.jpg",
+    "image": "/images/ai_swarm_intelligence_mesh.jpg",
     "pub_iso": "2026-11-22T10:22:39.901479+05:30",
     "read_time": "7 min read",
     "url": "/articles/cognition-ai-devin-2-swe-bench-verified-engineering"
@@ -114,7 +119,7 @@
     "title": "Ai Datacenter Gigawatt Energy Crisis Smr Nuclear Reactors",
     "description": "Big tech firms commit over $100 billion to small modular nuclear reactors (SMRs) and geothermal contracts as US electric grid capacity bottlenecks AI training clusters.",
     "category": "ARTIFICIAL INTELLIGENCE",
-    "image": "https://files.catbox.moe/rrcjj3.jpg",
+    "image": "https://files.catbox.moe/3s15o2.jpg",
     "pub_iso": "2026-11-22T10:16:39.901479+05:30",
     "read_time": "7 min read",
     "url": "/articles/ai-datacenter-gigawatt-energy-crisis-smr-nuclear-reactors"
@@ -124,7 +129,7 @@
     "title": "Meta Llama 4 Multimodal Moe 400B Architecture Preview",
     "description": "Meta AI leaks architecture details for Llama 4, unveiling a native multi-token prediction Mixture-of-Experts design trained across 100,000 Nvidia H100 clusters.",
     "category": "ARTIFICIAL INTELLIGENCE",
-    "image": "https://files.catbox.moe/sx3l2u.jpg",
+    "image": "/images/open_source_ai.jpg",
     "pub_iso": "2026-11-22T10:10:39.901479+05:30",
     "read_time": "7 min read",
     "url": "/articles/meta-llama-4-multimodal-moe-400b-architecture-preview"
@@ -134,7 +139,7 @@
     "title": "Figure 02 Humanoid 100K Hours Bmw Manufacturing Analysis",
     "description": "Figure AI announces landmark milestone as Figure 02 humanoid robots surpass 100,000 commercial operational hours handling precision sheet metal and sub-assemblies at BMW.",
     "category": "ARTIFICIAL INTELLIGENCE",
-    "image": "https://files.catbox.moe/y3fsj2.jpg",
+    "image": "/images/humanoid_semiconductor_cleanroom.jpg",
     "pub_iso": "2026-11-22T10:04:39.901479+05:30",
     "read_time": "7 min read",
     "url": "/articles/figure-02-humanoid-100k-hours-bmw-manufacturing-analysis"
@@ -144,7 +149,7 @@
     "title": "Google Gemini 2 Flash Thinking Realtime Multimodal Reasoning",
     "description": "Google DeepMind launches Gemini 2.0 Flash Thinking, merging sub-second conversational latency with internal scratchpad reasoning across video, audio, and code.",
     "category": "ARTIFICIAL INTELLIGENCE",
-    "image": "https://files.catbox.moe/vomhsm.jpg",
+    "image": "https://files.catbox.moe/hpcdl3.jpg",
     "pub_iso": "2026-11-22T09:58:39.901479+05:30",
     "read_time": "7 min read",
     "url": "/articles/google-gemini-2-flash-thinking-realtime-multimodal-reasoning"
@@ -154,7 +159,7 @@
     "title": "Cerebras Cs 3 Wafer Scale Clusters 100X Gpu Training",
     "description": "Cerebras Systems scales its CS-3 Wafer-Scale Engine clusters, achieving unprecedented 2,000+ tokens-per-second inference and unified 4-Trillion transistor throughput.",
     "category": "ARTIFICIAL INTELLIGENCE",
-    "image": "https://files.catbox.moe/2xgtf6.jpg",
+    "image": "/images/datacenter_liquid_cooling_cluster.jpg",
     "pub_iso": "2026-11-22T09:52:39.901479+05:30",
     "read_time": "7 min read",
     "url": "/articles/cerebras-cs-3-wafer-scale-clusters-100x-gpu-training"
@@ -164,7 +169,7 @@
     "title": "Tesla Optimus Gen 3 Industrial Trials Automotive Assembly",
     "description": "Tesla deploys Optimus Gen 3 humanoids into live Fremont assembly lines, demonstrating autonomous end-to-end neural battery cell sorting and dexterous manipulation.",
     "category": "ARTIFICIAL INTELLIGENCE",
-    "image": "https://files.catbox.moe/olxzjg.jpg",
+    "image": "/images/humanoid_robot_gigafactory_assembly.jpg",
     "pub_iso": "2026-11-22T09:46:39.901479+05:30",
     "read_time": "7 min read",
     "url": "/articles/tesla-optimus-gen-3-industrial-trials-automotive-assembly"
@@ -174,7 +179,7 @@
     "title": "Deepseek R1 Open Weights Reasoning Moe Breakthrough",
     "description": "DeepSeek R1 proves pure reinforcement learning can unlock frontier-grade reasoning without supervised fine-tuning, shaking the closed-source AI monopoly.",
     "category": "ARTIFICIAL INTELLIGENCE",
-    "image": "https://files.catbox.moe/xlefmu.jpg",
+    "image": "/images/cpo_silicon_photonics_chip_v2.jpg",
     "pub_iso": "2026-11-22T09:40:39.901479+05:30",
     "read_time": "7 min read",
     "url": "/articles/deepseek-r1-open-weights-reasoning-moe-breakthrough"
@@ -184,7 +189,7 @@
     "title": "Cursor Vs Windsurf Vs Devin Autonomous Coding Agents 2026",
     "description": "An in-depth benchmark analysis of Cursor, Codeium Windsurf, and Cognition Devin 2.0 as autonomous software engineering transforms global development teams.",
     "category": "ARTIFICIAL INTELLIGENCE",
-    "image": "https://files.catbox.moe/xknf0g.jpg",
+    "image": "/images/autonomous_agents.jpg",
     "pub_iso": "2026-11-22T09:34:39.901479+05:30",
     "read_time": "7 min read",
     "url": "/articles/cursor-vs-windsurf-vs-devin-autonomous-coding-agents-2026"
@@ -194,7 +199,7 @@
     "title": "Anthropic Claude 3 7 Sonnet Hybrid Reasoning Architecture",
     "description": "Anthropic reveals Claude 3.7 Sonnet, introducing dynamic token-budget reasoning that bridges lightning fast reflex responses with multi-step math and coding logic.",
     "category": "ARTIFICIAL INTELLIGENCE",
-    "image": "https://files.catbox.moe/z19i1t.jpg",
+    "image": "https://files.catbox.moe/kkkpqt.jpg",
     "pub_iso": "2026-11-22T09:28:39.901479+05:30",
     "read_time": "7 min read",
     "url": "/articles/anthropic-claude-3-7-sonnet-hybrid-reasoning-architecture"
@@ -204,7 +209,7 @@
     "title": "Nvidia Blackwell B200 Scale Deployment Us Data Centers",
     "description": "Nvidia\u2019s Blackwell B200 clusters are officially hitting US data centers, triggering a gigawatt-scale surge in enterprise AI compute and training efficiency.",
     "category": "ARTIFICIAL INTELLIGENCE",
-    "image": "https://files.catbox.moe/3pef57.jpg",
+    "image": "/images/gpu_silicon_die_architecture.jpg",
     "pub_iso": "2026-11-22T09:22:39.901479+05:30",
     "read_time": "7 min read",
     "url": "/articles/nvidia-blackwell-b200-scale-deployment-us-data-centers"
@@ -214,7 +219,7 @@
     "title": "Nvidia Blackwell B300 Massive Scale Deployment",
     "description": "NVIDIA launches the Blackwell B300, delivering a 4x performance jump for massive frontier model training. Silicon Valley",
     "category": "ARTIFICIAL INTELLIGENCE",
-    "image": "https://files.catbox.moe/zrpxkr.jpg",
+    "image": "/images/neuralink_bci_microthread_chip.jpg",
     "pub_iso": "2026-11-21T23:04:54.572251+05:30",
     "read_time": "7 min read",
     "url": "/articles/nvidia-blackwell-b300-massive-scale-deployment"
@@ -224,7 +229,7 @@
     "title": "Openai O3 Reasoning Breakthrough System 2 Thinking",
     "description": "OpenAI",
     "category": "ARTIFICIAL INTELLIGENCE",
-    "image": "https://files.catbox.moe/sqqcuk.jpg",
+    "image": "/images/openai_o3.jpg",
     "pub_iso": "2026-11-21T13:01:26+05:30",
     "read_time": "7 min read",
     "url": "/articles/openai-o3-reasoning-breakthrough-system-2-thinking"

@@ -1,22 +1,26 @@
 """
 smart_image_matcher.py
 ======================
-100% Free Smart-Tagging Editorial Image Selection & Custom News Hook Engine.
-Selects the 100% exact-match editorial photo from the verified AI Editorial Pool
-based on semantic keyword scoring, category alignment, and least-recently-used rotation.
-Renders the exact news headline and hook directly onto the image so readers are compelled to click.
+Next-Generation High-Precision Editorial Image Matcher & Dynamic Headline Hook Engine.
+1. Strictly maps articles to true topic-specific editorial visuals (No repetitive blue graphics).
+2. Deep entity recognition (Claude vs OpenAI vs Gemini vs DeepSeek vs Optimus vs Blackwell vs Devin).
+3. Brand mismatch quarantine & strict recency isolation (Zero consecutive duplicate images).
+4. Tier 1 Clean local visual priority with dynamic headline rendering.
 """
 
 import os
 import io
 import json
 import re
+import random
 import urllib.request
 import requests
 from datetime import datetime
 from PIL import Image, ImageDraw, ImageFont
 
-POOL_FILE = os.path.join(os.path.dirname(__file__), "ai_editorial_pool.json")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+POOL_FILE = os.path.join(BASE_DIR, "ai_editorial_pool.json")
+PUBLIC_DIR = os.path.join(BASE_DIR, "public")
 FONT_BOLD = r"C:\Windows\Fonts\arialbd.ttf"
 FONT_SEMI = r"C:\Windows\Fonts\segoeuib.ttf"
 
@@ -37,6 +41,47 @@ def save_editorial_pool(pool):
     except Exception as e:
         print(f"[Smart Image Matcher] Error saving pool: {e}")
 
+def detect_article_entity(text: str) -> str:
+    """Detects primary tech company, product, or domain entity."""
+    t = text.lower()
+    if re.search(r"\b(claude|anthropic|sonnet|opus|haiku|dario amodei)\b", t):
+        return "anthropic"
+    if re.search(r"\b(gemini|deepmind|google|demis hassabis)\b", t):
+        return "google"
+    if re.search(r"\b(openai|o3|o1|gpt-5|strawberry|sam altman)\b", t):
+        return "openai"
+    if re.search(r"\b(deepseek|r1|deepseek-r1)\b", t):
+        return "deepseek"
+    if re.search(r"\b(llama|meta|zuckerberg)\b", t):
+        return "meta"
+    if re.search(r"\b(tesla|optimus|giga texas)\b", t):
+        return "tesla_optimus"
+    if re.search(r"\b(figure|figure 02|brett adcock)\b", t):
+        return "figure"
+    if re.search(r"\b(boston dynamics|atlas|spot)\b", t):
+        return "boston_dynamics"
+    if re.search(r"\b(blackwell|nvidia|b200|b300|rubin|jensen huang|nvlink)\b", t):
+        return "nvidia"
+    if re.search(r"\b(cerebras|cs-3|wafer-scale)\b", t):
+        return "cerebras"
+    if re.search(r"\b(cursor|windsurf|devin|cognition|swe-bench)\b", t):
+        return "coding_agent"
+    if re.search(r"\b(photonic|optical computing|laser|cpo|co-packaged optics)\b", t):
+        return "photonics"
+    if re.search(r"\b(power crisis|grid|nuclear|smr|gigawatt|megawatt|energy)\b", t):
+        return "energy"
+    if re.search(r"\b(gta 6|rockstar|rage 9)\b", t):
+        return "gaming"
+    if re.search(r"\b(sora|video generation|runway|gen-3|kling)\b", t):
+        return "video"
+    if re.search(r"\b(neuralink|bci|brain computer|brain chip)\b", t):
+        return "bci"
+    if re.search(r"\b(quantum|qubit|cryogenic|superconducting|dilution)\b", t):
+        return "quantum"
+    if re.search(r"\b(tsmc|asml|lithography|cleanroom|foundry|2nm|wafer)\b", t):
+        return "foundry"
+    return "general"
+
 def derive_hooks_from_title(title: str, category: str):
     parts = re.split(r"[:—–-]", title, maxsplit=1)
     if len(parts) == 2 and len(parts[0].strip()) >= 5:
@@ -48,8 +93,8 @@ def derive_hooks_from_title(title: str, category: str):
         hook1 = " ".join(words[:mid]).strip().upper()
         hook2 = " ".join(words[mid:]).strip().upper()
 
-    if len(hook1) > 44: hook1 = hook1[:41] + "..."
-    if len(hook2) > 50: hook2 = hook2[:47] + "..."
+    if len(hook1) > 42: hook1 = hook1[:39] + "..."
+    if len(hook2) > 48: hook2 = hook2[:45] + "..."
 
     badge_map = {
         "FRONTIER LLMS": ("REASONING FRONTIER", (244, 63, 94)),
@@ -64,22 +109,35 @@ def derive_hooks_from_title(title: str, category: str):
     badge_info = badge_map.get(category.upper(), ("BREAKING REPORT", (239, 68, 68)))
     return badge_info[0], badge_info[1], hook1, hook2
 
-def create_headline_hook_banner(base_url: str, title: str, category: str) -> str:
-    """Downloads base image, renders exact news title hook, and uploads to Catbox CDN."""
+def create_headline_hook_banner(base_visual: str, title: str, category: str) -> str:
+    """
+    Downloads or opens base visual, draws dynamic headline & badge, uploads to Catbox CDN.
+    Supports both remote URLs and local /images/... file paths.
+    """
     try:
-        req = urllib.request.Request(base_url, headers={"User-Agent": "Mozilla/5.0"})
-        raw_data = urllib.request.urlopen(req, timeout=25).read()
-        img = Image.open(io.BytesIO(raw_data)).convert("RGB")
-        
+        if base_visual.startswith("/images/"):
+            local_p = os.path.join(PUBLIC_DIR, base_visual.lstrip("/"))
+            if os.path.exists(local_p):
+                img = Image.open(local_p).convert("RGB")
+            else:
+                return base_visual
+        elif base_visual.startswith("http"):
+            req = urllib.request.Request(base_visual, headers={"User-Agent": "Mozilla/5.0"})
+            raw_data = urllib.request.urlopen(req, timeout=25).read()
+            img = Image.open(io.BytesIO(raw_data)).convert("RGB")
+        else:
+            return base_visual
+
         target_w, target_h = 1200, 675
         img = img.resize((target_w, target_h), Image.Resampling.LANCZOS)
         
         overlay = Image.new("RGBA", (target_w, target_h), (0, 0, 0, 0))
         draw = ImageDraw.Draw(overlay)
         
+        # Subtle dark gradient at bottom for text contrast
         for y in range(target_h - 175, target_h):
-            alpha = int(220 * ((y - (target_h - 175)) / 175.0)**1.25)
-            draw.line([(0, y), (target_w, y)], fill=(10, 15, 26, alpha))
+            alpha = int(225 * ((y - (target_h - 175)) / 175.0)**1.25)
+            draw.line([(0, y), (target_w, y)], fill=(8, 12, 22, alpha))
             
         font_badge = ImageFont.truetype(FONT_BOLD, 18)
         font_hook = ImageFont.truetype(FONT_BOLD, 36)
@@ -118,35 +176,60 @@ def create_headline_hook_banner(base_url: str, title: str, category: str) -> str
         )
         if resp.status_code == 200 and resp.text.startswith("http"):
             cat_url = resp.text.strip()
-            print(f"   [Custom News Hook] Generated & Uploaded Banner: {cat_url}")
+            print(f"   [Dynamic Hook Banner] Generated & Uploaded: {cat_url}")
             return cat_url
     except Exception as e:
-        print(f"   [Custom News Hook Notice] Error generating custom banner: {e}")
+        print(f"   [Dynamic Hook Notice] Error generating custom banner: {e}")
         
-    return base_url
+    return base_visual
 
-def select_best_image_for_article(title, category, content="", slug=""):
+def select_best_image_for_article(title: str, category: str, content: str = "", slug: str = "", render_headline: bool = True) -> str:
     """
-    Selects the 100% best-matched image from the editorial pool.
-    Updates usage tracking so images rotate seamlessly without repetition.
-    Renders the exact news headline and hook directly onto the image.
+    High-Precision Topic Matcher:
+    1. Extracts target entity (Claude, OpenAI, Gemini, Blackwell, etc.).
+    2. Penalizes brand mismatch (-100 pts) and recency reuse (-150 pts).
+    3. Rewards exact entity (+70 pts), category match (+25 pts), and Tier 1 visuals.
+    4. Renders dynamic headline hook so visual conveys the actual story.
     """
     pool = load_editorial_pool()
     if not pool:
         print("[Smart Image Matcher] Warning: Editorial pool is empty. Using fallback.")
-        return "https://files.catbox.moe/sqqcuk.jpg"
+        return "/images/frontier_llm.jpg"
 
-    text_to_search = (f"{title} {category} {content[:1000]}").lower()
+    text_to_search = f"{title} {category} {content[:1200]}".lower()
     clean_words = set(re.findall(r"\b[a-z0-9_-]{3,}\b", text_to_search))
+    title_words = set(re.findall(r"\b[a-z0-9_-]{3,}\b", title.lower()))
+    
+    target_entity = detect_article_entity(text_to_search)
+
+    # Collect recently used images to enforce strict quarantine
+    recently_used_ids = []
+    for item in pool:
+        used_list = item.get("used_in_articles", [])
+        if used_list:
+            recently_used_ids.append((item.get("id"), item.get("last_used_date", "")))
+    recently_used_ids.sort(key=lambda x: x[1], reverse=True)
+    recent_id_set_strict = set([x[0] for x in recently_used_ids[:4]])
+    recent_id_set_soft = set([x[0] for x in recently_used_ids[4:12]])
 
     scored_candidates = []
-    now_iso = datetime.utcnow().isoformat()
-
     for idx, item in enumerate(pool):
+        item_id = item.get("id", f"img_{idx}")
         score = 0
-        cat_match = (item.get("category", "").upper() == category.upper())
-        if cat_match:
-            score += 20  # Big bonus for exact category match
+
+        # Category match
+        if item.get("category", "").upper() == category.upper():
+            score += 25
+
+        # Entity matching
+        item_entity = item.get("entity", "")
+        if target_entity and target_entity != "general":
+            if item_entity == target_entity:
+                score += 75  # Huge boost for exact brand/product match!
+            elif item_entity in ["anthropic", "google", "openai", "deepseek", "meta"] and item_entity != target_entity:
+                score -= 120 # Strict penalty: Never mix Claude with OpenAI or Gemini!
+            elif item_entity in ["tesla_optimus", "figure", "boston_dynamics"] and item_entity != target_entity:
+                score -= 90  # Never mix Tesla Optimus with Boston Dynamics!
 
         # Keyword matching
         keywords = item.get("keywords", [])
@@ -154,42 +237,48 @@ def select_best_image_for_article(title, category, content="", slug=""):
         for kw in keywords:
             kw_clean = kw.lower().strip()
             if kw_clean in text_to_search:
-                score += 5
+                score += 8
                 matched_keywords.append(kw_clean)
-            elif any(w == kw_clean for w in clean_words):
-                score += 3
+            elif kw_clean in title_words:
+                score += 15
                 matched_keywords.append(kw_clean)
 
-        title_lower = title.lower()
-        for kw in matched_keywords:
-            if kw in title_lower:
-                score += 8
+        # Tier 1 Clean Image bonus
+        if item.get("is_clean_tier1"):
+            score += 22
+
+        # Recency quarantine
+        if item_id in recent_id_set_strict:
+            score -= 160 # Banned from consecutive reuse
+        elif item_id in recent_id_set_soft:
+            score -= 60
 
         used_count = len(item.get("used_in_articles", []))
-        recency_penalty = used_count * 2
-        final_score = max(0, score - recency_penalty)
+        score -= (used_count * 15)
 
         scored_candidates.append({
             "index": idx,
-            "id": item.get("id", f"img_{idx}"),
+            "id": item_id,
             "url": item.get("url", ""),
             "category": item.get("category", ""),
             "subtopic": item.get("subtopic", ""),
-            "score": final_score,
+            "score": score,
             "matched_keywords": matched_keywords,
-            "used_count": used_count
+            "used_count": used_count,
+            "entity": item_entity
         })
 
     scored_candidates.sort(key=lambda x: (x["score"], -x["used_count"]), reverse=True)
     best = scored_candidates[0]
-    
+
     print(f"\n[Smart Image Matcher] Best visual match for '{title[:50]}...':")
-    print(f"   Selected ID: {best['id']} ({best['subtopic']})")
+    print(f"   Selected ID: {best['id']} ({best['subtopic']} | {best['entity']})")
     print(f"   Score: {best['score']} | Matched: {best['matched_keywords'][:5]}")
-    print(f"   Base Visual URL: {best['url']}")
+    print(f"   Base Visual: {best['url']}")
 
     # Mark as used in pool
     best_idx = best["index"]
+    now_iso = datetime.utcnow().isoformat()
     if slug:
         if "used_in_articles" not in pool[best_idx]:
             pool[best_idx]["used_in_articles"] = []
@@ -198,11 +287,14 @@ def select_best_image_for_article(title, category, content="", slug=""):
         pool[best_idx]["last_used_date"] = now_iso
         save_editorial_pool(pool)
 
-    # Generate custom news headline hook on the image
-    custom_hook_url = create_headline_hook_banner(best["url"], title, category)
-    return custom_hook_url
+    # Generate custom news headline hook banner
+    if render_headline:
+        custom_hook_url = create_headline_hook_banner(best["url"], title, category)
+        return custom_hook_url
+    
+    return best["url"]
 
 if __name__ == "__main__":
-    sample_title = "Figure 02 Humanoids Begin Full Assembly Shifts at BMW Spartanburg Plant"
-    url = select_best_image_for_article(sample_title, "ROBOTICS", "humanoid robotics physical assembly", "test-figure-02")
-    print("Final Custom Banner URL:", url)
+    t = "Figure 02 Humanoids Complete 100,000 Hours of Autonomous Operation at BMW"
+    url = select_best_image_for_article(t, "ROBOTICS", "figure 02 bmw humanoid manufacturing", "test-figure-02", render_headline=False)
+    print("Selected Visual URL:", url)
