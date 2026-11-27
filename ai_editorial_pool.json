@@ -11818,8 +11818,10 @@
       "robots",
       "ai"
     ],
-    "used_in_articles": [],
-    "last_used_date": null
+    "used_in_articles": [
+      "enterprise-cloud-roi-crunch-aws-azure-capex-scrutiny-2026"
+    ],
+    "last_used_date": "2026-11-27T19:30:46.057875"
   },
   {
     "id": "healthcare_robots_wide",
