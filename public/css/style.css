@@ -21,6 +21,25 @@
   --font-serif: Georgia, "Times New Roman", Times, serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+.section-heading-bar,
+.trending-strip,
+.news-wire-panel,
+#trending,
+#subscribe,
+#articles,
+#models,
+#agents,
+#silicon,
+#robotics,
+#top-stories,
+.lead-story {
+  scroll-margin-top: 100px;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;

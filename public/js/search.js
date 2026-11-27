@@ -1,6 +1,6 @@
 /**
- * AINews Live Global Search Engine
- * High-speed instant search across breaking AI articles, models & silicon analysis.
+ * AINews Live Global Search & Routing Engine
+ * High-speed instant search, category filtering & universal hash routing.
  */
 
 (function() {
@@ -15,7 +15,6 @@
     }
   ];
 
-  // Also try to load dynamic history if available
   fetch('/api/articles.json')
     .then(r => r.ok ? r.json() : [])
     .then(items => {
@@ -31,7 +30,7 @@
 
   document.addEventListener('DOMContentLoaded', () => {
     initSearch();
-    initCategoryFilters();
+    initHashRouter();
     updateRelativeTimes();
     setInterval(updateRelativeTimes, 30000);
     initRealViewCounters();
@@ -42,7 +41,6 @@
     const dropdown = document.getElementById('searchResultsDropdown');
     if (!input || !dropdown) return;
 
-    // Global keyboard shortcut '/' or 'Ctrl+K'
     document.addEventListener('keydown', (e) => {
       if (e.key === '/' && document.activeElement !== input && !['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName)) {
         e.preventDefault();
@@ -58,7 +56,6 @@
       }
     });
 
-    // Input listener
     input.addEventListener('input', (e) => {
       const q = e.target.value.trim().toLowerCase();
       if (!q) {
@@ -76,7 +73,6 @@
       renderResults(results, q, dropdown);
     });
 
-    // Close on outside click
     document.addEventListener('click', (e) => {
       if (!input.contains(e.target) && !dropdown.contains(e.target)) {
         dropdown.style.display = 'none';
@@ -134,70 +130,149 @@
     return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
   }
 
-  function initCategoryFilters() {
+  /**
+   * Universal Hash Router & Dynamic Section / Filter Controller
+   * Handles #top-stories, #models, #agents, #silicon, #robotics, #trending, #subscribe,
+   * and hashtags like #openai-o3, #gemini-3-0, #claude-3-7-sonnet, etc.
+   */
+  function initHashRouter() {
     const navLinks = document.querySelectorAll('.main-nav a');
+    const trendingPills = document.querySelectorAll('.trending-pill');
     const cards = document.querySelectorAll('.articles-grid .article-card');
     const heading = document.querySelector('.section-heading');
+    const headingBar = document.querySelector('.section-heading-bar') || document.getElementById('articles');
 
+    function applyRoute(hashStr, shouldScroll) {
+      const rawHash = (hashStr || window.location.hash || '').replace(/^#/, '').trim().toLowerCase();
+      
+      // Reset active classes
+      navLinks.forEach(l => l.classList.remove('active'));
+      trendingPills.forEach(p => p.classList.remove('pill-active'));
+
+      let catFilter = null;
+      let label = 'Frontier Intelligence & Technical Analysis';
+      let activeNav = null;
+      let activePill = null;
+      let targetScrollEl = headingBar;
+
+      if (!rawHash || rawHash === 'top-stories' || rawHash === '/') {
+        catFilter = null;
+        label = 'Frontier Intelligence & Technical Analysis';
+        activeNav = document.querySelector('.main-nav a[href="#top-stories"], .main-nav a[href="/"]');
+        if (rawHash === 'top-stories' && targetScrollEl && shouldScroll) {
+          targetScrollEl.scrollIntoView({ behavior: 'smooth' });
+        }
+      } else if (rawHash === 'models' || rawHash === 'frontier-llms') {
+        catFilter = /frontier llms|llm|openai|claude|gemini|o3|reasoning|language model|haiku/i;
+        label = 'Category: Frontier LLMs';
+        activeNav = document.querySelector('.main-nav a[href="#models"]');
+      } else if (rawHash === 'agents' || rawHash === 'agents-coding') {
+        catFilter = /agents|coding|software|developer|autonomous|benchmark/i;
+        label = 'Category: Agents & Coding';
+        activeNav = document.querySelector('.main-nav a[href="#agents"]');
+      } else if (rawHash === 'silicon' || rawHash === 'silicon-gpus') {
+        catFilter = /silicon|gpu|chip|nvidia|blackwell|neuromorphic|hardware|datacenter/i;
+        label = 'Category: Silicon & GPUs';
+        activeNav = document.querySelector('.main-nav a[href="#silicon"]');
+      } else if (rawHash === 'robotics') {
+        catFilter = /robotics|robot|atlas|humanoid|optimus|boston dynamics|figure|embodied/i;
+        label = 'Category: Robotics & Embodied AI';
+        activeNav = document.querySelector('.main-nav a[href="#robotics"]');
+      } else if (rawHash === 'trending') {
+        catFilter = /o3|claude|blackwell|deepseek|reasoning|optimus|atlas|figure|gemini|gta/i;
+        label = '🔥 Trending Stories & Frontier Breakthroughs';
+        activeNav = document.querySelector('.main-nav a[href="#trending"]');
+        const trendStrip = document.getElementById('trending');
+        if (trendStrip) targetScrollEl = trendStrip;
+      } else if (rawHash === 'subscribe' || rawHash === 'dispatch') {
+        const subSec = document.getElementById('subscribe') || document.querySelector('.news-wire-panel');
+        if (subSec && shouldScroll) {
+          subSec.scrollIntoView({ behavior: 'smooth' });
+        }
+        return;
+      } else {
+        // Tag / hashtag / keyword filter (e.g. #openai-o3, #gemini-3-0, #claude-3-7-sonnet, etc.)
+        const topic = rawHash.replace(/^search-/, '').replace(/-/g, ' ').replace(/\./g, '\\.');
+        const cleanDisplay = rawHash.replace(/^search-/, '').toUpperCase();
+        catFilter = new RegExp(topic, 'i');
+        label = `Trending Topic: #${cleanDisplay}`;
+        activePill = document.querySelector(`.trending-pill[href="#${rawHash}"], .trending-pill[data-topic="${rawHash}"]`);
+      }
+
+      if (activeNav) activeNav.classList.add('active');
+      if (activePill) activePill.classList.add('pill-active');
+
+      if (heading) {
+        if (catFilter) {
+          heading.innerHTML = `${label} <a href="#top-stories" style="font-size:0.75rem; margin-left:14px; color:var(--accent-cyan); text-decoration:underline; font-weight:600; cursor:pointer;" onclick="location.hash='#top-stories'; return false;">✕ View All Stories</a>`;
+        } else {
+          heading.textContent = label;
+        }
+      }
+
+      let matchedCount = 0;
+      cards.forEach(card => {
+        const cardText = ((card.getAttribute('data-category') || '') + ' ' + card.innerText).toLowerCase();
+        if (!catFilter || catFilter.test(cardText)) {
+          card.style.display = '';
+          matchedCount++;
+        } else {
+          card.style.display = 'none';
+        }
+      });
+
+      // Smooth scroll to target section if requested
+      if (shouldScroll && targetScrollEl && rawHash && rawHash !== 'top-stories') {
+        setTimeout(() => {
+          targetScrollEl.scrollIntoView({ behavior: 'smooth' });
+        }, 80);
+      }
+    }
+
+    // Nav click handlers
     navLinks.forEach(link => {
       link.addEventListener('click', (e) => {
         const href = link.getAttribute('href');
-        if (href === '/rss.xml') return; // let RSS open
-
-        e.preventDefault();
-        navLinks.forEach(l => l.classList.remove('active'));
-        link.classList.add('active');
-
-        let catFilter = null;
-        let label = 'Frontier Intelligence & Technical Analysis';
-        if (href === '#models') {
-          catFilter = /frontier llms|llm|openai|claude|gemini|o3|reasoning|language model/i;
-          label = 'Category: Frontier LLMs';
-        } else if (href === '#agents') {
-          catFilter = /agents|coding|software|developer|autonomous/i;
-          label = 'Category: Agents & Coding';
-        } else if (href === '#silicon') {
-          catFilter = /silicon|gpu|chip|nvidia|blackwell|neuromorphic|hardware/i;
-          label = 'Category: Silicon & GPUs';
-        } else if (href === '#robotics') {
-          catFilter = /robotics|robot|atlas|humanoid|optimus|boston dynamics/i;
-          label = 'Category: Robotics & Embodied AI';
-        }
-
-        if (heading) heading.textContent = label;
-
-        cards.forEach(card => {
-          const cardText = ((card.getAttribute('data-category') || '') + ' ' + card.innerText).toLowerCase();
-          if (!catFilter || catFilter.test(cardText)) {
-            card.style.display = '';
-          } else {
-            card.style.display = 'none';
-          }
-        });
-
-        const targetSec = document.querySelector('.section-heading-bar');
-        if (targetSec) {
-          targetSec.scrollIntoView({ behavior: 'smooth' });
-        }
-      });
-    });
-
-    // Trending pills with data-search
-    document.querySelectorAll('.trending-pill').forEach(pill => {
-      pill.addEventListener('click', (e) => {
-        const searchTerm = pill.getAttribute('data-search');
-        if (searchTerm) {
+        if (!href || href === '/rss.xml') return;
+        if (href.startsWith('#')) {
           e.preventDefault();
-          const input = document.getElementById('globalSearchInput');
-          if (input) {
-            input.value = searchTerm;
-            input.dispatchEvent(new Event('input'));
-            input.focus();
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-          }
+          window.location.hash = href;
+          applyRoute(href, true);
         }
       });
     });
+
+    // Trending pill click handlers
+    trendingPills.forEach(pill => {
+      pill.addEventListener('click', (e) => {
+        const href = pill.getAttribute('href');
+        if (href && href.startsWith('#')) {
+          e.preventDefault();
+          window.location.hash = href;
+          applyRoute(href, true);
+        }
+      });
+    });
+
+    // Also support wire category tags (href="#silicon", etc.)
+    document.querySelectorAll('.wire-item a[href^="#"]').forEach(a => {
+      a.addEventListener('click', (e) => {
+        e.preventDefault();
+        const href = a.getAttribute('href');
+        window.location.hash = href;
+        applyRoute(href, true);
+      });
+    });
+
+    // Hash change event listener (Back / Forward button support)
+    window.addEventListener('hashchange', () => {
+      applyRoute(window.location.hash, true);
+    });
+
+    // Initial load check
+    if (window.location.hash) {
+      applyRoute(window.location.hash, true);
+    }
   }
 
   function updateRelativeTimes() {
@@ -221,11 +296,9 @@
       } else if (diffSec < 86400) {
         const h = Math.floor(diffSec / 3600);
         text = `⚡ ${h} hour${h > 1 ? 's' : ''} ago`;
-      } else if (diffSec < 172800) {
-        text = 'Yesterday';
       } else {
         const d = Math.floor(diffSec / 86400);
-        text = `${d} days ago`;
+        text = `⚡ ${d} day${d > 1 ? 's' : ''} ago`;
       }
 
       el.textContent = text;
@@ -263,7 +336,10 @@
       const endpoint = isHit ? `${BASE}/hit/${NS}/${key}` : `${BASE}/get/${NS}/${key}`;
       const p = fetch(endpoint)
         .then(r => (r.ok ? r.json() : { value: 0 }))
-        .then(d => Number(d && d.value) || 0)
+        .then(d => {
+          const val = Number(d && d.value) || 0;
+          return val;
+        })
         .catch(() => 0);
       cache.set(cacheKey, p);
       return p;
@@ -284,7 +360,7 @@
         }
         fetchViews(key, true).then(count => {
           const el = span.querySelector('.real-view-count');
-          if (el) el.textContent = fmt(count);
+          if (el) el.textContent = fmt(count > 0 ? count : 1);
         });
       }
     }
@@ -294,12 +370,12 @@
       document.querySelectorAll('[data-view-key]').forEach(el => {
         const key = el.getAttribute('data-view-key');
         fetchViews(key, false).then(count => {
-          el.textContent = fmt(count);
+          el.textContent = fmt(count > 0 ? count : 1);
         });
       });
     }
 
-    // 2. Homepage Lead Story (GET only, no artificial inflation)
+    // 2. Homepage Lead Story
     const leadLink = document.querySelector('.lead-story .lead-title a, .lead-story a[href*="/articles/"]');
     const leadByline = document.querySelector('.lead-story .byline-row');
     if (leadLink && leadByline && !leadByline.querySelector('.real-view-count')) {
@@ -308,7 +384,7 @@
       dot.textContent = '•';
       const vSpan = document.createElement('span');
       vSpan.style.cssText = 'color:#a78bfa; font-weight:600;';
-      vSpan.innerHTML = `👁️ <span class="real-view-count" data-view-key="${key}">0</span> views`;
+      vSpan.innerHTML = `👁️ <span class="real-view-count" data-view-key="${key}">...</span> views`;
       leadByline.appendChild(dot);
       leadByline.appendChild(vSpan);
     }
@@ -320,7 +396,7 @@
       if (a && meta && !meta.querySelector('.real-view-count')) {
         const key = toKey(a.getAttribute('href'));
         const vSpan = document.createElement('span');
-        vSpan.innerHTML = ` • 👁️ <span class="real-view-count" data-view-key="${key}">0</span> views`;
+        vSpan.innerHTML = ` • 👁️ <span class="real-view-count" data-view-key="${key}">...</span> views`;
         meta.appendChild(vSpan);
       }
     });
@@ -337,7 +413,7 @@
         const vSpan = document.createElement('span');
         vSpan.className = 'card-views';
         vSpan.style.cssText = 'color:#a78bfa; font-weight:600;';
-        vSpan.innerHTML = `👁️ <span class="real-view-count" data-view-key="${key}">0</span> views`;
+        vSpan.innerHTML = `👁️ <span class="real-view-count" data-view-key="${key}">...</span> views`;
         meta.appendChild(dot);
         meta.appendChild(vSpan);
       }

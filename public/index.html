@@ -175,11 +175,12 @@
         </a>
       </div>
       <nav class="main-nav">
-        <a href="/" class="active">Top Stories</a>
+        <a href="#top-stories" class="active">Top Stories</a>
         <a href="#models">Frontier LLMs</a>
         <a href="#agents">Agents &amp; Coding</a>
         <a href="#silicon">Silicon &amp; GPUs</a>
         <a href="#robotics">Robotics</a>
+        <a href="#trending">Trending</a>
         <a href="/rss.xml">RSS Feed</a>
       </nav>
       <div class="header-actions">
@@ -197,17 +198,16 @@
   </header>
 
   <!-- 3. Trending Strip -->
-  <div class="trending-strip">
+  <div class="trending-strip" id="trending">
     <div class="container trending-inner">
       <span class="trending-label">Trending Now:</span>
-      <a href="/articles/openai-o3-reasoning-model-enterprise-deployment" class="trending-pill">#OpenAI-o3</a>
-      <a href="/articles/anthropic-claude-3-7-sonnet-hybrid-reasoning-architecture-202611250930" class="trending-pill">#Claude-3.7-Sonnet</a>
-      <a href="/articles/nvidia-blackwell-b300-superchip-architecture-unveiled" class="trending-pill">#Nvidia-Blackwell</a>
-      <a href="/articles/anthropic-claude-4-haiku-instant-reasoning-api-breakthrough" class="trending-pill">#Claude-4-Haiku</a>
-      <a href="/articles/boston-dynamics-electric-atlas-commercial-warehouse-swivel" class="trending-pill">#Atlas-Robotics</a>
-      <a href="/articles/gta-6-ai-revolution-rockstar-rage-9-neural-patents-npc-simulation" class="trending-pill">#GTA-6-AI</a>
-      <a href="#search-gemini" class="trending-pill" data-search="Gemini">#Gemini-3.0</a>
-      <a href="#search-deepseek" class="trending-pill" data-search="DeepSeek">#DeepSeek-R1</a>
+      <a href="#openai-o3" class="trending-pill" data-topic="o3">#OpenAI-o3</a>
+      <a href="#gemini-3-0" class="trending-pill" data-topic="gemini">#Gemini-3.0</a>
+      <a href="#claude-3-7-sonnet" class="trending-pill" data-topic="claude">#Claude-3.7-Sonnet</a>
+      <a href="#deepseek-r1" class="trending-pill" data-topic="deepseek">#DeepSeek-R1</a>
+      <a href="#nvidia-blackwell" class="trending-pill" data-topic="blackwell">#Nvidia-Blackwell</a>
+      <a href="#tesla-optimus-gen3" class="trending-pill" data-topic="optimus">#Tesla-Optimus-Gen3</a>
+      <a href="#figure-02" class="trending-pill" data-topic="figure">#Figure-02</a>
     </div>
   </div>
 
@@ -260,7 +260,7 @@
       </section>
 
       <!-- RIGHT: The Wire Dispatches Panel -->
-      <aside class="news-wire-panel">
+      <aside class="news-wire-panel" id="subscribe">
         <div class="wire-header">
           <div class="wire-title"><span>⚡</span> LATEST DISPATCHES</div>
           <span style="font-size:0.75rem; color:var(--accent-cyan); font-weight:700;">LIVE FEED</span>
@@ -325,7 +325,7 @@
     </div>
 
     <!-- 5. Secondary Grid: Latest In-Depth Coverage -->
-    <div class="section-heading-bar">
+    <div class="section-heading-bar" id="articles">
       <h2 class="section-heading">Frontier Intelligence &amp; Technical Analysis</h2>
       <a href="/rss.xml" style="font-size:0.85rem; color:var(--accent-cyan); font-weight:700;">Subscribe to RSS Feed →</a>
     </div>
@@ -386,7 +386,7 @@
         <div class="card-img-holder">
           <span class="category-tag">FRONTIER LLMS</span>
           <a href="/articles/anthropic-claude-4-haiku-instant-reasoning-api-breakthrough">
-            <img src="https://files.catbox.moe/k3665m.jpg" alt="Anthropic Drops Claude 4 Haiku: The World’s Fastest Reasoning Model at Scale" width="600" height="338" loading="lazy">
+            <img src="https://files.catbox.moe/05mq3x.jpg" alt="Anthropic Drops Claude 4 Haiku: The World’s Fastest Reasoning Model at Scale" width="600" height="338" loading="lazy">
           </a>
         </div>
         <div class="card-inner">
@@ -913,6 +913,6 @@
     </div>
   </footer>
 
-  <script src="js/search.js?v=4.0"></script>
+  <script src="js/search.js?v=5.0"></script>
 </body>
 </html>
