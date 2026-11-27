@@ -1004,6 +1004,7 @@ def update_index_page(topic_meta, hero_img):
     meta_desc = topic_meta["meta_desc"]
     read_time = topic_meta.get("read_time", "6 min read")
     now_ist = datetime.now(_IST)
+    now_iso = now_ist.isoformat()
     display_date = now_ist.strftime("%B %d, %Y")
     display_date_short = now_ist.strftime("%b %d, %Y")
     weekday = now_ist.strftime("%A")
@@ -1071,6 +1072,8 @@ def update_index_page(topic_meta, hero_img):
         <div class="lead-content">
           <div class="byline-row">
             <span class="byline-author"><a href="/authors/paresh-padsala" style="color:var(--text-light); text-decoration:none;">Paresh Padsala</a></span>
+            <span>•</span>
+            <span class="rel-time-pill" data-pub="{now_iso}" style="color:#38bdf8; font-weight:700; background:rgba(56,189,248,0.12); padding:2px 8px; border-radius:4px; border:1px solid rgba(56,189,248,0.25);">⚡ Just now</span>
             <span>•</span>
             <span>{display_date}</span>
             <span>•</span>

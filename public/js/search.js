@@ -32,6 +32,8 @@
   document.addEventListener('DOMContentLoaded', () => {
     initSearch();
     initCategoryFilters();
+    updateRelativeTimes();
+    setInterval(updateRelativeTimes, 30000);
   });
 
   function initSearch() {
@@ -194,6 +196,38 @@
           }
         }
       });
+    });
+  }
+
+  function updateRelativeTimes() {
+    const timeElements = document.querySelectorAll('[data-pub]');
+    const now = new Date();
+
+    timeElements.forEach(el => {
+      const pubStr = el.getAttribute('data-pub');
+      if (!pubStr) return;
+      const pubDate = new Date(pubStr);
+      if (isNaN(pubDate.getTime())) return;
+
+      const diffSec = Math.floor((now - pubDate) / 1000);
+      let text = '';
+
+      if (diffSec < 60) {
+        text = '⚡ Just now';
+      } else if (diffSec < 3600) {
+        const m = Math.floor(diffSec / 60);
+        text = `⚡ ${m} min${m > 1 ? 's' : ''} ago`;
+      } else if (diffSec < 86400) {
+        const h = Math.floor(diffSec / 3600);
+        text = `⚡ ${h} hour${h > 1 ? 's' : ''} ago`;
+      } else if (diffSec < 172800) {
+        text = 'Yesterday';
+      } else {
+        const d = Math.floor(diffSec / 86400);
+        text = `${d} days ago`;
+      }
+
+      el.textContent = text;
     });
   }
 })();
