@@ -14,7 +14,7 @@
     "url": "/articles/anthropic-claude-3-7-opus-launch-asynchronous-reasoning-breakthrough.html",
     "excerpt": "Anthropic unveils Claude 3.7 Opus, featuring breakthrough asynchronous reasoning for complex enterprise workflows. Redefining logic in US-based AI agents.",
     "badge": "LATEST",
-    "image": "https://files.catbox.moe/kkkpqt.jpg"
+    "image": "/images/frontier_ai_reasoning_architecture.jpg"
   },
   {
     "title": "Anthropic Claude 3.7 Sonnet Unveiled: The Hybrid Reasoning Paradigm",
@@ -23,7 +23,7 @@
     "url": "/articles/anthropic-claude-3-7-sonnet-hybrid-reasoning-architecture",
     "excerpt": "Anthropic reveals Claude 3.7 Sonnet, introducing dynamic token-budget reasoning that bridges lightning fast reflex responses with multi-step math and coding logic.",
     "badge": "LATEST",
-    "image": "https://files.catbox.moe/kkkpqt.jpg"
+    "image": "/images/frontier_llm_reasoning_thought_graph.jpg"
   },
   {
     "title": "OpenAI Launches o3: The First Reasoning Model Optimized for Enterprise Workflows",
@@ -50,7 +50,7 @@
     "url": "/articles/anthropic-claude-4-haiku-instant-reasoning-api-breakthrough",
     "excerpt": "Anthropic\u2019s Claude 4 Haiku arrives, delivering sub-second reasoning and agentic accuracy, setting a new industry benchmark for enterprise-grade low-latency AI.",
     "badge": "LATEST",
-    "image": "https://files.catbox.moe/kkkpqt.jpg"
+    "image": "/images/openai_o3.jpg"
   },
   {
     "slug": "gta-6-ai-revolution-rockstar-rage-9-neural-patents-npc-simulation",
@@ -207,7 +207,7 @@
     "title": "Anthropic Claude 3 7 Sonnet Hybrid Reasoning Architecture",
     "description": "Anthropic reveals Claude 3.7 Sonnet, introducing dynamic token-budget reasoning that bridges lightning fast reflex responses with multi-step math and coding logic.",
     "category": "ARTIFICIAL INTELLIGENCE",
-    "image": "https://files.catbox.moe/kkkpqt.jpg",
+    "image": "/images/blackwell_gpu_interposer_chip_macro.jpg",
     "pub_iso": "2026-11-22T09:28:39.901479+05:30",
     "read_time": "7 min read",
     "url": "/articles/anthropic-claude-3-7-sonnet-hybrid-reasoning-architecture"
