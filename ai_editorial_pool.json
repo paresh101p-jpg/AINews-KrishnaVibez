@@ -3934,8 +3934,10 @@
       "networking",
       "cooling"
     ],
-    "used_in_articles": [],
-    "last_used_date": null
+    "used_in_articles": [
+      "global-ai-sovereignty-race-2026-datacenter-expansion-and-silicon-blockades"
+    ],
+    "last_used_date": "2026-11-27T20:30:45.627257"
   },
   {
     "id": "Cooling_pipes_inside_server_rack_2eee09e1",
