@@ -230,7 +230,10 @@
       "infrastructure",
       "field robotics"
     ],
-    "used_in_articles": []
+    "used_in_articles": [
+      "xai-series-d-valuation-surge-compute-infrastructure-capex"
+    ],
+    "last_used_date": "2026-11-27T12:50:21.873861"
   },
   {
     "id": "neuralink_bci_microthread_chip",
