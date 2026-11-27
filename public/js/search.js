@@ -34,6 +34,7 @@
     updateRelativeTimes();
     setInterval(updateRelativeTimes, 30000);
     initRealViewCounters();
+    initCookieConsent();
   });
 
   function initSearch() {
@@ -424,4 +425,53 @@
       if (e.persisted) refreshHomepageCounts();
     });
   }
+
+  // 5. GDPR & Google AdSense Cookie Consent Banner
+  function initCookieConsent() {
+    if (localStorage.getItem('ainews_cookie_consent')) return;
+    
+    const banner = document.createElement('div');
+    banner.id = 'ainews-cookie-banner';
+    banner.style.cssText = `
+      position: fixed;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 90%;
+      max-width: 680px;
+      background: #0d111a;
+      border: 1px solid #1c2433;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.85);
+      border-radius: 12px;
+      padding: 16px 22px;
+      z-index: 999999;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      color: #94a3b8;
+      font-size: 0.85rem;
+      backdrop-filter: blur(10px);
+    `;
+    banner.innerHTML = `
+      <div>
+        🍪 <strong>Privacy &amp; Cookie Notice:</strong> We use cookies to ensure site functionality, analyze readership, and support independent tech journalism via Google AdSense. See our <a href="/privacy" style="color:#06b6d4; text-decoration:underline;">Privacy Policy</a>.
+      </div>
+      <div style="display:flex; gap:8px; flex-shrink:0;">
+        <button id="cookie-accept-btn" style="background:#06b6d4; color:#07090e; font-weight:700; border:none; padding:8px 18px; border-radius:6px; cursor:pointer; font-size:0.8rem;">Accept All</button>
+      </div>
+    `;
+    document.body.appendChild(banner);
+
+    const btn = document.getElementById('cookie-accept-btn');
+    if (btn) {
+      btn.addEventListener('click', () => {
+        localStorage.setItem('ainews_cookie_consent', 'accepted');
+        banner.style.opacity = '0';
+        banner.style.transition = 'opacity 0.3s ease';
+        setTimeout(() => banner.remove(), 300);
+      });
+    }
+  }
+
 })();
