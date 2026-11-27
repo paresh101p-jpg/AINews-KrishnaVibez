@@ -20,17 +20,20 @@ def upload_file_to_catbox(file_path):
     """Upload a file to Catbox.moe and return the URL"""
     import requests
     
-    url = 'https://catbox.moe/upload'
+    url = 'https://catbox.moe/user/api.php'
     
     try:
         with open(file_path, 'rb') as f:
-            files = {'file': (os.path.basename(file_path), f, 'image/jpeg')}
-            response = requests.post(url, files=files, timeout=60)
+            data = {'reqtype': 'fileupload'}
+            files = {'fileToUpload': (os.path.basename(file_path), f, 'image/jpeg')}
+            headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36'}
+            response = requests.post(url, data=data, files=files, headers=headers, timeout=60)
         
         if response.status_code == 200:
-            result = response.json()
-            if result.get('status') == 'success':
-                return result.get('url')
+            catbox_url = response.text.strip()
+            if catbox_url.startswith('https://files.catbox.moe/'):
+                return catbox_url
+        print(f"  Unexpected response: {response.status_code} {response.text[:200]}")
         return None
     except Exception as e:
         print(f"Upload error: {e}")
@@ -106,14 +109,17 @@ def main():
                 entry['uploaded_at'] = datetime.now().isoformat()
             
             # Update pool
-            for item in pool:
-                expected_id = f"world_ai_news_{int(local_file.split('_')[3])}_img{int(local_file.split('_')[4].split('.')[0])}"
-                if item.get('id') == expected_id:
-                    item['url'] = catbox_url
-                    item['status'] = 'active'
-                    item['cdn_uploaded'] = True
-                    item['uploaded_at'] = datetime.now().isoformat()
-                    break
+            import re
+            m = re.search(r'world_ai_news_(\d+)_img(\d+)\.jpg$', local_file)
+            if m:
+                expected_id = f"world_ai_news_{m.group(1)}_img{m.group(2)}"
+                for item in pool:
+                    if item.get('id') == expected_id:
+                        item['url'] = catbox_url
+                        item['status'] = 'active'
+                        item['cdn_uploaded'] = True
+                        item['uploaded_at'] = datetime.now().isoformat()
+                        break
             
             uploaded_count += 1
         else:

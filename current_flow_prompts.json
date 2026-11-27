@@ -1,22 +1,77 @@
-[
-  {
-    "type": "hero_thumbnail",
-    "alt": "\u0915\u0932\u093f\u0915\u093e\u0932 \u092e\u0947\u0902 \u092e\u0928 \u0915\u0940 \u0905\u0936\u093e\u0902\u0924\u093f \u0914\u0930 \u0913\u0935\u0930\u0925\u093f\u0902\u0915\u093f\u0902\u0917 \u0915\u093e \u0938\u094d\u0925\u093e\u092f\u0940 \u0907\u0932\u093e\u091c: \u092d\u0917\u0935\u0926 \u0917\u0940\u0924\u093e \u0915\u093e \u0917\u0941\u092a\u094d\u0924 \u0938\u0942\u0924\u094d\u0930 4K \u0935\u0949\u0932\u092a\u0947\u092a\u0930 - Krishna Vibez",
-    "prompt": "Cinematic editorial widescreen 16:9 spiritual high-CTR YouTube thumbnail of Lord Shri Krishna radiating divine golden aura, smiling peacefully, touching Arjun on chariot in Kurukshetra, cosmic lotus atmosphere, volumetric dawn light, 8k hyper-realistic, zero watermark, no logo, pristine wallpaper"
-  },
-  {
-    "type": "in_article_1",
-    "alt": "\u092e\u0928 \u0915\u0940 \u091a\u0902\u091a\u0932\u0924\u093e \u0914\u0930 \u0905\u0936\u093e\u0902\u0924\u093f: \u092d\u0917\u0935\u0926 \u0917\u0940\u0924\u093e \u0905\u0927\u094d\u092f\u093e\u092f 6 \u0936\u094d\u0932\u094b\u0915 34 - Krishna Vibez",
-    "prompt": "Peaceful ancient Indian sage meditating in deep calm beside sacred river Yamuna at golden sunrise, luminous tranquil mind aura, sacred holy banyan tree, cinematic depth of field, 16:9 widescreen, no text, no watermark"
-  },
-  {
-    "type": "in_article_2",
-    "alt": "\u0905\u092d\u094d\u092f\u093e\u0938 \u0914\u0930 \u0935\u0948\u0930\u093e\u0917\u094d\u092f \u0938\u0947 \u092e\u0928 \u092a\u0930 \u0928\u093f\u092f\u0902\u0924\u094d\u0930\u0923: \u0936\u094d\u0930\u0940 \u0915\u0943\u0937\u094d\u0923 \u0909\u092a\u0926\u0947\u0936 - Krishna Vibez",
-    "prompt": "Divine celestial darshan of Lord Krishna playing golden flute bansuri, cosmic peacock feather glowing, floating soft lotus petals, peaceful spiritual serenity, cinematic 16:9 wallpaper, no text, no watermark"
-  },
-  {
-    "type": "in_article_3",
-    "alt": "\u0938\u093e\u0924\u094d\u0935\u093f\u0915 \u091c\u0940\u0935\u0928 \u0914\u0930 \u092e\u093e\u0928\u0938\u093f\u0915 \u0936\u093e\u0902\u0924\u093f \u0915\u0947 5 \u0928\u093f\u092f\u092e - Krishna Vibez",
-    "prompt": "Serene Vedic temple courtyard at sunrise, glowing brass diya oil lamp, fresh holy tulsi leaves, sacred incense smoke swirls, calm spiritual atmosphere, photorealistic 16:9, no text, no watermark"
-  }
-]
+{
+  "count": 5,
+  "total_images": 10,
+  "generated_at": "2026-11-27T10:27:00.997559+00:00",
+  "prompts": [
+    {
+      "news_index": 1,
+      "title": "PolyAI’s ex-machine learning chief raises $20m for new robotics startup",
+      "category": "ROBOTICS",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of PolyAI’s ex-machine learning chief raises $20m for new robotics startup, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 1,
+      "title": "PolyAI’s ex-machine learning chief raises $20m for new robotics startup",
+      "category": "ROBOTICS",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing PolyAI’s ex-machine learning chief raises $20m for new robotics startup deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 2,
+      "title": "10th Circuit addresses AI hallucinations with new human fact-check rule",
+      "category": "FRONTIER LLMS",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of 10th Circuit addresses AI hallucinations with new human fact-check rule, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 2,
+      "title": "10th Circuit addresses AI hallucinations with new human fact-check rule",
+      "category": "FRONTIER LLMS",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing 10th Circuit addresses AI hallucinations with new human fact-check rule deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 3,
+      "title": "Artificial Intelligence Stocks: The 10 Best AI Companies | Investing",
+      "category": "FRONTIER LLMS",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of Artificial Intelligence Stocks: The 10 Best AI Companies | Investing, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 3,
+      "title": "Artificial Intelligence Stocks: The 10 Best AI Companies | Investing",
+      "category": "FRONTIER LLMS",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing Artificial Intelligence Stocks: The 10 Best AI Companies | Investing deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 4,
+      "title": "Japan's Preferred Networks sows seeds of physical AI with robots, software and chips",
+      "category": "SILICON & GPUS",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of Japan's Preferred Networks sows seeds of physical AI with robots, software and chips, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 4,
+      "title": "Japan's Preferred Networks sows seeds of physical AI with robots, software and chips",
+      "category": "SILICON & GPUS",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing Japan's Preferred Networks sows seeds of physical AI with robots, software and chips deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 5,
+      "title": "SK intellix wins award for applying AI standards to wellness robot",
+      "category": "ROBOTICS",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of SK intellix wins award for applying AI standards to wellness robot, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 5,
+      "title": "SK intellix wins award for applying AI standards to wellness robot",
+      "category": "ROBOTICS",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing SK intellix wins award for applying AI standards to wellness robot deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    }
+  ]
+}
