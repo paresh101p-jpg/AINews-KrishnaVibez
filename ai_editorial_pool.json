@@ -11567,8 +11567,10 @@
       "intrusion detection",
       "malware"
     ],
-    "used_in_articles": [],
-    "last_used_date": null
+    "used_in_articles": [
+      "the-ai-paradox-autonomous-malware-versus-next-gen-cyber-defense"
+    ],
+    "last_used_date": "2026-11-27T15:31:04.238494"
   },
   {
     "id": "ai_protein_folding_molecular",
