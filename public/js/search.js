@@ -147,27 +147,27 @@
         navLinks.forEach(l => l.classList.remove('active'));
         link.classList.add('active');
 
-        let catFilter = '';
+        let catFilter = null;
         let label = 'Frontier Intelligence & Technical Analysis';
         if (href === '#models') {
-          catFilter = 'frontier llms';
+          catFilter = /frontier llms|llm|openai|claude|gemini|o3|reasoning|language model/i;
           label = 'Category: Frontier LLMs';
         } else if (href === '#agents') {
-          catFilter = 'agents & coding';
+          catFilter = /agents|coding|software|developer|autonomous/i;
           label = 'Category: Agents & Coding';
         } else if (href === '#silicon') {
-          catFilter = 'silicon & gpus';
+          catFilter = /silicon|gpu|chip|nvidia|blackwell|neuromorphic|hardware/i;
           label = 'Category: Silicon & GPUs';
         } else if (href === '#robotics') {
-          catFilter = 'robotics';
+          catFilter = /robotics|robot|atlas|humanoid|optimus|boston dynamics/i;
           label = 'Category: Robotics & Embodied AI';
         }
 
         if (heading) heading.textContent = label;
 
         cards.forEach(card => {
-          const cardCat = (card.getAttribute('data-category') || '').toLowerCase();
-          if (!catFilter || cardCat.includes(catFilter)) {
+          const cardText = ((card.getAttribute('data-category') || '') + ' ' + card.innerText).toLowerCase();
+          if (!catFilter || catFilter.test(cardText)) {
             card.style.display = '';
           } else {
             card.style.display = 'none';

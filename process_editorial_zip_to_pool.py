@@ -120,7 +120,7 @@ def apply_editorial_overlay(raw_path: str, output_path: str):
         import numpy as np
         arr = np.array(img)
         mask = np.zeros((target_h, target_w), dtype=np.uint8)
-        cv2.circle(mask, (target_w - 46, target_h - 46), 28, 255, -1)
+        cv2.circle(mask, (target_w - 85, target_h - 85), 34, 255, -1)
         cleaned_arr = cv2.inpaint(arr, mask, 7, cv2.INPAINT_TELEA)
         img = Image.fromarray(cleaned_arr)
     except Exception:
