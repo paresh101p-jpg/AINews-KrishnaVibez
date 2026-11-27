@@ -34,6 +34,7 @@
     initCategoryFilters();
     updateRelativeTimes();
     setInterval(updateRelativeTimes, 30000);
+    initRealViewCounters();
   });
 
   function initSearch() {
@@ -228,6 +229,115 @@
       }
 
       el.textContent = text;
+    });
+  }
+
+  function initRealViewCounters() {
+    const NS = 'ainews-krishnavibez';
+    const BASE = 'https://abacus.jasoncameron.dev';
+    const cache = new Map();
+
+    function toKey(urlOrSlug) {
+      let s = (urlOrSlug || '')
+        .replace(/^https?:\/\/[^/]+/, '')
+        .replace(/^.*\/articles\//, '')
+        .replace(/\.html.*$/, '')
+        .replace(/[#?].*$/, '')
+        .replace(/[^a-zA-Z0-9_-]/g, '-')
+        .replace(/^-+|-+$/g, '');
+      if (s.length < 3) s = 'article-' + (s || 'home');
+      if (s.length > 64) s = s.slice(0, 48) + '-' + s.slice(-15);
+      return s;
+    }
+
+    function fmt(n) {
+      const num = Number(n) || 0;
+      if (num >= 1000000) return (num / 1000000).toFixed(1).replace(/\.0$/, '') + 'M';
+      if (num >= 1000) return (num / 1000).toFixed(1).replace(/\.0$/, '') + 'K';
+      return num.toLocaleString('en-IN');
+    }
+
+    async function fetchViews(key, isHit) {
+      const cacheKey = (isHit ? 'hit:' : 'get:') + key;
+      if (cache.has(cacheKey)) return cache.get(cacheKey);
+      const endpoint = isHit ? `${BASE}/hit/${NS}/${key}` : `${BASE}/get/${NS}/${key}`;
+      const p = fetch(endpoint)
+        .then(r => (r.ok ? r.json() : { value: 0 }))
+        .then(d => Number(d && d.value) || 0)
+        .catch(() => 0);
+      cache.set(cacheKey, p);
+      return p;
+    }
+
+    // 1. Inside individual article page: increment (+1 real view)
+    if (window.location.pathname.indexOf('/articles/') !== -1) {
+      const key = toKey(window.location.pathname);
+      const metaBar = document.querySelector('.meta-bar');
+      if (metaBar) {
+        const span = document.createElement('span');
+        span.innerHTML = '👁️ <strong class="real-view-count">...</strong> views';
+        metaBar.appendChild(span);
+        fetchViews(key, true).then(count => {
+          const el = span.querySelector('.real-view-count');
+          if (el) el.textContent = fmt(count);
+        });
+      }
+    }
+
+    // 2. Homepage Lead Story (GET only, no artificial inflation)
+    const leadLink = document.querySelector('.lead-story .lead-title a, .lead-story a[href*="/articles/"]');
+    const leadByline = document.querySelector('.lead-story .byline-row');
+    if (leadLink && leadByline) {
+      const key = toKey(leadLink.getAttribute('href'));
+      const dot = document.createElement('span');
+      dot.textContent = '•';
+      const vSpan = document.createElement('span');
+      vSpan.style.cssText = 'color:#a78bfa; font-weight:600;';
+      vSpan.innerHTML = '👁️ <span class="real-view-count">0</span> views';
+      leadByline.appendChild(dot);
+      leadByline.appendChild(vSpan);
+      fetchViews(key, false).then(count => {
+        const el = vSpan.querySelector('.real-view-count');
+        if (el) el.textContent = fmt(count);
+      });
+    }
+
+    // 3. Homepage Wire Dispatches
+    document.querySelectorAll('.wire-item').forEach(item => {
+      const a = item.querySelector('a[href*="/articles/"]');
+      const meta = item.querySelector('.wire-item-meta');
+      if (a && meta) {
+        const key = toKey(a.getAttribute('href'));
+        const vSpan = document.createElement('span');
+        vSpan.innerHTML = ' • 👁️ <span class="real-view-count">0</span> views';
+        meta.appendChild(vSpan);
+        fetchViews(key, false).then(count => {
+          const el = vSpan.querySelector('.real-view-count');
+          if (el) el.textContent = fmt(count);
+        });
+      }
+    });
+
+    // 4. Homepage Article Grid Cards
+    document.querySelectorAll('.articles-grid .article-card').forEach(card => {
+      const a = card.querySelector('.card-title a, a[href*="/articles/"]');
+      const meta = card.querySelector('.card-meta');
+      if (a && meta) {
+        const key = toKey(a.getAttribute('href'));
+        const dot = document.createElement('span');
+        dot.className = 'meta-dot';
+        dot.textContent = '•';
+        const vSpan = document.createElement('span');
+        vSpan.className = 'card-views';
+        vSpan.style.cssText = 'color:#a78bfa; font-weight:600;';
+        vSpan.innerHTML = '👁️ <span class="real-view-count">0</span> views';
+        meta.appendChild(dot);
+        meta.appendChild(vSpan);
+        fetchViews(key, false).then(count => {
+          const el = vSpan.querySelector('.real-view-count');
+          if (el) el.textContent = fmt(count);
+        });
+      }
     });
   }
 })();
