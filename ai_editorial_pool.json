@@ -11934,11 +11934,14 @@
     "image_number": 1,
     "prompt": "Cinematic editorial photograph of PolyAI\u2019s ex-machine learning chief raises $20m for new robotics startup, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no waterma...",
     "status": "active",
-    "last_used_date": "2026-11-27T14:59:38.367843",
+    "last_used_date": "2026-11-27T21:30:46.013850",
     "flow_job_id": "job_1795771778_world_ai",
     "generated_at": "2026-11-27T14:59:38.352759",
     "cdn_uploaded": true,
-    "uploaded_at": "2026-11-27T16:22:17.619828"
+    "uploaded_at": "2026-11-27T16:22:17.619828",
+    "used_in_articles": [
+      "ai-accelerated-drug-discovery-antibiotic-breakthrough"
+    ]
   },
   {
     "id": "world_ai_news_1_img2",
