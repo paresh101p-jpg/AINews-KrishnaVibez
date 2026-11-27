@@ -1,5 +1,14 @@
 [
   {
+    "title": "DeepSeek-R1 Shatters Benchmarks: The New King of Open-Weights Reasoning",
+    "category": "FRONTIER LLMS",
+    "date": "November 28, 2026",
+    "url": "/articles/deepseek-r1-open-weights-benchmark-shocker.html",
+    "excerpt": "DeepSeek-R1 challenges closed-source hegemony with record-breaking R1 reasoning scores, proving open-weights architectures can outpace proprietary titans.",
+    "image": "https://files.catbox.moe/s5cpy5.jpg",
+    "badge": "LATEST"
+  },
+  {
     "title": "AMD's Instinct MI400 and SMR Integration: Solving the 1-Gigawatt Power Wall",
     "category": "SILICON & GPUS",
     "date": "November 27, 2026",

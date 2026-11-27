@@ -1209,8 +1209,10 @@
       "o3",
       "cot"
     ],
-    "used_in_articles": [],
-    "last_used_date": null
+    "used_in_articles": [
+      "deepseek-r1-open-weights-benchmark-shocker"
+    ],
+    "last_used_date": "2026-11-27T18:30:40.918062"
   },
   {
     "id": "Holographic_thought_graph_branching_4dea6736",

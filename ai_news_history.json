@@ -178,5 +178,11 @@
     "title": "AMD's Instinct MI400 and SMR Integration: Solving the 1-Gigawatt Power Wall",
     "category": "SILICON & GPUS",
     "created_at": "2026-11-27T23:00:54.018912+05:30"
+  },
+  {
+    "slug": "deepseek-r1-open-weights-benchmark-shocker",
+    "title": "DeepSeek-R1 Shatters Benchmarks: The New King of Open-Weights Reasoning",
+    "category": "FRONTIER LLMS",
+    "created_at": "2026-11-28T00:00:51.385723+05:30"
   }
 ]
