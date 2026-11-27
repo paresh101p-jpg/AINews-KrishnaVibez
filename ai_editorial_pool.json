@@ -12044,11 +12044,14 @@
     "image_number": 1,
     "prompt": "Cinematic editorial photograph of SK intellix wins award for applying AI standards to wellness robot, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, p...",
     "status": "active",
-    "last_used_date": "2026-11-27T14:59:38.367862",
+    "last_used_date": "2026-11-27T13:30:47.539331",
     "flow_job_id": "job_1795771778_world_ai",
     "generated_at": "2026-11-27T14:59:38.352802",
     "cdn_uploaded": true,
-    "uploaded_at": "2026-11-27T16:22:39.360858"
+    "uploaded_at": "2026-11-27T16:22:39.360858",
+    "used_in_articles": [
+      "global-chip-wars-sovereign-ai-infrastructure-2026"
+    ]
   },
   {
     "id": "world_ai_news_4_img2",
