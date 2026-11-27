@@ -8,6 +8,18 @@
     <lastBuildDate>Sat, 21 Nov 2026 12:00:00 +0530</lastBuildDate>
     <atom:link href="https://ainews.krishnavibez.in/rss.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Anthropic Unveils Claude 3.7 Sonnet: The First Native Agentic Reasoning Engine</title>
+      <link>https://ainews.krishnavibez.in/articles/anthropic-claude-3-7-sonnet-agentic-workflow-breakthrough</link>
+      <guid isPermaLink="true">https://ainews.krishnavibez.in/articles/anthropic-claude-3-7-sonnet-agentic-workflow-breakthrough</guid>
+      <pubDate>Fri, 27 Nov 2026 16:30:24 +0530</pubDate>
+      <dc:creator>Paresh Padsala (AINews)</dc:creator>
+      <category>FRONTIER LLMS</category>
+      <description><![CDATA[Anthropic launches Claude 3.7 Sonnet, featuring native 'Agentic Orchestration' for autonomous enterprise workflows. Redefining accuracy in complex coding.]]></description>
+      <enclosure url="https://files.catbox.moe/f6dq0n.jpg" type="image/jpeg" length="153600" />
+      <media:content url="https://files.catbox.moe/f6dq0n.jpg" medium="image" width="1200" height="675" />
+    </item>
+
+    <item>
       <title>Anthropic Debuts Claude 3.7 Opus: The First Asynchronous Reasoning Model</title>
       <link>https://ainews.krishnavibez.in/articles/anthropic-claude-3-7-opus-launch-asynchronous-reasoning-breakthrough</link>
       <guid isPermaLink="true">https://ainews.krishnavibez.in/articles/anthropic-claude-3-7-opus-launch-asynchronous-reasoning-breakthrough</guid>

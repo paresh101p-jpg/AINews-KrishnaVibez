@@ -1,5 +1,13 @@
 [
   {
+    "title": "Anthropic Unveils Claude 3.7 Sonnet: The First Native Agentic Reasoning Engine",
+    "category": "FRONTIER LLMS",
+    "date": "November 27, 2026",
+    "url": "/articles/anthropic-claude-3-7-sonnet-agentic-workflow-breakthrough.html",
+    "excerpt": "Anthropic launches Claude 3.7 Sonnet, featuring native 'Agentic Orchestration' for autonomous enterprise workflows. Redefining accuracy in complex coding.",
+    "badge": "LATEST"
+  },
+  {
     "title": "Anthropic Debuts Claude 3.7 Opus: The First Asynchronous Reasoning Model",
     "category": "FRONTIER LLMS",
     "date": "November 27, 2026",
