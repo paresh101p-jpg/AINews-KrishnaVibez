@@ -1,11 +1,21 @@
 [
   {
+    "title": "The $500k AI Safety Evaluator: Why Top Talent is Abandoning Coding for Policy",
+    "category": "JOBS & CAREERS",
+    "date": "November 27, 2026",
+    "url": "/articles/six-figure-salaries-for-ai-safety-evaluators-surge-in-silicon-valley.html",
+    "excerpt": "Tech giants are pivoting hiring budgets to AI Safety Evaluators and Context Engineers, offering salaries up to $600k as traditional coding roles face cuts.",
+    "image": "https://files.catbox.moe/yhw9ge.jpg",
+    "badge": "LATEST"
+  },
+  {
     "title": "Anthropic Unveils Claude 3.7 Sonnet: The First Native Agentic Reasoning Engine",
     "category": "FRONTIER LLMS",
     "date": "November 27, 2026",
     "url": "/articles/anthropic-claude-3-7-sonnet-agentic-workflow-breakthrough.html",
     "excerpt": "Anthropic launches Claude 3.7 Sonnet, featuring native 'Agentic Orchestration' for autonomous enterprise workflows. Redefining accuracy in complex coding.",
-    "badge": "LATEST"
+    "badge": "LATEST",
+    "image": "/images/frontier_ai_reasoning_architecture.jpg"
   },
   {
     "title": "Anthropic Debuts Claude 3.7 Opus: The First Asynchronous Reasoning Model",

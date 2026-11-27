@@ -52,15 +52,132 @@ if not GEMINI_API_KEY:
         except Exception:
             pass
 
-# 100% Copyright-Free Cloud-Hosted High-Def 1200x675 AI Tech Images (Catbox CDN - Zero Storage Overhead on Firebase)
+# 100% Copyright-Free Cloud-Hosted High-Def 1200x675 AI Tech Images (Catbox CDN & Local Tier-1 Assets)
 CATEGORY_IMAGES_MAP = {
-    "FRONTIER LLMS": "https://files.catbox.moe/4v7mse.jpg",
-    "AGENTS & CODING": "https://files.catbox.moe/q00f8o.jpg",
-    "SILICON & GPUS": "https://files.catbox.moe/zdqjhe.jpg",
-    "ROBOTICS": "https://files.catbox.moe/rzevj0.jpg",
-    "OPEN SOURCE": "https://files.catbox.moe/y5sgma.jpg"
+    "JOBS & CAREERS": "/images/autonomous_coding_agents.jpg",
+    "BUSINESS & FINANCE": "/images/datacenter_liquid_cooling_cluster.jpg",
+    "WORLD & GEOPOLITICS": "/images/cybersecurity_neural_shield_defense.jpg",
+    "REAL-WORLD IMPACT": "/images/healthcare_robots.jpg",
+    "ETHICS & SECURITY": "/images/cybersecurity_neural_shield_defense.jpg",
+    "ROBOTICS": "/images/humanoid_robot_gigafactory_assembly.jpg",
+    "SILICON & GPUS": "/images/blackwell_gpu_interposer_chip_macro.jpg",
+    "FRONTIER LLMS": "/images/frontier_ai_reasoning_architecture.jpg",
+    "AGENTS & CODING": "/images/autonomous_ai_coding_swarm_ide.jpg",
+    "OPEN SOURCE": "/images/open_source_ai.jpg"
 }
-DEFAULT_TECH_HERO_IMAGE = "https://files.catbox.moe/4v7mse.jpg"
+DEFAULT_TECH_HERO_IMAGE = "/images/frontier_ai_reasoning_architecture.jpg"
+
+# 8 Master Pillars for 360-Degree World AI News Coverage (Strict Round-Robin Rotation)
+AI_NEWS_PILLARS = [
+    {
+        "id": "jobs_careers",
+        "category": "JOBS & CAREERS",
+        "name": "AI & Future of Work (Naukri, Layoffs, $500k Roles & Reskilling)",
+        "badge": "CAREERS & WORKFORCE",
+        "prompt_guidance": """
+Focus strictly on AI and the Global Job Market, Employment, Layoffs, Salaries, and Workforce Transformation:
+- Real impact on tech jobs: Junior software engineers, customer support, translation, VFX artists, legal associates.
+- Emerging high-paying roles: AI Prompt Engineers, AI Safety Evaluators, Context Engineers, Embodied AI Specialists ($350,000 to $600,000 salaries).
+- How major corporations (Amazon, Google, Microsoft, Meta, TCS, Infosys, Accenture) are reorganizing workforce versus hiring AI specialists.
+- Real workforce reskilling initiatives and how freelancers and students are thriving with AI agents.
+Demand verified job market data, real salary figures, and concrete employment statistics.
+"""
+    },
+    {
+        "id": "money_finance",
+        "category": "BUSINESS & FINANCE",
+        "name": "Money, Markets & Capital (Paisa, VC Funding, Stocks & Capex)",
+        "badge": "WALL STREET & CAPITAL",
+        "prompt_guidance": """
+Focus strictly on Money, Capital, Venture Funding, and Wall Street in the AI Boom:
+- Trillion-dollar capital flows: Nvidia market valuation dynamics, OpenAI funding valuations ($150B+), SoftBank's aggressive AI funds.
+- Big Tech $200B+ Capex infrastructure expenditure (Microsoft Azure, Google Cloud, AWS Bedrock, Meta) and institutional investor scrutiny over ROI.
+- Massive funding rounds for AI startups (xAI, Perplexity, Safe Superintelligence, Mistral, Physical Intelligence).
+- Financial economics: Token pricing wars, SaaS gross margins, and enterprise compute revenue models.
+Include verified dollar amounts, funding valuations, and enterprise ROI metrics.
+"""
+    },
+    {
+        "id": "world_geopolitics",
+        "category": "WORLD & GEOPOLITICS",
+        "name": "Global AI Race & Geopolitics (Countries, Chip Wars & Sovereignty)",
+        "badge": "GLOBAL GEOPOLITICS",
+        "prompt_guidance": """
+Focus strictly on National AI Strategies, Geopolitics, and Country-Level Initiatives:
+- US-China tech decoupling: Advanced chip export bans, TSMC wafer restrictions, and domestic semiconductor manufacturing breakthroughs.
+- India's Sovereign AI Mission: The $1.2B IndiaAI initiative, public-private 10,000+ GPU supercomputing clusters, and Indic LLM ecosystems.
+- European Union AI Act: Stringent compliance rules for foundational models, copyright disclosure mandates, and multi-million euro fines.
+- Middle East AI Sovereignty: UAE (MGX, G42) and Saudi Arabia sovereign wealth funds investing tens of billions in gigawatt datacenter infrastructure.
+Provide verified country data, policy timelines, and regulatory frameworks.
+"""
+    },
+    {
+        "id": "real_world_impact",
+        "category": "REAL-WORLD IMPACT",
+        "name": "Real-World Human Impact (Log AI se kya kya kar rahe he)",
+        "badge": "HUMAN APPLICATIONS",
+        "prompt_guidance": """
+Focus strictly on Real-World Human & Industry Applications ("Log AI se kya kya kar rahe he"):
+- Healthcare & Medicine: AI discovering novel antibiotics, predicting structural biology (AlphaFold 3), detecting early-stage cancers, or restoring speech to paralyzed individuals.
+- Creative Arts & Entertainment: Hollywood studios using AI video models (Sora, Kling, Runway) for cinematic visual effects, indie filmmakers producing full animations, virtual actors.
+- Education & Personalized Tutoring: AI providing 1-on-1 Socratic learning to millions of students worldwide, democratizing Ivy League level tutoring.
+- Scientific Frontiers: AI optimizing nuclear fusion plasma stability, designing ultra-efficient solar cells, and modeling climate and earthquake risks.
+Focus on tangible human and societal benefits with verified real-world case studies.
+"""
+    },
+    {
+        "id": "ethics_security",
+        "category": "ETHICS & SECURITY",
+        "name": "Good News vs Bad News: Scams, Deepfakes & Cyber Defense",
+        "badge": "CYBERSECURITY & RISKS",
+        "prompt_guidance": """
+Focus strictly on the Double-Edged Sword of AI (Acchi News vs Buri News / Scams & Security):
+- The Rising Threat of AI Scams: Sophisticated deepfake video conferencing fraud (multimillion-dollar CEO impersonations), automated voice clone bank fraud, and hyper-targeted phishing campaigns.
+- Legal & Copyright Battles: Landmark intellectual property lawsuits (New York Times, authors, and music record labels suing AI labs over training data fair use).
+- AI Hallucination & Critical Failures: Real-world instances of AI errors in legal filings, medical diagnostics, or critical infrastructure.
+- Autonomous Cyber Defense: How frontier AI models are simultaneously defending national power grids and enterprise networks against autonomous malware.
+Give balanced, objective, highly investigative journalism on risks and countermeasures.
+"""
+    },
+    {
+        "id": "robotics",
+        "category": "ROBOTICS",
+        "name": "Embodied AI & Humanoids (Robots in the Physical World)",
+        "badge": "EMBODIED AI & ROBOTICS",
+        "prompt_guidance": """
+Focus strictly on Physical Embodied AI, Humanoid Robots, and Autonomous Mobility:
+- Humanoid robots entering industrial mass production: Tesla Optimus Gen 3 on factory lines, Figure 02 operating at BMW manufacturing facilities, Boston Dynamics Electric Atlas doing heavy warehouse sorting.
+- Autonomous Vehicles: Waymo scaling driverless commercial robotaxi rides across San Francisco, Los Angeles, and Austin vs Tesla Cybercab & Robotaxi autonomous network.
+- Chinese Robotics Surge: Unitree G1 humanoid mass production, Agility Robotics Digit, and multimodal Vision-Language-Action (VLA) models controlling physical machines.
+Detail mechanical specifications, battery shifts, degrees of freedom, and deployment metrics.
+"""
+    },
+    {
+        "id": "silicon_infrastructure",
+        "category": "SILICON & GPUS",
+        "name": "Chips, Superclusters & Power (Nvidia, Cerebras, Nuclear SMRs)",
+        "badge": "SILICON ARCHITECTURE",
+        "prompt_guidance": """
+Focus strictly on Hardware, High-Performance Silicon, and the Datacenter Power Crisis:
+- Next-generation GPU and ASIC architectures: Nvidia Blackwell GB200 NVL72 liquid-cooled superclusters, AMD Instinct MI325X, Cerebras CS-3 wafer-scale engine.
+- The Energy Bottleneck: Big Tech committing billions to Small Modular Nuclear Reactors (SMRs), Constellation Energy restart of Three Mile Island, and geothermal energy to power 1-Gigawatt datacenters.
+- Advanced Semiconductor Fabrication: TSMC 2-nanometer N2 node commercial ramp, ASML High-NA EUV lithography machines, and advanced 3D packaging (CoWoS).
+Provide verified transistor counts, power consumption (kW/rack), and semiconductor fabrication specs.
+"""
+    },
+    {
+        "id": "frontier_models",
+        "category": "FRONTIER LLMS",
+        "name": "Frontier AI Releases (Google, OpenAI, xAI, DeepSeek, Meta)",
+        "badge": "FRONTIER INTELLIGENCE",
+        "prompt_guidance": """
+Focus strictly on New AI Model Releases and Major Lab Breakthroughs:
+- Frontier model releases: Google DeepMind (Gemini 2.0 Flash Thinking, Project Astra), OpenAI (o3 reasoning, Operator agent, GPT-5 preview), Elon Musk xAI (Grok 3 on 100k Colossus cluster), Meta (Llama 4 MoE), DeepSeek (DeepSeek-R1 open weights shockwave), Apple Intelligence.
+- Architectural evolutions: Test-time compute scaling, asynchronous multi-agent coordination, native multimodal reasoning, and open-weights vs closed-source competitive dynamics.
+Compare verified benchmark figures (SWE-bench, MATH, MMLU-Pro), token throughput, and pricing.
+"""
+    }
+]
 
 def generate_and_upload_catbox_banner(title, category, slug, content=""):
     """
@@ -103,37 +220,57 @@ def call_gemini(prompt):
                 continue
     raise RuntimeError(f"All Gemini models failed: {last_err}")
 
-# High-Authority Curated Breaking Topics across all AI sectors for 100% fail-safe offline fallback
+# High-Authority Curated Breaking Topics across all 8 AI pillars for 100% fail-safe offline fallback
 EMERGENCY_AI_NEWS_TOPIC_POOL = [
     {
-        "slug": "anthropic-claude-3-7-sonnet-hybrid-reasoning-architecture",
-        "title": "Anthropic Claude 3.7 Sonnet Unveiled: The Hybrid Reasoning Paradigm",
-        "category": "FRONTIER LLMS",
-        "meta_desc": "Anthropic reveals Claude 3.7 Sonnet, introducing dynamic token-budget reasoning that bridges lightning fast reflex responses with multi-step math and coding logic.",
-        "keywords": "Anthropic Claude, Claude 3.7 Sonnet, Hybrid Reasoning, AI Benchmarks, System 2 Thinking, Frontier LLM, AI Safety, SWE-bench, Deep Learning",
+        "slug": "ai-job-market-transformation-2026-salaries-displacement",
+        "title": "The 2026 AI Job Market Reality: $500K Roles Surge as Junior Tech Hiring Contracts",
+        "category": "JOBS & CAREERS",
+        "meta_desc": "An in-depth analysis of global tech employment: how enterprise AI orchestration is automating entry-level software roles while sparking record demand for AI Safety Evaluators and Context Engineers.",
+        "keywords": "AI Jobs, Tech Layoffs, AI Salaries, Future of Work, Prompt Engineering, Software Engineering, IT Careers, Enterprise AI, Reskilling",
         "read_time": "8 min read",
-        "key_stats": "92.4% SWE-bench | Dynamic Reasoning Budget | 200k Context Window",
-        "topic_summary": "Claude 3.7 Sonnet introduces programmable test-time compute, allowing developers to set exact reasoning token limits from 0 to 64,000 tokens."
+        "key_stats": "$480K Avg Lead Package | 38% Junior Hiring Shift | 120,000 New AI Roles",
+        "topic_summary": "Comprehensive investigation into workforce redistribution, salary inflation for AI specialists, and corporate reskilling programs across global IT giants."
     },
     {
-        "slug": "cursor-vs-windsurf-vs-devin-autonomous-coding-agents-2026",
-        "title": "Cursor vs Windsurf vs Devin: The State of Autonomous Coding Agents in 2026",
-        "category": "AGENTS & CODING",
-        "meta_desc": "An in-depth benchmark analysis of Cursor, Codeium Windsurf, and Cognition Devin 2.0 as autonomous software engineering transforms global development teams.",
-        "keywords": "Cursor AI, Windsurf Editor, Devin AI, Autonomous Coding Agents, AI Software Engineering, Codeium, Cognition AI, Developer Tools, Full Stack AI",
-        "read_time": "9 min read",
-        "key_stats": "67% Resolution Rate | 4.2x Dev Velocity | Zero-Context Refactoring",
-        "topic_summary": "Deep architectural comparison of cascade context engines, MCP tool execution, and multi-file autonomous debugging across modern IDEs."
+        "slug": "big-tech-200-billion-datacenter-capex-roi-analysis",
+        "title": "The $200 Billion Datacenter Capex Dilemma: Wall Street Demands Enterprise AI Revenue",
+        "category": "BUSINESS & FINANCE",
+        "meta_desc": "Wall Street analysts scrutinize Microsoft, Alphabet, Meta, and Amazon as datacenter capital expenditures top $200 billion without proportional enterprise software monetization.",
+        "keywords": "AI Capex, Wall Street AI, Big Tech Earnings, Datacenter Investment, Microsoft Azure, Nvidia Stock, Enterprise AI ROI, Venture Capital",
+        "read_time": "8 min read",
+        "key_stats": "$215B Capex in 2026 | 18% Cloud Margin Shift | 3.2x Valuation Multiples",
+        "topic_summary": "Financial deep-dive into hyperscaler infrastructure spending, power purchase agreements, and institutional investor expectations for enterprise AI returns."
     },
     {
-        "slug": "deepseek-r1-open-weights-reasoning-moe-breakthrough",
-        "title": "DeepSeek R1 and the Rise of Open-Weights Reasoning Architectures",
-        "category": "OPEN SOURCE",
-        "meta_desc": "DeepSeek R1 proves pure reinforcement learning can unlock frontier-grade reasoning without supervised fine-tuning, shaking the closed-source AI monopoly.",
-        "keywords": "DeepSeek R1, Open Weights AI, Mixture of Experts, Pure RL, Test Time Compute, Open Source LLM, AI Model Distillation, GPU Efficiency",
+        "slug": "india-sovereign-ai-mission-10k-gpu-supercluster",
+        "title": "India's $1.2B Sovereign AI Initiative: Deploying 10,000+ GPUs for National Compute",
+        "category": "WORLD & GEOPOLITICS",
+        "meta_desc": "India accelerates its national sovereignty push with a $1.2 billion public-private compute grid, deploying 10,000+ frontier GPUs to build indigenous Indic foundational models.",
+        "keywords": "IndiaAI Mission, Sovereign AI, Global AI Race, Indic LLM, Semiconductor Mission, GPU Cluster, Geopolitics of AI, Tech Sovereignty",
+        "read_time": "7 min read",
+        "key_stats": "$1.24B Public Budget | 10,000+ Tier-1 GPUs | 22 Official Scheduled Languages",
+        "topic_summary": "How national governments are shielding themselves from foreign model monopolies through sovereign public compute infrastructure and indigenous datasets."
+    },
+    {
+        "slug": "alphafold-3-biomedical-breakthrough-novel-cancer-therapeutics",
+        "title": "AlphaFold 3 in the Clinic: How AI-Designed Proteins Are Fast-Tracking Oncology Drugs",
+        "category": "REAL-WORLD IMPACT",
+        "meta_desc": "Biopharmaceutical researchers achieve landmark breakthrough using Google DeepMind's AlphaFold 3 to synthesize target-specific antibodies for previously drug-resistant solid tumors.",
+        "keywords": "AlphaFold 3, AI in Medicine, Cancer Therapeutics, Structural Biology, Drug Discovery, Molecular Modeling, Biotechnology, DeepMind Health",
         "read_time": "8 min read",
-        "key_stats": "671B MoE (37B Active) | $6M Training Cost | Match OpenAI o1",
-        "topic_summary": "How DeepSeek achieved frontier-level competitive reasoning through pure multi-stage reinforcement learning and large-scale architectural distillation."
+        "key_stats": "82% Target Affinity | 14-Month Drug Cycle Reduction | Zero In-Vitro Mismatch",
+        "topic_summary": "Examining real-world human impact as generative structural biology collapses drug discovery timelines from five years to under eighteen months."
+    },
+    {
+        "slug": "deepfake-ceo-voice-cloning-financial-fraud-countermeasures",
+        "title": "The Multi-Million Dollar AI Heist: How Deepfake Voice Clones Bypass Bank Security",
+        "category": "ETHICS & SECURITY",
+        "meta_desc": "Cybersecurity agencies issue urgent warnings as multinational corporations lose tens of millions to autonomous multi-speaker voice cloning and real-time biometric video deepfakes.",
+        "keywords": "AI Scams, Voice Cloning Fraud, Deepfakes, Financial Cybercrime, Biometric Security, Enterprise Risk, Audio Deepfakes, Cybersecurity Defense",
+        "read_time": "7 min read",
+        "key_stats": "$35M Single Heist Record | 3-Second Audio Clone Sample | 99.4% Synthesized Fidelity",
+        "topic_summary": "Investigating the weaponization of generative audio in financial engineering and the automated acoustic watermarking tools deployed to counter them."
     },
     {
         "slug": "tesla-optimus-gen-3-industrial-trials-automotive-assembly",
@@ -156,54 +293,14 @@ EMERGENCY_AI_NEWS_TOPIC_POOL = [
         "topic_summary": "By eliminating inter-chip networking bottlenecks, Cerebras CS-3 runs massive models on single continuous silicon, changing the economics of frontier inference."
     },
     {
-        "slug": "google-gemini-2-flash-thinking-realtime-multimodal-reasoning",
-        "title": "Google Gemini 2.0 Flash Thinking: Real-Time Multimodal Reasoning at Scale",
+        "slug": "deepseek-r1-open-weights-reasoning-moe-breakthrough",
+        "title": "DeepSeek R1 and the Rise of Open-Weights Reasoning Architectures",
         "category": "FRONTIER LLMS",
-        "meta_desc": "Google DeepMind launches Gemini 2.0 Flash Thinking, merging sub-second conversational latency with internal scratchpad reasoning across video, audio, and code.",
-        "keywords": "Google Gemini 2.0, Flash Thinking, Multimodal Reasoning, DeepMind AI, Real-time Audio, Live Video AI, Agentic Workflows, AI Latency",
-        "read_time": "7 min read",
-        "key_stats": "Sub-250ms Audio Latency | Native Tool Calling | 1M Token Context",
-        "topic_summary": "Gemini 2.0 Flash Thinking brings chain-of-thought verification to real-time multimodal streams, creating the blueprint for voice-native autonomous assistants."
-    },
-    {
-        "slug": "figure-02-humanoid-100k-hours-bmw-manufacturing-analysis",
-        "title": "Figure 02 Humanoids Complete 100,000 Hours in BMW Production Plants",
-        "category": "ROBOTICS",
-        "meta_desc": "Figure AI announces landmark milestone as Figure 02 humanoid robots surpass 100,000 commercial operational hours handling precision sheet metal and sub-assemblies at BMW.",
-        "keywords": "Figure AI, Figure 02, BMW Robotics, Humanoid Commercialization, Factory AI, Industrial Automation, Embodied Intelligence, Brett Adcock",
+        "meta_desc": "DeepSeek R1 proves pure reinforcement learning can unlock frontier-grade reasoning without supervised fine-tuning, shaking the closed-source AI monopoly.",
+        "keywords": "DeepSeek R1, Open Weights AI, Mixture of Experts, Pure RL, Test Time Compute, Open Source LLM, AI Model Distillation, GPU Efficiency",
         "read_time": "8 min read",
-        "key_stats": "99.2% Uptime | 100,000 Operating Hours | Sub-Millimeter Insertion",
-        "topic_summary": "Detailed technical breakdown of Figure 02's speech-to-action OpenAI neural integration, onboard vision processing, and fourth-generation articulated joints."
-    },
-    {
-        "slug": "meta-llama-4-multimodal-moe-400b-architecture-preview",
-        "title": "Meta Llama 4 Architecture Preview: Native Multimodal MoE at 400B Scale",
-        "category": "OPEN SOURCE",
-        "meta_desc": "Meta AI leaks architecture details for Llama 4, unveiling a native multi-token prediction Mixture-of-Experts design trained across 100,000 Nvidia H100 clusters.",
-        "keywords": "Meta Llama 4, Open Source AI, Mark Zuckerberg, MoE Architecture, Multi-Token Prediction, Llama Herd, 400B LLM, Open Weights Frontier",
-        "read_time": "8 min read",
-        "key_stats": "400B Parameters | 100k H100 Cluster | Multi-Token Prediction Head",
-        "topic_summary": "Llama 4 pivots from dense transformer models to a granular 16-expert MoE architecture featuring native speech, vision, and code token alignment."
-    },
-    {
-        "slug": "ai-datacenter-gigawatt-energy-crisis-smr-nuclear-reactors",
-        "title": "The $100 Billion AI Datacenter Power Crisis: SMR Nuclear Reactors & Energy Gridlock",
-        "category": "SILICON & GPUS",
-        "meta_desc": "Big tech firms commit over $100 billion to small modular nuclear reactors (SMRs) and geothermal contracts as US electric grid capacity bottlenecks AI training clusters.",
-        "keywords": "AI Energy Crisis, Datacenter Power, Nuclear SMR, Microsoft Three Mile Island, Google Kairos Power, Amazon Nuclear, Clean AI Energy, Grid Capacity",
-        "read_time": "9 min read",
-        "key_stats": "1.2GW Per Campus | $100B+ Power PPA | 2030 Commercial SMR Target",
-        "topic_summary": "How power supply, substation transformer lead times, and thermal dissipation have replaced silicon supply as the primary limiting factor for AI expansion."
-    },
-    {
-        "slug": "cognition-ai-devin-2-swe-bench-verified-engineering",
-        "title": "Cognition AI Devin 2.0 Benchmarks: Solving 67% of Real-World GitHub Issues",
-        "category": "AGENTS & CODING",
-        "meta_desc": "Cognition AI releases Devin 2.0 with a verified 67% resolution rate on SWE-bench Verified, integrating sandboxed browser debugging and enterprise repo indexing.",
-        "keywords": "Cognition AI, Devin 2.0, SWE-bench Verified, Autonomous AI Software Engineer, AI Coding Agents, Repo Indexing, Enterprise DevOps, Scott Wu",
-        "read_time": "8 min read",
-        "key_stats": "67.4% SWE-bench | Full Sandboxed Shell | Enterprise SOC2 Compliant",
-        "topic_summary": "Devin 2.0 moves beyond autocomplete to multi-agent planning, spinning up ephemeral Docker environments to build, run tests, and self-correct runtime regressions."
+        "key_stats": "671B MoE (37B Active) | $6M Training Cost | Match OpenAI o1",
+        "topic_summary": "How DeepSeek achieved frontier-level competitive reasoning through pure multi-stage reinforcement learning and large-scale architectural distillation."
     }
 ]
 
@@ -215,37 +312,102 @@ def get_existing_slugs():
                 slugs.append(f[:-5])
     return slugs
 
+def get_next_pillar(history):
+    """
+    Enforces strict Round-Robin rotation across the 8 Master Pillars.
+    Never repeats the same category consecutively.
+    """
+    if not history:
+        return AI_NEWS_PILLARS[0]
+
+    recent_cats = [h.get("category", "").upper() for h in history[-8:]]
+    for pillar in AI_NEWS_PILLARS:
+        if pillar["category"].upper() not in recent_cats:
+            return pillar
+
+    last_cat = history[-1].get("category", "").upper()
+    for idx, p in enumerate(AI_NEWS_PILLARS):
+        if p["category"].upper() == last_cat:
+            next_idx = (idx + 1) % len(AI_NEWS_PILLARS)
+            return AI_NEWS_PILLARS[next_idx]
+
+    return AI_NEWS_PILLARS[0]
+
+def get_quarantined_entities(history):
+    """
+    Extracts entities covered in the last 15 stories to strictly ban consecutive repetitions.
+    """
+    banned = set()
+    entity_keywords = [
+        "claude", "anthropic", "sonnet", "opus", "haiku",
+        "openai", "o3", "o1", "gpt-5", "chatgpt", "sam altman",
+        "gemini", "deepmind", "google",
+        "nvidia", "blackwell", "b200", "b300", "jensen huang",
+        "tesla", "optimus", "elon musk", "grok", "xai",
+        "deepseek", "r1",
+        "devin", "cursor", "windsurf", "cognition",
+        "figure", "figure 02",
+        "boston dynamics", "atlas",
+        "cerebras", "cs-3"
+    ]
+    for h in history[-15:]:
+        text = f"{h.get('title', '')} {h.get('slug', '')}".lower()
+        for ent in entity_keywords:
+            if ent in text:
+                banned.add(ent.capitalize())
+    return list(banned)
+
 def determine_today_ai_news_topic():
     existing = get_existing_slugs()
     now_ist = datetime.now(_IST)
     date_str = now_ist.strftime("%d %B %Y")
 
+    # Read history for rotation and quarantine
+    hist = []
+    if os.path.exists(HISTORY_FILE):
+        try:
+            with open(HISTORY_FILE, "r", encoding="utf-8") as f:
+                hist = json.load(f)
+        except Exception:
+            hist = []
+
+    chosen_pillar = get_next_pillar(hist)
+    quarantined = get_quarantined_entities(hist)
+
+    print(f"\n[AI News Orchestrator] Enforcing 8-Pillar Rotation:")
+    print(f"   Target Category: {chosen_pillar['category']} ({chosen_pillar['name']})")
+    print(f"   Quarantined Entities (Banned): {quarantined[:8]}")
+
     prompt = f"""You are the US Bureau Chief & Editor-in-Chief of AINews (ainews.krishnavibez.in) based in Silicon Valley, San Francisco, CA.
 Today's Date: {date_str}.
 
-PRIMARY TARGET AUDIENCE: United States Tech Sector, Silicon Valley Engineers, Enterprise AI CTOs, Wall Street Tech Investors, and US AI Developers (High US CPM/CPC).
+TARGET EDITORIAL PILLAR:
+Category: {chosen_pillar['category']}
+Theme: {chosen_pillar['name']}
 
-Identify the SINGLE MOST IMPACTFUL, trending, high-traffic US & Global AI breaking news topic right now.
-Topics of primary US interest:
-- US Frontier LLM releases (OpenAI o3/GPT-5, Anthropic Claude 3.7 Sonnet, Google Gemini 2.0/3.0, Meta Llama 4).
-- US Autonomous AI Agents & Silicon Valley startups (Cursor, Devin, Windsurf, Cognition AI, Perplexity).
-- Silicon & US Infrastructure (Nvidia Blackwell B200 / GB200 clusters, AMD, Cerebras, US Datacenter gigawatt buildouts).
-- Humanoid Robotics in US industry (Tesla Optimus Gen 3, Figure 02, Boston Dynamics).
-- US Regulatory, Copyright & Enterprise ROI impacts (FTC, White House AI safety guidelines, Fortune 500 enterprise adoption).
+PILLAR INSTRUCTIONS:
+{chosen_pillar['prompt_guidance']}
 
-STRICT RULE: Do NOT repeat any of these recently published topics:
+STRICT NEGATIVE CONSTRAINTS:
+1. Do NOT write about these recently covered entities (STRICTLY QUARANTINED):
+{json.dumps(quarantined, ensure_ascii=False)}
+
+2. Do NOT repeat any recently published article slugs:
 {json.dumps(existing[-15:], ensure_ascii=False)}
 
+3. Category MUST strictly be: "{chosen_pillar['category']}"
+
+OUTPUT FORMAT:
 Output ONLY a valid JSON object with this exact structure:
 {{
   "slug": "url-friendly-lowercase-slug-without-html",
   "title": "Compelling, high-CTR news headline between 60 to 90 characters (The Verge / TechCrunch style)",
-  "category": "One of: FRONTIER LLMS | AGENTS & CODING | SILICON & GPUS | ROBOTICS | OPEN SOURCE",
+  "category": "{chosen_pillar['category']}",
   "meta_desc": "Engaging summary between 140 to 160 characters optimized for Google Search and Discover",
   "keywords": "8 to 10 high-volume search keywords separated by commas",
-  "read_time": "6 min read",
-  "key_stats": "e.g. 94.8% MMLU | 2x Faster Inference | $0.15/1M Tokens",
-  "topic_summary": "Short 2-line brief of what makes this announcement revolutionary"
+  "read_time": "8 min read",
+  "key_stats": "e.g. $480K Avg Salary | 38% Shift | 120,000 Openings",
+  "topic_summary": "Short 2-line brief of what makes this announcement revolutionary with verified numbers"
 }}
 """
     try:
@@ -254,20 +416,30 @@ Output ONLY a valid JSON object with this exact structure:
         clean_json = re.sub(r"\s*```$", "", clean_json.strip(), flags=re.MULTILINE)
         data = json.loads(clean_json)
         data["slug"] = re.sub(r"[^a-z0-9\-]", "-", data["slug"].lower()).strip("-")
+        data["category"] = chosen_pillar["category"]
         return data
     except Exception as e:
         print(f"   [Fallback Triggered] determine_today_ai_news_topic notice: {e}. Selecting from emergency breaking topic pool...")
-        # Filter out items whose slug or title already appears in recent history
+        # Match pillar category from emergency pool
+        pillar_emergency = [
+            item for item in EMERGENCY_AI_NEWS_TOPIC_POOL
+            if item["category"].upper() == chosen_pillar["category"].upper()
+            and item["slug"] not in existing
+        ]
+        if pillar_emergency:
+            chosen = dict(random.choice(pillar_emergency))
+            print(f"   [Fallback Selected] Curated emergency topic: {chosen['title']}")
+            return chosen
+
         available_emergency = [
             item for item in EMERGENCY_AI_NEWS_TOPIC_POOL
-            if item["slug"] not in existing and not any(item["title"].lower() in s.lower() for s in existing[-20:])
+            if item["slug"] not in existing
         ]
         if available_emergency:
             chosen = dict(random.choice(available_emergency))
-            print(f"   [Fallback Selected] Curated emergency topic: {chosen['title']}")
+            print(f"   [Fallback Selected] Generic emergency topic: {chosen['title']}")
             return chosen
-        
-        # If all emergency topics have been covered, rotate randomly among non-recent ones
+
         least_recent = random.choice(EMERGENCY_AI_NEWS_TOPIC_POOL)
         chosen = dict(least_recent)
         chosen["slug"] = f"{chosen['slug']}-{now_ist.strftime('%Y%m%d%H%M')}"
@@ -1338,6 +1510,7 @@ def run_pipeline():
             "date": datetime.now(_IST).strftime("%B %d, %Y"),
             "url": f"/articles/{topic_meta['slug']}.html",
             "excerpt": topic_meta["meta_desc"],
+            "image": hero_img,
             "badge": "LATEST"
         }
         if not any(a.get("url") == new_entry["url"] for a in search_items):

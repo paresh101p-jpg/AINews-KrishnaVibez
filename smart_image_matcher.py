@@ -44,6 +44,18 @@ def save_editorial_pool(pool):
 def detect_article_entity(text: str) -> str:
     """Detects primary tech company, product, or domain entity."""
     t = text.lower()
+    if re.search(r"\b(layoff|layoffs|hiring|reskilling|salary|salaries|workforce|recruitment|junior developer|junior engineer|career|careers|job market|employment|jobs)\b", t):
+        return "jobs_careers"
+    if re.search(r"\b(wall street|valuation|venture capital|capex|revenue|funding round|softbank|nasdaq|stock market|investor|investors|billions|vc funding)\b", t):
+        return "finance_vc"
+    if re.search(r"\b(us-china|embargo|white house|india|indiaai|eu ai act|sovereignty|export control|middle east|g42|mgx|sovereign ai|regulations)\b", t):
+        return "geopolitics"
+    if re.search(r"\b(cancer|drug discovery|alphafold|biology|clinical trial|protein|medicine|dna|therapeutics|healthcare|oncology)\b", t):
+        return "biomedical"
+    if re.search(r"\b(hollywood|cinema|filmmaker|vfx|sora|runway|video generation|virtual production|film studio)\b", t):
+        return "entertainment"
+    if re.search(r"\b(deepfake|scam|fraud|voice clone|voice cloning|lawsuit|copyright|phishing|malware|heist|court|countermeasures|hackers)\b", t):
+        return "cybersecurity"
     if re.search(r"\b(claude|anthropic|sonnet|opus|haiku|dario amodei)\b", t):
         return "anthropic"
     if re.search(r"\b(gemini|deepmind|google|demis hassabis)\b", t):
@@ -97,6 +109,11 @@ def derive_hooks_from_title(title: str, category: str):
     if len(hook2) > 48: hook2 = hook2[:45] + "..."
 
     badge_map = {
+        "JOBS & CAREERS": ("WORKFORCE REPORT", (245, 158, 11)),
+        "BUSINESS & FINANCE": ("MARKETS & CAPITAL", (34, 197, 94)),
+        "WORLD & GEOPOLITICS": ("GLOBAL AI POLICY", (59, 130, 246)),
+        "REAL-WORLD IMPACT": ("HUMAN APPLICATIONS", (20, 184, 166)),
+        "ETHICS & SECURITY": ("CYBER DEFENSE & RISKS", (239, 68, 68)),
         "FRONTIER LLMS": ("REASONING FRONTIER", (244, 63, 94)),
         "ROBOTICS": ("ROBOTICS REPORT", (168, 85, 247)),
         "SILICON & GPUS": ("SILICON ARCHITECTURE", (6, 182, 212)),
@@ -276,6 +293,28 @@ def select_best_image_for_article(title: str, category: str, content: str = "", 
     print(f"   Score: {best['score']} | Matched: {best['matched_keywords'][:5]}")
     print(f"   Base Visual: {best['url']}")
 
+    ENTITY_LOCAL_DEFAULTS = {
+        "jobs_careers": "/images/autonomous_coding_agents.jpg",
+        "finance_vc": "/images/datacenter_liquid_cooling_cluster.jpg",
+        "geopolitics": "/images/cybersecurity_neural_shield_defense.jpg",
+        "biomedical": "/images/healthcare_robots.jpg",
+        "entertainment": "/images/sora_generative_video_holodeck_virtual.jpg",
+        "cybersecurity": "/images/cybersecurity_neural_shield_defense.jpg",
+        "tesla_optimus": "/images/humanoid_robot_gigafactory_assembly.jpg",
+        "figure": "/images/humanoid_semiconductor_cleanroom.jpg",
+        "boston_dynamics": "/images/dexterous_bipedal_robot_warehouse_logistics.jpg",
+        "nvidia": "/images/blackwell_gpu_interposer_chip_macro.jpg",
+        "cerebras": "/images/gpu_silicon_die_architecture.jpg",
+        "energy": "/images/gigawatt_ai_datacenter_liquid_cooling.jpg",
+        "foundry": "/images/semiconductor_fab_lithography.jpg",
+        "quantum": "/images/quantum_cryogenic_chandelier.jpg"
+    }
+
+    base_img_url = best["url"]
+    if target_entity in ENTITY_LOCAL_DEFAULTS and (best["score"] < 40 or best.get("entity") != target_entity):
+        base_img_url = ENTITY_LOCAL_DEFAULTS[target_entity]
+        print(f"   [Entity Override] Using dedicated high-res entity visual: {base_img_url}")
+
     # Mark as used in pool
     best_idx = best["index"]
     now_iso = datetime.utcnow().isoformat()
@@ -289,10 +328,10 @@ def select_best_image_for_article(title: str, category: str, content: str = "", 
 
     # Generate custom news headline hook banner
     if render_headline:
-        custom_hook_url = create_headline_hook_banner(best["url"], title, category)
+        custom_hook_url = create_headline_hook_banner(base_img_url, title, category)
         return custom_hook_url
     
-    return best["url"]
+    return base_img_url
 
 if __name__ == "__main__":
     t = "Figure 02 Humanoids Complete 100,000 Hours of Autonomous Operation at BMW"
