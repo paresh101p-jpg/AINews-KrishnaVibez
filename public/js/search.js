@@ -29,7 +29,10 @@
     })
     .catch(() => {});
 
-  document.addEventListener('DOMContentLoaded', initSearch);
+  document.addEventListener('DOMContentLoaded', () => {
+    initSearch();
+    initCategoryFilters();
+  });
 
   function initSearch() {
     const input = document.getElementById('globalSearchInput');
@@ -126,5 +129,71 @@
 
   function escapeHtml(str) {
     return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+
+  function initCategoryFilters() {
+    const navLinks = document.querySelectorAll('.main-nav a');
+    const cards = document.querySelectorAll('.articles-grid .article-card');
+    const heading = document.querySelector('.section-heading');
+
+    navLinks.forEach(link => {
+      link.addEventListener('click', (e) => {
+        const href = link.getAttribute('href');
+        if (href === '/rss.xml') return; // let RSS open
+
+        e.preventDefault();
+        navLinks.forEach(l => l.classList.remove('active'));
+        link.classList.add('active');
+
+        let catFilter = '';
+        let label = 'Frontier Intelligence & Technical Analysis';
+        if (href === '#models') {
+          catFilter = 'frontier llms';
+          label = 'Category: Frontier LLMs';
+        } else if (href === '#agents') {
+          catFilter = 'agents & coding';
+          label = 'Category: Agents & Coding';
+        } else if (href === '#silicon') {
+          catFilter = 'silicon & gpus';
+          label = 'Category: Silicon & GPUs';
+        } else if (href === '#robotics') {
+          catFilter = 'robotics';
+          label = 'Category: Robotics & Embodied AI';
+        }
+
+        if (heading) heading.textContent = label;
+
+        cards.forEach(card => {
+          const cardCat = (card.getAttribute('data-category') || '').toLowerCase();
+          if (!catFilter || cardCat.includes(catFilter)) {
+            card.style.display = '';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+
+        const targetSec = document.querySelector('.section-heading-bar');
+        if (targetSec) {
+          targetSec.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+
+    // Trending pills with data-search
+    document.querySelectorAll('.trending-pill').forEach(pill => {
+      pill.addEventListener('click', (e) => {
+        const searchTerm = pill.getAttribute('data-search');
+        if (searchTerm) {
+          e.preventDefault();
+          const input = document.getElementById('globalSearchInput');
+          if (input) {
+            input.value = searchTerm;
+            input.dispatchEvent(new Event('input'));
+            input.focus();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          }
+        }
+      });
+    });
   }
 })();
