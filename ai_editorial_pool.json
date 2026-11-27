@@ -11898,7 +11898,7 @@
   },
   {
     "id": "world_ai_news_1_img1",
-    "url": "https://files.catbox.moe/world_ai_news_1_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_1_img1.jpg",
     "category": "ROBOTICS",
     "subtopic": "polyai’s_ex_machine_learning_chief_raises_$20m_for_new_robot",
     "keywords": [
@@ -11913,11 +11913,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.367843",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.352759"
+    "generated_at": "2026-11-27T14:59:38.352759",
+    "local_file": "world_ai_news_1_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_1_img2",
-    "url": "https://files.catbox.moe/world_ai_news_1_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_1_img2.jpg",
     "category": "ROBOTICS",
     "subtopic": "polyai’s_ex_machine_learning_chief_raises_$20m_for_new_robot",
     "keywords": [
@@ -11932,11 +11935,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.367858",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.352790"
+    "generated_at": "2026-11-27T14:59:38.352790",
+    "local_file": "world_ai_news_1_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_2_img1",
-    "url": "https://files.catbox.moe/world_ai_news_2_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_2_img1.jpg",
     "category": "FRONTIER LLMS",
     "subtopic": "10th_circuit_addresses_ai_hallucinations_with_new_human_fact",
     "keywords": [
@@ -11949,11 +11955,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.367929",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.355146"
+    "generated_at": "2026-11-27T14:59:38.355146",
+    "local_file": "world_ai_news_2_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_2_img2",
-    "url": "https://files.catbox.moe/world_ai_news_2_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_2_img2.jpg",
     "category": "FRONTIER LLMS",
     "subtopic": "10th_circuit_addresses_ai_hallucinations_with_new_human_fact",
     "keywords": [
@@ -11966,11 +11975,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.367933",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.355172"
+    "generated_at": "2026-11-27T14:59:38.355172",
+    "local_file": "world_ai_news_2_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_3_img1",
-    "url": "https://files.catbox.moe/world_ai_news_3_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_3_img1.jpg",
     "category": "SILICON & GPUS",
     "subtopic": "japan's_preferred_networks_sows_seeds_of_physical_ai_with_ro",
     "keywords": [
@@ -11985,11 +11997,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368058",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.360137"
+    "generated_at": "2026-11-27T14:59:38.360137",
+    "local_file": "world_ai_news_3_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_3_img2",
-    "url": "https://files.catbox.moe/world_ai_news_3_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_3_img2.jpg",
     "category": "SILICON & GPUS",
     "subtopic": "japan's_preferred_networks_sows_seeds_of_physical_ai_with_ro",
     "keywords": [
@@ -12004,11 +12019,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368061",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.360167"
+    "generated_at": "2026-11-27T14:59:38.360167",
+    "local_file": "world_ai_news_3_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_4_img1",
-    "url": "https://files.catbox.moe/world_ai_news_4_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_4_img1.jpg",
     "category": "ROBOTICS",
     "subtopic": "sk_intellix_wins_award_for_applying_ai_standards_to_wellness",
     "keywords": [
@@ -12022,11 +12040,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.367862",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.352802"
+    "generated_at": "2026-11-27T14:59:38.352802",
+    "local_file": "world_ai_news_4_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_4_img2",
-    "url": "https://files.catbox.moe/world_ai_news_4_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_4_img2.jpg",
     "category": "ROBOTICS",
     "subtopic": "sk_intellix_wins_award_for_applying_ai_standards_to_wellness",
     "keywords": [
@@ -12040,11 +12061,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.367866",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.352808"
+    "generated_at": "2026-11-27T14:59:38.352808",
+    "local_file": "world_ai_news_4_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_5_img1",
-    "url": "https://files.catbox.moe/world_ai_news_5_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_5_img1.jpg",
     "category": "FRONTIER LLMS",
     "subtopic": "lotte_innovate_is_expanding_its_external_customers_by_winnin",
     "keywords": [
@@ -12057,11 +12081,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.367936",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.355179"
+    "generated_at": "2026-11-27T14:59:38.355179",
+    "local_file": "world_ai_news_5_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_5_img2",
-    "url": "https://files.catbox.moe/world_ai_news_5_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_5_img2.jpg",
     "category": "FRONTIER LLMS",
     "subtopic": "lotte_innovate_is_expanding_its_external_customers_by_winnin",
     "keywords": [
@@ -12074,11 +12101,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.367941",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.355184"
+    "generated_at": "2026-11-27T14:59:38.355184",
+    "local_file": "world_ai_news_5_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_6_img1",
-    "url": "https://files.catbox.moe/world_ai_news_6_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_6_img1.jpg",
     "category": "FRONTIER LLMS",
     "subtopic": "lotte_innovate_raises_external_sales_share_to_39_4%,_expands",
     "keywords": [
@@ -12091,11 +12121,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.367945",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.355190"
+    "generated_at": "2026-11-27T14:59:38.355190",
+    "local_file": "world_ai_news_6_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_6_img2",
-    "url": "https://files.catbox.moe/world_ai_news_6_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_6_img2.jpg",
     "category": "FRONTIER LLMS",
     "subtopic": "lotte_innovate_raises_external_sales_share_to_39_4%,_expands",
     "keywords": [
@@ -12108,11 +12141,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.367948",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.355195"
+    "generated_at": "2026-11-27T14:59:38.355195",
+    "local_file": "world_ai_news_6_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_7_img1",
-    "url": "https://files.catbox.moe/world_ai_news_7_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_7_img1.jpg",
     "category": "ROBOTICS",
     "subtopic": "humanoid_robots_are_coming—sooner_than_you_think",
     "keywords": [
@@ -12125,11 +12161,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.367870",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.352814"
+    "generated_at": "2026-11-27T14:59:38.352814",
+    "local_file": "world_ai_news_7_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_7_img2",
-    "url": "https://files.catbox.moe/world_ai_news_7_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_7_img2.jpg",
     "category": "ROBOTICS",
     "subtopic": "humanoid_robots_are_coming—sooner_than_you_think",
     "keywords": [
@@ -12142,11 +12181,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.367887",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.352820"
+    "generated_at": "2026-11-27T14:59:38.352820",
+    "local_file": "world_ai_news_7_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_8_img1",
-    "url": "https://files.catbox.moe/world_ai_news_8_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_8_img1.jpg",
     "category": "ROBOTICS",
     "subtopic": "xpeng_vla_3_0_ai_adds_body_control_layer_for_cars_and_robots",
     "keywords": [
@@ -12160,11 +12202,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.367891",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.352835"
+    "generated_at": "2026-11-27T14:59:38.352835",
+    "local_file": "world_ai_news_8_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_8_img2",
-    "url": "https://files.catbox.moe/world_ai_news_8_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_8_img2.jpg",
     "category": "ROBOTICS",
     "subtopic": "xpeng_vla_3_0_ai_adds_body_control_layer_for_cars_and_robots",
     "keywords": [
@@ -12178,11 +12223,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.367894",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.352841"
+    "generated_at": "2026-11-27T14:59:38.352841",
+    "local_file": "world_ai_news_8_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_9_img1",
-    "url": "https://files.catbox.moe/world_ai_news_9_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_9_img1.jpg",
     "category": "ROBOTICS",
     "subtopic": "siemens_develops_an_ai_powered_unpacking_robot",
     "keywords": [
@@ -12196,11 +12244,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.367898",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.352848"
+    "generated_at": "2026-11-27T14:59:38.352848",
+    "local_file": "world_ai_news_9_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_9_img2",
-    "url": "https://files.catbox.moe/world_ai_news_9_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_9_img2.jpg",
     "category": "ROBOTICS",
     "subtopic": "siemens_develops_an_ai_powered_unpacking_robot",
     "keywords": [
@@ -12214,11 +12265,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.367901",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.352854"
+    "generated_at": "2026-11-27T14:59:38.352854",
+    "local_file": "world_ai_news_9_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_10_img1",
-    "url": "https://files.catbox.moe/world_ai_news_10_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_10_img1.jpg",
     "category": "FRONTIER LLMS",
     "subtopic": "ai_progress_prompts_researchers_to_rethink_theories_of_mind",
     "keywords": [
@@ -12231,11 +12285,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.367951",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.355201"
+    "generated_at": "2026-11-27T14:59:38.355201",
+    "local_file": "world_ai_news_10_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_10_img2",
-    "url": "https://files.catbox.moe/world_ai_news_10_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_10_img2.jpg",
     "category": "FRONTIER LLMS",
     "subtopic": "ai_progress_prompts_researchers_to_rethink_theories_of_mind",
     "keywords": [
@@ -12248,11 +12305,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.367954",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.355206"
+    "generated_at": "2026-11-27T14:59:38.355206",
+    "local_file": "world_ai_news_10_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_11_img1",
-    "url": "https://files.catbox.moe/world_ai_news_11_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_11_img1.jpg",
     "category": "ROBOTICS",
     "subtopic": "volvo_humanoid_robots_begin_ghent_training_with_one_task:_pl",
     "keywords": [
@@ -12266,11 +12326,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.367905",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.352859"
+    "generated_at": "2026-11-27T14:59:38.352859",
+    "local_file": "world_ai_news_11_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_11_img2",
-    "url": "https://files.catbox.moe/world_ai_news_11_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_11_img2.jpg",
     "category": "ROBOTICS",
     "subtopic": "volvo_humanoid_robots_begin_ghent_training_with_one_task:_pl",
     "keywords": [
@@ -12284,11 +12347,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.367908",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.352865"
+    "generated_at": "2026-11-27T14:59:38.352865",
+    "local_file": "world_ai_news_11_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_12_img1",
-    "url": "https://files.catbox.moe/world_ai_news_12_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_12_img1.jpg",
     "category": "FRONTIER LLMS",
     "subtopic": "south_korea's_lotte_innovate_external_revenue_share_hits_39_",
     "keywords": [
@@ -12301,11 +12367,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.367957",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.355211"
+    "generated_at": "2026-11-27T14:59:38.355211",
+    "local_file": "world_ai_news_12_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_12_img2",
-    "url": "https://files.catbox.moe/world_ai_news_12_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_12_img2.jpg",
     "category": "FRONTIER LLMS",
     "subtopic": "south_korea's_lotte_innovate_external_revenue_share_hits_39_",
     "keywords": [
@@ -12318,11 +12387,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.367963",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.355225"
+    "generated_at": "2026-11-27T14:59:38.355225",
+    "local_file": "world_ai_news_12_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_13_img1",
-    "url": "https://files.catbox.moe/world_ai_news_13_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_13_img1.jpg",
     "category": "FRONTIER LLMS",
     "subtopic": "abacus_ai,_chatllm_plans_and_comparison_with_chatgpt_and_cla",
     "keywords": [
@@ -12336,11 +12408,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.367967",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.355235"
+    "generated_at": "2026-11-27T14:59:38.355235",
+    "local_file": "world_ai_news_13_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_13_img2",
-    "url": "https://files.catbox.moe/world_ai_news_13_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_13_img2.jpg",
     "category": "FRONTIER LLMS",
     "subtopic": "abacus_ai,_chatllm_plans_and_comparison_with_chatgpt_and_cla",
     "keywords": [
@@ -12354,11 +12429,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.367971",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.355241"
+    "generated_at": "2026-11-27T14:59:38.355241",
+    "local_file": "world_ai_news_13_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_14_img1",
-    "url": "https://files.catbox.moe/world_ai_news_14_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_14_img1.jpg",
     "category": "FRONTIER LLMS",
     "subtopic": "turkmenistan_is_creating_a_national_llm_and_smart_residentia",
     "keywords": [
@@ -12371,11 +12449,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.367974",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.355249"
+    "generated_at": "2026-11-27T14:59:38.355249",
+    "local_file": "world_ai_news_14_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_14_img2",
-    "url": "https://files.catbox.moe/world_ai_news_14_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_14_img2.jpg",
     "category": "FRONTIER LLMS",
     "subtopic": "turkmenistan_is_creating_a_national_llm_and_smart_residentia",
     "keywords": [
@@ -12388,11 +12469,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.367977",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.355254"
+    "generated_at": "2026-11-27T14:59:38.355254",
+    "local_file": "world_ai_news_14_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_15_img1",
-    "url": "https://files.catbox.moe/world_ai_news_15_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_15_img1.jpg",
     "category": "SILICON & GPUS",
     "subtopic": "two_californian_nvidia_ai_chip_customers_are_really_chinese_",
     "keywords": [
@@ -12406,11 +12490,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368064",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.360174"
+    "generated_at": "2026-11-27T14:59:38.360174",
+    "local_file": "world_ai_news_15_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_15_img2",
-    "url": "https://files.catbox.moe/world_ai_news_15_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_15_img2.jpg",
     "category": "SILICON & GPUS",
     "subtopic": "two_californian_nvidia_ai_chip_customers_are_really_chinese_",
     "keywords": [
@@ -12424,11 +12511,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368068",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.360180"
+    "generated_at": "2026-11-27T14:59:38.360180",
+    "local_file": "world_ai_news_15_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_16_img1",
-    "url": "https://files.catbox.moe/world_ai_news_16_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_16_img1.jpg",
     "category": "SILICON & GPUS",
     "subtopic": "trump_heads_to_arizona_next_week_for_a_high_stakes_expansion",
     "keywords": [
@@ -12441,11 +12531,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368071",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.360186"
+    "generated_at": "2026-11-27T14:59:38.360186",
+    "local_file": "world_ai_news_16_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_16_img2",
-    "url": "https://files.catbox.moe/world_ai_news_16_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_16_img2.jpg",
     "category": "SILICON & GPUS",
     "subtopic": "trump_heads_to_arizona_next_week_for_a_high_stakes_expansion",
     "keywords": [
@@ -12458,11 +12551,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368076",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.360191"
+    "generated_at": "2026-11-27T14:59:38.360191",
+    "local_file": "world_ai_news_16_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_17_img1",
-    "url": "https://files.catbox.moe/world_ai_news_17_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_17_img1.jpg",
     "category": "FRONTIER LLMS",
     "subtopic": "pax_silica,_nvidia_and_the_$1t_huang_reversal",
     "keywords": [],
@@ -12473,11 +12569,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.367981",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.355259"
+    "generated_at": "2026-11-27T14:59:38.355259",
+    "local_file": "world_ai_news_17_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_17_img2",
-    "url": "https://files.catbox.moe/world_ai_news_17_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_17_img2.jpg",
     "category": "FRONTIER LLMS",
     "subtopic": "pax_silica,_nvidia_and_the_$1t_huang_reversal",
     "keywords": [],
@@ -12488,11 +12587,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.367984",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.355264"
+    "generated_at": "2026-11-27T14:59:38.355264",
+    "local_file": "world_ai_news_17_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_18_img1",
-    "url": "https://files.catbox.moe/world_ai_news_18_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_18_img1.jpg",
     "category": "SILICON & GPUS",
     "subtopic": "two_silicon_valley_firms_that_bought_massive_amounts_of_nvid",
     "keywords": [
@@ -12506,11 +12608,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368080",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.360209"
+    "generated_at": "2026-11-27T14:59:38.360209",
+    "local_file": "world_ai_news_18_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_18_img2",
-    "url": "https://files.catbox.moe/world_ai_news_18_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_18_img2.jpg",
     "category": "SILICON & GPUS",
     "subtopic": "two_silicon_valley_firms_that_bought_massive_amounts_of_nvid",
     "keywords": [
@@ -12524,11 +12629,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368083",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.360218"
+    "generated_at": "2026-11-27T14:59:38.360218",
+    "local_file": "world_ai_news_18_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_19_img1",
-    "url": "https://files.catbox.moe/world_ai_news_19_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_19_img1.jpg",
     "category": "SILICON & GPUS",
     "subtopic": "2_california_companies_are_buying_nvidia's_most_advanced_chi",
     "keywords": [
@@ -12541,11 +12649,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368088",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.360224"
+    "generated_at": "2026-11-27T14:59:38.360224",
+    "local_file": "world_ai_news_19_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_19_img2",
-    "url": "https://files.catbox.moe/world_ai_news_19_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_19_img2.jpg",
     "category": "SILICON & GPUS",
     "subtopic": "2_california_companies_are_buying_nvidia's_most_advanced_chi",
     "keywords": [
@@ -12558,11 +12669,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368091",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.360231"
+    "generated_at": "2026-11-27T14:59:38.360231",
+    "local_file": "world_ai_news_19_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_20_img1",
-    "url": "https://files.catbox.moe/world_ai_news_20_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_20_img1.jpg",
     "category": "FRONTIER LLMS",
     "subtopic": "trump_tried_to_cripple_huawei__now_it_is_central_to_china’s_",
     "keywords": [],
@@ -12573,11 +12687,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.367988",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.355273"
+    "generated_at": "2026-11-27T14:59:38.355273",
+    "local_file": "world_ai_news_20_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_20_img2",
-    "url": "https://files.catbox.moe/world_ai_news_20_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_20_img2.jpg",
     "category": "FRONTIER LLMS",
     "subtopic": "trump_tried_to_cripple_huawei__now_it_is_central_to_china’s_",
     "keywords": [],
@@ -12588,11 +12705,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.367991",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.355281"
+    "generated_at": "2026-11-27T14:59:38.355281",
+    "local_file": "world_ai_news_20_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_21_img1",
-    "url": "https://files.catbox.moe/world_ai_news_21_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_21_img1.jpg",
     "category": "SILICON & GPUS",
     "subtopic": "nvidia's_biggest_buyers_build_their_own_ai_chips_as_custom_s",
     "keywords": [
@@ -12607,11 +12727,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368095",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.360237"
+    "generated_at": "2026-11-27T14:59:38.360237",
+    "local_file": "world_ai_news_21_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_21_img2",
-    "url": "https://files.catbox.moe/world_ai_news_21_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_21_img2.jpg",
     "category": "SILICON & GPUS",
     "subtopic": "nvidia's_biggest_buyers_build_their_own_ai_chips_as_custom_s",
     "keywords": [
@@ -12626,11 +12749,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368098",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.360242"
+    "generated_at": "2026-11-27T14:59:38.360242",
+    "local_file": "world_ai_news_21_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_22_img1",
-    "url": "https://files.catbox.moe/world_ai_news_22_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_22_img1.jpg",
     "category": "SILICON & GPUS",
     "subtopic": "us_based_firms_with_chinese_owners_buying_nvidia's_most_adva",
     "keywords": [
@@ -12643,11 +12769,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368101",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.360247"
+    "generated_at": "2026-11-27T14:59:38.360247",
+    "local_file": "world_ai_news_22_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_22_img2",
-    "url": "https://files.catbox.moe/world_ai_news_22_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_22_img2.jpg",
     "category": "SILICON & GPUS",
     "subtopic": "us_based_firms_with_chinese_owners_buying_nvidia's_most_adva",
     "keywords": [
@@ -12660,11 +12789,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368104",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.360252"
+    "generated_at": "2026-11-27T14:59:38.360252",
+    "local_file": "world_ai_news_22_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_23_img1",
-    "url": "https://files.catbox.moe/world_ai_news_23_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_23_img1.jpg",
     "category": "FRONTIER LLMS",
     "subtopic": "how_nvidia's_purchase_of_hugging_face_will_shake_up_ad_indus",
     "keywords": [],
@@ -12675,11 +12807,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.367995",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.355287"
+    "generated_at": "2026-11-27T14:59:38.355287",
+    "local_file": "world_ai_news_23_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_23_img2",
-    "url": "https://files.catbox.moe/world_ai_news_23_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_23_img2.jpg",
     "category": "FRONTIER LLMS",
     "subtopic": "how_nvidia's_purchase_of_hugging_face_will_shake_up_ad_indus",
     "keywords": [],
@@ -12690,11 +12825,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368000",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.355292"
+    "generated_at": "2026-11-27T14:59:38.355292",
+    "local_file": "world_ai_news_23_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_24_img1",
-    "url": "https://files.catbox.moe/world_ai_news_24_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_24_img1.jpg",
     "category": "SILICON & GPUS",
     "subtopic": "ft:_nvidia_turns_down_south_east_asian_shipments_after_new_u",
     "keywords": [
@@ -12707,11 +12845,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368107",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.360257"
+    "generated_at": "2026-11-27T14:59:38.360257",
+    "local_file": "world_ai_news_24_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_24_img2",
-    "url": "https://files.catbox.moe/world_ai_news_24_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_24_img2.jpg",
     "category": "SILICON & GPUS",
     "subtopic": "ft:_nvidia_turns_down_south_east_asian_shipments_after_new_u",
     "keywords": [
@@ -12724,11 +12865,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368115",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.360262"
+    "generated_at": "2026-11-27T14:59:38.360262",
+    "local_file": "world_ai_news_24_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_25_img1",
-    "url": "https://files.catbox.moe/world_ai_news_25_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_25_img1.jpg",
     "category": "SILICON & GPUS",
     "subtopic": "ai_chip_shortage:_tsmc_2nm_hits_8%_of_revenue_in_q3",
     "keywords": [
@@ -12742,11 +12886,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368118",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.360270"
+    "generated_at": "2026-11-27T14:59:38.360270",
+    "local_file": "world_ai_news_25_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_25_img2",
-    "url": "https://files.catbox.moe/world_ai_news_25_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_25_img2.jpg",
     "category": "SILICON & GPUS",
     "subtopic": "ai_chip_shortage:_tsmc_2nm_hits_8%_of_revenue_in_q3",
     "keywords": [
@@ -12760,11 +12907,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368122",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.360276"
+    "generated_at": "2026-11-27T14:59:38.360276",
+    "local_file": "world_ai_news_25_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_26_img1",
-    "url": "https://files.catbox.moe/world_ai_news_26_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_26_img1.jpg",
     "category": "FRONTIER LLMS",
     "subtopic": "huang’s_return_to_nvidia_followed_industry_lobbying",
     "keywords": [],
@@ -12775,11 +12925,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368003",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.355299"
+    "generated_at": "2026-11-27T14:59:38.355299",
+    "local_file": "world_ai_news_26_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_26_img2",
-    "url": "https://files.catbox.moe/world_ai_news_26_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_26_img2.jpg",
     "category": "FRONTIER LLMS",
     "subtopic": "huang’s_return_to_nvidia_followed_industry_lobbying",
     "keywords": [],
@@ -12790,11 +12943,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368006",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.355304"
+    "generated_at": "2026-11-27T14:59:38.355304",
+    "local_file": "world_ai_news_26_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_27_img1",
-    "url": "https://files.catbox.moe/world_ai_news_27_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_27_img1.jpg",
     "category": "AI DATACENTERS",
     "subtopic": "nvidia_stops_shipping_ai_servers_to_four_se_asian_nations",
     "keywords": [
@@ -12807,11 +12963,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368196",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.365850"
+    "generated_at": "2026-11-27T14:59:38.365850",
+    "local_file": "world_ai_news_27_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_27_img2",
-    "url": "https://files.catbox.moe/world_ai_news_27_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_27_img2.jpg",
     "category": "AI DATACENTERS",
     "subtopic": "nvidia_stops_shipping_ai_servers_to_four_se_asian_nations",
     "keywords": [
@@ -12824,11 +12983,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368199",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.365879"
+    "generated_at": "2026-11-27T14:59:38.365879",
+    "local_file": "world_ai_news_27_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_28_img1",
-    "url": "https://files.catbox.moe/world_ai_news_28_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_28_img1.jpg",
     "category": "SILICON & GPUS",
     "subtopic": "two_silicon_valley_companies_in_the_united_states_that_bough",
     "keywords": [
@@ -12841,11 +13003,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368125",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.360281"
+    "generated_at": "2026-11-27T14:59:38.360281",
+    "local_file": "world_ai_news_28_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_28_img2",
-    "url": "https://files.catbox.moe/world_ai_news_28_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_28_img2.jpg",
     "category": "SILICON & GPUS",
     "subtopic": "two_silicon_valley_companies_in_the_united_states_that_bough",
     "keywords": [
@@ -12858,11 +13023,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368128",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.360286"
+    "generated_at": "2026-11-27T14:59:38.360286",
+    "local_file": "world_ai_news_28_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_29_img1",
-    "url": "https://files.catbox.moe/world_ai_news_29_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_29_img1.jpg",
     "category": "FRONTIER LLMS",
     "subtopic": "nvidia’s_jensen_huang_is_back_–_but_will_he_still_be_a_regul",
     "keywords": [],
@@ -12873,11 +13041,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368010",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.355310"
+    "generated_at": "2026-11-27T14:59:38.355310",
+    "local_file": "world_ai_news_29_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_29_img2",
-    "url": "https://files.catbox.moe/world_ai_news_29_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_29_img2.jpg",
     "category": "FRONTIER LLMS",
     "subtopic": "nvidia’s_jensen_huang_is_back_–_but_will_he_still_be_a_regul",
     "keywords": [],
@@ -12888,11 +13059,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368013",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.355315"
+    "generated_at": "2026-11-27T14:59:38.355315",
+    "local_file": "world_ai_news_29_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_30_img1",
-    "url": "https://files.catbox.moe/world_ai_news_30_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_30_img1.jpg",
     "category": "SILICON & GPUS",
     "subtopic": "vitalik_buterin_is_designing_chips:_could_ethereum_become_a_",
     "keywords": [
@@ -12905,11 +13079,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368132",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.360291"
+    "generated_at": "2026-11-27T14:59:38.360291",
+    "local_file": "world_ai_news_30_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_30_img2",
-    "url": "https://files.catbox.moe/world_ai_news_30_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_30_img2.jpg",
     "category": "SILICON & GPUS",
     "subtopic": "vitalik_buterin_is_designing_chips:_could_ethereum_become_a_",
     "keywords": [
@@ -12922,11 +13099,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368136",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.360296"
+    "generated_at": "2026-11-27T14:59:38.360296",
+    "local_file": "world_ai_news_30_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_31_img1",
-    "url": "https://files.catbox.moe/world_ai_news_31_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_31_img1.jpg",
     "category": "SILICON & GPUS",
     "subtopic": "explainer:_how_china_got_access_to_nvidia's_ai_chips_despite",
     "keywords": [
@@ -12940,11 +13120,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368139",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.360301"
+    "generated_at": "2026-11-27T14:59:38.360301",
+    "local_file": "world_ai_news_31_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_31_img2",
-    "url": "https://files.catbox.moe/world_ai_news_31_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_31_img2.jpg",
     "category": "SILICON & GPUS",
     "subtopic": "explainer:_how_china_got_access_to_nvidia's_ai_chips_despite",
     "keywords": [
@@ -12958,11 +13141,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368142",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.360306"
+    "generated_at": "2026-11-27T14:59:38.360306",
+    "local_file": "world_ai_news_31_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_32_img1",
-    "url": "https://files.catbox.moe/world_ai_news_32_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_32_img1.jpg",
     "category": "SILICON & GPUS",
     "subtopic": "nvidia's_ai_ecosystem_monopoly_shows_cracks_as_openai,_anthr",
     "keywords": [
@@ -12976,11 +13162,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368146",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.360314"
+    "generated_at": "2026-11-27T14:59:38.360314",
+    "local_file": "world_ai_news_32_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_32_img2",
-    "url": "https://files.catbox.moe/world_ai_news_32_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_32_img2.jpg",
     "category": "SILICON & GPUS",
     "subtopic": "nvidia's_ai_ecosystem_monopoly_shows_cracks_as_openai,_anthr",
     "keywords": [
@@ -12994,11 +13183,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368150",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.360320"
+    "generated_at": "2026-11-27T14:59:38.360320",
+    "local_file": "world_ai_news_32_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_33_img1",
-    "url": "https://files.catbox.moe/world_ai_news_33_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_33_img1.jpg",
     "category": "SILICON & GPUS",
     "subtopic": "seven_years_after_us_sanctions,_huawei_emerges_as_ai_chip_li",
     "keywords": [
@@ -13012,11 +13204,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368154",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.360328"
+    "generated_at": "2026-11-27T14:59:38.360328",
+    "local_file": "world_ai_news_33_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_33_img2",
-    "url": "https://files.catbox.moe/world_ai_news_33_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_33_img2.jpg",
     "category": "SILICON & GPUS",
     "subtopic": "seven_years_after_us_sanctions,_huawei_emerges_as_ai_chip_li",
     "keywords": [
@@ -13030,11 +13225,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368158",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.360334"
+    "generated_at": "2026-11-27T14:59:38.360334",
+    "local_file": "world_ai_news_33_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_34_img1",
-    "url": "https://files.catbox.moe/world_ai_news_34_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_34_img1.jpg",
     "category": "FRONTIER LLMS",
     "subtopic": "what_nvidia_gate_tells_us_about_trump",
     "keywords": [],
@@ -13045,11 +13243,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368016",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.355320"
+    "generated_at": "2026-11-27T14:59:38.355320",
+    "local_file": "world_ai_news_34_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_34_img2",
-    "url": "https://files.catbox.moe/world_ai_news_34_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_34_img2.jpg",
     "category": "FRONTIER LLMS",
     "subtopic": "what_nvidia_gate_tells_us_about_trump",
     "keywords": [],
@@ -13060,11 +13261,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368020",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.355325"
+    "generated_at": "2026-11-27T14:59:38.355325",
+    "local_file": "world_ai_news_34_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_35_img1",
-    "url": "https://files.catbox.moe/world_ai_news_35_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_35_img1.jpg",
     "category": "SILICON & GPUS",
     "subtopic": "jensen_huang's_light:_deep_dive_into_ai_computing_power_dr",
     "keywords": [
@@ -13077,11 +13281,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368161",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.360342"
+    "generated_at": "2026-11-27T14:59:38.360342",
+    "local_file": "world_ai_news_35_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_35_img2",
-    "url": "https://files.catbox.moe/world_ai_news_35_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_35_img2.jpg",
     "category": "SILICON & GPUS",
     "subtopic": "jensen_huang's_light:_deep_dive_into_ai_computing_power_dr",
     "keywords": [
@@ -13094,11 +13301,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368164",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.360347"
+    "generated_at": "2026-11-27T14:59:38.360347",
+    "local_file": "world_ai_news_35_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_36_img1",
-    "url": "https://files.catbox.moe/world_ai_news_36_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_36_img1.jpg",
     "category": "FRONTIER LLMS",
     "subtopic": "us_justice_department_cleared_huang_without_direct_probe",
     "keywords": [],
@@ -13109,11 +13319,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368023",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.355330"
+    "generated_at": "2026-11-27T14:59:38.355330",
+    "local_file": "world_ai_news_36_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_36_img2",
-    "url": "https://files.catbox.moe/world_ai_news_36_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_36_img2.jpg",
     "category": "FRONTIER LLMS",
     "subtopic": "us_justice_department_cleared_huang_without_direct_probe",
     "keywords": [],
@@ -13124,11 +13337,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368026",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.355335"
+    "generated_at": "2026-11-27T14:59:38.355335",
+    "local_file": "world_ai_news_36_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_37_img1",
-    "url": "https://files.catbox.moe/world_ai_news_37_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_37_img1.jpg",
     "category": "SILICON & GPUS",
     "subtopic": "nvidia_selling_ai_chips_to_us_based_companies_owned_by_china",
     "keywords": [
@@ -13142,11 +13358,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368168",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.360353"
+    "generated_at": "2026-11-27T14:59:38.360353",
+    "local_file": "world_ai_news_37_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_37_img2",
-    "url": "https://files.catbox.moe/world_ai_news_37_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_37_img2.jpg",
     "category": "SILICON & GPUS",
     "subtopic": "nvidia_selling_ai_chips_to_us_based_companies_owned_by_china",
     "keywords": [
@@ -13160,11 +13379,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368171",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.360358"
+    "generated_at": "2026-11-27T14:59:38.360358",
+    "local_file": "world_ai_news_37_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_38_img1",
-    "url": "https://files.catbox.moe/world_ai_news_38_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_38_img1.jpg",
     "category": "FRONTIER LLMS",
     "subtopic": "anthropic_claude_3_7_sonnet_hybrid_reasoning_&_dynamic_token",
     "keywords": [],
@@ -13175,11 +13397,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368036",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.355341"
+    "generated_at": "2026-11-27T14:59:38.355341",
+    "local_file": "world_ai_news_38_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_38_img2",
-    "url": "https://files.catbox.moe/world_ai_news_38_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_38_img2.jpg",
     "category": "FRONTIER LLMS",
     "subtopic": "anthropic_claude_3_7_sonnet_hybrid_reasoning_&_dynamic_token",
     "keywords": [],
@@ -13190,11 +13415,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368041",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.355346"
+    "generated_at": "2026-11-27T14:59:38.355346",
+    "local_file": "world_ai_news_38_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_39_img1",
-    "url": "https://files.catbox.moe/world_ai_news_39_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_39_img1.jpg",
     "category": "FRONTIER LLMS",
     "subtopic": "openai_orion_gpt_5_system_2_deep_architecture_&_tree_of_thou",
     "keywords": [
@@ -13207,11 +13435,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368045",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.355353"
+    "generated_at": "2026-11-27T14:59:38.355353",
+    "local_file": "world_ai_news_39_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_39_img2",
-    "url": "https://files.catbox.moe/world_ai_news_39_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_39_img2.jpg",
     "category": "FRONTIER LLMS",
     "subtopic": "openai_orion_gpt_5_system_2_deep_architecture_&_tree_of_thou",
     "keywords": [
@@ -13224,11 +13455,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368048",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.355358"
+    "generated_at": "2026-11-27T14:59:38.355358",
+    "local_file": "world_ai_news_39_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_40_img1",
-    "url": "https://files.catbox.moe/world_ai_news_40_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_40_img1.jpg",
     "category": "FRONTIER LLMS",
     "subtopic": "google_deepmind_gemini_3_omnimodal_real_time_world_reasoning",
     "keywords": [],
@@ -13239,11 +13473,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368051",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.355364"
+    "generated_at": "2026-11-27T14:59:38.355364",
+    "local_file": "world_ai_news_40_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_40_img2",
-    "url": "https://files.catbox.moe/world_ai_news_40_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_40_img2.jpg",
     "category": "FRONTIER LLMS",
     "subtopic": "google_deepmind_gemini_3_omnimodal_real_time_world_reasoning",
     "keywords": [],
@@ -13254,11 +13491,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368054",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.355370"
+    "generated_at": "2026-11-27T14:59:38.355370",
+    "local_file": "world_ai_news_40_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_41_img1",
-    "url": "https://files.catbox.moe/world_ai_news_41_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_41_img1.jpg",
     "category": "SILICON & GPUS",
     "subtopic": "nvidia_rubin_r100_ultra_ai_gpu_with_hbm4_and_co_packaged_opt",
     "keywords": [
@@ -13272,11 +13512,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368174",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.360363"
+    "generated_at": "2026-11-27T14:59:38.360363",
+    "local_file": "world_ai_news_41_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_41_img2",
-    "url": "https://files.catbox.moe/world_ai_news_41_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_41_img2.jpg",
     "category": "SILICON & GPUS",
     "subtopic": "nvidia_rubin_r100_ultra_ai_gpu_with_hbm4_and_co_packaged_opt",
     "keywords": [
@@ -13290,11 +13533,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368177",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.360369"
+    "generated_at": "2026-11-27T14:59:38.360369",
+    "local_file": "world_ai_news_41_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_42_img1",
-    "url": "https://files.catbox.moe/world_ai_news_42_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_42_img1.jpg",
     "category": "SILICON & GPUS",
     "subtopic": "tsmc_2nm_gaa_lithography_cleanroom_silicon_wafer_production",
     "keywords": [
@@ -13307,11 +13553,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368181",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.360374"
+    "generated_at": "2026-11-27T14:59:38.360374",
+    "local_file": "world_ai_news_42_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_42_img2",
-    "url": "https://files.catbox.moe/world_ai_news_42_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_42_img2.jpg",
     "category": "SILICON & GPUS",
     "subtopic": "tsmc_2nm_gaa_lithography_cleanroom_silicon_wafer_production",
     "keywords": [
@@ -13324,11 +13573,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368186",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.360379"
+    "generated_at": "2026-11-27T14:59:38.360379",
+    "local_file": "world_ai_news_42_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_43_img1",
-    "url": "https://files.catbox.moe/world_ai_news_43_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_43_img1.jpg",
     "category": "ROBOTICS",
     "subtopic": "tesla_optimus_gen_3_humanoid_robot_autonomous_gigafactory_as",
     "keywords": [
@@ -13341,11 +13593,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.367912",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.352871"
+    "generated_at": "2026-11-27T14:59:38.352871",
+    "local_file": "world_ai_news_43_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_43_img2",
-    "url": "https://files.catbox.moe/world_ai_news_43_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_43_img2.jpg",
     "category": "ROBOTICS",
     "subtopic": "tesla_optimus_gen_3_humanoid_robot_autonomous_gigafactory_as",
     "keywords": [
@@ -13358,11 +13613,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.367915",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.352876"
+    "generated_at": "2026-11-27T14:59:38.352876",
+    "local_file": "world_ai_news_43_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_44_img1",
-    "url": "https://files.catbox.moe/world_ai_news_44_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_44_img1.jpg",
     "category": "ROBOTICS",
     "subtopic": "figure_02_next_gen_bipedal_robot_fleet_deployment",
     "keywords": [
@@ -13375,11 +13633,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.367918",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.352881"
+    "generated_at": "2026-11-27T14:59:38.352881",
+    "local_file": "world_ai_news_44_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_44_img2",
-    "url": "https://files.catbox.moe/world_ai_news_44_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_44_img2.jpg",
     "category": "ROBOTICS",
     "subtopic": "figure_02_next_gen_bipedal_robot_fleet_deployment",
     "keywords": [
@@ -13392,11 +13653,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.367926",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.352886"
+    "generated_at": "2026-11-27T14:59:38.352886",
+    "local_file": "world_ai_news_44_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_45_img1",
-    "url": "https://files.catbox.moe/world_ai_news_45_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_45_img1.jpg",
     "category": "AI DATACENTERS",
     "subtopic": "next_generation_smr_nuclear_microreactors_powering_ai_datace",
     "keywords": [
@@ -13410,11 +13674,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368203",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.365886"
+    "generated_at": "2026-11-27T14:59:38.365886",
+    "local_file": "world_ai_news_45_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_45_img2",
-    "url": "https://files.catbox.moe/world_ai_news_45_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_45_img2.jpg",
     "category": "AI DATACENTERS",
     "subtopic": "next_generation_smr_nuclear_microreactors_powering_ai_datace",
     "keywords": [
@@ -13428,11 +13695,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368206",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.365892"
+    "generated_at": "2026-11-27T14:59:38.365892",
+    "local_file": "world_ai_news_45_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_46_img1",
-    "url": "https://files.catbox.moe/world_ai_news_46_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_46_img1.jpg",
     "category": "AI DATACENTERS",
     "subtopic": "liquid_immersion_cooling_tanks_submerging_100kw_ai_server_ra",
     "keywords": [
@@ -13445,11 +13715,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368209",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.365897"
+    "generated_at": "2026-11-27T14:59:38.365897",
+    "local_file": "world_ai_news_46_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_46_img2",
-    "url": "https://files.catbox.moe/world_ai_news_46_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_46_img2.jpg",
     "category": "AI DATACENTERS",
     "subtopic": "liquid_immersion_cooling_tanks_submerging_100kw_ai_server_ra",
     "keywords": [
@@ -13462,11 +13735,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368214",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.365902"
+    "generated_at": "2026-11-27T14:59:38.365902",
+    "local_file": "world_ai_news_46_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_47_img1",
-    "url": "https://files.catbox.moe/world_ai_news_47_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_47_img1.jpg",
     "category": "BIOTECH & AI HEALTH",
     "subtopic": "deepmind_alphafold_3_molecular_dynamics_cancer_target_nanobo",
     "keywords": [],
@@ -13477,11 +13753,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368218",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.366810"
+    "generated_at": "2026-11-27T14:59:38.366810",
+    "local_file": "world_ai_news_47_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_47_img2",
-    "url": "https://files.catbox.moe/world_ai_news_47_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_47_img2.jpg",
     "category": "BIOTECH & AI HEALTH",
     "subtopic": "deepmind_alphafold_3_molecular_dynamics_cancer_target_nanobo",
     "keywords": [],
@@ -13492,11 +13771,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368222",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.366831"
+    "generated_at": "2026-11-27T14:59:38.366831",
+    "local_file": "world_ai_news_47_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_48_img1",
-    "url": "https://files.catbox.moe/world_ai_news_48_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_48_img1.jpg",
     "category": "QUANTUM COMPUTING",
     "subtopic": "cryogenic_dilution_refrigerator_quantum_computer_chandelier",
     "keywords": [
@@ -13509,11 +13791,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368226",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.367166"
+    "generated_at": "2026-11-27T14:59:38.367166",
+    "local_file": "world_ai_news_48_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_48_img2",
-    "url": "https://files.catbox.moe/world_ai_news_48_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_48_img2.jpg",
     "category": "QUANTUM COMPUTING",
     "subtopic": "cryogenic_dilution_refrigerator_quantum_computer_chandelier",
     "keywords": [
@@ -13526,11 +13811,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368229",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.367182"
+    "generated_at": "2026-11-27T14:59:38.367182",
+    "local_file": "world_ai_news_48_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_49_img1",
-    "url": "https://files.catbox.moe/world_ai_news_49_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_49_img1.jpg",
     "category": "AGENTS & CODING",
     "subtopic": "autonomous_swe_coding_agent_swarms_refactoring_legacy_softwa",
     "keywords": [
@@ -13543,11 +13831,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368232",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.367502"
+    "generated_at": "2026-11-27T14:59:38.367502",
+    "local_file": "world_ai_news_49_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_49_img2",
-    "url": "https://files.catbox.moe/world_ai_news_49_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_49_img2.jpg",
     "category": "AGENTS & CODING",
     "subtopic": "autonomous_swe_coding_agent_swarms_refactoring_legacy_softwa",
     "keywords": [
@@ -13560,11 +13851,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368235",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.367515"
+    "generated_at": "2026-11-27T14:59:38.367515",
+    "local_file": "world_ai_news_49_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_50_img1",
-    "url": "https://files.catbox.moe/world_ai_news_50_img1.jpg",
+    "url": "/images/world_ai_news/world_ai_news_50_img1.jpg",
     "category": "SILICON & GPUS",
     "subtopic": "neuromorphic_brain_on_chip_synaptic_pulse_array_processing",
     "keywords": [
@@ -13578,11 +13872,14 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368189",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.360386"
+    "generated_at": "2026-11-27T14:59:38.360386",
+    "local_file": "world_ai_news_50_img1.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   },
   {
     "id": "world_ai_news_50_img2",
-    "url": "https://files.catbox.moe/world_ai_news_50_img2.jpg",
+    "url": "/images/world_ai_news/world_ai_news_50_img2.jpg",
     "category": "SILICON & GPUS",
     "subtopic": "neuromorphic_brain_on_chip_synaptic_pulse_array_processing",
     "keywords": [
@@ -13596,6 +13893,9 @@
     "status": "active",
     "last_used_date": "2026-11-27T14:59:38.368193",
     "flow_job_id": "job_1795771778_world_ai",
-    "generated_at": "2026-11-27T14:59:38.360393"
+    "generated_at": "2026-11-27T14:59:38.360393",
+    "local_file": "world_ai_news_50_img2.jpg",
+    "cdn_uploaded": false,
+    "local_ready": true
   }
 ]

@@ -1,10 +1,14 @@
 {
-  "last_run_timestamp": 1795772202.625875,
-  "last_run_date": "2026-11-27T15:06:42.625888",
+  "last_run_timestamp": 1795772732.49581,
+  "last_run_date": "2026-11-27T15:15:32.495824",
   "total_news": 50,
   "total_images_to_generate": 100,
-  "status": "generation_ready",
-  "status_detail": "Google Flow MCP UI error - using manual workflow",
+  "status": "completed_locally",
+  "images_completed": 100,
+  "images_uploaded_to_cdn": 0,
+  "local_files_ready": 100,
+  "cdn_upload_needed": true,
+  "progress": "100/100",
   "categories": [
     "SILICON & GPUS",
     "FRONTIER LLMS",
@@ -14,15 +18,5 @@
     "QUANTUM COMPUTING",
     "AGENTS & CODING"
   ],
-  "news_file": "world_ai_news_50.json",
-  "prompts_file": "flow_prompts_to_generate.json",
-  "instructions": {
-    "step1": "Open https://flow.google.com in browser",
-    "step2": "Create new project or use existing",
-    "step3": "Use GOOGLE_FLOW_PROMPTS.md for all 100 prompts",
-    "step4": "Generate each image (10-30 seconds each)",
-    "step5": "Download images as world_ai_news_X_imgY.jpg",
-    "step6": "Upload to Catbox using upload_to_catbox.py",
-    "step7": "Update URLs and git push"
-  }
+  "news_file": "world_ai_news_50.json"
 }
