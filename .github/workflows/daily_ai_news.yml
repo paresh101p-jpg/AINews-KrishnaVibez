@@ -40,7 +40,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "AINews Autonomous Reporter"
           git add public/articles/*.html public/index.html public/sitemap.xml public/news-sitemap.xml public/rss.xml public/api/articles.json ai_news_history.json ai_editorial_pool.json
-          git commit -m "feat(ai-news): publish breaking AI news report & update sitemaps [skip ci]" || true
+          git commit -m "feat(ai-news): publish breaking AI news report & update sitemaps" || true
           git pull --rebase origin main || true
           git push origin HEAD || true
 
