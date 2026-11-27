@@ -83,11 +83,10 @@ def generate_and_upload_catbox_banner(title, category, slug, content=""):
 def call_gemini(prompt):
     client = genai.Client(api_key=GEMINI_API_KEY)
     models = [
-        "gemini-3.8-flash",
-        "gemini-2.0-flash",
-        "gemini-2.0-flash-lite",
-        "gemini-1.5-flash",
-        "gemini-1.5-pro"
+        "gemini-3.1-flash-lite",
+        "gemini-3.5-flash-lite",
+        "gemini-3.5-flash",
+        "gemini-3.8-flash"
     ]
     last_err = None
     for m in models:
@@ -914,13 +913,13 @@ def assemble_full_article_page(topic_meta, body_html):
     <div class="author-bio-card">
       <div class="author-avatar">PP</div>
       <div class="author-info">
-        <div class="author-name"><a href="/authors/paresh-padsala.html">Paresh Padsala</a></div>
+        <div class="author-name"><a href="/authors/paresh-padsala">Paresh Padsala</a></div>
         <div class="author-title">Founder &amp; Senior Technology Correspondent · US Bureau (San Francisco)</div>
         <div class="author-bio-text">
           Investigating frontier machine intelligence, reasoning architectures (System-2 deliberation), high-density datacenter silicon, and autonomous humanoid robotics. Verified technical analyst and founder of AINews.
         </div>
         <div class="author-card-links">
-          <a href="/authors/paresh-padsala.html">View Full Profile &amp; Dispatches →</a>
+          <a href="/authors/paresh-padsala">View Full Profile &amp; Dispatches →</a>
           <a href="mailto:editorial@ainews.krishnavibez.in">editorial@ainews.krishnavibez.in</a>
           <a href="https://twitter.com/ainews_intel" target="_blank">@ainews_intel</a>
         </div>
@@ -967,11 +966,14 @@ def assemble_full_article_page(topic_meta, body_html):
           </ul>
         </div>
         <div class="footer-col">
-          <h4>Editorial</h4>
+          <h4>Editorial &amp; Legal</h4>
           <ul>
-            <li><a href="/about.html">About the Publication</a></li>
-            <li><a href="/ethics.html">Editorial Standards</a></li>
-            <li><a href="/contact.html">Press Inquiries</a></li>
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/ethics">Editorial Standards</a></li>
+            <li><a href="/privacy">Privacy Policy</a></li>
+            <li><a href="/terms">Terms of Service</a></li>
+            <li><a href="/disclaimer">Disclaimer</a></li>
+            <li><a href="/contact">Contact Us</a></li>
           </ul>
         </div>
       </div>
@@ -982,7 +984,7 @@ def assemble_full_article_page(topic_meta, body_html):
     </div>
   </footer>
 
-  <script src="/js/search.js"></script>
+  <script src="/js/search.js?v=5.0"></script>
   <script>
     window.addEventListener('scroll', function() {{
       var h = document.documentElement.scrollHeight - document.documentElement.clientHeight;
@@ -1004,6 +1006,7 @@ def update_index_page(topic_meta, hero_img):
     meta_desc = topic_meta["meta_desc"]
     read_time = topic_meta.get("read_time", "6 min read")
     now_ist = datetime.now(_IST)
+    now_iso = now_ist.isoformat()
     display_date = now_ist.strftime("%B %d, %Y")
     display_date_short = now_ist.strftime("%b %d, %Y")
     weekday = now_ist.strftime("%A")
@@ -1071,6 +1074,8 @@ def update_index_page(topic_meta, hero_img):
         <div class="lead-content">
           <div class="byline-row">
             <span class="byline-author"><a href="/authors/paresh-padsala" style="color:var(--text-light); text-decoration:none;">Paresh Padsala</a></span>
+            <span>•</span>
+            <span class="rel-time-pill" data-pub="{now_iso}" style="color:#38bdf8; font-weight:700; background:rgba(56,189,248,0.12); padding:2px 8px; border-radius:4px; border:1px solid rgba(56,189,248,0.25);">⚡ Just now</span>
             <span>•</span>
             <span>{display_date}</span>
             <span>•</span>

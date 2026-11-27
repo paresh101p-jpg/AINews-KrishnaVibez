@@ -114,6 +114,18 @@ def apply_editorial_overlay(raw_path: str, output_path: str):
     target_w, target_h = 1200, 675
     img = img.resize((target_w, target_h), Image.Resampling.LANCZOS)
     
+    # Remove Google Flow sparkle watermark from bottom right corner
+    try:
+        import cv2
+        import numpy as np
+        arr = np.array(img)
+        mask = np.zeros((target_h, target_w), dtype=np.uint8)
+        cv2.circle(mask, (target_w - 85, target_h - 85), 34, 255, -1)
+        cleaned_arr = cv2.inpaint(arr, mask, 7, cv2.INPAINT_TELEA)
+        img = Image.fromarray(cleaned_arr)
+    except Exception:
+        pass
+    
     overlay = Image.new("RGBA", (target_w, target_h), (0, 0, 0, 0))
     draw = ImageDraw.Draw(overlay)
     

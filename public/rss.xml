@@ -7,6 +7,29 @@
     <language>en-US</language>
     <lastBuildDate>Sat, 21 Nov 2026 12:00:00 +0530</lastBuildDate>
     <atom:link href="https://ainews.krishnavibez.in/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Anthropic Debuts Claude 3.7 Opus: The First Asynchronous Reasoning Model</title>
+      <link>https://ainews.krishnavibez.in/articles/anthropic-claude-3-7-opus-launch-asynchronous-reasoning-breakthrough</link>
+      <guid isPermaLink="true">https://ainews.krishnavibez.in/articles/anthropic-claude-3-7-opus-launch-asynchronous-reasoning-breakthrough</guid>
+      <pubDate>Fri, 27 Nov 2026 13:58:35 +0530</pubDate>
+      <dc:creator>Paresh Padsala (AINews)</dc:creator>
+      <category>FRONTIER LLMS</category>
+      <description><![CDATA[Anthropic unveils Claude 3.7 Opus, featuring breakthrough asynchronous reasoning for complex enterprise workflows. Redefining logic in US-based AI agents.]]></description>
+      <enclosure url="https://files.catbox.moe/d9kn9v.jpg" type="image/jpeg" length="153600" />
+      <media:content url="https://files.catbox.moe/d9kn9v.jpg" medium="image" width="1200" height="675" />
+    </item>
+
+    <item>
+      <title>Anthropic Claude 3.7 Sonnet Unveiled: The Hybrid Reasoning Paradigm</title>
+      <link>https://ainews.krishnavibez.in/articles/anthropic-claude-3-7-sonnet-hybrid-reasoning-architecture-202611250930</link>
+      <guid isPermaLink="true">https://ainews.krishnavibez.in/articles/anthropic-claude-3-7-sonnet-hybrid-reasoning-architecture-202611250930</guid>
+      <pubDate>Wed, 25 Nov 2026 09:30:52 +0530</pubDate>
+      <dc:creator>Paresh Padsala (AINews)</dc:creator>
+      <category>FRONTIER LLMS</category>
+      <description><![CDATA[Anthropic reveals Claude 3.7 Sonnet, introducing dynamic token-budget reasoning that bridges lightning fast reflex responses with multi-step math and coding logic.]]></description>
+      <enclosure url="https://files.catbox.moe/e40ktk.jpg" type="image/jpeg" length="153600" />
+      <media:content url="https://files.catbox.moe/e40ktk.jpg" medium="image" width="1200" height="675" />
+    </item>
 
     <item>
       <title>OpenAI Launches o3: The First Reasoning Model Optimized for Enterprise Workflows</title>
@@ -16,8 +39,8 @@
       <dc:creator>Paresh Padsala (AINews)</dc:creator>
       <category>FRONTIER LLMS</category>
       <description><![CDATA[OpenAI officially releases o3, a breakthrough reasoning model engineered for high-stakes enterprise decision-making and complex technical system architecture.]]></description>
-      <enclosure url="https://files.catbox.moe/cwh9u3.jpg" type="image/jpeg" length="153600" />
-      <media:content url="https://files.catbox.moe/cwh9u3.jpg" medium="image" width="1200" height="675" />
+      <enclosure url="https://files.catbox.moe/e40ktk.jpg" type="image/jpeg" length="153600" />
+      <media:content url="https://files.catbox.moe/e40ktk.jpg" medium="image" width="1200" height="675" />
     </item>
 
     <item>
@@ -40,8 +63,8 @@
       <dc:creator>Paresh Padsala (AINews)</dc:creator>
       <category>FRONTIER LLMS</category>
       <description><![CDATA[Anthropic’s Claude 4 Haiku arrives, delivering sub-second reasoning and agentic accuracy, setting a new industry benchmark for enterprise-grade low-latency AI.]]></description>
-      <enclosure url="https://files.catbox.moe/cwh9u3.jpg" type="image/jpeg" length="153600" />
-      <media:content url="https://files.catbox.moe/cwh9u3.jpg" medium="image" width="1200" height="675" />
+      <enclosure url="https://files.catbox.moe/e40ktk.jpg" type="image/jpeg" length="153600" />
+      <media:content url="https://files.catbox.moe/e40ktk.jpg" medium="image" width="1200" height="675" />
     </item>
 
     <item>
