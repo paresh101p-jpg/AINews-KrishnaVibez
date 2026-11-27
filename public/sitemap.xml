@@ -610,4 +610,22 @@
       <image:title>The AI Paradox: Autonomous Malware vs. Next-Gen Shielding in 2026</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://ainews.krishnavibez.in/articles/tesla-optimus-gen-3-industrial-mass-production-robotics-shift</loc>
+    <lastmod>2026-11-27T22:00:53+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication>
+        <news:name>AINews</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-27T22:00:53+05:30</news:publication_date>
+      <news:title>Tesla Optimus Gen 3 Enters Mass Production: The Factory Workforce Revolution</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://ainews.krishnavibez.in/images/humanoid_robot_gigafactory_assembly.jpg</image:loc>
+      <image:title>Tesla Optimus Gen 3 Enters Mass Production: The Factory Workforce Revolution</image:title>
+    </image:image>
+  </url>
 </urlset>
