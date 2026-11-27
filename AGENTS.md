@@ -115,3 +115,10 @@ For complex tasks, invoke 3+ specialist agents in parallel:
   - **Hook Solution/Line 2**: Bold Radiant Golden-Amber text with heavy stroke.
 - This creates maximum CTR on Google Discover, WhatsApp sharing, and mobile feeds, compelling the user to click immediately.
 - This is 100% automated in `/krishna` without needing user reminders.
+
+---
+
+## 🔒 PERMANENT UI LOCK DIRECTIVE (NEVER TOUCH APPROVED UI)
+- The approved website UI layout, styles, navigation, mobile view, and desktop grid for `krishnavibez.in` are PERMANENTLY LOCKED.
+- Under NO circumstance should the UI design, CSS architecture, card layouts, header, footer, or responsive styles be modified, altered, or refactored unless the user EXPLICITLY commands to change the UI.
+- All future article additions MUST strictly insert within the existing `.article-card` structure without modifying global stylesheets or grid structures.
