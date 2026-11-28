@@ -1,10 +1,12 @@
 {
-  "last_run_timestamp": 1795865433.7124841,
-  "last_run_date": "2026-11-28T11:30:33.712489+00:00",
+  "last_run_timestamp": 1795868394.688225,
+  "last_run_date": "2026-11-28T17:49:54.688240",
   "total_news": 50,
   "total_images_to_generate": 100,
   "unique_categories": 50,
-  "status": "ready_for_flow",
+  "status": "completed",
   "images_generated": 100,
-  "timestamp": "2026-11-28T17:00:33.712617"
+  "timestamp": "2026-11-28T17:49:54.688255",
+  "images_registered": 100,
+  "editorial_pool_total": 666
 }
