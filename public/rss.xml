@@ -8,6 +8,18 @@
     <lastBuildDate>Sat, 21 Nov 2026 12:00:00 +0530</lastBuildDate>
     <atom:link href="https://ainews.krishnavibez.in/rss.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>OpenAI Unveils o3: A Leap in Test-Time Compute and Reasoning Architecture</title>
+      <link>https://ainews.krishnavibez.in/articles/openai-o3-reasoning-benchmark-dominance-test-time-compute</link>
+      <guid isPermaLink="true">https://ainews.krishnavibez.in/articles/openai-o3-reasoning-benchmark-dominance-test-time-compute</guid>
+      <pubDate>Sat, 28 Nov 2026 07:01:03 +0530</pubDate>
+      <dc:creator>Paresh Padsala (AINews)</dc:creator>
+      <category>FRONTIER LLMS</category>
+      <description><![CDATA[OpenAI launches o3, a new reasoning model utilizing breakthrough test-time compute scaling to shatter previous MATH and SWE-bench performance records.]]></description>
+      <enclosure url="https://files.catbox.moe/bge7mi.jpg" type="image/jpeg" length="153600" />
+      <media:content url="https://files.catbox.moe/bge7mi.jpg" medium="image" width="1200" height="675" />
+    </item>
+
+    <item>
       <title>Nvidia’s GB200 NVL72 and the 1GW Nuclear Pivot: Powering the 2nm Era</title>
       <link>https://ainews.krishnavibez.in/articles/tsmc-n2-node-nvl72-superclusters-nuclear-power-grid-2027-outlook</link>
       <guid isPermaLink="true">https://ainews.krishnavibez.in/articles/tsmc-n2-node-nvl72-superclusters-nuclear-power-grid-2027-outlook</guid>

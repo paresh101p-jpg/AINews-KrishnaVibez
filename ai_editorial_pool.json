@@ -1240,8 +1240,10 @@
       "o3",
       "cot"
     ],
-    "used_in_articles": [],
-    "last_used_date": null
+    "used_in_articles": [
+      "openai-o3-reasoning-benchmark-dominance-test-time-compute"
+    ],
+    "last_used_date": "2026-11-28T01:30:47.899472"
   },
   {
     "id": "Thought_graph_branching_in_space_f4ec00e6",

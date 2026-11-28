@@ -226,5 +226,11 @@
     "title": "Nvidia\u2019s GB200 NVL72 and the 1GW Nuclear Pivot: Powering the 2nm Era",
     "category": "SILICON & GPUS",
     "created_at": "2026-11-28T06:00:50.368711+05:30"
+  },
+  {
+    "slug": "openai-o3-reasoning-benchmark-dominance-test-time-compute",
+    "title": "OpenAI Unveils o3: A Leap in Test-Time Compute and Reasoning Architecture",
+    "category": "FRONTIER LLMS",
+    "created_at": "2026-11-28T07:01:04.924730+05:30"
   }
 ]

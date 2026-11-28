@@ -1,5 +1,14 @@
 [
   {
+    "title": "OpenAI Unveils o3: A Leap in Test-Time Compute and Reasoning Architecture",
+    "category": "FRONTIER LLMS",
+    "date": "November 28, 2026",
+    "url": "/articles/openai-o3-reasoning-benchmark-dominance-test-time-compute.html",
+    "excerpt": "OpenAI launches o3, a new reasoning model utilizing breakthrough test-time compute scaling to shatter previous MATH and SWE-bench performance records.",
+    "image": "https://files.catbox.moe/bge7mi.jpg",
+    "badge": "LATEST"
+  },
+  {
     "title": "Nvidia\u2019s GB200 NVL72 and the 1GW Nuclear Pivot: Powering the 2nm Era",
     "category": "SILICON & GPUS",
     "date": "November 28, 2026",
