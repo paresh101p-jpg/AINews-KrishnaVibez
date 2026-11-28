@@ -988,4 +988,22 @@
       <image:title>Wall Street Turns Bearish on $200B AI Capex Amid Stagnant Enterprise ROI Data</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://ainews.krishnavibez.in/articles/sovereign-ai-geopolitics-2027-national-compute-clusters-race</loc>
+    <lastmod>2026-11-28T16:01:16+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication>
+        <news:name>AINews</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-28T16:01:16+05:30</news:publication_date>
+      <news:title>The Global Sovereignty Pivot: How Nations are Building Independent AI Clouds</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://ainews.krishnavibez.in/images/cybersecurity_neural_shield_defense.jpg</image:loc>
+      <image:title>The Global Sovereignty Pivot: How Nations are Building Independent AI Clouds</image:title>
+    </image:image>
+  </url>
 </urlset>

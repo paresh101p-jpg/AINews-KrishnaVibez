@@ -12339,11 +12339,14 @@
     "image_number": 1,
     "prompt": "Cinematic editorial photograph of IndiaAI $1.2B Sovereign Compute Mission & Global Semiconductor Export Controls, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography",
     "status": "pending_generation",
-    "last_used_date": "2026-11-28T10:24:45.776075+00:00",
+    "last_used_date": "2026-11-28T10:31:05.145253",
     "flow_job_id": "job_1795861485_world_ai_news_10_img1",
     "generated_at": "2026-11-28T10:24:45.776081+00:00",
     "cdn_uploaded": false,
-    "uploaded_at": null
+    "uploaded_at": null,
+    "used_in_articles": [
+      "sovereign-ai-geopolitics-2027-national-compute-clusters-race"
+    ]
   },
   {
     "id": "world_ai_news_10_img2",
