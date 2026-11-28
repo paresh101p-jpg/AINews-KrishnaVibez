@@ -1,5 +1,14 @@
 [
   {
+    "title": "DeepSeek-R1 Shatters Open Weights Benchmarks with New Reasoning Architecture",
+    "category": "FRONTIER LLMS",
+    "date": "November 28, 2026",
+    "url": "/articles/deepseek-r1-open-weights-benchmark-shockwave-reasoning-scaling.html",
+    "excerpt": "DeepSeek-R1 enters the frontier race, delivering state-of-the-art reasoning performance and challenging closed-source giants with breakthrough open weights.",
+    "image": "https://files.catbox.moe/xu4y1i.jpg",
+    "badge": "LATEST"
+  },
+  {
     "title": "Beyond Moore: How Wafer-Scale Engines and SMRs Are Rewriting Datacenter Physics",
     "category": "SILICON & GPUS",
     "date": "November 28, 2026",

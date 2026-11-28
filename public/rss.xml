@@ -8,6 +8,18 @@
     <lastBuildDate>Sat, 21 Nov 2026 12:00:00 +0530</lastBuildDate>
     <atom:link href="https://ainews.krishnavibez.in/rss.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>DeepSeek-R1 Shatters Open Weights Benchmarks with New Reasoning Architecture</title>
+      <link>https://ainews.krishnavibez.in/articles/deepseek-r1-open-weights-benchmark-shockwave-reasoning-scaling</link>
+      <guid isPermaLink="true">https://ainews.krishnavibez.in/articles/deepseek-r1-open-weights-benchmark-shockwave-reasoning-scaling</guid>
+      <pubDate>Sat, 28 Nov 2026 14:00:52 +0530</pubDate>
+      <dc:creator>Paresh Padsala (AINews)</dc:creator>
+      <category>FRONTIER LLMS</category>
+      <description><![CDATA[DeepSeek-R1 enters the frontier race, delivering state-of-the-art reasoning performance and challenging closed-source giants with breakthrough open weights.]]></description>
+      <enclosure url="https://files.catbox.moe/xu4y1i.jpg" type="image/jpeg" length="153600" />
+      <media:content url="https://files.catbox.moe/xu4y1i.jpg" medium="image" width="1200" height="675" />
+    </item>
+
+    <item>
       <title>Beyond Moore: How Wafer-Scale Engines and SMRs Are Rewriting Datacenter Physics</title>
       <link>https://ainews.krishnavibez.in/articles/wafer-scale-ascendancy-cs-3-and-the-gigawatt-nuclear-datacenters</link>
       <guid isPermaLink="true">https://ainews.krishnavibez.in/articles/wafer-scale-ascendancy-cs-3-and-the-gigawatt-nuclear-datacenters</guid>

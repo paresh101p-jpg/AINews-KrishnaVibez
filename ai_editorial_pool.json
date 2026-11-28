@@ -1274,8 +1274,10 @@
       "o3",
       "cot"
     ],
-    "used_in_articles": [],
-    "last_used_date": null
+    "used_in_articles": [
+      "deepseek-r1-open-weights-benchmark-shockwave-reasoning-scaling"
+    ],
+    "last_used_date": "2026-11-28T08:30:45.225645"
   },
   {
     "id": "Thought_graph_branching_in_space_67c7adaf",
