@@ -11966,11 +11966,14 @@
     "image_number": 2,
     "prompt": "Futuristic documentary wide shot showing PolyAI\u2019s ex-machine learning chief raises $20m for new robotics startup deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 wides...",
     "status": "active",
-    "last_used_date": "2026-11-27T14:59:38.367858",
+    "last_used_date": "2026-11-28T02:00:32.473291",
     "flow_job_id": "job_1795771778_world_ai",
     "generated_at": "2026-11-27T14:59:38.352790",
     "cdn_uploaded": true,
-    "uploaded_at": "2026-11-27T16:22:21.480505"
+    "uploaded_at": "2026-11-27T16:22:21.480505",
+    "used_in_articles": [
+      "silicon-valley-hiring-pivot-2027-the-death-of-junior-devs-and-the-600k-rise"
+    ]
   },
   {
     "id": "world_ai_news_2_img1",
