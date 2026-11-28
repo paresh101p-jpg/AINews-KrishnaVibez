@@ -8,6 +8,18 @@
     <lastBuildDate>Sat, 21 Nov 2026 12:00:00 +0530</lastBuildDate>
     <atom:link href="https://ainews.krishnavibez.in/rss.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>The $500K Context Engineer: Why Enterprises Are Pivoting Beyond Code</title>
+      <link>https://ainews.krishnavibez.in/articles/the-great-enterprise-pivot-why-context-engineers-are-the-new-gold-standard</link>
+      <guid isPermaLink="true">https://ainews.krishnavibez.in/articles/the-great-enterprise-pivot-why-context-engineers-are-the-new-gold-standard</guid>
+      <pubDate>Sat, 28 Nov 2026 15:01:05 +0530</pubDate>
+      <dc:creator>Paresh Padsala (AINews)</dc:creator>
+      <category>JOBS &amp; CAREERS</category>
+      <description><![CDATA[As coding roles stabilize, enterprises shift budgets toward Context Engineers. Discover why these high-paying roles are reshaping the 2027 tech workforce.]]></description>
+      <enclosure url="https://ainews.krishnavibez.in/images/autonomous_coding_agents.jpg" type="image/jpeg" length="153600" />
+      <media:content url="https://ainews.krishnavibez.in/images/autonomous_coding_agents.jpg" medium="image" width="1200" height="675" />
+    </item>
+
+    <item>
       <title>DeepSeek-R1 Shatters Open Weights Benchmarks with New Reasoning Architecture</title>
       <link>https://ainews.krishnavibez.in/articles/deepseek-r1-open-weights-benchmark-shockwave-reasoning-scaling</link>
       <guid isPermaLink="true">https://ainews.krishnavibez.in/articles/deepseek-r1-open-weights-benchmark-shockwave-reasoning-scaling</guid>
