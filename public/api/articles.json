@@ -1,5 +1,14 @@
 [
   {
+    "title": "Beyond Moore: How Wafer-Scale Engines and SMRs Are Rewriting Datacenter Physics",
+    "category": "SILICON & GPUS",
+    "date": "November 28, 2026",
+    "url": "/articles/wafer-scale-ascendancy-cs-3-and-the-gigawatt-nuclear-datacenters.html",
+    "excerpt": "Cerebras CS-3 pushes compute density as 1-gigawatt SMR clusters emerge. Discover how liquid-cooled silicon and nuclear power are defining 2027 infrastructure.",
+    "image": "https://ainews.krishnavibez.in/images/blackwell_gpu_interposer_chip_macro.jpg",
+    "badge": "LATEST"
+  },
+  {
     "title": "Humanoid Workforce Hits the Factory Floor: Tesla and Unitree Scale Up in 2026",
     "category": "ROBOTICS",
     "date": "November 28, 2026",

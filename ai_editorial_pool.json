@@ -515,8 +515,10 @@
       "hardware",
       "microchip"
     ],
-    "used_in_articles": [],
-    "last_used_date": null
+    "used_in_articles": [
+      "wafer-scale-ascendancy-cs-3-and-the-gigawatt-nuclear-datacenters"
+    ],
+    "last_used_date": "2026-11-28T07:30:41.374672"
   },
   {
     "id": "Exposed_silicon_neural_processin\u2026_dc6c9a6d",
