@@ -8,6 +8,18 @@
     <lastBuildDate>Sat, 21 Nov 2026 12:00:00 +0530</lastBuildDate>
     <atom:link href="https://ainews.krishnavibez.in/rss.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Nvidia’s GB200 NVL72 Superclusters Demand Massive Nuclear Energy Overhaul</title>
+      <link>https://ainews.krishnavibez.in/articles/blackwell-nvl72-power-grid-scaling-nuclear-integration</link>
+      <guid isPermaLink="true">https://ainews.krishnavibez.in/articles/blackwell-nvl72-power-grid-scaling-nuclear-integration</guid>
+      <pubDate>Sat, 28 Nov 2026 20:00:55 +0530</pubDate>
+      <dc:creator>Paresh Padsala (AINews)</dc:creator>
+      <category>SILICON &amp; GPUS</category>
+      <description><![CDATA[Nvidia’s GB200 NVL72 racks hit 120kW, forcing a shift to SMRs and nuclear power. Discover how hardware scaling is rewriting the datacenter energy playbook.]]></description>
+      <enclosure url="https://ainews.krishnavibez.in/images/blackwell_gpu_interposer_chip_macro.jpg" type="image/jpeg" length="153600" />
+      <media:content url="https://ainews.krishnavibez.in/images/blackwell_gpu_interposer_chip_macro.jpg" medium="image" width="1200" height="675" />
+    </item>
+
+    <item>
       <title>Unitree G1 Hits Mass Production: The Global Race for Industrial Humanoid Scale</title>
       <link>https://ainews.krishnavibez.in/articles/unitree-g1-mass-production-humanoid-industrial-sovereignty</link>
       <guid isPermaLink="true">https://ainews.krishnavibez.in/articles/unitree-g1-mass-production-humanoid-industrial-sovereignty</guid>
