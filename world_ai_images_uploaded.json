@@ -1,76 +1,204 @@
 {
-  "timestamp": "2026-11-27T16:19:00.000000",
-  "total_entries": 10,
+  "timestamp": "2026-11-28T17:04:26.040526",
+  "total_uploaded": 22,
   "entries": [
     {
       "news_index": 1,
       "image_number": 1,
+      "category": "AGENTS & CODING",
+      "title": "How America’s Tax Code Subsidizes Artificial Intelligence",
+      "catbox_url": "https://flow.google.com/asb/ANqvLOYRUY9hKwd7erf6OuvccM0DIA6YBb5PST-TC2UUp0A8rwjBFmcJpDH85ZjNOudjuRetp-Kz1_zS-huxG948mnqn_qihPtdK3I6_vpYM_JVKWnqeJLZQjGTo4cOeW4dawr5sAtLwM-VLkZF0L1s6TGQsg7_CwdlbYJmQwd46Xw=s1600-rw",
       "status": "uploaded",
-      "catbox_url": "https://files.catbox.moe/drsbcz.jpg",
-      "uploaded_at": "2026-11-27T16:22:17.619129"
+      "uploaded_at": "2026-11-28T17:02:52.668025"
     },
     {
       "news_index": 1,
       "image_number": 2,
+      "category": "AGENTS & CODING",
+      "title": "How America’s Tax Code Subsidizes Artificial Intelligence",
+      "catbox_url": "https://flow.google.com/asb/ANqvLOb0broowCMEgU53JQ1ZHLwt4ZriLp1E7B6fgqqylR0PPh9UaAohXAXVffe17MxeTOxEX7zFurbfBL_iI8fTpbOBLRvjvj7Xf021oJHKaUrFtU1VrdtDTkZazbhyNP_piacX-vf18NmxnRbABRlXHCjwKEbXNjacl6id972XQA=s1600-rw",
       "status": "uploaded",
-      "catbox_url": "https://files.catbox.moe/i0oh1z.jpg",
-      "uploaded_at": "2026-11-27T16:22:21.480313"
+      "uploaded_at": "2026-11-28T17:02:57.047970"
     },
     {
       "news_index": 2,
       "image_number": 1,
+      "category": "FRONTIER LLMS",
+      "title": "Is UBI the solution to mass unemployment in an AI economy?",
+      "catbox_url": "https://flow.google.com/asb/ANqvLOZkw3qZR8id6k9b3ggSspKOW4VcbPgUZWvLieLZbYGbbSdFRZfviN2srDt5Kowi5Ki9S-n9VbCyxcxL84LdAzGGn5de2kbkjAciVfktgLaFKN8fLiY6cKNF0e7rOxM7fVhtnw3RUgpRjJeaECRXGVMrD73b1SSkIAaf5h8I=s1600-rw",
       "status": "uploaded",
-      "catbox_url": "https://files.catbox.moe/3x1b5l.jpg",
-      "uploaded_at": "2026-11-27T16:22:24.787439"
+      "uploaded_at": "2026-11-28T17:03:01.455318"
     },
     {
       "news_index": 2,
       "image_number": 2,
+      "category": "FRONTIER LLMS",
+      "title": "Is UBI the solution to mass unemployment in an AI economy?",
+      "catbox_url": "https://flow.google.com/asb/ANqvLOZhDG37B3f_OmC13dG7QyHhY2T9lTUmyMbgzn8IBnhgTil6dOgOcjR3R8yr2FcmHNJxUjFkPNBcpUIVt2md4F2XeJBXf_1jBynd14byIhNPJwRslgxS7qRywwS8hlvJA3XtO-wybIaK9acI1ZMhhe7Rf2CkTX11xigFY5dvTw=s1600-rw",
       "status": "uploaded",
-      "catbox_url": "https://files.catbox.moe/ude3ty.jpg",
-      "uploaded_at": "2026-11-27T16:22:28.794514"
+      "uploaded_at": "2026-11-28T17:03:05.846744"
     },
     {
       "news_index": 3,
       "image_number": 1,
+      "category": "JOBS & CAREERS",
+      "title": "New Layoff Data Show Job Cuts Down 41% So Far This Year",
+      "catbox_url": "https://flow.google.com/asb/ANqvLOaGVl4k2HsBJCa_UAQrQqLSQJfGxGdrvoedB9aC9p8LidXgDk2ISSUS6gh2uMYbnMin25eIXvqce2_zA63LpGs9e-LT989WXJVrQG1EPxXWzVvPmpyNWtoiQtDWac_FZTv1JEiaz2s2m3G8YGdmRRMn8PAjHYSbCi6jLgFhkg=s1600-rw",
       "status": "uploaded",
-      "catbox_url": "https://files.catbox.moe/3nkvjb.jpg",
-      "uploaded_at": "2026-11-27T16:22:32.492195"
+      "uploaded_at": "2026-11-28T17:03:10.135674"
     },
     {
       "news_index": 3,
       "image_number": 2,
+      "category": "JOBS & CAREERS",
+      "title": "New Layoff Data Show Job Cuts Down 41% So Far This Year",
+      "catbox_url": "https://flow.google.com/asb/ANqvLOZiPo6MSuJJiGJ4DjGhNhuwJVw2I_SUUJ7Y7LEWJuNhOCwHLjKssnY3eWwMS2kVXqhJBDb3PDQOWyNQgYGn-qPt-hI6sSPzBP8QUHj7kU1Ubt94z2p3g15A_CGR1urNCASCM6IXlSyehgY5A1plJREs00qNtDGB_NI_uAO2=s1600-rw",
       "status": "uploaded",
-      "catbox_url": "https://files.catbox.moe/jnecrc.jpg",
-      "uploaded_at": "2026-11-27T16:22:35.739263"
+      "uploaded_at": "2026-11-28T17:03:14.551327"
     },
     {
       "news_index": 4,
       "image_number": 1,
+      "category": "BUSINESS & FINANCE",
+      "title": "AI Compute Access Fund hits $1 billion as Ottawa backs 45 more firms",
+      "catbox_url": "https://flow.google.com/asb/ANqvLOZYHbyeOlmZxcya3L4RcFdrf7YwVCze8eh0R-v-SkbcLo9b66sOKspa2BWza0H9qe5o7zms1uQ_Z0F0VPkE_j7WaSTiyedQMEtfbI5Km5bSBn3E85oHqRfUIon-jQxM8ZhtfdjQ7BPAkMvXMqkMA6u4yDg8Ujb1GvdzmDg_dA=s1600-rw",
       "status": "uploaded",
-      "catbox_url": "https://files.catbox.moe/al8okt.jpg",
-      "uploaded_at": "2026-11-27T16:22:39.360633"
+      "uploaded_at": "2026-11-28T17:03:18.972586"
     },
     {
       "news_index": 4,
       "image_number": 2,
+      "category": "BUSINESS & FINANCE",
+      "title": "AI Compute Access Fund hits $1 billion as Ottawa backs 45 more firms",
+      "catbox_url": "https://flow.google.com/asb/ANqvLOarfZGnwUqdBsdjQ6M1dSSd6YkKD7Q2czqJcE6Un0HL5x6JRtsL7cfl9rX6q4PRqToJl1ZroaqriAKOPc47y81iZ8WqheaCugYvtfBimlX8bSBDWdBdzoo0U3N6rD8OTypLaAyznvnm4BSv7R2RZecBEqux1Ys_6cA0WUqK_Q=s1600-rw",
       "status": "uploaded",
-      "catbox_url": "https://files.catbox.moe/jla7qn.jpg",
-      "uploaded_at": "2026-11-27T16:22:45.974215"
+      "uploaded_at": "2026-11-28T17:03:23.622769"
     },
     {
       "news_index": 5,
       "image_number": 1,
+      "category": "REAL-WORLD IMPACT",
+      "title": "Malaysia considers AI wealth fund to share economic gains with citizens",
+      "catbox_url": "https://flow.google.com/asb/ANqvLObjirI-7H3Tc-AY_LFOgQqazhGD_JZ4RbRhjZwz_PoiiySnox3ce3c9X-8j5lEHfaaS5Vlbi42BptWMytCL3NUfI3smuKHIDLba56CfMWv4gIn3MVmjCxi0Kj2LJKcIuvcTP5ViLHYLVbO-2OmIH7zApJ-4eOfhSIXXl9fRlw=s1600-rw",
       "status": "uploaded",
-      "catbox_url": "https://files.catbox.moe/943xm9.jpg",
-      "uploaded_at": "2026-11-27T16:22:49.698098"
+      "uploaded_at": "2026-11-28T17:03:28.141385"
     },
     {
       "news_index": 5,
       "image_number": 2,
+      "category": "REAL-WORLD IMPACT",
+      "title": "Malaysia considers AI wealth fund to share economic gains with citizens",
+      "catbox_url": "https://flow.google.com/asb/ANqvLOb-JXDN3xLJP2-b1cloJ0Qf7zSbwdFyGtZ2ieqG9MvmAGSYFOuLjmcCBBsCKRMFcLVwxyJ2yuAdLHnJ6D2m0iAw8gAavLkWlNwDbNBGNJv9XYdqjmHdHsTG3lUD8oU-4MBIlwSo8k5Fmr0NnhFWr1TYC96aQ_UP7yYHTWyC=s1600-rw",
       "status": "uploaded",
-      "catbox_url": "https://files.catbox.moe/668erw.jpg",
-      "uploaded_at": "2026-11-27T16:22:57.319001"
+      "uploaded_at": "2026-11-28T17:03:32.492319"
+    },
+    {
+      "news_index": 6,
+      "image_number": 1,
+      "category": "AI DATACENTERS",
+      "title": "Is Black America Being Fed Fear About AI and Data Centers While Other Communities Negotiate Wealth?",
+      "catbox_url": "https://flow.google.com/asb/ANqvLOayT5lIvkFOqIYbUCvxP0d4-38SMKrOkFgI6mc-QGVymCMRI5AImU-ziGeiY41jV-tdVKmcH9oKKJwvArY3xQmrZsmuac12kq1TI-AtkIrfiy8znOGMW3bU6EpCkgLyk8jXhnHMZanof4_rQjBZTG93wDsq2NF7zttIoeee8A=s1600-rw",
+      "status": "uploaded",
+      "uploaded_at": "2026-11-28T17:03:38.076784"
+    },
+    {
+      "news_index": 6,
+      "image_number": 2,
+      "category": "AI DATACENTERS",
+      "title": "Is Black America Being Fed Fear About AI and Data Centers While Other Communities Negotiate Wealth?",
+      "catbox_url": "https://flow.google.com/asb/ANqvLOZs8j1T2BvAUdiE9dwEP9K4fl5T47Wse3-U1YaVqNyvOjxorITVNOVXLC-e1lSRNelOc8oXp7BZ1UbjZLJ3V35o3CL3HKNyN0TKq2Q1_ys1aGL0yYEzSPTnUASbQqQRljztk7bwwXXKNMSmGRCyAldu5wG70DxnpE9qg3rK=s1600-rw",
+      "status": "uploaded",
+      "uploaded_at": "2026-11-28T17:03:42.580848"
+    },
+    {
+      "news_index": 7,
+      "image_number": 1,
+      "category": "FINTECH & TRADING AI",
+      "title": "Bank of England warns AI lending risks amplifying global financial system",
+      "catbox_url": "https://flow.google.com/asb/ANqvLObpoHrHK1vAyD7yPtbxQfq6ODCqECVopBAC67szVzTj5FZYTPaOYNx0FxpHPhAUkWzD9UbdqrhLWtqh1CxRMt8bsyc-_I1VTiH8OLqb9mxkWh1EQD-6Xjf_0DA9GLvbt7EHDAAtr1KyQU_nhHZ5LX9zU4aPAzEaXRn2eUCc1A=s1600-rw",
+      "status": "uploaded",
+      "uploaded_at": "2026-11-28T17:03:46.906859"
+    },
+    {
+      "news_index": 7,
+      "image_number": 2,
+      "category": "FINTECH & TRADING AI",
+      "title": "Bank of England warns AI lending risks amplifying global financial system",
+      "catbox_url": "https://flow.google.com/asb/ANqvLOa_F8eO3G0FcH6HFddpIwskb3ZfeHeWue6Igi4GI5XXgjPCkJappADuMffLEkLvOQ6qWPDz1Z2aCP4wQpf0ipRzUG0xc3LVhdmWUO2owljTfetKEnsmSEK37aPMSW-MFXo6bqUy0xZbYJTLZHN-jD3EGX_6-DzbOh_p4hYslw=s1600-rw",
+      "status": "uploaded",
+      "uploaded_at": "2026-11-28T17:03:51.250681"
+    },
+    {
+      "news_index": 8,
+      "image_number": 1,
+      "category": "WEARABLES & BCI",
+      "title": "Ignore Friday's Short Session. Monday Is When the Year Gets Priced.",
+      "catbox_url": "https://flow.google.com/asb/ANqvLOY_w_RfyGziL8UoTVGjCIa3NBz64qWNZefrGuBOIEu6gIXu9mL2Zwwb4X0Kn2l6VKBuYWAC0zZxa8cWlayE237ONNJki2ZTU_4JaHPIwJC1U3UaXfrMW05q8jDY6S7U4_jBkKf9Vq5eSSm4ZVMOJSJxcS2WE7FlN01mAQkr=s1600-rw",
+      "status": "uploaded",
+      "uploaded_at": "2026-11-28T17:03:55.313853"
+    },
+    {
+      "news_index": 8,
+      "image_number": 2,
+      "category": "WEARABLES & BCI",
+      "title": "Ignore Friday's Short Session. Monday Is When the Year Gets Priced.",
+      "catbox_url": "https://flow.google.com/asb/ANqvLObfknUP02C3DaTb4SFg_wA_Svj9jHCiRCSten-VEucl4gLLUtTNTXIaZp-eWOybgPwCThrDbaBoALC0qP6Le5JHMVdI2cDtnEzakbeohG78lZ46V4Go_uQ6z5teNBk2sJI53nBXfMvxdncptFv9xoQkiE5LTxA5U0iNXmMHmQ=s1600-rw",
+      "status": "uploaded",
+      "uploaded_at": "2026-11-28T17:04:00.009224"
+    },
+    {
+      "news_index": 9,
+      "image_number": 1,
+      "category": "SILICON & GPUS",
+      "title": "Trump heads to Arizona next week for a high-stakes expansion of TSMC's computer chip factories",
+      "catbox_url": "https://flow.google.com/asb/ANqvLOaloBXyudyJqupSNB2f699AKdMEtjgb_iY1ABf93cxd3wZaVSS7WyAt3M6nYWUVp5ygJDRUd4PMa0gnYd5p8sjythxNCQmy_6WT9NdjCY6wd1pdugzr4luwmqLX1_lxOob85V-5mueHJmKUEV1MDNC9nQOra3PC23fhHgTfqQ=s1600-rw",
+      "status": "uploaded",
+      "uploaded_at": "2026-11-28T17:04:04.082381"
+    },
+    {
+      "news_index": 9,
+      "image_number": 2,
+      "category": "SILICON & GPUS",
+      "title": "Trump heads to Arizona next week for a high-stakes expansion of TSMC's computer chip factories",
+      "catbox_url": "https://flow.google.com/asb/ANqvLOZokeGSEeEPU9C55IBtaTthAHFMWVqiDZ6wHtLomANtmlysf1R66HJ0Z7qOpUKLeOmM26zvN7s3k1cONxMBDNg2tXIPP8Zk4sPqFjSWKh8m1WXrINspgTr_UzG0T8MyszFyqexxOTm7FJnqwDTlIvT4yT9Db_hiMfexE3sv-w=s1600-rw",
+      "status": "uploaded",
+      "uploaded_at": "2026-11-28T17:04:08.470336"
+    },
+    {
+      "news_index": 10,
+      "image_number": 1,
+      "category": "WORLD & GEOPOLITICS",
+      "title": "IndiaAI $1.2B Sovereign Compute Mission & Global Semiconductor Export Controls",
+      "catbox_url": "https://flow.google.com/asb/ANqvLObiJorYPHqiCT2sUtcReDlVklzMBNFq38Eay8apJzBm4EmCvJHPhVTpI5xP4LcrLAxQKF7N9EPv-DPHSlFEJPGMDJKEcJBAdeyd7Y0g8HvDJdyXX4Sz6mo784JjroQar7tu0lriearHIzcs3yHswj-3gA8YgP_ghWjPh3qJRw=s1600-rw",
+      "status": "uploaded",
+      "uploaded_at": "2026-11-28T17:04:13.386941"
+    },
+    {
+      "news_index": 10,
+      "image_number": 2,
+      "category": "WORLD & GEOPOLITICS",
+      "title": "IndiaAI $1.2B Sovereign Compute Mission & Global Semiconductor Export Controls",
+      "catbox_url": "https://flow.google.com/asb/ANqvLOaj0eAD0jcGvnewiVpUZsOaBmJ_zf-3twxhVvtPz4SJGmpvH7P9CMEGNiWOFcrlbCExdOnSMNdxbadK2RSZUGK_Y66Zw4nbsI_nOg_KAGn2H2a_iBKpNn-pNIVXPW36sim0JU5-_p40A1a0xUHcmapdrwBvthIXD9arZpzUhg=s1600-rw",
+      "status": "uploaded",
+      "uploaded_at": "2026-11-28T17:04:17.582786"
+    },
+    {
+      "news_index": 11,
+      "image_number": 1,
+      "category": "ROBOTICS",
+      "title": "Tesla Optimus Gen 3 Humanoid Robot Autonomous Gigafactory Assembly",
+      "catbox_url": "https://flow.google.com/asb/ANqvLOajBGZTKbW49gaeQ_XxhNSp3Od2ehEDwH_a_46Z4HRQTq0y0K3r0Wiym6xOA4em_GljsWXtJMwmUKYRVGJK-gWJPHBgJ53JSWhMS-UJzCNyTRjoydkWkRYMgVyczGr-RGR6_vgv67KuDa9onlsTLVomrqP6rXA1ssPYHDaR=s1600-rw",
+      "status": "uploaded",
+      "uploaded_at": "2026-11-28T17:04:21.647538"
+    },
+    {
+      "news_index": 11,
+      "image_number": 2,
+      "category": "ROBOTICS",
+      "title": "Tesla Optimus Gen 3 Humanoid Robot Autonomous Gigafactory Assembly",
+      "catbox_url": "https://flow.google.com/asb/ANqvLOa4MRHOC1TR7avDdYNF08k91gQYd1D68wsTuP0YJRgLvwIoxsfEnGcDDz_Gi1tf3-T3JrtveDF99EdYbAcwsVt6ZPIUdSVWTJSyeKONyT0klbKx11u89B3rK-y-ZHP6fumuAvEnlWYlgdeGovLg4NskvLYx5G-MSDuB_WpjAg=s1600-rw",
+      "status": "uploaded",
+      "uploaded_at": "2026-11-28T17:04:26.005827"
     }
   ]
 }

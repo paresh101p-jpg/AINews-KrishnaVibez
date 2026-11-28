@@ -1,702 +1,707 @@
-[
-  {
-    "id": "1.1",
-    "news_id": 1,
-    "category": "AI Robotics",
-    "title": "XTEND AI Robotics: $100 Million Backlog Signals Strong Growth, But Profitability Remains Uncertain",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in AI Robotics, inspired by headlines: \"XTEND AI Robotics: $100 Million Backlog Signals Strong Growth, But Profitability Remains Uncertain\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "1.2",
-    "news_id": 1,
-    "category": "AI Robotics",
-    "title": "XTEND AI Robotics: $100 Million Backlog Signals Strong Growth, But Profitability Remains Uncertain",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in AI Robotics. Visualizing concepts around \"XTEND AI Robotics: $100 Million Backlog Signals Strong Growth, But Profitability Remains Uncertain\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "2.1",
-    "news_id": 2,
-    "category": "Generative AI LLM",
-    "title": "Verifiable Social Reasoning for LLM Assistants",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in Generative AI LLM, inspired by headlines: \"Verifiable Social Reasoning for LLM Assistants\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "2.2",
-    "news_id": 2,
-    "category": "Generative AI LLM",
-    "title": "Verifiable Social Reasoning for LLM Assistants",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in Generative AI LLM. Visualizing concepts around \"Verifiable Social Reasoning for LLM Assistants\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "3.1",
-    "news_id": 3,
-    "category": "AI Healthcare Medicine",
-    "title": "AI\u2019s Healthcare Potential: Better Outcomes, Broader Access and Improved Affordability",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in AI Healthcare Medicine, inspired by headlines: \"AI\u2019s Healthcare Potential: Better Outcomes, Broader Access and Improved Affordability\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "3.2",
-    "news_id": 3,
-    "category": "AI Healthcare Medicine",
-    "title": "AI\u2019s Healthcare Potential: Better Outcomes, Broader Access and Improved Affordability",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in AI Healthcare Medicine. Visualizing concepts around \"AI\u2019s Healthcare Potential: Better Outcomes, Broader Access and Improved Affordability\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "4.1",
-    "news_id": 4,
-    "category": "Autonomous Vehicles Self-Driving",
-    "title": "Bolt launches autonomous ride-hailing service in Luxembourg",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in Autonomous Vehicles Self-Driving, inspired by headlines: \"Bolt launches autonomous ride-hailing service in Luxembourg\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "4.2",
-    "news_id": 4,
-    "category": "Autonomous Vehicles Self-Driving",
-    "title": "Bolt launches autonomous ride-hailing service in Luxembourg",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in Autonomous Vehicles Self-Driving. Visualizing concepts around \"Bolt launches autonomous ride-hailing service in Luxembourg\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "5.1",
-    "news_id": 5,
-    "category": "AI Cybersecurity Defense",
-    "title": "AI and Cybersecurity: Technologies Can Magnify Cyberattacks and Enhance Cyber Defense",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in AI Cybersecurity Defense, inspired by headlines: \"AI and Cybersecurity: Technologies Can Magnify Cyberattacks and Enhance Cyber Defense\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "5.2",
-    "news_id": 5,
-    "category": "AI Cybersecurity Defense",
-    "title": "AI and Cybersecurity: Technologies Can Magnify Cyberattacks and Enhance Cyber Defense",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in AI Cybersecurity Defense. Visualizing concepts around \"AI and Cybersecurity: Technologies Can Magnify Cyberattacks and Enhance Cyber Defense\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "6.1",
-    "news_id": 6,
-    "category": "Quantum AI Computing",
-    "title": "IQM Quantum Computers Sells 54-Qubit Radiance R3 System to South Korean Quantum-AI Infrastructure Firm QAI",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in Quantum AI Computing, inspired by headlines: \"IQM Quantum Computers Sells 54-Qubit Radiance R3 System to South Korean Quantum-AI Infrastructure Firm QAI\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "6.2",
-    "news_id": 6,
-    "category": "Quantum AI Computing",
-    "title": "IQM Quantum Computers Sells 54-Qubit Radiance R3 System to South Korean Quantum-AI Infrastructure Firm QAI",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in Quantum AI Computing. Visualizing concepts around \"IQM Quantum Computers Sells 54-Qubit Radiance R3 System to South Korean Quantum-AI Infrastructure Firm QAI\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "7.1",
-    "news_id": 7,
-    "category": "AI Semiconductors Hardware GPU",
-    "title": "3 AI Hardware Stocks Investors May Prefer After Nvidia\u2019s $1 Trillion Market Cap Hit",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in AI Semiconductors Hardware GPU, inspired by headlines: \"3 AI Hardware Stocks Investors May Prefer After Nvidia\u2019s $1 Trillion Market Cap Hit\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "7.2",
-    "news_id": 7,
-    "category": "AI Semiconductors Hardware GPU",
-    "title": "3 AI Hardware Stocks Investors May Prefer After Nvidia\u2019s $1 Trillion Market Cap Hit",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in AI Semiconductors Hardware GPU. Visualizing concepts around \"3 AI Hardware Stocks Investors May Prefer After Nvidia\u2019s $1 Trillion Market Cap Hit\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "8.1",
-    "news_id": 8,
-    "category": "AI Climate ClimateTech",
-    "title": "AI-driven data centre demand fuels record quarter for climate tech VC",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in AI Climate ClimateTech, inspired by headlines: \"AI-driven data centre demand fuels record quarter for climate tech VC\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "8.2",
-    "news_id": 8,
-    "category": "AI Climate ClimateTech",
-    "title": "AI-driven data centre demand fuels record quarter for climate tech VC",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in AI Climate ClimateTech. Visualizing concepts around \"AI-driven data centre demand fuels record quarter for climate tech VC\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "9.1",
-    "news_id": 9,
-    "category": "AI Financial FinTech",
-    "title": "How does AI spend vary across financial institution sizes?",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in AI Financial FinTech, inspired by headlines: \"How does AI spend vary across financial institution sizes?\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "9.2",
-    "news_id": 9,
-    "category": "AI Financial FinTech",
-    "title": "How does AI spend vary across financial institution sizes?",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in AI Financial FinTech. Visualizing concepts around \"How does AI spend vary across financial institution sizes?\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "10.1",
-    "news_id": 10,
-    "category": "AI Gaming GameDev",
-    "title": "talking AI in game dev w. Epic Games coder Dietmar Hauser",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in AI Gaming GameDev, inspired by headlines: \"talking AI in game dev w. Epic Games coder Dietmar Hauser\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "10.2",
-    "news_id": 10,
-    "category": "AI Gaming GameDev",
-    "title": "talking AI in game dev w. Epic Games coder Dietmar Hauser",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in AI Gaming GameDev. Visualizing concepts around \"talking AI in game dev w. Epic Games coder Dietmar Hauser\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "11.1",
-    "news_id": 11,
-    "category": "AI Synthetic Media Deepfake",
-    "title": "Deepfake | Meaning, AI, Technology, Uses, & Detection",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in AI Synthetic Media Deepfake, inspired by headlines: \"Deepfake | Meaning, AI, Technology, Uses, & Detection\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "11.2",
-    "news_id": 11,
-    "category": "AI Synthetic Media Deepfake",
-    "title": "Deepfake | Meaning, AI, Technology, Uses, & Detection",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in AI Synthetic Media Deepfake. Visualizing concepts around \"Deepfake | Meaning, AI, Technology, Uses, & Detection\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "12.1",
-    "news_id": 12,
-    "category": "AI Space Exploration NASA",
-    "title": "Super Intelligence",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in AI Space Exploration NASA, inspired by headlines: \"Super Intelligence\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "12.2",
-    "news_id": 12,
-    "category": "AI Space Exploration NASA",
-    "title": "Super Intelligence",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in AI Space Exploration NASA. Visualizing concepts around \"Super Intelligence\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "13.1",
-    "news_id": 13,
-    "category": "AI Agriculture Farming",
-    "title": "AI, Agriculture, Livestock, And The Enduring Value Of The Human Touch",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in AI Agriculture Farming, inspired by headlines: \"AI, Agriculture, Livestock, And The Enduring Value Of The Human Touch\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "13.2",
-    "news_id": 13,
-    "category": "AI Agriculture Farming",
-    "title": "AI, Agriculture, Livestock, And The Enduring Value Of The Human Touch",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in AI Agriculture Farming. Visualizing concepts around \"AI, Agriculture, Livestock, And The Enduring Value Of The Human Touch\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "14.1",
-    "news_id": 14,
-    "category": "AI Education EdTech",
-    "title": "How To Approach Licensing and Budgeting for AI Education",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in AI Education EdTech, inspired by headlines: \"How To Approach Licensing and Budgeting for AI Education\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "14.2",
-    "news_id": 14,
-    "category": "AI Education EdTech",
-    "title": "How To Approach Licensing and Budgeting for AI Education",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in AI Education EdTech. Visualizing concepts around \"How To Approach Licensing and Budgeting for AI Education\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "15.1",
-    "news_id": 15,
-    "category": "AI Drug Discovery Pharma",
-    "title": "Big Pharma, with eye on Anthropic, says AI is shrinking drug discovery timelines",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in AI Drug Discovery Pharma, inspired by headlines: \"Big Pharma, with eye on Anthropic, says AI is shrinking drug discovery timelines\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "15.2",
-    "news_id": 15,
-    "category": "AI Drug Discovery Pharma",
-    "title": "Big Pharma, with eye on Anthropic, says AI is shrinking drug discovery timelines",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in AI Drug Discovery Pharma. Visualizing concepts around \"Big Pharma, with eye on Anthropic, says AI is shrinking drug discovery timelines\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "16.1",
-    "news_id": 16,
-    "category": "AI Drone Defense Military",
-    "title": "GPS Jammed? This AI Software Could Keep Military Drones on Course Using Sensors They Already Carry",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in AI Drone Defense Military, inspired by headlines: \"GPS Jammed? This AI Software Could Keep Military Drones on Course Using Sensors They Already Carry\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "16.2",
-    "news_id": 16,
-    "category": "AI Drone Defense Military",
-    "title": "GPS Jammed? This AI Software Could Keep Military Drones on Course Using Sensors They Already Carry",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in AI Drone Defense Military. Visualizing concepts around \"GPS Jammed? This AI Software Could Keep Military Drones on Course Using Sensors They Already Carry\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "17.1",
-    "news_id": 17,
-    "category": "AI Supply Chain Logistics",
-    "title": "Impinj\u2019s Matt Branda: How RAIN RFID Can Enhance AI",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in AI Supply Chain Logistics, inspired by headlines: \"Impinj\u2019s Matt Branda: How RAIN RFID Can Enhance AI\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "17.2",
-    "news_id": 17,
-    "category": "AI Supply Chain Logistics",
-    "title": "Impinj\u2019s Matt Branda: How RAIN RFID Can Enhance AI",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in AI Supply Chain Logistics. Visualizing concepts around \"Impinj\u2019s Matt Branda: How RAIN RFID Can Enhance AI\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "18.1",
-    "news_id": 18,
-    "category": "AI Search Engines Agents",
-    "title": "Know What To Fix Before Scaling AI Agents For AEO In 2027",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in AI Search Engines Agents, inspired by headlines: \"Know What To Fix Before Scaling AI Agents For AEO In 2027\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "18.2",
-    "news_id": 18,
-    "category": "AI Search Engines Agents",
-    "title": "Know What To Fix Before Scaling AI Agents For AEO In 2027",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in AI Search Engines Agents. Visualizing concepts around \"Know What To Fix Before Scaling AI Agents For AEO In 2027\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "19.1",
-    "news_id": 19,
-    "category": "AI Ethics Safety Regulation",
-    "title": "AI Safety Index \u2014 Summer 2026",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in AI Ethics Safety Regulation, inspired by headlines: \"AI Safety Index \u2014 Summer 2026\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "19.2",
-    "news_id": 19,
-    "category": "AI Ethics Safety Regulation",
-    "title": "AI Safety Index \u2014 Summer 2026",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in AI Ethics Safety Regulation. Visualizing concepts around \"AI Safety Index \u2014 Summer 2026\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "20.1",
-    "news_id": 20,
-    "category": "AI Legal LawTech",
-    "title": "Lawtech incubator receives \u00a33m MoJ funding to encourage AI adoption",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in AI Legal LawTech, inspired by headlines: \"Lawtech incubator receives \u00a33m MoJ funding to encourage AI adoption\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "20.2",
-    "news_id": 20,
-    "category": "AI Legal LawTech",
-    "title": "Lawtech incubator receives \u00a33m MoJ funding to encourage AI adoption",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in AI Legal LawTech. Visualizing concepts around \"Lawtech incubator receives \u00a33m MoJ funding to encourage AI adoption\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "21.1",
-    "news_id": 21,
-    "category": "AI Code Assistant Software Dev",
-    "title": "Viettel Code Assistant streamlines software development",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in AI Code Assistant Software Dev, inspired by headlines: \"Viettel Code Assistant streamlines software development\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "21.2",
-    "news_id": 21,
-    "category": "AI Code Assistant Software Dev",
-    "title": "Viettel Code Assistant streamlines software development",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in AI Code Assistant Software Dev. Visualizing concepts around \"Viettel Code Assistant streamlines software development\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "22.1",
-    "news_id": 22,
-    "category": "AI Music Audio Synthesis",
-    "title": "Building audio provenance for AI-generated content at the source with AWS",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in AI Music Audio Synthesis, inspired by headlines: \"Building audio provenance for AI-generated content at the source with AWS\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "22.2",
-    "news_id": 22,
-    "category": "AI Music Audio Synthesis",
-    "title": "Building audio provenance for AI-generated content at the source with AWS",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in AI Music Audio Synthesis. Visualizing concepts around \"Building audio provenance for AI-generated content at the source with AWS\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "23.1",
-    "news_id": 23,
-    "category": "AI Creative Art Animation",
-    "title": "Viral AI animation sparks controversy over familiar character design",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in AI Creative Art Animation, inspired by headlines: \"Viral AI animation sparks controversy over familiar character design\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "23.2",
-    "news_id": 23,
-    "category": "AI Creative Art Animation",
-    "title": "Viral AI animation sparks controversy over familiar character design",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in AI Creative Art Animation. Visualizing concepts around \"Viral AI animation sparks controversy over familiar character design\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "24.1",
-    "news_id": 24,
-    "category": "AI Brain Computer Interface Neuralink",
-    "title": "Neuralink's brain-computer interface chip is progressing to an FDA-approved trial, but China is catching up",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in AI Brain Computer Interface Neuralink, inspired by headlines: \"Neuralink's brain-computer interface chip is progressing to an FDA-approved trial, but China is catching up\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "24.2",
-    "news_id": 24,
-    "category": "AI Brain Computer Interface Neuralink",
-    "title": "Neuralink's brain-computer interface chip is progressing to an FDA-approved trial, but China is catching up",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in AI Brain Computer Interface Neuralink. Visualizing concepts around \"Neuralink's brain-computer interface chip is progressing to an FDA-approved trial, but China is catching up\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "25.1",
-    "news_id": 25,
-    "category": "AI Smart Home IoT",
-    "title": "Privacy-preserving intrusion detection in IoT smart homes using a federated hybrid 1D-CNN\u2013LSTM model with explainable AI",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in AI Smart Home IoT, inspired by headlines: \"Privacy-preserving intrusion detection in IoT smart homes using a federated hybrid 1D-CNN\u2013LSTM model with explainable AI\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "25.2",
-    "news_id": 25,
-    "category": "AI Smart Home IoT",
-    "title": "Privacy-preserving intrusion detection in IoT smart homes using a federated hybrid 1D-CNN\u2013LSTM model with explainable AI",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in AI Smart Home IoT. Visualizing concepts around \"Privacy-preserving intrusion detection in IoT smart homes using a federated hybrid 1D-CNN\u2013LSTM model with explainable AI\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "26.1",
-    "news_id": 26,
-    "category": "AI Virtual Assistant Smart Devices",
-    "title": "31 Popular AI Assistants in 2026",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in AI Virtual Assistant Smart Devices, inspired by headlines: \"31 Popular AI Assistants in 2026\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "26.2",
-    "news_id": 26,
-    "category": "AI Virtual Assistant Smart Devices",
-    "title": "31 Popular AI Assistants in 2026",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in AI Virtual Assistant Smart Devices. Visualizing concepts around \"31 Popular AI Assistants in 2026\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "27.1",
-    "news_id": 27,
-    "category": "AI Retail E-commerce",
-    "title": "Online Sales Up 8.1%, AI Pricing, LEGO Monterrey: Week in Retail",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in AI Retail E-commerce, inspired by headlines: \"Online Sales Up 8.1%, AI Pricing, LEGO Monterrey: Week in Retail\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "27.2",
-    "news_id": 27,
-    "category": "AI Retail E-commerce",
-    "title": "Online Sales Up 8.1%, AI Pricing, LEGO Monterrey: Week in Retail",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in AI Retail E-commerce. Visualizing concepts around \"Online Sales Up 8.1%, AI Pricing, LEGO Monterrey: Week in Retail\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "28.1",
-    "news_id": 28,
-    "category": "AI Telecommunications 6G",
-    "title": "T-Mobile tests AI-RAN deployment economics ahead of 6G",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in AI Telecommunications 6G, inspired by headlines: \"T-Mobile tests AI-RAN deployment economics ahead of 6G\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "28.2",
-    "news_id": 28,
-    "category": "AI Telecommunications 6G",
-    "title": "T-Mobile tests AI-RAN deployment economics ahead of 6G",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in AI Telecommunications 6G. Visualizing concepts around \"T-Mobile tests AI-RAN deployment economics ahead of 6G\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "29.1",
-    "news_id": 29,
-    "category": "AI Neuroscience Cognitive Computing",
-    "title": "Cognitive science - Neuroscience, AI, Psychology",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in AI Neuroscience Cognitive Computing, inspired by headlines: \"Cognitive science - Neuroscience, AI, Psychology\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "29.2",
-    "news_id": 29,
-    "category": "AI Neuroscience Cognitive Computing",
-    "title": "Cognitive science - Neuroscience, AI, Psychology",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in AI Neuroscience Cognitive Computing. Visualizing concepts around \"Cognitive science - Neuroscience, AI, Psychology\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "30.1",
-    "news_id": 30,
-    "category": "AI Biotech Genomics",
-    "title": "WhiteLab secures $26M to expand AI-designed gene delivery assets",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in AI Biotech Genomics, inspired by headlines: \"WhiteLab secures $26M to expand AI-designed gene delivery assets\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "30.2",
-    "news_id": 30,
-    "category": "AI Biotech Genomics",
-    "title": "WhiteLab secures $26M to expand AI-designed gene delivery assets",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in AI Biotech Genomics. Visualizing concepts around \"WhiteLab secures $26M to expand AI-designed gene delivery assets\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "31.1",
-    "news_id": 31,
-    "category": "AI Renewable Energy Smart Grid",
-    "title": "How AI is powering the energy transition \u2013 from smart grids to fusion",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in AI Renewable Energy Smart Grid, inspired by headlines: \"How AI is powering the energy transition \u2013 from smart grids to fusion\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "31.2",
-    "news_id": 31,
-    "category": "AI Renewable Energy Smart Grid",
-    "title": "How AI is powering the energy transition \u2013 from smart grids to fusion",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in AI Renewable Energy Smart Grid. Visualizing concepts around \"How AI is powering the energy transition \u2013 from smart grids to fusion\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "32.1",
-    "news_id": 32,
-    "category": "AI Material Science Nanotech",
-    "title": "Advances in materials science are helping unlock secrets of nanomaterials",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in AI Material Science Nanotech, inspired by headlines: \"Advances in materials science are helping unlock secrets of nanomaterials\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "32.2",
-    "news_id": 32,
-    "category": "AI Material Science Nanotech",
-    "title": "Advances in materials science are helping unlock secrets of nanomaterials",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in AI Material Science Nanotech. Visualizing concepts around \"Advances in materials science are helping unlock secrets of nanomaterials\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "33.1",
-    "news_id": 33,
-    "category": "AI Disaster Management Early Warning",
-    "title": "Training Workshop on Early Warning Systems, Artificial Intelligence (AI) and Geographic Information System (GIS) Technologies for a Resilient Africa",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in AI Disaster Management Early Warning, inspired by headlines: \"Training Workshop on Early Warning Systems, Artificial Intelligence (AI) and Geographic Information System (GIS) Technologies for a Resilient Africa\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "33.2",
-    "news_id": 33,
-    "category": "AI Disaster Management Early Warning",
-    "title": "Training Workshop on Early Warning Systems, Artificial Intelligence (AI) and Geographic Information System (GIS) Technologies for a Resilient Africa",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in AI Disaster Management Early Warning. Visualizing concepts around \"Training Workshop on Early Warning Systems, Artificial Intelligence (AI) and Geographic Information System (GIS) Technologies for a Resilient Africa\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "34.1",
-    "news_id": 34,
-    "category": "AI Humanoid Robots Boston Dynamics",
-    "title": "Boston Dynamics Opens Robotics Metaplant Application Center to Train Humanoid Robots for Manufacturing Tasks",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in AI Humanoid Robots Boston Dynamics, inspired by headlines: \"Boston Dynamics Opens Robotics Metaplant Application Center to Train Humanoid Robots for Manufacturing Tasks\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "34.2",
-    "news_id": 34,
-    "category": "AI Humanoid Robots Boston Dynamics",
-    "title": "Boston Dynamics Opens Robotics Metaplant Application Center to Train Humanoid Robots for Manufacturing Tasks",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in AI Humanoid Robots Boston Dynamics. Visualizing concepts around \"Boston Dynamics Opens Robotics Metaplant Application Center to Train Humanoid Robots for Manufacturing Tasks\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "35.1",
-    "news_id": 35,
-    "category": "AI Translation Multilingual NLP",
-    "title": "Breaking Babel: Using AI to Enable Real-Time Translation in the Classroom and Beyond",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in AI Translation Multilingual NLP, inspired by headlines: \"Breaking Babel: Using AI to Enable Real-Time Translation in the Classroom and Beyond\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "35.2",
-    "news_id": 35,
-    "category": "AI Translation Multilingual NLP",
-    "title": "Breaking Babel: Using AI to Enable Real-Time Translation in the Classroom and Beyond",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in AI Translation Multilingual NLP. Visualizing concepts around \"Breaking Babel: Using AI to Enable Real-Time Translation in the Classroom and Beyond\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "36.1",
-    "news_id": 36,
-    "category": "AI Computer Vision Spatial Computing",
-    "title": "What Is Spatial Computing? Complete Guide (2026)",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in AI Computer Vision Spatial Computing, inspired by headlines: \"What Is Spatial Computing? Complete Guide (2026)\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "36.2",
-    "news_id": 36,
-    "category": "AI Computer Vision Spatial Computing",
-    "title": "What Is Spatial Computing? Complete Guide (2026)",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in AI Computer Vision Spatial Computing. Visualizing concepts around \"What Is Spatial Computing? Complete Guide (2026)\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "37.1",
-    "news_id": 37,
-    "category": "AI Surveillance Privacy Biometrics",
-    "title": "Mission Creep: AI Surveillance at DHS Crosses Dangerous Line Into Tracking Americans",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in AI Surveillance Privacy Biometrics, inspired by headlines: \"Mission Creep: AI Surveillance at DHS Crosses Dangerous Line Into Tracking Americans\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "37.2",
-    "news_id": 37,
-    "category": "AI Surveillance Privacy Biometrics",
-    "title": "Mission Creep: AI Surveillance at DHS Crosses Dangerous Line Into Tracking Americans",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in AI Surveillance Privacy Biometrics. Visualizing concepts around \"Mission Creep: AI Surveillance at DHS Crosses Dangerous Line Into Tracking Americans\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "38.1",
-    "news_id": 38,
-    "category": "AI Astronomy Astrophysics",
-    "title": "Amid a flood of AI advances, astrophysicists are questioning the soul of their field",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in AI Astronomy Astrophysics, inspired by headlines: \"Amid a flood of AI advances, astrophysicists are questioning the soul of their field\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "38.2",
-    "news_id": 38,
-    "category": "AI Astronomy Astrophysics",
-    "title": "Amid a flood of AI advances, astrophysicists are questioning the soul of their field",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in AI Astronomy Astrophysics. Visualizing concepts around \"Amid a flood of AI advances, astrophysicists are questioning the soul of their field\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "39.1",
-    "news_id": 39,
-    "category": "AI Chemistry Molecular Design",
-    "title": "Generative AI in molecular design: How large models are changing drug chemistry",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in AI Chemistry Molecular Design, inspired by headlines: \"Generative AI in molecular design: How large models are changing drug chemistry\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "39.2",
-    "news_id": 39,
-    "category": "AI Chemistry Molecular Design",
-    "title": "Generative AI in molecular design: How large models are changing drug chemistry",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in AI Chemistry Molecular Design. Visualizing concepts around \"Generative AI in molecular design: How large models are changing drug chemistry\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "40.1",
-    "news_id": 40,
-    "category": "AI Oceanography Marine Tech",
-    "title": "How AI is reshaping ocean science",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in AI Oceanography Marine Tech, inspired by headlines: \"How AI is reshaping ocean science\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "40.2",
-    "news_id": 40,
-    "category": "AI Oceanography Marine Tech",
-    "title": "How AI is reshaping ocean science",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in AI Oceanography Marine Tech. Visualizing concepts around \"How AI is reshaping ocean science\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "41.1",
-    "news_id": 41,
-    "category": "AI Aviation Aerospace Autopilot",
-    "title": "How Artificial Intelligence Is Transforming the Aviation Industry",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in AI Aviation Aerospace Autopilot, inspired by headlines: \"How Artificial Intelligence Is Transforming the Aviation Industry\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "41.2",
-    "news_id": 41,
-    "category": "AI Aviation Aerospace Autopilot",
-    "title": "How Artificial Intelligence Is Transforming the Aviation Industry",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in AI Aviation Aerospace Autopilot. Visualizing concepts around \"How Artificial Intelligence Is Transforming the Aviation Industry\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "42.1",
-    "news_id": 42,
-    "category": "AI Construction Architecture BIM",
-    "title": "Pliera: a new BIM 2.0",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in AI Construction Architecture BIM, inspired by headlines: \"Pliera: a new BIM 2.0\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "42.2",
-    "news_id": 42,
-    "category": "AI Construction Architecture BIM",
-    "title": "Pliera: a new BIM 2.0",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in AI Construction Architecture BIM. Visualizing concepts around \"Pliera: a new BIM 2.0\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "43.1",
-    "news_id": 43,
-    "category": "AI Fraud Detection Compliance",
-    "title": "Artificial Intelligence in the Australian financial services sector: A practical compliance primer",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in AI Fraud Detection Compliance, inspired by headlines: \"Artificial Intelligence in the Australian financial services sector: A practical compliance primer\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "43.2",
-    "news_id": 43,
-    "category": "AI Fraud Detection Compliance",
-    "title": "Artificial Intelligence in the Australian financial services sector: A practical compliance primer",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in AI Fraud Detection Compliance. Visualizing concepts around \"Artificial Intelligence in the Australian financial services sector: A practical compliance primer\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "44.1",
-    "news_id": 44,
-    "category": "AI Metaverse AR VR",
-    "title": "Meta is still burning money on AR/VR",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in AI Metaverse AR VR, inspired by headlines: \"Meta is still burning money on AR/VR\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "44.2",
-    "news_id": 44,
-    "category": "AI Metaverse AR VR",
-    "title": "Meta is still burning money on AR/VR",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in AI Metaverse AR VR. Visualizing concepts around \"Meta is still burning money on AR/VR\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "45.1",
-    "news_id": 45,
-    "category": "AI Wearables Smart Rings Health",
-    "title": "Smart ring maker Oura and its backers aim to raise $2.2B in IPO",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in AI Wearables Smart Rings Health, inspired by headlines: \"Smart ring maker Oura and its backers aim to raise $2.2B in IPO\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "45.2",
-    "news_id": 45,
-    "category": "AI Wearables Smart Rings Health",
-    "title": "Smart ring maker Oura and its backers aim to raise $2.2B in IPO",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in AI Wearables Smart Rings Health. Visualizing concepts around \"Smart ring maker Oura and its backers aim to raise $2.2B in IPO\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "46.1",
-    "news_id": 46,
-    "category": "AI Edge Computing On-Device NPU",
-    "title": "KT, DeepX, Sesol team up on NPU-based edge AI systems",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in AI Edge Computing On-Device NPU, inspired by headlines: \"KT, DeepX, Sesol team up on NPU-based edge AI systems\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "46.2",
-    "news_id": 46,
-    "category": "AI Edge Computing On-Device NPU",
-    "title": "KT, DeepX, Sesol team up on NPU-based edge AI systems",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in AI Edge Computing On-Device NPU. Visualizing concepts around \"KT, DeepX, Sesol team up on NPU-based edge AI systems\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "47.1",
-    "news_id": 47,
-    "category": "AI Nuclear Fusion Physics",
-    "title": "Artificial intelligence brings us closer to realizing the promise of nuclear fusion",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in AI Nuclear Fusion Physics, inspired by headlines: \"Artificial intelligence brings us closer to realizing the promise of nuclear fusion\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "47.2",
-    "news_id": 47,
-    "category": "AI Nuclear Fusion Physics",
-    "title": "Artificial intelligence brings us closer to realizing the promise of nuclear fusion",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in AI Nuclear Fusion Physics. Visualizing concepts around \"Artificial intelligence brings us closer to realizing the promise of nuclear fusion\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "48.1",
-    "news_id": 48,
-    "category": "AI Deep Learning Neural Architecture",
-    "title": "Escaping the forest: a sparse, interpretable, and foundational neural network alternative for tabular data",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in AI Deep Learning Neural Architecture, inspired by headlines: \"Escaping the forest: a sparse, interpretable, and foundational neural network alternative for tabular data\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "48.2",
-    "news_id": 48,
-    "category": "AI Deep Learning Neural Architecture",
-    "title": "Escaping the forest: a sparse, interpretable, and foundational neural network alternative for tabular data",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in AI Deep Learning Neural Architecture. Visualizing concepts around \"Escaping the forest: a sparse, interpretable, and foundational neural network alternative for tabular data\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "49.1",
-    "news_id": 49,
-    "category": "AI Voice Cloning Speech Synthesis",
-    "title": "Amazon Polly launches voice cloning: A unique voice for your brand | Amazon Web Services",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in AI Voice Cloning Speech Synthesis, inspired by headlines: \"Amazon Polly launches voice cloning: A unique voice for your brand | Amazon Web Services\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "49.2",
-    "news_id": 49,
-    "category": "AI Voice Cloning Speech Synthesis",
-    "title": "Amazon Polly launches voice cloning: A unique voice for your brand | Amazon Web Services",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in AI Voice Cloning Speech Synthesis. Visualizing concepts around \"Amazon Polly launches voice cloning: A unique voice for your brand | Amazon Web Services\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  },
-  {
-    "id": "50.1",
-    "news_id": 50,
-    "category": "AI Personal Robotics Consumer",
-    "title": "PrimeBOT\u2019s 10,000th personal robot rolls off production line as large-scale manufacturing of consumer embodied AI accelerates",
-    "prompt": "Cinematic 16:9 widescreen editorial photograph depicting modern breakthroughs in AI Personal Robotics Consumer, inspired by headlines: \"PrimeBOT\u2019s 10,000th personal robot rolls off production line as large-scale manufacturing of consumer embodied AI accelerates\". Ultra-detailed, atmospheric volumetric lighting, hyper-realistic visual rendering of cutting-edge tech hardware and futuristic digital infrastructure, 8k resolution, photorealistic."
-  },
-  {
-    "id": "50.2",
-    "news_id": 50,
-    "category": "AI Personal Robotics Consumer",
-    "title": "PrimeBOT\u2019s 10,000th personal robot rolls off production line as large-scale manufacturing of consumer embodied AI accelerates",
-    "prompt": "A cinematic wide angle 16:9 editorial composition showcasing innovative applications in AI Personal Robotics Consumer. Visualizing concepts around \"PrimeBOT\u2019s 10,000th personal robot rolls off production line as large-scale manufacturing of consumer embodied AI accelerates\". Sophisticated laboratory and data interface environment, subtle blue and amber lighting, sharp focal depth, professional science photography, Hasselblad medium format aesthetic."
-  }
-]
+{
+  "count": 50,
+  "total_images": 100,
+  "generated_at": "2026-11-28T11:30:33.708486+00:00",
+  "prompts": [
+    {
+      "news_index": 1,
+      "title": "How America’s Tax Code Subsidizes Artificial Intelligence",
+      "category": "AGENTS & CODING",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of How America’s Tax Code Subsidizes Artificial Intelligence, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 1,
+      "title": "How America’s Tax Code Subsidizes Artificial Intelligence",
+      "category": "AGENTS & CODING",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing How America’s Tax Code Subsidizes Artificial Intelligence deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 2,
+      "title": "Is UBI the solution to mass unemployment in an AI economy?",
+      "category": "FRONTIER LLMS",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of Is UBI the solution to mass unemployment in an AI economy?, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 2,
+      "title": "Is UBI the solution to mass unemployment in an AI economy?",
+      "category": "FRONTIER LLMS",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing Is UBI the solution to mass unemployment in an AI economy? deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 3,
+      "title": "New Layoff Data Show Job Cuts Down 41% So Far This Year",
+      "category": "JOBS & CAREERS",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of New Layoff Data Show Job Cuts Down 41% So Far This Year, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 3,
+      "title": "New Layoff Data Show Job Cuts Down 41% So Far This Year",
+      "category": "JOBS & CAREERS",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing New Layoff Data Show Job Cuts Down 41% So Far This Year deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 4,
+      "title": "AI Compute Access Fund hits $1 billion as Ottawa backs 45 more firms",
+      "category": "BUSINESS & FINANCE",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of AI Compute Access Fund hits $1 billion as Ottawa backs 45 more firms, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 4,
+      "title": "AI Compute Access Fund hits $1 billion as Ottawa backs 45 more firms",
+      "category": "BUSINESS & FINANCE",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing AI Compute Access Fund hits $1 billion as Ottawa backs 45 more firms deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 5,
+      "title": "Malaysia considers AI wealth fund to share economic gains with citizens",
+      "category": "REAL-WORLD IMPACT",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of Malaysia considers AI wealth fund to share economic gains with citizens, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 5,
+      "title": "Malaysia considers AI wealth fund to share economic gains with citizens",
+      "category": "REAL-WORLD IMPACT",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing Malaysia considers AI wealth fund to share economic gains with citizens deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 6,
+      "title": "Is Black America Being Fed Fear About AI and Data Centers While Other Communities Negotiate Wealth?",
+      "category": "AI DATACENTERS",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of Is Black America Being Fed Fear About AI and Data Centers While Other Communities Negotiate Wealth?, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 6,
+      "title": "Is Black America Being Fed Fear About AI and Data Centers While Other Communities Negotiate Wealth?",
+      "category": "AI DATACENTERS",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing Is Black America Being Fed Fear About AI and Data Centers While Other Communities Negotiate Wealth? deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 7,
+      "title": "Bank of England warns AI lending risks amplifying global financial system",
+      "category": "FINTECH & TRADING AI",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of Bank of England warns AI lending risks amplifying global financial system, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 7,
+      "title": "Bank of England warns AI lending risks amplifying global financial system",
+      "category": "FINTECH & TRADING AI",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing Bank of England warns AI lending risks amplifying global financial system deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 8,
+      "title": "Ignore Friday's Short Session. Monday Is When the Year Gets Priced.",
+      "category": "WEARABLES & BCI",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of Ignore Friday's Short Session. Monday Is When the Year Gets Priced., hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 8,
+      "title": "Ignore Friday's Short Session. Monday Is When the Year Gets Priced.",
+      "category": "WEARABLES & BCI",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing Ignore Friday's Short Session. Monday Is When the Year Gets Priced. deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 9,
+      "title": "Trump heads to Arizona next week for a high-stakes expansion of TSMC's computer chip factories",
+      "category": "SILICON & GPUS",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of Trump heads to Arizona next week for a high-stakes expansion of TSMC's computer chip factories, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 9,
+      "title": "Trump heads to Arizona next week for a high-stakes expansion of TSMC's computer chip factories",
+      "category": "SILICON & GPUS",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing Trump heads to Arizona next week for a high-stakes expansion of TSMC's computer chip factories deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 10,
+      "title": "IndiaAI $1.2B Sovereign Compute Mission & Global Semiconductor Export Controls",
+      "category": "WORLD & GEOPOLITICS",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of IndiaAI $1.2B Sovereign Compute Mission & Global Semiconductor Export Controls, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 10,
+      "title": "IndiaAI $1.2B Sovereign Compute Mission & Global Semiconductor Export Controls",
+      "category": "WORLD & GEOPOLITICS",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing IndiaAI $1.2B Sovereign Compute Mission & Global Semiconductor Export Controls deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 11,
+      "title": "Tesla Optimus Gen 3 Humanoid Robot Autonomous Gigafactory Assembly",
+      "category": "ROBOTICS",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of Tesla Optimus Gen 3 Humanoid Robot Autonomous Gigafactory Assembly, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 11,
+      "title": "Tesla Optimus Gen 3 Humanoid Robot Autonomous Gigafactory Assembly",
+      "category": "ROBOTICS",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing Tesla Optimus Gen 3 Humanoid Robot Autonomous Gigafactory Assembly deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 12,
+      "title": "Cryogenic Dilution Refrigerator Quantum Computer Fault-Tolerant Qubit Matrix",
+      "category": "QUANTUM COMPUTING",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of Cryogenic Dilution Refrigerator Quantum Computer Fault-Tolerant Qubit Matrix, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 12,
+      "title": "Cryogenic Dilution Refrigerator Quantum Computer Fault-Tolerant Qubit Matrix",
+      "category": "QUANTUM COMPUTING",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing Cryogenic Dilution Refrigerator Quantum Computer Fault-Tolerant Qubit Matrix deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 13,
+      "title": "DeepMind AlphaFold 3 Molecular Dynamics Accelerating Cancer Drug Discovery",
+      "category": "BIOTECH & AI HEALTH",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of DeepMind AlphaFold 3 Molecular Dynamics Accelerating Cancer Drug Discovery, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 13,
+      "title": "DeepMind AlphaFold 3 Molecular Dynamics Accelerating Cancer Drug Discovery",
+      "category": "BIOTECH & AI HEALTH",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing DeepMind AlphaFold 3 Molecular Dynamics Accelerating Cancer Drug Discovery deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 14,
+      "title": "Autonomous Reconnaissance Drone Swarm with Mesh Laser Communication",
+      "category": "DEFENSE & AI",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of Autonomous Reconnaissance Drone Swarm with Mesh Laser Communication, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 14,
+      "title": "Autonomous Reconnaissance Drone Swarm with Mesh Laser Communication",
+      "category": "DEFENSE & AI",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing Autonomous Reconnaissance Drone Swarm with Mesh Laser Communication deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 15,
+      "title": "Meta Llama 4 Decentralized Open-Source Weights & Community Fine-Tuning",
+      "category": "OPEN SOURCE",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of Meta Llama 4 Decentralized Open-Source Weights & Community Fine-Tuning, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 15,
+      "title": "Meta Llama 4 Decentralized Open-Source Weights & Community Fine-Tuning",
+      "category": "OPEN SOURCE",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing Meta Llama 4 Decentralized Open-Source Weights & Community Fine-Tuning deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 16,
+      "title": "Automated Red-Teaming Frameworks Auditing Frontier Models for Alignment",
+      "category": "AI ETHICS & SAFETY",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of Automated Red-Teaming Frameworks Auditing Frontier Models for Alignment, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 16,
+      "title": "Automated Red-Teaming Frameworks Auditing Frontier Models for Alignment",
+      "category": "AI ETHICS & SAFETY",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing Automated Red-Teaming Frameworks Auditing Frontier Models for Alignment deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 17,
+      "title": "Autonomous AI Cyber-Defense Agents Patching Zero-Day Exploits in Real Time",
+      "category": "CYBERSECURITY & AI",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of Autonomous AI Cyber-Defense Agents Patching Zero-Day Exploits in Real Time, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 17,
+      "title": "Autonomous AI Cyber-Defense Agents Patching Zero-Day Exploits in Real Time",
+      "category": "CYBERSECURITY & AI",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing Autonomous AI Cyber-Defense Agents Patching Zero-Day Exploits in Real Time deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 18,
+      "title": "Waymo & Robotaxi Fleets Scaling Level-4 Autonomous Urban Mobility",
+      "category": "AUTONOMOUS VEHICLES",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of Waymo & Robotaxi Fleets Scaling Level-4 Autonomous Urban Mobility, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 18,
+      "title": "Waymo & Robotaxi Fleets Scaling Level-4 Autonomous Urban Mobility",
+      "category": "AUTONOMOUS VEHICLES",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing Waymo & Robotaxi Fleets Scaling Level-4 Autonomous Urban Mobility deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 19,
+      "title": "Orbital Edge-AI Micro-Satellite Swarms Navigating Low Earth Orbit",
+      "category": "SPACE & SATELLITE AI",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of Orbital Edge-AI Micro-Satellite Swarms Navigating Low Earth Orbit, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 19,
+      "title": "Orbital Edge-AI Micro-Satellite Swarms Navigating Low Earth Orbit",
+      "category": "SPACE & SATELLITE AI",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing Orbital Edge-AI Micro-Satellite Swarms Navigating Low Earth Orbit deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 20,
+      "title": "AI-Optimized Smart Grids Balancing Renewable Solar and Wind Storage",
+      "category": "CLIMATE & ENERGY AI",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of AI-Optimized Smart Grids Balancing Renewable Solar and Wind Storage, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 20,
+      "title": "AI-Optimized Smart Grids Balancing Renewable Solar and Wind Storage",
+      "category": "CLIMATE & ENERGY AI",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing AI-Optimized Smart Grids Balancing Renewable Solar and Wind Storage deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 21,
+      "title": "Personalized Socratic AI Tutors Transforming STEM Classrooms Globally",
+      "category": "EDUCATION & EDTECH AI",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of Personalized Socratic AI Tutors Transforming STEM Classrooms Globally, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 21,
+      "title": "Personalized Socratic AI Tutors Transforming STEM Classrooms Globally",
+      "category": "EDUCATION & EDTECH AI",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing Personalized Socratic AI Tutors Transforming STEM Classrooms Globally deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 22,
+      "title": "Photorealistic 4K Generative Cinema & AI Virtual Production Studios",
+      "category": "MEDIA & GENERATIVE VIDEO",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of Photorealistic 4K Generative Cinema & AI Virtual Production Studios, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 22,
+      "title": "Photorealistic 4K Generative Cinema & AI Virtual Production Studios",
+      "category": "MEDIA & GENERATIVE VIDEO",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing Photorealistic 4K Generative Cinema & AI Virtual Production Studios deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 23,
+      "title": "Autonomous NPCs & Physics-Accurate Neural World Simulators in Gaming",
+      "category": "GAMING & SIMULATION AI",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of Autonomous NPCs & Physics-Accurate Neural World Simulators in Gaming, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 23,
+      "title": "Autonomous NPCs & Physics-Accurate Neural World Simulators in Gaming",
+      "category": "GAMING & SIMULATION AI",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing Autonomous NPCs & Physics-Accurate Neural World Simulators in Gaming deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 24,
+      "title": "Precision Agritech Drones & Soil-Sensing AI Boosting Global Crop Yields",
+      "category": "AGRICULTURE & AGRITECH AI",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of Precision Agritech Drones & Soil-Sensing AI Boosting Global Crop Yields, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 24,
+      "title": "Precision Agritech Drones & Soil-Sensing AI Boosting Global Crop Yields",
+      "category": "AGRICULTURE & AGRITECH AI",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing Precision Agritech Drones & Soil-Sensing AI Boosting Global Crop Yields deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 25,
+      "title": "Enterprise Legal AI Automating Cross-Border Regulatory & Contract Audits",
+      "category": "LEGAL & COMPLIANCE AI",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of Enterprise Legal AI Automating Cross-Border Regulatory & Contract Audits, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 25,
+      "title": "Enterprise Legal AI Automating Cross-Border Regulatory & Contract Audits",
+      "category": "LEGAL & COMPLIANCE AI",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing Enterprise Legal AI Automating Cross-Border Regulatory & Contract Audits deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 26,
+      "title": "Automated Smart Warehouses & Hyper-Personalized Visual Shopping AI",
+      "category": "RETAIL & ECOMMERCE AI",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of Automated Smart Warehouses & Hyper-Personalized Visual Shopping AI, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 26,
+      "title": "Automated Smart Warehouses & Hyper-Personalized Visual Shopping AI",
+      "category": "RETAIL & ECOMMERCE AI",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing Automated Smart Warehouses & Hyper-Personalized Visual Shopping AI deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 27,
+      "title": "Predictive Global Freight Routing & Autonomous Port Logistics AI",
+      "category": "SUPPLY CHAIN & LOGISTICS",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of Predictive Global Freight Routing & Autonomous Port Logistics AI, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 27,
+      "title": "Predictive Global Freight Routing & Autonomous Port Logistics AI",
+      "category": "SUPPLY CHAIN & LOGISTICS",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing Predictive Global Freight Routing & Autonomous Port Logistics AI deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 28,
+      "title": "AI-Native 6G Beamforming & Self-Healing Telecom Network Infrastructure",
+      "category": "TELECOM & 6G AI",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of AI-Native 6G Beamforming & Self-Healing Telecom Network Infrastructure, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 28,
+      "title": "AI-Native 6G Beamforming & Self-Healing Telecom Network Infrastructure",
+      "category": "TELECOM & 6G AI",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing AI-Native 6G Beamforming & Self-Healing Telecom Network Infrastructure deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 29,
+      "title": "Intelligent Urban Traffic Control & Connected IoT City Infrastructure",
+      "category": "SMART CITIES & IOT",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of Intelligent Urban Traffic Control & Connected IoT City Infrastructure, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 29,
+      "title": "Intelligent Urban Traffic Control & Connected IoT City Infrastructure",
+      "category": "SMART CITIES & IOT",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing Intelligent Urban Traffic Control & Connected IoT City Infrastructure deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 30,
+      "title": "Digital Twin Factories & Predictive Maintenance Robotics on Assembly Lines",
+      "category": "MANUFACTURING & INDUSTRY 4.0",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of Digital Twin Factories & Predictive Maintenance Robotics on Assembly Lines, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 30,
+      "title": "Digital Twin Factories & Predictive Maintenance Robotics on Assembly Lines",
+      "category": "MANUFACTURING & INDUSTRY 4.0",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing Digital Twin Factories & Predictive Maintenance Robotics on Assembly Lines deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 31,
+      "title": "Photonic Light-Wave Optical Tensor Processors Replacing Copper Interconnects",
+      "category": "PHOTONICS & OPTICAL AI",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of Photonic Light-Wave Optical Tensor Processors Replacing Copper Interconnects, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 31,
+      "title": "Photonic Light-Wave Optical Tensor Processors Replacing Copper Interconnects",
+      "category": "PHOTONICS & OPTICAL AI",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing Photonic Light-Wave Optical Tensor Processors Replacing Copper Interconnects deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 32,
+      "title": "Neuromorphic Brain-on-Chip Synaptic Pulse Arrays for Ultra-Low-Power AI",
+      "category": "NEUROMORPHIC COMPUTING",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of Neuromorphic Brain-on-Chip Synaptic Pulse Arrays for Ultra-Low-Power AI, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 32,
+      "title": "Neuromorphic Brain-on-Chip Synaptic Pulse Arrays for Ultra-Low-Power AI",
+      "category": "NEUROMORPHIC COMPUTING",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing Neuromorphic Brain-on-Chip Synaptic Pulse Arrays for Ultra-Low-Power AI deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 33,
+      "title": "High-Fidelity Synthetic Data Pipelines Solving Pre-Training Bottlenecks",
+      "category": "SYNTHETIC DATA",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of High-Fidelity Synthetic Data Pipelines Solving Pre-Training Bottlenecks, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 33,
+      "title": "High-Fidelity Synthetic Data Pipelines Solving Pre-Training Bottlenecks",
+      "category": "SYNTHETIC DATA",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing High-Fidelity Synthetic Data Pipelines Solving Pre-Training Bottlenecks deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 34,
+      "title": "Real-Time Zero-Latency Multilingual Voice AI with Emotional Prosody",
+      "category": "VOICE & SPEECH AI",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of Real-Time Zero-Latency Multilingual Voice AI with Emotional Prosody, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 34,
+      "title": "Real-Time Zero-Latency Multilingual Voice AI with Emotional Prosody",
+      "category": "VOICE & SPEECH AI",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing Real-Time Zero-Latency Multilingual Voice AI with Emotional Prosody deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 35,
+      "title": "Next-Gen Smartphone NPUs Running 70B-Parameter Models Locally Offline",
+      "category": "EDGE & ON-DEVICE AI",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of Next-Gen Smartphone NPUs Running 70B-Parameter Models Locally Offline, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 35,
+      "title": "Next-Gen Smartphone NPUs Running 70B-Parameter Models Locally Offline",
+      "category": "EDGE & ON-DEVICE AI",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing Next-Gen Smartphone NPUs Running 70B-Parameter Models Locally Offline deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 36,
+      "title": "Autonomous Robotic Chemistry Labs Discovering Novel Solid-State Materials",
+      "category": "SCIENTIFIC DISCOVERY",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of Autonomous Robotic Chemistry Labs Discovering Novel Solid-State Materials, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 36,
+      "title": "Autonomous Robotic Chemistry Labs Discovering Novel Solid-State Materials",
+      "category": "SCIENTIFIC DISCOVERY",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing Autonomous Robotic Chemistry Labs Discovering Novel Solid-State Materials deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 37,
+      "title": "AI-Assisted Air Traffic Optimization & Fuel-Efficient Flight Routing",
+      "category": "TRAVEL & AVIATION AI",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of AI-Assisted Air Traffic Optimization & Fuel-Efficient Flight Routing, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 37,
+      "title": "AI-Assisted Air Traffic Optimization & Fuel-Efficient Flight Routing",
+      "category": "TRAVEL & AVIATION AI",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing AI-Assisted Air Traffic Optimization & Fuel-Efficient Flight Routing deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 38,
+      "title": "Generative Architectural Design & Automated Structural Engineering AI",
+      "category": "REAL ESTATE & PROPTECH",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of Generative Architectural Design & Automated Structural Engineering AI, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 38,
+      "title": "Generative Architectural Design & Automated Structural Engineering AI",
+      "category": "REAL ESTATE & PROPTECH",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing Generative Architectural Design & Automated Structural Engineering AI deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 39,
+      "title": "Satellite-Driven Climate Risk Modeling for Global Insurance Underwriting",
+      "category": "INSURANCE & RISK AI",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of Satellite-Driven Climate Risk Modeling for Global Insurance Underwriting, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 39,
+      "title": "Satellite-Driven Climate Risk Modeling for Global Insurance Underwriting",
+      "category": "INSURANCE & RISK AI",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing Satellite-Driven Climate Risk Modeling for Global Insurance Underwriting deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 40,
+      "title": "Skills-First AI Talent Matching & Bias-Audited Workforce Analytics",
+      "category": "HR & RECRUITMENT AI",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of Skills-First AI Talent Matching & Bias-Audited Workforce Analytics, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 40,
+      "title": "Skills-First AI Talent Matching & Bias-Audited Workforce Analytics",
+      "category": "HR & RECRUITMENT AI",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing Skills-First AI Talent Matching & Bias-Audited Workforce Analytics deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 41,
+      "title": "Real-Time Creative Personalization & Privacy-Preserving AdTech Models",
+      "category": "MARKETING & ADTECH AI",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of Real-Time Creative Personalization & Privacy-Preserving AdTech Models, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 41,
+      "title": "Real-Time Creative Personalization & Privacy-Preserving AdTech Models",
+      "category": "MARKETING & ADTECH AI",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing Real-Time Creative Personalization & Privacy-Preserving AdTech Models deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 42,
+      "title": "Biomechanical Computer Vision Coaching & Real-Time Sports Telemetry",
+      "category": "SPORTS & ANALYTICS AI",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of Biomechanical Computer Vision Coaching & Real-Time Sports Telemetry, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 42,
+      "title": "Biomechanical Computer Vision Coaching & Real-Time Sports Telemetry",
+      "category": "SPORTS & ANALYTICS AI",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing Biomechanical Computer Vision Coaching & Real-Time Sports Telemetry deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 43,
+      "title": "Thermal-Vision Rescue Drones & Early-Warning Wildfire Prediction AI",
+      "category": "DISASTER & RESCUE AI",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of Thermal-Vision Rescue Drones & Early-Warning Wildfire Prediction AI, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 43,
+      "title": "Thermal-Vision Rescue Drones & Early-Warning Wildfire Prediction AI",
+      "category": "DISASTER & RESCUE AI",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing Thermal-Vision Rescue Drones & Early-Warning Wildfire Prediction AI deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 44,
+      "title": "Autonomous Deep-Sea Mapping Submersibles & Coral Reef Monitoring AI",
+      "category": "OCEAN & MARINE AI",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of Autonomous Deep-Sea Mapping Submersibles & Coral Reef Monitoring AI, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 44,
+      "title": "Autonomous Deep-Sea Mapping Submersibles & Coral Reef Monitoring AI",
+      "category": "OCEAN & MARINE AI",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing Autonomous Deep-Sea Mapping Submersibles & Coral Reef Monitoring AI deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 45,
+      "title": "Subsurface Geological AI Discovering Critical Lithium & Rare-Earth Deposits",
+      "category": "MINING & GEOLOGY AI",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of Subsurface Geological AI Discovering Critical Lithium & Rare-Earth Deposits, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 45,
+      "title": "Subsurface Geological AI Discovering Critical Lithium & Rare-Earth Deposits",
+      "category": "MINING & GEOLOGY AI",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing Subsurface Geological AI Discovering Critical Lithium & Rare-Earth Deposits deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 46,
+      "title": "AI-Formulated Plant-Based Proteins & Automated Commercial Kitchens",
+      "category": "FOOD & CULINARY AI",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of AI-Formulated Plant-Based Proteins & Automated Commercial Kitchens, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 46,
+      "title": "AI-Formulated Plant-Based Proteins & Automated Commercial Kitchens",
+      "category": "FOOD & CULINARY AI",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing AI-Formulated Plant-Based Proteins & Automated Commercial Kitchens deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 47,
+      "title": "Industrial CAD Co-Pilots & Generative 3D Asset Pipelines for Creators",
+      "category": "ART & DESIGN AI",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of Industrial CAD Co-Pilots & Generative 3D Asset Pipelines for Creators, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 47,
+      "title": "Industrial CAD Co-Pilots & Generative 3D Asset Pipelines for Creators",
+      "category": "ART & DESIGN AI",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing Industrial CAD Co-Pilots & Generative 3D Asset Pipelines for Creators deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 48,
+      "title": "Automated Fact-Checking & Investigative Data Journalism AI Tools",
+      "category": "JOURNALISM & PUBLISHING",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of Automated Fact-Checking & Investigative Data Journalism AI Tools, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 48,
+      "title": "Automated Fact-Checking & Investigative Data Journalism AI Tools",
+      "category": "JOURNALISM & PUBLISHING",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing Automated Fact-Checking & Investigative Data Journalism AI Tools deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 49,
+      "title": "Low-Resource Indic & Global Language Preservation Models",
+      "category": "TRANSLATION & LINGUISTICS",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of Low-Resource Indic & Global Language Preservation Models, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 49,
+      "title": "Low-Resource Indic & Global Language Preservation Models",
+      "category": "TRANSLATION & LINGUISTICS",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing Low-Resource Indic & Global Language Preservation Models deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 50,
+      "title": "Next-Gen HBM4 Stacked Memory & Ultra-Fast NVMe AI Storage Fabrics",
+      "category": "MEMORY & STORAGE AI",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of Next-Gen HBM4 Stacked Memory & Ultra-Fast NVMe AI Storage Fabrics, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 50,
+      "title": "Next-Gen HBM4 Stacked Memory & Ultra-Fast NVMe AI Storage Fabrics",
+      "category": "MEMORY & STORAGE AI",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing Next-Gen HBM4 Stacked Memory & Ultra-Fast NVMe AI Storage Fabrics deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    }
+  ]
+}
