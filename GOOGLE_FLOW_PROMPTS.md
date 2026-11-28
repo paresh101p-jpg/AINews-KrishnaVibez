@@ -1,6 +1,6 @@
 # Google Flow Image Generation Prompts - AINews World AI
 
-**Generated:** 2026-11-28 10:24:45 UTC
+**Generated:** 2026-11-28 10:59:19 UTC
 **Total Prompts:** 100
 **Unique Categories:** 50
 **Aspect Ratio:** 16:9 (set in Google Flow)
@@ -23,10 +23,32 @@
 
 ## BATCHES BY CATEGORY
 
-### AGENTS & CODING (2 images)
+### JOBS & CAREERS (2 images)
 
 ---
 **News #1.1**
+**Title:** New Layoff Data Show Job Cuts Down 41% So Far This Year
+**Category:** JOBS & CAREERS
+
+**Prompt:**
+```
+Cinematic editorial photograph of New Layoff Data Show Job Cuts Down 41% So Far This Year, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography
+```
+
+---
+**News #1.2**
+**Title:** New Layoff Data Show Job Cuts Down 41% So Far This Year
+**Category:** JOBS & CAREERS
+
+**Prompt:**
+```
+Futuristic documentary wide shot showing New Layoff Data Show Job Cuts Down 41% So Far This Year deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark
+```
+
+### AGENTS & CODING (2 images)
+
+---
+**News #2.1**
 **Title:** How America’s Tax Code Subsidizes Artificial Intelligence
 **Category:** AGENTS & CODING
 
@@ -36,7 +58,7 @@ Cinematic editorial photograph of How America’s Tax Code Subsidizes Artificial
 ```
 
 ---
-**News #1.2**
+**News #2.2**
 **Title:** How America’s Tax Code Subsidizes Artificial Intelligence
 **Category:** AGENTS & CODING
 
@@ -48,7 +70,7 @@ Futuristic documentary wide shot showing How America’s Tax Code Subsidizes Art
 ### FRONTIER LLMS (2 images)
 
 ---
-**News #2.1**
+**News #3.1**
 **Title:** Is UBI the solution to mass unemployment in an AI economy?
 **Category:** FRONTIER LLMS
 
@@ -58,7 +80,7 @@ Cinematic editorial photograph of Is UBI the solution to mass unemployment in an
 ```
 
 ---
-**News #2.2**
+**News #3.2**
 **Title:** Is UBI the solution to mass unemployment in an AI economy?
 **Category:** FRONTIER LLMS
 
@@ -70,7 +92,7 @@ Futuristic documentary wide shot showing Is UBI the solution to mass unemploymen
 ### BUSINESS & FINANCE (2 images)
 
 ---
-**News #3.1**
+**News #4.1**
 **Title:** AI Compute Access Fund hits $1 billion as Ottawa backs 45 more firms
 **Category:** BUSINESS & FINANCE
 
@@ -80,35 +102,13 @@ Cinematic editorial photograph of AI Compute Access Fund hits $1 billion as Otta
 ```
 
 ---
-**News #3.2**
+**News #4.2**
 **Title:** AI Compute Access Fund hits $1 billion as Ottawa backs 45 more firms
 **Category:** BUSINESS & FINANCE
 
 **Prompt:**
 ```
 Futuristic documentary wide shot showing AI Compute Access Fund hits $1 billion as Ottawa backs 45 more firms deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark
-```
-
-### JOBS & CAREERS (2 images)
-
----
-**News #4.1**
-**Title:** New Layoff Data Show Job Cuts Down 41% So Far This Year
-**Category:** JOBS & CAREERS
-
-**Prompt:**
-```
-Cinematic editorial photograph of New Layoff Data Show Job Cuts Down 41% So Far This Year, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography
-```
-
----
-**News #4.2**
-**Title:** New Layoff Data Show Job Cuts Down 41% So Far This Year
-**Category:** JOBS & CAREERS
-
-**Prompt:**
-```
-Futuristic documentary wide shot showing New Layoff Data Show Job Cuts Down 41% So Far This Year deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark
 ```
 
 ### REAL-WORLD IMPACT (2 images)

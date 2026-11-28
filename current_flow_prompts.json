@@ -1,63 +1,63 @@
 {
   "count": 50,
   "total_images": 100,
-  "generated_at": "2026-11-28T10:24:45.749659+00:00",
+  "generated_at": "2026-11-28T10:59:19.453459+00:00",
   "prompts": [
     {
       "news_index": 1,
-      "title": "How America’s Tax Code Subsidizes Artificial Intelligence",
-      "category": "AGENTS & CODING",
-      "image_num": 1,
-      "prompt": "Cinematic editorial photograph of How America’s Tax Code Subsidizes Artificial Intelligence, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
-    },
-    {
-      "news_index": 1,
-      "title": "How America’s Tax Code Subsidizes Artificial Intelligence",
-      "category": "AGENTS & CODING",
-      "image_num": 2,
-      "prompt": "Futuristic documentary wide shot showing How America’s Tax Code Subsidizes Artificial Intelligence deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
-    },
-    {
-      "news_index": 2,
-      "title": "Is UBI the solution to mass unemployment in an AI economy?",
-      "category": "FRONTIER LLMS",
-      "image_num": 1,
-      "prompt": "Cinematic editorial photograph of Is UBI the solution to mass unemployment in an AI economy?, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
-    },
-    {
-      "news_index": 2,
-      "title": "Is UBI the solution to mass unemployment in an AI economy?",
-      "category": "FRONTIER LLMS",
-      "image_num": 2,
-      "prompt": "Futuristic documentary wide shot showing Is UBI the solution to mass unemployment in an AI economy? deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
-    },
-    {
-      "news_index": 3,
-      "title": "AI Compute Access Fund hits $1 billion as Ottawa backs 45 more firms",
-      "category": "BUSINESS & FINANCE",
-      "image_num": 1,
-      "prompt": "Cinematic editorial photograph of AI Compute Access Fund hits $1 billion as Ottawa backs 45 more firms, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
-    },
-    {
-      "news_index": 3,
-      "title": "AI Compute Access Fund hits $1 billion as Ottawa backs 45 more firms",
-      "category": "BUSINESS & FINANCE",
-      "image_num": 2,
-      "prompt": "Futuristic documentary wide shot showing AI Compute Access Fund hits $1 billion as Ottawa backs 45 more firms deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
-    },
-    {
-      "news_index": 4,
       "title": "New Layoff Data Show Job Cuts Down 41% So Far This Year",
       "category": "JOBS & CAREERS",
       "image_num": 1,
       "prompt": "Cinematic editorial photograph of New Layoff Data Show Job Cuts Down 41% So Far This Year, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
     },
     {
-      "news_index": 4,
+      "news_index": 1,
       "title": "New Layoff Data Show Job Cuts Down 41% So Far This Year",
       "category": "JOBS & CAREERS",
       "image_num": 2,
       "prompt": "Futuristic documentary wide shot showing New Layoff Data Show Job Cuts Down 41% So Far This Year deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 2,
+      "title": "How America’s Tax Code Subsidizes Artificial Intelligence",
+      "category": "AGENTS & CODING",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of How America’s Tax Code Subsidizes Artificial Intelligence, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 2,
+      "title": "How America’s Tax Code Subsidizes Artificial Intelligence",
+      "category": "AGENTS & CODING",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing How America’s Tax Code Subsidizes Artificial Intelligence deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 3,
+      "title": "Is UBI the solution to mass unemployment in an AI economy?",
+      "category": "FRONTIER LLMS",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of Is UBI the solution to mass unemployment in an AI economy?, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 3,
+      "title": "Is UBI the solution to mass unemployment in an AI economy?",
+      "category": "FRONTIER LLMS",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing Is UBI the solution to mass unemployment in an AI economy? deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    },
+    {
+      "news_index": 4,
+      "title": "AI Compute Access Fund hits $1 billion as Ottawa backs 45 more firms",
+      "category": "BUSINESS & FINANCE",
+      "image_num": 1,
+      "prompt": "Cinematic editorial photograph of AI Compute Access Fund hits $1 billion as Ottawa backs 45 more firms, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+    },
+    {
+      "news_index": 4,
+      "title": "AI Compute Access Fund hits $1 billion as Ottawa backs 45 more firms",
+      "category": "BUSINESS & FINANCE",
+      "image_num": 2,
+      "prompt": "Futuristic documentary wide shot showing AI Compute Access Fund hits $1 billion as Ottawa backs 45 more firms deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
     },
     {
       "news_index": 5,
