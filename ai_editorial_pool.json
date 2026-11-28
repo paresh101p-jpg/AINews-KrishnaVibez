@@ -12009,8 +12009,10 @@
       "security",
       "problem"
     ],
-    "used_in_articles": [],
-    "last_used_date": null,
+    "used_in_articles": [
+      "the-age-of-synthetic-deception-inside-the-escalating-war-for-digital-truth"
+    ],
+    "last_used_date": "2026-11-28T12:30:42.100358",
     "aspect_ratio": "16:9",
     "format": "jpeg",
     "source": "Google Flow ASB Widescreen",
