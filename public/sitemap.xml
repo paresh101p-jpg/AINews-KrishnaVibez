@@ -880,4 +880,22 @@
       <image:title>AI Stabilizes Nuclear Fusion Plasma, Paving Way for Limitless Clean Energy</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://ainews.krishnavibez.in/articles/the-age-of-synthetic-deception-inside-the-multi-billion-dollar-deepfake-heist-epidemic</loc>
+    <lastmod>2026-11-28T11:00:49+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication>
+        <news:name>AINews</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-28T11:00:49+05:30</news:publication_date>
+      <news:title>The Age of Synthetic Deception: Inside the Multi-Billion Dollar Deepfake Heist</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://ainews.krishnavibez.in/images/cybersecurity_neural_shield_defense.jpg</image:loc>
+      <image:title>The Age of Synthetic Deception: Inside the Multi-Billion Dollar Deepfake Heist</image:title>
+    </image:image>
+  </url>
 </urlset>
