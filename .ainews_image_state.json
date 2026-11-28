@@ -1,12 +1,13 @@
 {
-  "last_run_timestamp": 1795861485.7584562,
-  "last_run_date": "2026-11-28T10:24:45.758463+00:00",
+  "last_run_timestamp": 1795863144.0579753,
+  "last_run_date": "2026-11-28T10:52:24.057992+00:00",
   "total_news": 50,
   "total_images_to_generate": 100,
   "unique_categories": 50,
-  "status": "completed_24_batch",
-  "images_generated": 26,
-  "timestamp": "2026-11-28T15:54:45.758511",
+  "status": "completed_100_images_pool_ready",
+  "images_generated": 100,
+  "timestamp": "2026-11-28T16:22:24.059773",
   "last_batch_time": "2026-11-28T10:44:14.123918+00:00",
-  "active_flow_project": "https://flow.google.com/project/323db3d8-08d3-494f-8f9a-a03630e58620"
+  "active_flow_project": "https://flow.google.com/project/323db3d8-08d3-494f-8f9a-a03630e58620",
+  "flow_project_title": "Breaking AI News Visual Concepts"
 }
