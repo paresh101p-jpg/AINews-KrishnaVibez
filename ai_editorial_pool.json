@@ -11439,7 +11439,11 @@
     ],
     "description": "Enterprise AI supercomputing facility with direct-to-chip liquid cooling manifolds carrying vibrant blue coolant.",
     "usage_count": 0,
-    "added_at": "2026-11-22 11:21:45"
+    "added_at": "2026-11-22 11:21:45",
+    "used_in_articles": [
+      "ai-fusion-plasma-stability-breakthrough-net-energy-gain"
+    ],
+    "last_used_date": "2026-11-28T04:31:03.122635"
   },
   {
     "url": "https://files.catbox.moe/3wzg7v.jpg",
