@@ -3990,8 +3990,10 @@
       "networking",
       "cooling"
     ],
-    "used_in_articles": [],
-    "last_used_date": null
+    "used_in_articles": [
+      "softbank-vision-fund-3-infrastructure-bet-enterprise-compute-scaling"
+    ],
+    "last_used_date": "2026-11-28T02:30:42.156835"
   },
   {
     "id": "Liquid_cooling_pipes_in_server_7c39d850",
