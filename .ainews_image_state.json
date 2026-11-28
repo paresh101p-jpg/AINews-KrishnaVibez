@@ -1,14 +1,12 @@
 {
-  "last_run_timestamp": 1795868578.031975,
-  "last_run_date": "2026-11-28T17:52:58.031987",
+  "last_run_timestamp": 1795871915.6836433,
+  "last_run_date": "2026-11-28T18:48:35.683650",
   "total_news": 50,
   "total_images_to_generate": 100,
   "unique_categories": 50,
-  "status": "completed",
+  "status": "synced_22_of_100",
   "images_generated": 100,
-  "timestamp": "2026-11-28T17:52:58.031999",
-  "images_registered": 100,
-  "editorial_pool_total": 566,
-  "fresh_unused_images": 507,
-  "stock_duration_days": 21.1
+  "timestamp": "2026-11-28T18:19:09.987054",
+  "images_uploaded": 22,
+  "images_generated_local": 22
 }
