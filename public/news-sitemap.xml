@@ -898,4 +898,22 @@
       <image:title>The Age of Synthetic Deception: Inside the Multi-Billion Dollar Deepfake Heist</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://ainews.krishnavibez.in/articles/humanoid-robotics-industrial-scale-shift-2026</loc>
+    <lastmod>2026-11-28T12:00:54+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication>
+        <news:name>AINews</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-28T12:00:54+05:30</news:publication_date>
+      <news:title>Humanoid Workforce Hits the Factory Floor: Tesla and Unitree Scale Up in 2026</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://ainews.krishnavibez.in/images/humanoid_robot_gigafactory_assembly.jpg</image:loc>
+      <image:title>Humanoid Workforce Hits the Factory Floor: Tesla and Unitree Scale Up in 2026</image:title>
+    </image:image>
+  </url>
 </urlset>

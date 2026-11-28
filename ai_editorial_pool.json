@@ -2225,8 +2225,10 @@
       "assembly",
       "manipulation"
     ],
-    "used_in_articles": [],
-    "last_used_date": null
+    "used_in_articles": [
+      "humanoid-robotics-industrial-scale-shift-2026"
+    ],
+    "last_used_date": "2026-11-28T06:30:46.865355"
   },
   {
     "id": "Robots_assembling_components_in_\u2026_785d4e7d",
