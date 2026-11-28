@@ -1,10 +1,10 @@
 {
-  "total_images_in_stock": 566,
-  "total_unique_categories": 53,
-  "last_pipeline_run": "2026-11-28T16:40:00+05:30",
-  "status": "completed_100_images_pool_synced",
-  "batches_processed": 4,
-  "news_processed": 50,
-  "images_per_news": 2,
-  "total_images_generated": 100
+  "last_run_timestamp": 1795864644.4139676,
+  "last_run_date": "2026-11-28T11:17:24.413973+00:00",
+  "total_news": 50,
+  "total_images_to_generate": 100,
+  "unique_categories": 50,
+  "status": "ready_for_flow",
+  "images_generated": 100,
+  "timestamp": "2026-11-28T16:47:24.414005"
 }

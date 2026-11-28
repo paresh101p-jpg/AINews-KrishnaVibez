@@ -1,15 +1,6 @@
 [
   {
     "index": 1,
-    "title": "New Layoff Data Show Job Cuts Down 41% So Far This Year",
-    "category": "JOBS & CAREERS",
-    "image_prompts": [
-      "Cinematic editorial photograph of New Layoff Data Show Job Cuts Down 41% So Far This Year, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography",
-      "Futuristic documentary wide shot showing New Layoff Data Show Job Cuts Down 41% So Far This Year deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
-    ]
-  },
-  {
-    "index": 2,
     "title": "How America’s Tax Code Subsidizes Artificial Intelligence",
     "category": "AGENTS & CODING",
     "image_prompts": [
@@ -18,7 +9,7 @@
     ]
   },
   {
-    "index": 3,
+    "index": 2,
     "title": "Is UBI the solution to mass unemployment in an AI economy?",
     "category": "FRONTIER LLMS",
     "image_prompts": [
@@ -27,12 +18,21 @@
     ]
   },
   {
-    "index": 4,
+    "index": 3,
     "title": "AI Compute Access Fund hits $1 billion as Ottawa backs 45 more firms",
     "category": "BUSINESS & FINANCE",
     "image_prompts": [
       "Cinematic editorial photograph of AI Compute Access Fund hits $1 billion as Ottawa backs 45 more firms, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography",
       "Futuristic documentary wide shot showing AI Compute Access Fund hits $1 billion as Ottawa backs 45 more firms deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+    ]
+  },
+  {
+    "index": 4,
+    "title": "New Layoff Data Show Job Cuts Down 41% So Far This Year",
+    "category": "JOBS & CAREERS",
+    "image_prompts": [
+      "Cinematic editorial photograph of New Layoff Data Show Job Cuts Down 41% So Far This Year, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography",
+      "Futuristic documentary wide shot showing New Layoff Data Show Job Cuts Down 41% So Far This Year deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
     ]
   },
   {
