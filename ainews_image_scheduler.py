@@ -238,9 +238,137 @@ def build_world_image_prompts(news_count=24):
     return prompts
 
 
+def save_batch_and_update_pool(news_count=50):
+    from collections import defaultdict
+    stories = fetch_world_top_ai_news(news_count)
+    prompts = []
+    news_items = []
+
+    for idx, (cat, story) in enumerate(stories, 1):
+        p1 = f"Cinematic editorial photograph of {story}, hyper-realistic, photorealistic lighting, 8k resolution, 16:9 widescreen, no text, no watermark, professional high-end tech photography"
+        p2 = f"Futuristic documentary wide shot showing {story} deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen, clean aesthetic, no text, no watermark"
+
+        prompts.append({
+            "news_index": idx,
+            "title": story,
+            "category": cat,
+            "image_num": 1,
+            "prompt": p1,
+        })
+        prompts.append({
+            "news_index": idx,
+            "title": story,
+            "category": cat,
+            "image_num": 2,
+            "prompt": p2,
+        })
+        news_items.append({
+            "index": idx,
+            "title": story,
+            "category": cat,
+            "image_prompts": [p1, p2]
+        })
+
+    # 1. Save world_ai_news_50.json
+    with open(os.path.join(REPO_DIR, "world_ai_news_50.json"), "w", encoding="utf-8") as f:
+        json.dump(news_items, f, indent=2, ensure_ascii=False)
+
+    # 2. Save flow_prompts_to_generate.json
+    with open(os.path.join(REPO_DIR, "flow_prompts_to_generate.json"), "w", encoding="utf-8") as f:
+        json.dump(prompts, f, indent=2, ensure_ascii=False)
+
+    # 3. Save current_flow_prompts.json
+    with open(os.path.join(REPO_DIR, "current_flow_prompts.json"), "w", encoding="utf-8") as f:
+        json.dump({
+            "count": news_count,
+            "total_images": len(prompts),
+            "generated_at": datetime.now(timezone.utc).isoformat(),
+            "prompts": prompts
+        }, f, indent=2, ensure_ascii=False)
+
+    # 4. Save GOOGLE_FLOW_PROMPTS.md
+    by_cat = defaultdict(list)
+    for p in prompts:
+        by_cat[p["category"]].append(p)
+
+    md_content = f"# Google Flow Image Generation Prompts - AINews World AI\n\n"
+    md_content += f"**Generated:** {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC')}\n"
+    md_content += f"**Total Prompts:** {len(prompts)}\n"
+    md_content += f"**Unique Categories:** {len(by_cat)}\n"
+    md_content += f"**Aspect Ratio:** 16:9 (set in Google Flow)\n"
+    md_content += f"**Output Location:** `public/images/world_ai_news/`\n\n"
+    md_content += "---\n\n## INSTRUCTIONS\n1. Open https://flow.google.com\n2. Create New Project\n3. For each prompt below:\n   - Copy the prompt text\n   - Paste in Google Flow\n   - Set aspect ratio to 16:9\n   - Click Generate\n   - Click Download when ready\n   - Save as: `world_ai_news_X_imgY.jpg`\n\n---\n\n## BATCHES BY CATEGORY\n\n"
+
+    for cat, cat_prompts in by_cat.items():
+        md_content += f"### {cat} ({len(cat_prompts)} images)\n\n"
+        for p in cat_prompts:
+            md_content += f"---\n**News #{p['news_index']}.{p['image_num']}**\n"
+            md_content += f"**Title:** {p['title']}\n"
+            md_content += f"**Category:** {cat}\n\n"
+            md_content += f"**Prompt:**\n```\n{p['prompt']}\n```\n\n"
+
+    with open(os.path.join(REPO_DIR, "GOOGLE_FLOW_PROMPTS.md"), "w", encoding="utf-8") as f:
+        f.write(md_content)
+
+    # 5. Update .ainews_image_state.json
+    state = {
+        "last_run_timestamp": time.time(),
+        "last_run_date": datetime.now(timezone.utc).isoformat(),
+        "total_news": news_count,
+        "total_images_to_generate": len(prompts),
+        "unique_categories": len(by_cat),
+        "status": "ready_for_flow",
+        "images_generated": len(prompts),
+        "timestamp": datetime.now().isoformat()
+    }
+    with open(STATE_FILE, "w", encoding="utf-8") as f:
+        json.dump(state, f, indent=2)
+
+    # 6. Update ai_editorial_pool.json
+    if os.path.exists(POOL_FILE):
+        with open(POOL_FILE, "r", encoding="utf-8") as f:
+            pool = json.load(f)
+
+        new_pool = [x for x in pool if not ("world_ai_news_" in x.get("id", ""))]
+
+        uploaded_map = {}
+        for x in pool:
+            if "world_ai_news_" in x.get("id", "") and x.get("cdn_uploaded") and x.get("url") and "catbox.moe" in x.get("url"):
+                uploaded_map[x["id"]] = x["url"]
+
+        for p in prompts:
+            entry_id = f"world_ai_news_{p['news_index']}_img{p['image_num']}"
+            existing_url = uploaded_map.get(entry_id)
+            clean_subtopic = "_".join(p['title'].lower().replace("'", "").replace('"', '').split()[:6])
+
+            entry = {
+                "id": entry_id,
+                "url": existing_url if existing_url else f"https://files.catbox.moe/{entry_id}.jpg",
+                "category": p["category"],
+                "subtopic": clean_subtopic,
+                "keywords": ["ai"] + [w.lower() for w in p["category"].split() if w not in ["&", "AI"]],
+                "news_index": p["news_index"],
+                "news_title": p["title"],
+                "image_number": p["image_num"],
+                "prompt": p["prompt"],
+                "status": "active" if existing_url else "pending_generation",
+                "last_used_date": datetime.now(timezone.utc).isoformat(),
+                "flow_job_id": f"job_{int(time.time())}_{entry_id}",
+                "generated_at": datetime.now(timezone.utc).isoformat(),
+                "cdn_uploaded": bool(existing_url),
+                "uploaded_at": datetime.now(timezone.utc).isoformat() if existing_url else None
+            }
+            new_pool.append(entry)
+
+        with open(POOL_FILE, "w", encoding="utf-8") as f:
+            json.dump(new_pool, f, indent=2, ensure_ascii=False)
+
+    return prompts, by_cat
+
+
 if __name__ == "__main__":
     count = int(sys.argv[1]) if len(sys.argv) > 1 else 24
     print(f"Fetching world top {count} AI stories (strictly unique categories)...")
-    prs = build_world_image_prompts(count)
-    unique_cats = {p["category"] for p in prs}
-    print(f"✓ Generated {len(prs)} image prompts (2 per news story) across {len(unique_cats)} unique categories.")
+    prs, cats = save_batch_and_update_pool(count)
+    print(f"✓ Generated {len(prs)} image prompts across {len(cats)} unique categories.")
+    print(f"✓ Saved to world_ai_news_50.json, flow_prompts_to_generate.json, GOOGLE_FLOW_PROMPTS.md, and ai_editorial_pool.json.")
