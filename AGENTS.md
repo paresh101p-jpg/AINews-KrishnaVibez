@@ -89,6 +89,19 @@ For complex tasks, invoke 3+ specialist agents in parallel:
 
 ---
 
+## ⚡ MANDATORY AINEWS AUTONOMOUS & LIVE PROGRESS PROTOCOL
+- Whenever the user inputs `/AInews`, `/ainews`, or requests AI news images:
+  1. **Live Step-by-Step Progress Updates**: Pipeline ke dauran har live stage ka status update user chat me continuously show karna hai:
+     - 📡 Step 1: 50 breaking stories fetching status across 50 categories.
+     - 🎨 Step 2: 100 prompts formulation & batch breakdown status.
+     - 🖼️ Step 3: Google Flow batches execution updates (Batch 1 to 5 status).
+     - 💾 Step 4: Editorial pool sync (`ai_editorial_pool.json`) & GitHub commit/push.
+     - 📊 Step 5: Final honest Live Stock Audit & Inventory report.
+  2. **100% Transparency & Ground Reality**: Never lie or fabricate numbers. DOM inspection se verified counts hi report karna.
+  3. **Auto Sync & Cleanup**: Clean temp cache and push cleanly to GitHub repository.
+
+---
+
 ## 🚫 STRICT EVERGREEN SEO URL DIRECTIVE
 - NEVER put year numbers (`2024`, `2025`, `2026`, `2027`, etc.) in ANY article URL, slug, or permalink on `krishnavibez.in` or `ainews.krishnavibez.in`.
 - Always generate clean, evergreen URLs:
