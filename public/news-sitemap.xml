@@ -844,4 +844,22 @@
       <image:title>SoftBank’s New $100B Infrastructure Fund Targets Next-Gen Sovereign AI Clouds</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://ainews.krishnavibez.in/articles/global-ai-sovereignty-race-2027-the-great-semiconductor-decoupling</loc>
+    <lastmod>2026-11-28T09:00:51+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication>
+        <news:name>AINews</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-28T09:00:51+05:30</news:publication_date>
+      <news:title>Global AI Sovereignty: The 2027 Geopolitical Shift in Semiconductor Control</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://ainews.krishnavibez.in/images/cybersecurity_neural_shield_defense.jpg</image:loc>
+      <image:title>Global AI Sovereignty: The 2027 Geopolitical Shift in Semiconductor Control</image:title>
+    </image:image>
+  </url>
 </urlset>

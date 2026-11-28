@@ -12102,11 +12102,14 @@
     "image_number": 2,
     "prompt": "Futuristic documentary wide shot showing SK intellix wins award for applying AI standards to wellness robot deployed in high-tech research facility, atmospheric volumetric reflections, 16:9 widescreen...",
     "status": "active",
-    "last_used_date": "2026-11-27T14:59:38.367866",
+    "last_used_date": "2026-11-28T03:30:42.602473",
     "flow_job_id": "job_1795771778_world_ai",
     "generated_at": "2026-11-27T14:59:38.352808",
     "cdn_uploaded": true,
-    "uploaded_at": "2026-11-27T16:22:45.974443"
+    "uploaded_at": "2026-11-27T16:22:45.974443",
+    "used_in_articles": [
+      "global-ai-sovereignty-race-2027-the-great-semiconductor-decoupling"
+    ]
   },
   {
     "id": "world_ai_news_5_img1",
