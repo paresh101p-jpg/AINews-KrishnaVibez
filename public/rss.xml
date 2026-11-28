@@ -8,6 +8,18 @@
     <lastBuildDate>Sat, 21 Nov 2026 12:00:00 +0530</lastBuildDate>
     <atom:link href="https://ainews.krishnavibez.in/rss.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Nvidia’s GB200 NVL72 and the 1GW Nuclear Pivot: Powering the 2nm Era</title>
+      <link>https://ainews.krishnavibez.in/articles/tsmc-n2-node-nvl72-superclusters-nuclear-power-grid-2027-outlook</link>
+      <guid isPermaLink="true">https://ainews.krishnavibez.in/articles/tsmc-n2-node-nvl72-superclusters-nuclear-power-grid-2027-outlook</guid>
+      <pubDate>Sat, 28 Nov 2026 06:00:47 +0530</pubDate>
+      <dc:creator>Paresh Padsala (AINews)</dc:creator>
+      <category>SILICON &amp; GPUS</category>
+      <description><![CDATA[As TSMC ramps 2nm N2 production, Big Tech turns to SMR nuclear plants to fuel the 120kW-per-rack demands of Nvidia’s GB200 liquid-cooled superclusters.]]></description>
+      <enclosure url="https://ainews.krishnavibez.in/images/blackwell_gpu_interposer_chip_macro.jpg" type="image/jpeg" length="153600" />
+      <media:content url="https://ainews.krishnavibez.in/images/blackwell_gpu_interposer_chip_macro.jpg" medium="image" width="1200" height="675" />
+    </item>
+
+    <item>
       <title>Unitree G1 Hits Mass Production as Industrial Humanoid Autonomy Takes Root</title>
       <link>https://ainews.krishnavibez.in/articles/unitree-g1-scale-humanoid-deployment-industrial-autonomy-breakthrough</link>
       <guid isPermaLink="true">https://ainews.krishnavibez.in/articles/unitree-g1-scale-humanoid-deployment-industrial-autonomy-breakthrough</guid>
