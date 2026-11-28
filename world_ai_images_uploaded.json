@@ -1,204 +1,902 @@
-{
-  "timestamp": "2026-11-28T17:04:26.040526",
-  "total_uploaded": 22,
-  "entries": [
-    {
-      "news_index": 1,
-      "image_number": 1,
-      "category": "AGENTS & CODING",
-      "title": "How America’s Tax Code Subsidizes Artificial Intelligence",
-      "catbox_url": "https://flow.google.com/asb/ANqvLOYRUY9hKwd7erf6OuvccM0DIA6YBb5PST-TC2UUp0A8rwjBFmcJpDH85ZjNOudjuRetp-Kz1_zS-huxG948mnqn_qihPtdK3I6_vpYM_JVKWnqeJLZQjGTo4cOeW4dawr5sAtLwM-VLkZF0L1s6TGQsg7_CwdlbYJmQwd46Xw=s1600-rw",
-      "status": "uploaded",
-      "uploaded_at": "2026-11-28T17:02:52.668025"
-    },
-    {
-      "news_index": 1,
-      "image_number": 2,
-      "category": "AGENTS & CODING",
-      "title": "How America’s Tax Code Subsidizes Artificial Intelligence",
-      "catbox_url": "https://flow.google.com/asb/ANqvLOb0broowCMEgU53JQ1ZHLwt4ZriLp1E7B6fgqqylR0PPh9UaAohXAXVffe17MxeTOxEX7zFurbfBL_iI8fTpbOBLRvjvj7Xf021oJHKaUrFtU1VrdtDTkZazbhyNP_piacX-vf18NmxnRbABRlXHCjwKEbXNjacl6id972XQA=s1600-rw",
-      "status": "uploaded",
-      "uploaded_at": "2026-11-28T17:02:57.047970"
-    },
-    {
-      "news_index": 2,
-      "image_number": 1,
-      "category": "FRONTIER LLMS",
-      "title": "Is UBI the solution to mass unemployment in an AI economy?",
-      "catbox_url": "https://flow.google.com/asb/ANqvLOZkw3qZR8id6k9b3ggSspKOW4VcbPgUZWvLieLZbYGbbSdFRZfviN2srDt5Kowi5Ki9S-n9VbCyxcxL84LdAzGGn5de2kbkjAciVfktgLaFKN8fLiY6cKNF0e7rOxM7fVhtnw3RUgpRjJeaECRXGVMrD73b1SSkIAaf5h8I=s1600-rw",
-      "status": "uploaded",
-      "uploaded_at": "2026-11-28T17:03:01.455318"
-    },
-    {
-      "news_index": 2,
-      "image_number": 2,
-      "category": "FRONTIER LLMS",
-      "title": "Is UBI the solution to mass unemployment in an AI economy?",
-      "catbox_url": "https://flow.google.com/asb/ANqvLOZhDG37B3f_OmC13dG7QyHhY2T9lTUmyMbgzn8IBnhgTil6dOgOcjR3R8yr2FcmHNJxUjFkPNBcpUIVt2md4F2XeJBXf_1jBynd14byIhNPJwRslgxS7qRywwS8hlvJA3XtO-wybIaK9acI1ZMhhe7Rf2CkTX11xigFY5dvTw=s1600-rw",
-      "status": "uploaded",
-      "uploaded_at": "2026-11-28T17:03:05.846744"
-    },
-    {
-      "news_index": 3,
-      "image_number": 1,
-      "category": "JOBS & CAREERS",
-      "title": "New Layoff Data Show Job Cuts Down 41% So Far This Year",
-      "catbox_url": "https://flow.google.com/asb/ANqvLOaGVl4k2HsBJCa_UAQrQqLSQJfGxGdrvoedB9aC9p8LidXgDk2ISSUS6gh2uMYbnMin25eIXvqce2_zA63LpGs9e-LT989WXJVrQG1EPxXWzVvPmpyNWtoiQtDWac_FZTv1JEiaz2s2m3G8YGdmRRMn8PAjHYSbCi6jLgFhkg=s1600-rw",
-      "status": "uploaded",
-      "uploaded_at": "2026-11-28T17:03:10.135674"
-    },
-    {
-      "news_index": 3,
-      "image_number": 2,
-      "category": "JOBS & CAREERS",
-      "title": "New Layoff Data Show Job Cuts Down 41% So Far This Year",
-      "catbox_url": "https://flow.google.com/asb/ANqvLOZiPo6MSuJJiGJ4DjGhNhuwJVw2I_SUUJ7Y7LEWJuNhOCwHLjKssnY3eWwMS2kVXqhJBDb3PDQOWyNQgYGn-qPt-hI6sSPzBP8QUHj7kU1Ubt94z2p3g15A_CGR1urNCASCM6IXlSyehgY5A1plJREs00qNtDGB_NI_uAO2=s1600-rw",
-      "status": "uploaded",
-      "uploaded_at": "2026-11-28T17:03:14.551327"
-    },
-    {
-      "news_index": 4,
-      "image_number": 1,
-      "category": "BUSINESS & FINANCE",
-      "title": "AI Compute Access Fund hits $1 billion as Ottawa backs 45 more firms",
-      "catbox_url": "https://flow.google.com/asb/ANqvLOZYHbyeOlmZxcya3L4RcFdrf7YwVCze8eh0R-v-SkbcLo9b66sOKspa2BWza0H9qe5o7zms1uQ_Z0F0VPkE_j7WaSTiyedQMEtfbI5Km5bSBn3E85oHqRfUIon-jQxM8ZhtfdjQ7BPAkMvXMqkMA6u4yDg8Ujb1GvdzmDg_dA=s1600-rw",
-      "status": "uploaded",
-      "uploaded_at": "2026-11-28T17:03:18.972586"
-    },
-    {
-      "news_index": 4,
-      "image_number": 2,
-      "category": "BUSINESS & FINANCE",
-      "title": "AI Compute Access Fund hits $1 billion as Ottawa backs 45 more firms",
-      "catbox_url": "https://flow.google.com/asb/ANqvLOarfZGnwUqdBsdjQ6M1dSSd6YkKD7Q2czqJcE6Un0HL5x6JRtsL7cfl9rX6q4PRqToJl1ZroaqriAKOPc47y81iZ8WqheaCugYvtfBimlX8bSBDWdBdzoo0U3N6rD8OTypLaAyznvnm4BSv7R2RZecBEqux1Ys_6cA0WUqK_Q=s1600-rw",
-      "status": "uploaded",
-      "uploaded_at": "2026-11-28T17:03:23.622769"
-    },
-    {
-      "news_index": 5,
-      "image_number": 1,
-      "category": "REAL-WORLD IMPACT",
-      "title": "Malaysia considers AI wealth fund to share economic gains with citizens",
-      "catbox_url": "https://flow.google.com/asb/ANqvLObjirI-7H3Tc-AY_LFOgQqazhGD_JZ4RbRhjZwz_PoiiySnox3ce3c9X-8j5lEHfaaS5Vlbi42BptWMytCL3NUfI3smuKHIDLba56CfMWv4gIn3MVmjCxi0Kj2LJKcIuvcTP5ViLHYLVbO-2OmIH7zApJ-4eOfhSIXXl9fRlw=s1600-rw",
-      "status": "uploaded",
-      "uploaded_at": "2026-11-28T17:03:28.141385"
-    },
-    {
-      "news_index": 5,
-      "image_number": 2,
-      "category": "REAL-WORLD IMPACT",
-      "title": "Malaysia considers AI wealth fund to share economic gains with citizens",
-      "catbox_url": "https://flow.google.com/asb/ANqvLOb-JXDN3xLJP2-b1cloJ0Qf7zSbwdFyGtZ2ieqG9MvmAGSYFOuLjmcCBBsCKRMFcLVwxyJ2yuAdLHnJ6D2m0iAw8gAavLkWlNwDbNBGNJv9XYdqjmHdHsTG3lUD8oU-4MBIlwSo8k5Fmr0NnhFWr1TYC96aQ_UP7yYHTWyC=s1600-rw",
-      "status": "uploaded",
-      "uploaded_at": "2026-11-28T17:03:32.492319"
-    },
-    {
-      "news_index": 6,
-      "image_number": 1,
-      "category": "AI DATACENTERS",
-      "title": "Is Black America Being Fed Fear About AI and Data Centers While Other Communities Negotiate Wealth?",
-      "catbox_url": "https://flow.google.com/asb/ANqvLOayT5lIvkFOqIYbUCvxP0d4-38SMKrOkFgI6mc-QGVymCMRI5AImU-ziGeiY41jV-tdVKmcH9oKKJwvArY3xQmrZsmuac12kq1TI-AtkIrfiy8znOGMW3bU6EpCkgLyk8jXhnHMZanof4_rQjBZTG93wDsq2NF7zttIoeee8A=s1600-rw",
-      "status": "uploaded",
-      "uploaded_at": "2026-11-28T17:03:38.076784"
-    },
-    {
-      "news_index": 6,
-      "image_number": 2,
-      "category": "AI DATACENTERS",
-      "title": "Is Black America Being Fed Fear About AI and Data Centers While Other Communities Negotiate Wealth?",
-      "catbox_url": "https://flow.google.com/asb/ANqvLOZs8j1T2BvAUdiE9dwEP9K4fl5T47Wse3-U1YaVqNyvOjxorITVNOVXLC-e1lSRNelOc8oXp7BZ1UbjZLJ3V35o3CL3HKNyN0TKq2Q1_ys1aGL0yYEzSPTnUASbQqQRljztk7bwwXXKNMSmGRCyAldu5wG70DxnpE9qg3rK=s1600-rw",
-      "status": "uploaded",
-      "uploaded_at": "2026-11-28T17:03:42.580848"
-    },
-    {
-      "news_index": 7,
-      "image_number": 1,
-      "category": "FINTECH & TRADING AI",
-      "title": "Bank of England warns AI lending risks amplifying global financial system",
-      "catbox_url": "https://flow.google.com/asb/ANqvLObpoHrHK1vAyD7yPtbxQfq6ODCqECVopBAC67szVzTj5FZYTPaOYNx0FxpHPhAUkWzD9UbdqrhLWtqh1CxRMt8bsyc-_I1VTiH8OLqb9mxkWh1EQD-6Xjf_0DA9GLvbt7EHDAAtr1KyQU_nhHZ5LX9zU4aPAzEaXRn2eUCc1A=s1600-rw",
-      "status": "uploaded",
-      "uploaded_at": "2026-11-28T17:03:46.906859"
-    },
-    {
-      "news_index": 7,
-      "image_number": 2,
-      "category": "FINTECH & TRADING AI",
-      "title": "Bank of England warns AI lending risks amplifying global financial system",
-      "catbox_url": "https://flow.google.com/asb/ANqvLOa_F8eO3G0FcH6HFddpIwskb3ZfeHeWue6Igi4GI5XXgjPCkJappADuMffLEkLvOQ6qWPDz1Z2aCP4wQpf0ipRzUG0xc3LVhdmWUO2owljTfetKEnsmSEK37aPMSW-MFXo6bqUy0xZbYJTLZHN-jD3EGX_6-DzbOh_p4hYslw=s1600-rw",
-      "status": "uploaded",
-      "uploaded_at": "2026-11-28T17:03:51.250681"
-    },
-    {
-      "news_index": 8,
-      "image_number": 1,
-      "category": "WEARABLES & BCI",
-      "title": "Ignore Friday's Short Session. Monday Is When the Year Gets Priced.",
-      "catbox_url": "https://flow.google.com/asb/ANqvLOY_w_RfyGziL8UoTVGjCIa3NBz64qWNZefrGuBOIEu6gIXu9mL2Zwwb4X0Kn2l6VKBuYWAC0zZxa8cWlayE237ONNJki2ZTU_4JaHPIwJC1U3UaXfrMW05q8jDY6S7U4_jBkKf9Vq5eSSm4ZVMOJSJxcS2WE7FlN01mAQkr=s1600-rw",
-      "status": "uploaded",
-      "uploaded_at": "2026-11-28T17:03:55.313853"
-    },
-    {
-      "news_index": 8,
-      "image_number": 2,
-      "category": "WEARABLES & BCI",
-      "title": "Ignore Friday's Short Session. Monday Is When the Year Gets Priced.",
-      "catbox_url": "https://flow.google.com/asb/ANqvLObfknUP02C3DaTb4SFg_wA_Svj9jHCiRCSten-VEucl4gLLUtTNTXIaZp-eWOybgPwCThrDbaBoALC0qP6Le5JHMVdI2cDtnEzakbeohG78lZ46V4Go_uQ6z5teNBk2sJI53nBXfMvxdncptFv9xoQkiE5LTxA5U0iNXmMHmQ=s1600-rw",
-      "status": "uploaded",
-      "uploaded_at": "2026-11-28T17:04:00.009224"
-    },
-    {
-      "news_index": 9,
-      "image_number": 1,
-      "category": "SILICON & GPUS",
-      "title": "Trump heads to Arizona next week for a high-stakes expansion of TSMC's computer chip factories",
-      "catbox_url": "https://flow.google.com/asb/ANqvLOaloBXyudyJqupSNB2f699AKdMEtjgb_iY1ABf93cxd3wZaVSS7WyAt3M6nYWUVp5ygJDRUd4PMa0gnYd5p8sjythxNCQmy_6WT9NdjCY6wd1pdugzr4luwmqLX1_lxOob85V-5mueHJmKUEV1MDNC9nQOra3PC23fhHgTfqQ=s1600-rw",
-      "status": "uploaded",
-      "uploaded_at": "2026-11-28T17:04:04.082381"
-    },
-    {
-      "news_index": 9,
-      "image_number": 2,
-      "category": "SILICON & GPUS",
-      "title": "Trump heads to Arizona next week for a high-stakes expansion of TSMC's computer chip factories",
-      "catbox_url": "https://flow.google.com/asb/ANqvLOZokeGSEeEPU9C55IBtaTthAHFMWVqiDZ6wHtLomANtmlysf1R66HJ0Z7qOpUKLeOmM26zvN7s3k1cONxMBDNg2tXIPP8Zk4sPqFjSWKh8m1WXrINspgTr_UzG0T8MyszFyqexxOTm7FJnqwDTlIvT4yT9Db_hiMfexE3sv-w=s1600-rw",
-      "status": "uploaded",
-      "uploaded_at": "2026-11-28T17:04:08.470336"
-    },
-    {
-      "news_index": 10,
-      "image_number": 1,
-      "category": "WORLD & GEOPOLITICS",
-      "title": "IndiaAI $1.2B Sovereign Compute Mission & Global Semiconductor Export Controls",
-      "catbox_url": "https://flow.google.com/asb/ANqvLObiJorYPHqiCT2sUtcReDlVklzMBNFq38Eay8apJzBm4EmCvJHPhVTpI5xP4LcrLAxQKF7N9EPv-DPHSlFEJPGMDJKEcJBAdeyd7Y0g8HvDJdyXX4Sz6mo784JjroQar7tu0lriearHIzcs3yHswj-3gA8YgP_ghWjPh3qJRw=s1600-rw",
-      "status": "uploaded",
-      "uploaded_at": "2026-11-28T17:04:13.386941"
-    },
-    {
-      "news_index": 10,
-      "image_number": 2,
-      "category": "WORLD & GEOPOLITICS",
-      "title": "IndiaAI $1.2B Sovereign Compute Mission & Global Semiconductor Export Controls",
-      "catbox_url": "https://flow.google.com/asb/ANqvLOaj0eAD0jcGvnewiVpUZsOaBmJ_zf-3twxhVvtPz4SJGmpvH7P9CMEGNiWOFcrlbCExdOnSMNdxbadK2RSZUGK_Y66Zw4nbsI_nOg_KAGn2H2a_iBKpNn-pNIVXPW36sim0JU5-_p40A1a0xUHcmapdrwBvthIXD9arZpzUhg=s1600-rw",
-      "status": "uploaded",
-      "uploaded_at": "2026-11-28T17:04:17.582786"
-    },
-    {
-      "news_index": 11,
-      "image_number": 1,
-      "category": "ROBOTICS",
-      "title": "Tesla Optimus Gen 3 Humanoid Robot Autonomous Gigafactory Assembly",
-      "catbox_url": "https://flow.google.com/asb/ANqvLOajBGZTKbW49gaeQ_XxhNSp3Od2ehEDwH_a_46Z4HRQTq0y0K3r0Wiym6xOA4em_GljsWXtJMwmUKYRVGJK-gWJPHBgJ53JSWhMS-UJzCNyTRjoydkWkRYMgVyczGr-RGR6_vgv67KuDa9onlsTLVomrqP6rXA1ssPYHDaR=s1600-rw",
-      "status": "uploaded",
-      "uploaded_at": "2026-11-28T17:04:21.647538"
-    },
-    {
-      "news_index": 11,
-      "image_number": 2,
-      "category": "ROBOTICS",
-      "title": "Tesla Optimus Gen 3 Humanoid Robot Autonomous Gigafactory Assembly",
-      "catbox_url": "https://flow.google.com/asb/ANqvLOa4MRHOC1TR7avDdYNF08k91gQYd1D68wsTuP0YJRgLvwIoxsfEnGcDDz_Gi1tf3-T3JrtveDF99EdYbAcwsVt6ZPIUdSVWTJSyeKONyT0klbKx11u89B3rK-y-ZHP6fumuAvEnlWYlgdeGovLg4NskvLYx5G-MSDuB_WpjAg=s1600-rw",
-      "status": "uploaded",
-      "uploaded_at": "2026-11-28T17:04:26.005827"
-    }
-  ]
-}
+[
+  {
+    "id": "world_ai_news_1_img1",
+    "news_id": 1,
+    "category": "AGENTS & CODING",
+    "headline": "Harness-of-Harness: Multi-Day Autonomous Software Development with Continual Improvement",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOa3bU6ZWOIYmRZT-kmcebQMVFSeoU5oI0AoBNslMZUJb11yaRCESF7BzoYjDcAhKvb1JDJoR3sIi8pWUieX6wJqfdxorAvthxWhYhiqZ7wjsjv8G6PF_wpzKB76M8XcepCLsSXT8kNXlAVLPpn7bsyBhj7vZeAs2Ry0z5Nl8A=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_1_img2",
+    "news_id": 1,
+    "category": "AGENTS & CODING",
+    "headline": "Harness-of-Harness: Multi-Day Autonomous Software Development with Continual Improvement",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOYLn72Uqwu3dJS1DrsmvFgf9Z-BqaznOfwEUOdMeWLAppuqPUsZuY1GdBXPD-C7GPGWhUHvA_Z-eHOw8AkDCpf9wJtu6i93wGVUBcj_PA75RcZgfWJSMs4f2Uy3EXpxmp7PZdJIqHhFTicyCQLZL7KlA68kTjbxAgn8BBml=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_2_img1",
+    "news_id": 2,
+    "category": "FRONTIER LLMS",
+    "headline": "Industrial-Scale Model Distillation as a National Security Problem",
+    "catbox_url": "https://flow.google.com/asb/ANqvLObfDyGiR6wSgP9fVAB5eXXrBOTJEfuxBYnE6WmhjIlG5LSHTLVnuo2oEBNGE9xJn6xjsfQxmr9TLsmrZ2Q-DrX2ZGDrgZqeBwiAIc9Ae52mMEnCkyOX8-tbamOINapwq9Ek3UVcSD8nrfoVfxXGPT5v8Za926BB__hgI042_w=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_2_img2",
+    "news_id": 2,
+    "category": "FRONTIER LLMS",
+    "headline": "Industrial-Scale Model Distillation as a National Security Problem",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOaVI-pc0j18ODWY1TMzVIjhVieFh3H9swbMIMU1yYOXQYFOzzHhXl37-lmikB_54BtPq-c6tF62SuxdMH6UF5L5OIi-df_SSXVMT_rYhxG3BnAsi-1zSiMQiOXzulKjA1hjwYFx8pCdW6ZmFcANEKdqclWFV_OCp7xG1nyv1Q=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_3_img1",
+    "news_id": 3,
+    "category": "JOBS & CAREERS",
+    "headline": "Workforce in motion: Skills and pathways to future jobs in the United States",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOZp6-W1FTz-19YL9iip1hWdUySPIrzBlndH7Mh0BFaEZ2MjQaNXh5DP79AGnU0VsPD0ZPMTjytyJ_V1f9bfV5ZsoxqS8fD0zOrfWm7dEJGyW0YrNEEViw7SwI8FIvmr0-AphUiHHyRi8B7BdCQG-5MFUrPCxwiDu0L1cnaclw=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_3_img2",
+    "news_id": 3,
+    "category": "JOBS & CAREERS",
+    "headline": "Workforce in motion: Skills and pathways to future jobs in the United States",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOajzumc1tx3gMHZmPCT0F2sO0zrvyoMULva_WElVR8vSCpz6BpzSQC3lPGhULM3KyLWPTpKEoJZymPxgosQ-XpPQOJzVwGj04VU_Pns0pZaH4R6L3pY3B_RbKgW4iBpCBBxfXWYfdP8i83kKZ9pUSKverlP7VM91TKffwI-EQ=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_4_img1",
+    "news_id": 4,
+    "category": "BUSINESS & FINANCE",
+    "headline": "SGA Global Growth Portfolio Q3 2026 Commentary (Mutual Fund:SGAPX)",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOZcA49nU2vxvFGNTu246acBbrgHPJjOodk3Qikt0L3rTEWVAZsiljUX5Khek_42V6uvWh0F0QzfE9BZOXkcMgi3kKYVLYMNVWJFvW5B7uaoNmS8CbvQ7GM673zN_UIL3TL26JgifDcZge4VpkWXB44iVlbcubNB7EsUrOfh7w=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_4_img2",
+    "news_id": 4,
+    "category": "BUSINESS & FINANCE",
+    "headline": "SGA Global Growth Portfolio Q3 2026 Commentary (Mutual Fund:SGAPX)",
+    "catbox_url": "https://flow.google.com/asb/ANqvLObcBuIPP3BGCa_M3U3GRv8f2n80r6lHVwhMrhH-hTYSGCQvmN9wswgrJihISVeUJm-02EzkbH3PulUM8nrdPi4SCMdNCMwgDeoomnCn6lViwRK2c2q8yws8QHLJxoNTGSOSRz4x9hjKmyLa06H6ZqIaFyBvp4X7wgH1q1wj=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_5_img1",
+    "news_id": 5,
+    "category": "REAL-WORLD IMPACT",
+    "headline": "Data Centers, Urban Heat, and AI Growth",
+    "catbox_url": "https://flow.google.com/asb/ANqvLObhjMJ02e_GdQmpxGEfT-XL_LOqpA1gU4k_YrjVqJchwbCkhvQwZidkvTGGM-7KVMbmkcZNVNlKRWgy3XjKKYkviUq0ejgUWKPYQ9829vT5-PA2HRvdjsnVGSdnrQAZPtICE9CxmsKoyKxVErdTquraGtYbZ-4HsN3LzBLoIA=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_5_img2",
+    "news_id": 5,
+    "category": "REAL-WORLD IMPACT",
+    "headline": "Data Centers, Urban Heat, and AI Growth",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOYYatxEHl7JU6hA0aabgDOt9G9KdzRxE7bjv1MVIxf7b7RN_txaURrR3sJ1UuwhJOKGJPnAXGXwGGpclV3wTwoHDM4uFsCpGcC2oWo8GDjgnKJOI3yBz35HTcOhoWD-XXi0zlpomHYd5UIoR4dCYA0LbN3Mh0GNw4IYclAJVA=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_6_img1",
+    "news_id": 6,
+    "category": "AI DATACENTERS",
+    "headline": "Why data centers are getting bigger: The rise of the multi-gigawatt mega campus",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOaM37KDdv4WrH2G4nDJX7lZjqEupG5DcaXZq2fU8we2ZtZX4XC96YVJEBFA5oJ27GtLL7UqN16PX4zNC-Xj1D63KzP6AN_9rzMAVY5WN4L2Z0O0OH1YhzwFY7smcOx_z6BaYC0Q3QVPyR_tf-ScPzLi0TNIYQvE2A2WeUK_Bg=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_6_img2",
+    "news_id": 6,
+    "category": "AI DATACENTERS",
+    "headline": "Why data centers are getting bigger: The rise of the multi-gigawatt mega campus",
+    "catbox_url": "https://flow.google.com/asb/ANqvLObNRT-mELPJxaUlQN0nRo0Zc48FbIb6VT1heN5q6yxTes8uXVXM2MSFPtB59ptcOEjtDZlsIqmwVm3UnX-UEFkdLL_kBX2dIQkybKAEeHzIzW70IlpDyq-p-3NziMw56weveJJh_a9EJ0QbhQs74tlmWSlVbCRI3vGaHvJ7_Q=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_7_img1",
+    "news_id": 7,
+    "category": "FINTECH & TRADING AI",
+    "headline": "41 Examples of AI in Finance",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOZ09QnBn9hh00Xr595ff52pqNACZnQOc6kKoc0SX5OOkz2o6Pi_PX81CEtRkjcNFfnGYCuoqORfF3KlaJSpoMjYF-m-T7Taif-NFD18_7zL-9PmeBbX-J8e9f1JpE04Ox1TxrUMHO107Oh5GvNX1JslGzgguasXcDnjBodzVQ=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_7_img2",
+    "news_id": 7,
+    "category": "FINTECH & TRADING AI",
+    "headline": "41 Examples of AI in Finance",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOZ9JUjyBrp6lavIwxfWthrhTzH7vtNxMF2SNY1gRcI59y7tVNVcM7m8hETu2poeN1OgcclbimjzRnCbLePr_gzHSgJEfqfjuVG2F6FPPizveoQc-FgZAvDkeunMxJyJgj6uaiZTuxdOdiYNEhBWL6x-x0eszsr0ZZIUc8Dvew=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_8_img1",
+    "news_id": 8,
+    "category": "WEARABLES & BCI",
+    "headline": "Apple Vision Pro scrubs into surgery",
+    "catbox_url": "https://flow.google.com/asb/ANqvLObEiPxPKRtFxVw65NR1KBw4c8oZDRx29R99aCFLxf5O4YjkGActiO7pLquhnlO5ZdJ7b6jpvVBKzRb6jQQOVTHba3ASjAROwVv9-zlMXlxmwSBVJQT_UKQNgijllYC2VX6UzmfW6HIAK9VyBRiJMdK4hBAxvzDgy-ZM1d2k=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_8_img2",
+    "news_id": 8,
+    "category": "WEARABLES & BCI",
+    "headline": "Apple Vision Pro scrubs into surgery",
+    "catbox_url": "https://flow.google.com/asb/ANqvLObSmj3rXk_yh9_5LHzRPbyczfLPkR7NlnQastpP47MTEWBefOzFmusIqsJRHCdYAxBy5H8shkLi0BRFFTaoRozBdG-cYamwcIeMKaS9fF7vxB_9E87MPay72lY5p_qxix0GY1MUfQOTMQJD-IDaBEHTde5PLT1UXXQX-u30nw=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_9_img1",
+    "news_id": 9,
+    "category": "SILICON & GPUS",
+    "headline": "Top 30+ AI Chip Makers: NVIDIA & Its Competitors",
+    "catbox_url": "https://flow.google.com/asb/ANqvLObNU3mbw5xShQSW_DTPsA3W7zP9DJ52PiN85L7hjqJaE3nOk2iGunA1NVYHvrnZVq_FPozUDpo57zjbyGMXYdlkpokGmknXfxqZ9w8m_Y0tA8QggN7C53h57j_FHloqiafEELi7UAl3Ditgovdm7WayRzxg8lFXFsAbCiuZSw=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_9_img2",
+    "news_id": 9,
+    "category": "SILICON & GPUS",
+    "headline": "Top 30+ AI Chip Makers: NVIDIA & Its Competitors",
+    "catbox_url": "https://flow.google.com/asb/ANqvLObMeIH2zZ0KyWIzMmWWsBpdoycKPfH-RQs2CEzIOzqgVpEFV7WSL_igKnuH19sejdrQlZySLyJzyi2tLDuLUowRXNARYXqZ8QtkDWmCJTinLjhT7_n1q_dgAr_q_pF1JWSQaZEgnr_z_m7hs0uIFtREhNCphaoJ1RH7UJB5=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_10_img1",
+    "news_id": 10,
+    "category": "WORLD & GEOPOLITICS",
+    "headline": "The battle for AI sovereignty",
+    "catbox_url": "https://flow.google.com/asb/ANqvLObB1JcFgimm0lqUPOKFgM69W3BzNqvrmDw5Qhmxnl7Flc5BbVfOHqKDto2K9eZrElHzxLDHFOoCPRrCKJmwzDazkanB1XaCHWIFpxNOSU37K6z_hYzPZkGQRlnlKeVwjn8XTC4gY930hsgZY3Q-EP5Nt_HxgnoG0q5zhbk6Mw=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_10_img2",
+    "news_id": 10,
+    "category": "WORLD & GEOPOLITICS",
+    "headline": "The battle for AI sovereignty",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOaWql9-VpzSJo2mLiNO-eDMK4JawOWFw2MVck9LIcrKNDYYpBRVwY6rTDq7aQgt_LInzbnTgPcC_NTzH0ZCZCEfMYfltretwymNhq5aj5vqmIiaFNOGWNCdXWbgpqmwSXL7fbEj3LjsFwNUJYdusehKZOeoQlSBAOJ6ON7JIw=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_11_img1",
+    "news_id": 11,
+    "category": "ROBOTICS",
+    "headline": "LG Energy wins battery supply deals with top humanoid robot makers",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOZMI0f6eMxdk6q5MWZiGI6q2VgYWOQEplNJCfmQ1jyf-KMp6Ie_1sRP1-Qxc9GMn3mfuJHv0ASRJgDmWFP1e3dosV-bTDAanMPxeZjOUKQJn_QNjiFAnFrB4JyeWxEuiqqARmz0XGYQ0NEWrb46tzV2T_Dbewp28t93w0G6=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_11_img2",
+    "news_id": 11,
+    "category": "ROBOTICS",
+    "headline": "LG Energy wins battery supply deals with top humanoid robot makers",
+    "catbox_url": "https://flow.google.com/asb/ANqvLObYm420MzPAQwjwyUIGzD9HyvWrFDp9b1S9w77jS-mIbpuUVUkCTNTtesHy-0DydIYP3U6exh1UK8TZI2s3JdkoYzsav3WF6UKSg1WwpVJ3WXNP_E_fk3PUgLbgVqLvb84It2Rws_WsXYIHTE63vq-iXyuV-Nn7ekbWN87WmQ=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_12_img1",
+    "news_id": 12,
+    "category": "HEALTHCARE & BIOTECH",
+    "headline": "Multi-omics and artificial intelligence for precision drug discovery and potential clinical applications",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOZHXM8RhWKUswyfCt61NDyPFNa_z1O8kD5rjZBL0LuNk84kwYD7WtXLLuZwWhQUIXzbIp_gbKScWNPk29Zg8xZatsT3j_rrh-MkGKEo5Pou1I6d93mouKarwtqbUoBhL6W6kH1Edu2ZeArMboMpC4dMecQbWqDObIIuOGsi_A=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_12_img2",
+    "news_id": 12,
+    "category": "HEALTHCARE & BIOTECH",
+    "headline": "Multi-omics and artificial intelligence for precision drug discovery and potential clinical applications",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOY3Pk6uUvS6E0PmIxq74ebi0fCkly4YEf_urnpE1d5ZkHzUOzBkqLnUrAJurmUqtVbW7vdFBQ-YzvEjON8n8rowK3dQMLRGdsi3EE8lEzO1A0eH7v5MBhtCPrdNgouwLFLceYlA7AFjQ07a59gzM4RpqmpVqXsYh_LGU9WhMQ=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_13_img1",
+    "news_id": 13,
+    "category": "AUTOMOTIVE & AUTONOMOUS",
+    "headline": "Tested: Tesla FSD Is Evolving Into A De Facto Robotaxi",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOa1zAmvFSxL5vOCnOYuXLZwtPe3lmVp8IABJu_ArlgnuMGJrYRdOPqLW_BHK7djauWiKUNscEwkqKeVUmOiJKKsNvuMWNvOso5Mdyke1w6z_PI4oBIG9evS97QzesXzKguHqVlVSaEd3zW66EzxOGuUbHfTZQ8OZ24G3rS7Vw=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_13_img2",
+    "news_id": 13,
+    "category": "AUTOMOTIVE & AUTONOMOUS",
+    "headline": "Tested: Tesla FSD Is Evolving Into A De Facto Robotaxi",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOZjWBga1ezuFKhmrfW-fj8gkE7TGq9hoh7sz_8ByoDYwFK7ibpw6BChzzqePwPFn8UHedkYQ3PBOMRNrP1TY9HJGhMFqHxV1PEYY9xGdRe0RWxG8B4663cSo9a4i19LifASn8ps-BYDmPmsyPcV0BzpHbLr-J2rI6iUMvfzaw=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_14_img1",
+    "news_id": 14,
+    "category": "CYBERSECURITY & DEFENSE",
+    "headline": "Defending against AI cyberattacks with a focus on reducing vulnerabilities",
+    "catbox_url": "https://flow.google.com/asb/ANqvLObSrb5IMjmQssAMhvrEvLexKsAxpCsjVIg1iwewm0eInfFTp2m8-B1GjuWNj1K35You-JBt7Y5kQrxHjHBti2Bpz_aW1ZypFGcFaxrD8VaQbE-ZmvguLRmz6F8ENVI5Ry_5qeNXO3BC53OPT3HFF8keO84UNc75E7ld7uZV=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_14_img2",
+    "news_id": 14,
+    "category": "CYBERSECURITY & DEFENSE",
+    "headline": "Defending against AI cyberattacks with a focus on reducing vulnerabilities",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOaIsya0BorZoa7yYKIgKGo6zmyCE_uAG7LaJ9sdU6s0c1T12HqqoAIr2cN4axHkWCJBlbpM0lWFV2qZyaAEMKwmpbY962Wmc9Q89yFEjkVA1NW9QWHbMr3XOt3aiz1WlMEmTdKIcvNtVxcLn-LkCmWElDR414QYp0PyyThpQw=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_15_img1",
+    "news_id": 15,
+    "category": "ENTERTAINMENT & GAMING",
+    "headline": "Why Game Engines Are Becoming A.I.\u2019s Most Important Testbeds",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOZZQOoOoW8tSqUnO_ZX0dxFTReNHruiePwueEey5qjyl4tfTM1iQ5EbBOtRPjbWBpc3CKIL2AgF-gRWgnNVFte-Vq9wcDT4qH1_7-A5vSDbTchykOREtv2pJU8v8Yek7vRSg_hxrMJGRA12aLMm1ITNXc-pvGzFxsjemJ_7xw=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_15_img2",
+    "news_id": 15,
+    "category": "ENTERTAINMENT & GAMING",
+    "headline": "Why Game Engines Are Becoming A.I.\u2019s Most Important Testbeds",
+    "catbox_url": "https://flow.google.com/asb/ANqvLObkcTJ7aNpXfeXqYw9fV9XAuH9rdkbKWNLqEEPtwUuuCL6nI1SAIPu7YWW48QpBAs-C-5L2dF-QSwXukZBw-lni3g9Jj4urf79tBI4_FL1SRg0nr-cw6o3eHQHmUFBYZsEvHH8RLvKXkx_eFs5b6myLPYv1ycATwT64W3se=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_16_img1",
+    "news_id": 16,
+    "category": "MEDIA & JOURNALISM",
+    "headline": "Most Amici Curiae in OpenAI MDL Copyright Infringement Litigation Support Plaintiffs, Calling on the Court to Reject the Defendants\u2019 Fair Use Arguments",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOaDCcXAZIgKi2VYH4niqOB27M9hrfJBtXaKVdenAHBmSrFeCe44YVUVHQ6p0L_1uO4T3ZpDdJg0fmsVdxdozqaxY6gxvYjEtUjfwkWKO31PcdcgyH1CKmVsuQTSCZVnSVJ4k1q3KT_zjeSha-fx979HJJp0jTHPSUSzavv1=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_16_img2",
+    "news_id": 16,
+    "category": "MEDIA & JOURNALISM",
+    "headline": "Most Amici Curiae in OpenAI MDL Copyright Infringement Litigation Support Plaintiffs, Calling on the Court to Reject the Defendants\u2019 Fair Use Arguments",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOa8gkUcDg9MZxdyASJLRGzm9ehN2n7tlwKgGAhNXRCZ3pz_Rs0EfkBpnGBE-P0NDx1vRRv8kKik1fJjvbeosT8uFg7AhDzordUIkIf_G3RT84-2XxsYJwk2vnBPQsgGoVQheeSbIFoOTSX9Pbx9cqmAI4HN3bvdRKq6_dShmA=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_17_img1",
+    "news_id": 17,
+    "category": "AGRICULTURE & AGTECH",
+    "headline": "How AI and Robotics Are Changing Crop Harvesting",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOZ--UfjnOA74LNsUB5j8PY6NfWJJHtFXNordQ2wNaBcFlOEI8KAbcGcQRvZyZqHf99rRyaWgoCZcdr0zy-qzfh1nbqAh011vq9y2YSqbCbxsCFqYKQyUIVb5BTg2mGvsunv0A2ArSk51gOETY4hze36pT7WPvF_TNGzoGlEEA=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_17_img2",
+    "news_id": 17,
+    "category": "AGRICULTURE & AGTECH",
+    "headline": "How AI and Robotics Are Changing Crop Harvesting",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOaBkCaAkkGms3tNFX0QJiGIynMJzPV9ORFYI-5e8rFcQXWIV1hzdpUUMychtNMWPCj1TnGYYxmhsBhZhAhAwl6eMZfVzKnxDMaOjPKS1LIie3C1FWrorOSSOMNAXgHQvZZ-jCXNOZdtsMU2TFMPW6B01fJmDCiFgFIuQgzw=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_18_img1",
+    "news_id": 18,
+    "category": "CLIMATE & RENEWABLES",
+    "headline": "Experts: How are climate scientists using artificial intelligence?",
+    "catbox_url": "https://flow.google.com/asb/ANqvLObJEHZCC-VdC7MrNy-b5EvvyOu3nKYwKGlY8Ns5pop7GmRbfLHQMFsdjsQxK3yYc-SttmID76SRDqiGGJQGtKzc7wLp-Minv0ETfSt1X0IVXuTYraGxmTwj4ScU45-4FbblTRRaTbG3UaKu8iYMi5LInYeWYwup-QWC8yWzcA=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_18_img2",
+    "news_id": 18,
+    "category": "CLIMATE & RENEWABLES",
+    "headline": "Experts: How are climate scientists using artificial intelligence?",
+    "catbox_url": "https://flow.google.com/asb/ANqvLObFtkrLoEOx7b6X5TarKooefauqz46gPxHEkzK6PGX1Vd4dnppQP4Vr_tDGWEb3qp2Yr2Dsp2Vmtz2ZaFfT6t6npcGuQdZdpD_LHEPKMoq0I-z2ftmOERQ4Pdd6jMKfPMZavVCowM4Mle7QrStU3cbAG4ISat-1D03UdToXlw=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_19_img1",
+    "news_id": 19,
+    "category": "EDUCATION & EDTECH",
+    "headline": "AI in Education: How Artificial Intelligence Is Changing Teaching and Learning",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOYRUY9hKwd7erf6OuvccM0DIA6YBb5PST-TC2UUp0A8rwjBFmcJpDH85ZjNOudjuRetp-Kz1_zS-huxG948mnqn_qihPtdK3I6_vpYM_JVKWnqeJLZQjGTo4cOeW4dawr5sAtLwM-VLkZF0L1s6TGQsg7_CwdlbYJmQwd46Xw=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_19_img2",
+    "news_id": 19,
+    "category": "EDUCATION & EDTECH",
+    "headline": "AI in Education: How Artificial Intelligence Is Changing Teaching and Learning",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOb0broowCMEgU53JQ1ZHLwt4ZriLp1E7B6fgqqylR0PPh9UaAohXAXVffe17MxeTOxEX7zFurbfBL_iI8fTpbOBLRvjvj7Xf021oJHKaUrFtU1VrdtDTkZazbhyNP_piacX-vf18NmxnRbABRlXHCjwKEbXNjacl6id972XQA=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_20_img1",
+    "news_id": 20,
+    "category": "LEGAL & COMPLIANCE",
+    "headline": "Legaltech Licensing Poland 2026: Contracts, Confidentiality and Liability for AI Tools",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOZkw3qZR8id6k9b3ggSspKOW4VcbPgUZWvLieLZbYGbbSdFRZfviN2srDt5Kowi5Ki9S-n9VbCyxcxL84LdAzGGn5de2kbkjAciVfktgLaFKN8fLiY6cKNF0e7rOxM7fVhtnw3RUgpRjJeaECRXGVMrD73b1SSkIAaf5h8I=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_20_img2",
+    "news_id": 20,
+    "category": "LEGAL & COMPLIANCE",
+    "headline": "Legaltech Licensing Poland 2026: Contracts, Confidentiality and Liability for AI Tools",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOZhDG37B3f_OmC13dG7QyHhY2T9lTUmyMbgzn8IBnhgTil6dOgOcjR3R8yr2FcmHNJxUjFkPNBcpUIVt2md4F2XeJBXf_1jBynd14byIhNPJwRslgxS7qRywwS8hlvJA3XtO-wybIaK9acI1ZMhhe7Rf2CkTX11xigFY5dvTw=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_21_img1",
+    "news_id": 21,
+    "category": "RETAIL & E-COMMERCE",
+    "headline": "AI Reshapes Mexico Retail Through Data and Automation",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOaGVl4k2HsBJCa_UAQrQqLSQJfGxGdrvoedB9aC9p8LidXgDk2ISSUS6gh2uMYbnMin25eIXvqce2_zA63LpGs9e-LT989WXJVrQG1EPxXWzVvPmpyNWtoiQtDWac_FZTv1JEiaz2s2m3G8YGdmRRMn8PAjHYSbCi6jLgFhkg=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_21_img2",
+    "news_id": 21,
+    "category": "RETAIL & E-COMMERCE",
+    "headline": "AI Reshapes Mexico Retail Through Data and Automation",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOZiPo6MSuJJiGJ4DjGhNhuwJVw2I_SUUJ7Y7LEWJuNhOCwHLjKssnY3eWwMS2kVXqhJBDb3PDQOWyNQgYGn-qPt-hI6sSPzBP8QUHj7kU1Ubt94z2p3g15A_CGR1urNCASCM6IXlSyehgY5A1plJREs00qNtDGB_NI_uAO2=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_22_img1",
+    "news_id": 22,
+    "category": "LOGISTICS & SUPPLY CHAIN",
+    "headline": "The Long Road to Autonomous Cargo Shipping",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOZYHbyeOlmZxcya3L4RcFdrf7YwVCze8eh0R-v-SkbcLo9b66sOKspa2BWza0H9qe5o7zms1uQ_Z0F0VPkE_j7WaSTiyedQMEtfbI5Km5bSBn3E85oHqRfUIon-jQxM8ZhtfdjQ7BPAkMvXMqkMA6u4yDg8Ujb1GvdzmDg_dA=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_22_img2",
+    "news_id": 22,
+    "category": "LOGISTICS & SUPPLY CHAIN",
+    "headline": "The Long Road to Autonomous Cargo Shipping",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOarfZGnwUqdBsdjQ6M1dSSd6YkKD7Q2czqJcE6Un0HL5x6JRtsL7cfl9rX6q4PRqToJl1ZroaqriAKOPc47y81iZ8WqheaCugYvtfBimlX8bSBDWdBdzoo0U3N6rD8OTypLaAyznvnm4BSv7R2RZecBEqux1Ys_6cA0WUqK_Q=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_23_img1",
+    "news_id": 23,
+    "category": "SPACE & AEROSPACE",
+    "headline": "Super Intelligence",
+    "catbox_url": "https://flow.google.com/asb/ANqvLObjirI-7H3Tc-AY_LFOgQqazhGD_JZ4RbRhjZwz_PoiiySnox3ce3c9X-8j5lEHfaaS5Vlbi42BptWMytCL3NUfI3smuKHIDLba56CfMWv4gIn3MVmjCxi0Kj2LJKcIuvcTP5ViLHYLVbO-2OmIH7zApJ-4eOfhSIXXl9fRlw=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_23_img2",
+    "news_id": 23,
+    "category": "SPACE & AEROSPACE",
+    "headline": "Super Intelligence",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOb-JXDN3xLJP2-b1cloJ0Qf7zSbwdFyGtZ2ieqG9MvmAGSYFOuLjmcCBBsCKRMFcLVwxyJ2yuAdLHnJ6D2m0iAw8gAavLkWlNwDbNBGNJv9XYdqjmHdHsTG3lUD8oU-4MBIlwSo8k5Fmr0NnhFWr1TYC96aQ_UP7yYHTWyC=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_24_img1",
+    "news_id": 24,
+    "category": "QUANTUM & AI",
+    "headline": "Quantum-enhanced generative artificial intelligence: a critical review of classical limitations, complexity barriers, and hybrid quantum\u2013classical architectures",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOayT5lIvkFOqIYbUCvxP0d4-38SMKrOkFgI6mc-QGVymCMRI5AImU-ziGeiY41jV-tdVKmcH9oKKJwvArY3xQmrZsmuac12kq1TI-AtkIrfiy8znOGMW3bU6EpCkgLyk8jXhnHMZanof4_rQjBZTG93wDsq2NF7zttIoeee8A=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_24_img2",
+    "news_id": 24,
+    "category": "QUANTUM & AI",
+    "headline": "Quantum-enhanced generative artificial intelligence: a critical review of classical limitations, complexity barriers, and hybrid quantum\u2013classical architectures",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOZs8j1T2BvAUdiE9dwEP9K4fl5T47Wse3-U1YaVqNyvOjxorITVNOVXLC-e1lSRNelOc8oXp7BZ1UbjZLJ3V35o3CL3HKNyN0TKq2Q1_ys1aGL0yYEzSPTnUASbQqQRljztk7bwwXXKNMSmGRCyAldu5wG70DxnpE9qg3rK=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_25_img1",
+    "news_id": 25,
+    "category": "NEUROMORPHIC COMPUTING",
+    "headline": "Revolutionising energy-efficient AI computing with neuromorphic technologies",
+    "catbox_url": "https://flow.google.com/asb/ANqvLObpoHrHK1vAyD7yPtbxQfq6ODCqECVopBAC67szVzTj5FZYTPaOYNx0FxpHPhAUkWzD9UbdqrhLWtqh1CxRMt8bsyc-_I1VTiH8OLqb9mxkWh1EQD-6Xjf_0DA9GLvbt7EHDAAtr1KyQU_nhHZ5LX9zU4aPAzEaXRn2eUCc1A=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_25_img2",
+    "news_id": 25,
+    "category": "NEUROMORPHIC COMPUTING",
+    "headline": "Revolutionising energy-efficient AI computing with neuromorphic technologies",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOa_F8eO3G0FcH6HFddpIwskb3ZfeHeWue6Igi4GI5XXgjPCkJappADuMffLEkLvOQ6qWPDz1Z2aCP4wQpf0ipRzUG0xc3LVhdmWUO2owljTfetKEnsmSEK37aPMSW-MFXo6bqUy0xZbYJTLZHN-jD3EGX_6-DzbOh_p4hYslw=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_26_img1",
+    "news_id": 26,
+    "category": "SYNTHETIC DATA",
+    "headline": "What is synthetic data?",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOY_w_RfyGziL8UoTVGjCIa3NBz64qWNZefrGuBOIEu6gIXu9mL2Zwwb4X0Kn2l6VKBuYWAC0zZxa8cWlayE237ONNJki2ZTU_4JaHPIwJC1U3UaXfrMW05q8jDY6S7U4_jBkKf9Vq5eSSm4ZVMOJSJxcS2WE7FlN01mAQkr=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_26_img2",
+    "news_id": 26,
+    "category": "SYNTHETIC DATA",
+    "headline": "What is synthetic data?",
+    "catbox_url": "https://flow.google.com/asb/ANqvLObfknUP02C3DaTb4SFg_wA_Svj9jHCiRCSten-VEucl4gLLUtTNTXIaZp-eWOybgPwCThrDbaBoALC0qP6Le5JHMVdI2cDtnEzakbeohG78lZ46V4Go_uQ6z5teNBk2sJI53nBXfMvxdncptFv9xoQkiE5LTxA5U0iNXmMHmQ=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_27_img1",
+    "news_id": 27,
+    "category": "VOICE & CONVERSATIONAL AI",
+    "headline": "Building real-time voice assistants with Amazon Nova Sonic compared to cascading architectures | Artificial Intelligence",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOaloBXyudyJqupSNB2f699AKdMEtjgb_iY1ABf93cxd3wZaVSS7WyAt3M6nYWUVp5ygJDRUd4PMa0gnYd5p8sjythxNCQmy_6WT9NdjCY6wd1pdugzr4luwmqLX1_lxOob85V-5mueHJmKUEV1MDNC9nQOra3PC23fhHgTfqQ=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_27_img2",
+    "news_id": 27,
+    "category": "VOICE & CONVERSATIONAL AI",
+    "headline": "Building real-time voice assistants with Amazon Nova Sonic compared to cascading architectures | Artificial Intelligence",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOZokeGSEeEPU9C55IBtaTthAHFMWVqiDZ6wHtLomANtmlysf1R66HJ0Z7qOpUKLeOmM26zvN7s3k1cONxMBDNg2tXIPP8Zk4sPqFjSWKh8m1WXrINspgTr_UzG0T8MyszFyqexxOTm7FJnqwDTlIvT4yT9Db_hiMfexE3sv-w=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_28_img1",
+    "news_id": 28,
+    "category": "COMPUTER VISION",
+    "headline": "Task-oriented visual SLAM: a comprehensive map classification framework for dynamic indoor robot manipulation",
+    "catbox_url": "https://flow.google.com/asb/ANqvLObiJorYPHqiCT2sUtcReDlVklzMBNFq38Eay8apJzBm4EmCvJHPhVTpI5xP4LcrLAxQKF7N9EPv-DPHSlFEJPGMDJKEcJBAdeyd7Y0g8HvDJdyXX4Sz6mo784JjroQar7tu0lriearHIzcs3yHswj-3gA8YgP_ghWjPh3qJRw=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_28_img2",
+    "news_id": 28,
+    "category": "COMPUTER VISION",
+    "headline": "Task-oriented visual SLAM: a comprehensive map classification framework for dynamic indoor robot manipulation",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOaj0eAD0jcGvnewiVpUZsOaBmJ_zf-3twxhVvtPz4SJGmpvH7P9CMEGNiWOFcrlbCExdOnSMNdxbadK2RSZUGK_Y66Zw4nbsI_nOg_KAGn2H2a_iBKpNn-pNIVXPW36sim0JU5-_p40A1a0xUHcmapdrwBvthIXD9arZpzUhg=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_29_img1",
+    "news_id": 29,
+    "category": "OPEN SOURCE AI",
+    "headline": "Open-Weight AI Model Licensing",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOajBGZTKbW49gaeQ_XxhNSp3Od2ehEDwH_a_46Z4HRQTq0y0K3r0Wiym6xOA4em_GljsWXtJMwmUKYRVGJK-gWJPHBgJ53JSWhMS-UJzCNyTRjoydkWkRYMgVyczGr-RGR6_vgv67KuDa9onlsTLVomrqP6rXA1ssPYHDaR=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_29_img2",
+    "news_id": 29,
+    "category": "OPEN SOURCE AI",
+    "headline": "Open-Weight AI Model Licensing",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOa4MRHOC1TR7avDdYNF08k91gQYd1D68wsTuP0YJRgLvwIoxsfEnGcDDz_Gi1tf3-T3JrtveDF99EdYbAcwsVt6ZPIUdSVWTJSyeKONyT0klbKx11u89B3rK-y-ZHP6fumuAvEnlWYlgdeGovLg4NskvLYx5G-MSDuB_WpjAg=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_30_img1",
+    "news_id": 30,
+    "category": "AI GOVERNANCE & ETHICS",
+    "headline": "Evaluating the safety of large language models in healthcare and dentistry: adversarial testing approaches",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOa3bU6ZWOIYmRZT-kmcebQMVFSeoU5oI0AoBNslMZUJb11yaRCESF7BzoYjDcAhKvb1JDJoR3sIi8pWUieX6wJqfdxorAvthxWhYhiqZ7wjsjv8G6PF_wpzKB76M8XcepCLsSXT8kNXlAVLPpn7bsyBhj7vZeAs2Ry0z5Nl8A=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_30_img2",
+    "news_id": 30,
+    "category": "AI GOVERNANCE & ETHICS",
+    "headline": "Evaluating the safety of large language models in healthcare and dentistry: adversarial testing approaches",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOYLn72Uqwu3dJS1DrsmvFgf9Z-BqaznOfwEUOdMeWLAppuqPUsZuY1GdBXPD-C7GPGWhUHvA_Z-eHOw8AkDCpf9wJtu6i93wGVUBcj_PA75RcZgfWJSMs4f2Uy3EXpxmp7PZdJIqHhFTicyCQLZL7KlA68kTjbxAgn8BBml=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_31_img1",
+    "news_id": 31,
+    "category": "CLOUD INFRASTRUCTURE",
+    "headline": "Cloud Computing\u2019s New Power Map: AWS, Azure, Google, Oracle, and 8 Global Rivals",
+    "catbox_url": "https://flow.google.com/asb/ANqvLObfDyGiR6wSgP9fVAB5eXXrBOTJEfuxBYnE6WmhjIlG5LSHTLVnuo2oEBNGE9xJn6xjsfQxmr9TLsmrZ2Q-DrX2ZGDrgZqeBwiAIc9Ae52mMEnCkyOX8-tbamOINapwq9Ek3UVcSD8nrfoVfxXGPT5v8Za926BB__hgI042_w=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_31_img2",
+    "news_id": 31,
+    "category": "CLOUD INFRASTRUCTURE",
+    "headline": "Cloud Computing\u2019s New Power Map: AWS, Azure, Google, Oracle, and 8 Global Rivals",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOaVI-pc0j18ODWY1TMzVIjhVieFh3H9swbMIMU1yYOXQYFOzzHhXl37-lmikB_54BtPq-c6tF62SuxdMH6UF5L5OIi-df_SSXVMT_rYhxG3BnAsi-1zSiMQiOXzulKjA1hjwYFx8pCdW6ZmFcANEKdqclWFV_OCp7xG1nyv1Q=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_32_img1",
+    "news_id": 32,
+    "category": "EDGE AI & IOT",
+    "headline": "Why Edge AI Changes IoT Architecture",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOZp6-W1FTz-19YL9iip1hWdUySPIrzBlndH7Mh0BFaEZ2MjQaNXh5DP79AGnU0VsPD0ZPMTjytyJ_V1f9bfV5ZsoxqS8fD0zOrfWm7dEJGyW0YrNEEViw7SwI8FIvmr0-AphUiHHyRi8B7BdCQG-5MFUrPCxwiDu0L1cnaclw=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_32_img2",
+    "news_id": 32,
+    "category": "EDGE AI & IOT",
+    "headline": "Why Edge AI Changes IoT Architecture",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOajzumc1tx3gMHZmPCT0F2sO0zrvyoMULva_WElVR8vSCpz6BpzSQC3lPGhULM3KyLWPTpKEoJZymPxgosQ-XpPQOJzVwGj04VU_Pns0pZaH4R6L3pY3B_RbKgW4iBpCBBxfXWYfdP8i83kKZ9pUSKverlP7VM91TKffwI-EQ=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_33_img1",
+    "news_id": 33,
+    "category": "MATERIALS SCIENCE",
+    "headline": "Artificial Intelligence Used to Discover Novel Superconductor",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOZcA49nU2vxvFGNTu246acBbrgHPJjOodk3Qikt0L3rTEWVAZsiljUX5Khek_42V6uvWh0F0QzfE9BZOXkcMgi3kKYVLYMNVWJFvW5B7uaoNmS8CbvQ7GM673zN_UIL3TL26JgifDcZge4VpkWXB44iVlbcubNB7EsUrOfh7w=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_33_img2",
+    "news_id": 33,
+    "category": "MATERIALS SCIENCE",
+    "headline": "Artificial Intelligence Used to Discover Novel Superconductor",
+    "catbox_url": "https://flow.google.com/asb/ANqvLObcBuIPP3BGCa_M3U3GRv8f2n80r6lHVwhMrhH-hTYSGCQvmN9wswgrJihISVeUJm-02EzkbH3PulUM8nrdPi4SCMdNCMwgDeoomnCn6lViwRK2c2q8yws8QHLJxoNTGSOSRz4x9hjKmyLa06H6ZqIaFyBvp4X7wgH1q1wj=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_34_img1",
+    "news_id": 34,
+    "category": "AUDIO & MUSIC AI",
+    "headline": "Best DAWs for producers, songwriters, engineers and DJs right now",
+    "catbox_url": "https://flow.google.com/asb/ANqvLObhjMJ02e_GdQmpxGEfT-XL_LOqpA1gU4k_YrjVqJchwbCkhvQwZidkvTGGM-7KVMbmkcZNVNlKRWgy3XjKKYkviUq0ejgUWKPYQ9829vT5-PA2HRvdjsnVGSdnrQAZPtICE9CxmsKoyKxVErdTquraGtYbZ-4HsN3LzBLoIA=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_34_img2",
+    "news_id": 34,
+    "category": "AUDIO & MUSIC AI",
+    "headline": "Best DAWs for producers, songwriters, engineers and DJs right now",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOYYatxEHl7JU6hA0aabgDOt9G9KdzRxE7bjv1MVIxf7b7RN_txaURrR3sJ1UuwhJOKGJPnAXGXwGGpclV3wTwoHDM4uFsCpGcC2oWo8GDjgnKJOI3yBz35HTcOhoWD-XXi0zlpomHYd5UIoR4dCYA0LbN3Mh0GNw4IYclAJVA=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_35_img1",
+    "news_id": 35,
+    "category": "DIGITAL TWINS",
+    "headline": "Deloitte unveils physical AI solutions built with NVIDIA Omniverse Libraries to help accelerate industrial transformation",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOaM37KDdv4WrH2G4nDJX7lZjqEupG5DcaXZq2fU8we2ZtZX4XC96YVJEBFA5oJ27GtLL7UqN16PX4zNC-Xj1D63KzP6AN_9rzMAVY5WN4L2Z0O0OH1YhzwFY7smcOx_z6BaYC0Q3QVPyR_tf-ScPzLi0TNIYQvE2A2WeUK_Bg=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_35_img2",
+    "news_id": 35,
+    "category": "DIGITAL TWINS",
+    "headline": "Deloitte unveils physical AI solutions built with NVIDIA Omniverse Libraries to help accelerate industrial transformation",
+    "catbox_url": "https://flow.google.com/asb/ANqvLObNRT-mELPJxaUlQN0nRo0Zc48FbIb6VT1heN5q6yxTes8uXVXM2MSFPtB59ptcOEjtDZlsIqmwVm3UnX-UEFkdLL_kBX2dIQkybKAEeHzIzW70IlpDyq-p-3NziMw56weveJJh_a9EJ0QbhQs74tlmWSlVbCRI3vGaHvJ7_Q=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_36_img1",
+    "news_id": 36,
+    "category": "SEARCH & KNOWLEDGE GRAPHS",
+    "headline": "Construction of intelligent decision support systems through integration of retrieval-augmented generation and knowledge graphs | Scientific Reports",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOZ09QnBn9hh00Xr595ff52pqNACZnQOc6kKoc0SX5OOkz2o6Pi_PX81CEtRkjcNFfnGYCuoqORfF3KlaJSpoMjYF-m-T7Taif-NFD18_7zL-9PmeBbX-J8e9f1JpE04Ox1TxrUMHO107Oh5GvNX1JslGzgguasXcDnjBodzVQ=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_36_img2",
+    "news_id": 36,
+    "category": "SEARCH & KNOWLEDGE GRAPHS",
+    "headline": "Construction of intelligent decision support systems through integration of retrieval-augmented generation and knowledge graphs | Scientific Reports",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOZ9JUjyBrp6lavIwxfWthrhTzH7vtNxMF2SNY1gRcI59y7tVNVcM7m8hETu2poeN1OgcclbimjzRnCbLePr_gzHSgJEfqfjuVG2F6FPPizveoQc-FgZAvDkeunMxJyJgj6uaiZTuxdOdiYNEhBWL6x-x0eszsr0ZZIUc8Dvew=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_37_img1",
+    "news_id": 37,
+    "category": "CUSTOMER SUPPORT AI",
+    "headline": "Gartner Magic Quadrant for CRM Customer Engagement Center (CEC) 2026",
+    "catbox_url": "https://flow.google.com/asb/ANqvLObEiPxPKRtFxVw65NR1KBw4c8oZDRx29R99aCFLxf5O4YjkGActiO7pLquhnlO5ZdJ7b6jpvVBKzRb6jQQOVTHba3ASjAROwVv9-zlMXlxmwSBVJQT_UKQNgijllYC2VX6UzmfW6HIAK9VyBRiJMdK4hBAxvzDgy-ZM1d2k=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_37_img2",
+    "news_id": 37,
+    "category": "CUSTOMER SUPPORT AI",
+    "headline": "Gartner Magic Quadrant for CRM Customer Engagement Center (CEC) 2026",
+    "catbox_url": "https://flow.google.com/asb/ANqvLObSmj3rXk_yh9_5LHzRPbyczfLPkR7NlnQastpP47MTEWBefOzFmusIqsJRHCdYAxBy5H8shkLi0BRFFTaoRozBdG-cYamwcIeMKaS9fF7vxB_9E87MPay72lY5p_qxix0GY1MUfQOTMQJD-IDaBEHTde5PLT1UXXQX-u30nw=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_38_img1",
+    "news_id": 38,
+    "category": "SMART CITIES",
+    "headline": "Cognitive Cities: The Future of Smart Cities",
+    "catbox_url": "https://flow.google.com/asb/ANqvLObNU3mbw5xShQSW_DTPsA3W7zP9DJ52PiN85L7hjqJaE3nOk2iGunA1NVYHvrnZVq_FPozUDpo57zjbyGMXYdlkpokGmknXfxqZ9w8m_Y0tA8QggN7C53h57j_FHloqiafEELi7UAl3Ditgovdm7WayRzxg8lFXFsAbCiuZSw=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_38_img2",
+    "news_id": 38,
+    "category": "SMART CITIES",
+    "headline": "Cognitive Cities: The Future of Smart Cities",
+    "catbox_url": "https://flow.google.com/asb/ANqvLObMeIH2zZ0KyWIzMmWWsBpdoycKPfH-RQs2CEzIOzqgVpEFV7WSL_igKnuH19sejdrQlZySLyJzyi2tLDuLUowRXNARYXqZ8QtkDWmCJTinLjhT7_n1q_dgAr_q_pF1JWSQaZEgnr_z_m7hs0uIFtREhNCphaoJ1RH7UJB5=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_39_img1",
+    "news_id": 39,
+    "category": "SURVEILLANCE & BIOMETRICS",
+    "headline": "Canada plans national travel biometrics strategy, expanded biometric screening",
+    "catbox_url": "https://flow.google.com/asb/ANqvLObB1JcFgimm0lqUPOKFgM69W3BzNqvrmDw5Qhmxnl7Flc5BbVfOHqKDto2K9eZrElHzxLDHFOoCPRrCKJmwzDazkanB1XaCHWIFpxNOSU37K6z_hYzPZkGQRlnlKeVwjn8XTC4gY930hsgZY3Q-EP5Nt_HxgnoG0q5zhbk6Mw=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_39_img2",
+    "news_id": 39,
+    "category": "SURVEILLANCE & BIOMETRICS",
+    "headline": "Canada plans national travel biometrics strategy, expanded biometric screening",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOaWql9-VpzSJo2mLiNO-eDMK4JawOWFw2MVck9LIcrKNDYYpBRVwY6rTDq7aQgt_LInzbnTgPcC_NTzH0ZCZCEfMYfltretwymNhq5aj5vqmIiaFNOGWNCdXWbgpqmwSXL7fbEj3LjsFwNUJYdusehKZOeoQlSBAOJ6ON7JIw=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_40_img1",
+    "news_id": 40,
+    "category": "CREATIVE ARTS & DESIGN",
+    "headline": "Charles Harrison",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOZMI0f6eMxdk6q5MWZiGI6q2VgYWOQEplNJCfmQ1jyf-KMp6Ie_1sRP1-Qxc9GMn3mfuJHv0ASRJgDmWFP1e3dosV-bTDAanMPxeZjOUKQJn_QNjiFAnFrB4JyeWxEuiqqARmz0XGYQ0NEWrb46tzV2T_Dbewp28t93w0G6=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_40_img2",
+    "news_id": 40,
+    "category": "CREATIVE ARTS & DESIGN",
+    "headline": "Charles Harrison",
+    "catbox_url": "https://flow.google.com/asb/ANqvLObYm420MzPAQwjwyUIGzD9HyvWrFDp9b1S9w77jS-mIbpuUVUkCTNTtesHy-0DydIYP3U6exh1UK8TZI2s3JdkoYzsav3WF6UKSg1WwpVJ3WXNP_E_fk3PUgLbgVqLvb84It2Rws_WsXYIHTE63vq-iXyuV-Nn7ekbWN87WmQ=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_41_img1",
+    "news_id": 41,
+    "category": "PHARMACEUTICAL TRIALS",
+    "headline": "Generative Artificial Intelligence and Large Language Models in Clinical Oncology - Yu - 2026 - MedComm",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOZHXM8RhWKUswyfCt61NDyPFNa_z1O8kD5rjZBL0LuNk84kwYD7WtXLLuZwWhQUIXzbIp_gbKScWNPk29Zg8xZatsT3j_rrh-MkGKEo5Pou1I6d93mouKarwtqbUoBhL6W6kH1Edu2ZeArMboMpC4dMecQbWqDObIIuOGsi_A=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_41_img2",
+    "news_id": 41,
+    "category": "PHARMACEUTICAL TRIALS",
+    "headline": "Generative Artificial Intelligence and Large Language Models in Clinical Oncology - Yu - 2026 - MedComm",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOY3Pk6uUvS6E0PmIxq74ebi0fCkly4YEf_urnpE1d5ZkHzUOzBkqLnUrAJurmUqtVbW7vdFBQ-YzvEjON8n8rowK3dQMLRGdsi3EE8lEzO1A0eH7v5MBhtCPrdNgouwLFLceYlA7AFjQ07a59gzM4RpqmpVqXsYh_LGU9WhMQ=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_42_img1",
+    "news_id": 42,
+    "category": "AEROSPACE DEFENSE",
+    "headline": "Air Force approaches industry for electronic and cyber warfare to counter swarming small uncrewed aircraft",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOa1zAmvFSxL5vOCnOYuXLZwtPe3lmVp8IABJu_ArlgnuMGJrYRdOPqLW_BHK7djauWiKUNscEwkqKeVUmOiJKKsNvuMWNvOso5Mdyke1w6z_PI4oBIG9evS97QzesXzKguHqVlVSaEd3zW66EzxOGuUbHfTZQ8OZ24G3rS7Vw=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_42_img2",
+    "news_id": 42,
+    "category": "AEROSPACE DEFENSE",
+    "headline": "Air Force approaches industry for electronic and cyber warfare to counter swarming small uncrewed aircraft",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOZjWBga1ezuFKhmrfW-fj8gkE7TGq9hoh7sz_8ByoDYwFK7ibpw6BChzzqePwPFn8UHedkYQ3PBOMRNrP1TY9HJGhMFqHxV1PEYY9xGdRe0RWxG8B4663cSo9a4i19LifASn8ps-BYDmPmsyPcV0BzpHbLr-J2rI6iUMvfzaw=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_43_img1",
+    "news_id": 43,
+    "category": "CRYPTO & DECENTRALIZED AI",
+    "headline": "What Is DePIN in Crypto and How Do Decentralized Infrastructure Networks Work?",
+    "catbox_url": "https://flow.google.com/asb/ANqvLObSrb5IMjmQssAMhvrEvLexKsAxpCsjVIg1iwewm0eInfFTp2m8-B1GjuWNj1K35You-JBt7Y5kQrxHjHBti2Bpz_aW1ZypFGcFaxrD8VaQbE-ZmvguLRmz6F8ENVI5Ry_5qeNXO3BC53OPT3HFF8keO84UNc75E7ld7uZV=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_43_img2",
+    "news_id": 43,
+    "category": "CRYPTO & DECENTRALIZED AI",
+    "headline": "What Is DePIN in Crypto and How Do Decentralized Infrastructure Networks Work?",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOaIsya0BorZoa7yYKIgKGo6zmyCE_uAG7LaJ9sdU6s0c1T12HqqoAIr2cN4axHkWCJBlbpM0lWFV2qZyaAEMKwmpbY962Wmc9Q89yFEjkVA1NW9QWHbMr3XOt3aiz1WlMEmTdKIcvNtVxcLn-LkCmWElDR414QYp0PyyThpQw=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_44_img1",
+    "news_id": 44,
+    "category": "MARITIME & OCEAN AI",
+    "headline": "Survey on ship route planning towards autonomous ship era",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOZZQOoOoW8tSqUnO_ZX0dxFTReNHruiePwueEey5qjyl4tfTM1iQ5EbBOtRPjbWBpc3CKIL2AgF-gRWgnNVFte-Vq9wcDT4qH1_7-A5vSDbTchykOREtv2pJU8v8Yek7vRSg_hxrMJGRA12aLMm1ITNXc-pvGzFxsjemJ_7xw=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_44_img2",
+    "news_id": 44,
+    "category": "MARITIME & OCEAN AI",
+    "headline": "Survey on ship route planning towards autonomous ship era",
+    "catbox_url": "https://flow.google.com/asb/ANqvLObkcTJ7aNpXfeXqYw9fV9XAuH9rdkbKWNLqEEPtwUuuCL6nI1SAIPu7YWW48QpBAs-C-5L2dF-QSwXukZBw-lni3g9Jj4urf79tBI4_FL1SRg0nr-cw6o3eHQHmUFBYZsEvHH8RLvKXkx_eFs5b6myLPYv1ycATwT64W3se=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_45_img1",
+    "news_id": 45,
+    "category": "METEOROLOGY & DISASTER RESPONSE",
+    "headline": "Lawmakers Weigh Disaster Tech Amid Federal Weather Research Cuts",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOaDCcXAZIgKi2VYH4niqOB27M9hrfJBtXaKVdenAHBmSrFeCe44YVUVHQ6p0L_1uO4T3ZpDdJg0fmsVdxdozqaxY6gxvYjEtUjfwkWKO31PcdcgyH1CKmVsuQTSCZVnSVJ4k1q3KT_zjeSha-fx979HJJp0jTHPSUSzavv1=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_45_img2",
+    "news_id": 45,
+    "category": "METEOROLOGY & DISASTER RESPONSE",
+    "headline": "Lawmakers Weigh Disaster Tech Amid Federal Weather Research Cuts",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOa8gkUcDg9MZxdyASJLRGzm9ehN2n7tlwKgGAhNXRCZ3pz_Rs0EfkBpnGBE-P0NDx1vRRv8kKik1fJjvbeosT8uFg7AhDzordUIkIf_G3RT84-2XxsYJwk2vnBPQsgGoVQheeSbIFoOTSX9Pbx9cqmAI4HN3bvdRKq6_dShmA=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_46_img1",
+    "news_id": 46,
+    "category": "REINFORCEMENT LEARNING",
+    "headline": "Reasoning in machine vision by learning fast and slow thinking",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOZ--UfjnOA74LNsUB5j8PY6NfWJJHtFXNordQ2wNaBcFlOEI8KAbcGcQRvZyZqHf99rRyaWgoCZcdr0zy-qzfh1nbqAh011vq9y2YSqbCbxsCFqYKQyUIVb5BTg2mGvsunv0A2ArSk51gOETY4hze36pT7WPvF_TNGzoGlEEA=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_46_img2",
+    "news_id": 46,
+    "category": "REINFORCEMENT LEARNING",
+    "headline": "Reasoning in machine vision by learning fast and slow thinking",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOaBkCaAkkGms3tNFX0QJiGIynMJzPV9ORFYI-5e8rFcQXWIV1hzdpUUMychtNMWPCj1TnGYYxmhsBhZhAhAwl6eMZfVzKnxDMaOjPKS1LIie3C1FWrorOSSOMNAXgHQvZZ-jCXNOZdtsMU2TFMPW6B01fJmDCiFgFIuQgzw=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_47_img1",
+    "news_id": 47,
+    "category": "PERSONAL PRODUCTIVITY",
+    "headline": "Apple may be developing its own AI agent that runs your Mac",
+    "catbox_url": "https://flow.google.com/asb/ANqvLObJEHZCC-VdC7MrNy-b5EvvyOu3nKYwKGlY8Ns5pop7GmRbfLHQMFsdjsQxK3yYc-SttmID76SRDqiGGJQGtKzc7wLp-Minv0ETfSt1X0IVXuTYraGxmTwj4ScU45-4FbblTRRaTbG3UaKu8iYMi5LInYeWYwup-QWC8yWzcA=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_47_img2",
+    "news_id": 47,
+    "category": "PERSONAL PRODUCTIVITY",
+    "headline": "Apple may be developing its own AI agent that runs your Mac",
+    "catbox_url": "https://flow.google.com/asb/ANqvLObFtkrLoEOx7b6X5TarKooefauqz46gPxHEkzK6PGX1Vd4dnppQP4Vr_tDGWEb3qp2Yr2Dsp2Vmtz2ZaFfT6t6npcGuQdZdpD_LHEPKMoq0I-z2ftmOERQ4Pdd6jMKfPMZavVCowM4Mle7QrStU3cbAG4ISat-1D03UdToXlw=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_48_img1",
+    "news_id": 48,
+    "category": "HAPTICS & EXTENDED REALITY",
+    "headline": "Logitech's $130 Muse stylus turns Vision Pro into a drawing pad",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOYRUY9hKwd7erf6OuvccM0DIA6YBb5PST-TC2UUp0A8rwjBFmcJpDH85ZjNOudjuRetp-Kz1_zS-huxG948mnqn_qihPtdK3I6_vpYM_JVKWnqeJLZQjGTo4cOeW4dawr5sAtLwM-VLkZF0L1s6TGQsg7_CwdlbYJmQwd46Xw=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_48_img2",
+    "news_id": 48,
+    "category": "HAPTICS & EXTENDED REALITY",
+    "headline": "Logitech's $130 Muse stylus turns Vision Pro into a drawing pad",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOb0broowCMEgU53JQ1ZHLwt4ZriLp1E7B6fgqqylR0PPh9UaAohXAXVffe17MxeTOxEX7zFurbfBL_iI8fTpbOBLRvjvj7Xf021oJHKaUrFtU1VrdtDTkZazbhyNP_piacX-vf18NmxnRbABRlXHCjwKEbXNjacl6id972XQA=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_49_img1",
+    "news_id": 49,
+    "category": "NEUROSCIENCE & COGNITION",
+    "headline": "Generative AI as a transformational logic for cognitive neuroscience",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOZkw3qZR8id6k9b3ggSspKOW4VcbPgUZWvLieLZbYGbbSdFRZfviN2srDt5Kowi5Ki9S-n9VbCyxcxL84LdAzGGn5de2kbkjAciVfktgLaFKN8fLiY6cKNF0e7rOxM7fVhtnw3RUgpRjJeaECRXGVMrD73b1SSkIAaf5h8I=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_49_img2",
+    "news_id": 49,
+    "category": "NEUROSCIENCE & COGNITION",
+    "headline": "Generative AI as a transformational logic for cognitive neuroscience",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOZhDG37B3f_OmC13dG7QyHhY2T9lTUmyMbgzn8IBnhgTil6dOgOcjR3R8yr2FcmHNJxUjFkPNBcpUIVt2md4F2XeJBXf_1jBynd14byIhNPJwRslgxS7qRywwS8hlvJA3XtO-wybIaK9acI1ZMhhe7Rf2CkTX11xigFY5dvTw=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_50_img1",
+    "news_id": 50,
+    "category": "ASTROPHYSICS & COSMOLOGY",
+    "headline": "Cornell scientists drive breakthrough astronomy",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOaGVl4k2HsBJCa_UAQrQqLSQJfGxGdrvoedB9aC9p8LidXgDk2ISSUS6gh2uMYbnMin25eIXvqce2_zA63LpGs9e-LT989WXJVrQG1EPxXWzVvPmpyNWtoiQtDWac_FZTv1JEiaz2s2m3G8YGdmRRMn8PAjHYSbCi6jLgFhkg=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  },
+  {
+    "id": "world_ai_news_50_img2",
+    "news_id": 50,
+    "category": "ASTROPHYSICS & COSMOLOGY",
+    "headline": "Cornell scientists drive breakthrough astronomy",
+    "catbox_url": "https://flow.google.com/asb/ANqvLOZiPo6MSuJJiGJ4DjGhNhuwJVw2I_SUUJ7Y7LEWJuNhOCwHLjKssnY3eWwMS2kVXqhJBDb3PDQOWyNQgYGn-qPt-hI6sSPzBP8QUHj7kU1Ubt94z2p3g15A_CGR1urNCASCM6IXlSyehgY5A1plJREs00qNtDGB_NI_uAO2=s1600-rw",
+    "aspect_ratio": "16:9",
+    "status": "live"
+  }
+]
