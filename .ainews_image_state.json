@@ -4,7 +4,9 @@
   "total_news": 50,
   "total_images_to_generate": 100,
   "unique_categories": 50,
-  "status": "ready_for_flow",
-  "images_generated": 100,
-  "timestamp": "2026-11-28T15:54:45.758511"
+  "status": "completed_24_batch",
+  "images_generated": 26,
+  "timestamp": "2026-11-28T15:54:45.758511",
+  "last_batch_time": "2026-11-28T10:44:14.123918+00:00",
+  "active_flow_project": "https://flow.google.com/project/323db3d8-08d3-494f-8f9a-a03630e58620"
 }
